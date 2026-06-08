@@ -16,7 +16,13 @@
       border-bottom: 1px solid var(--line);
     }
     header h1 { margin: 0 0 .25rem; font-size: 2.5rem; }
-    header p { margin: 0; color: var(--muted); }
+    header p { margin: 0 0 .75rem; color: var(--muted); }
+    .cta {
+      display: inline-block; text-decoration: none; font-weight: 700;
+      background: var(--accent); color: #fff; padding: .55rem 1.2rem;
+      border-radius: 999px; font-size: .95rem;
+    }
+    .cta:hover { opacity: .9; }
     main { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
     .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; }
     .card { border: 1px solid var(--line); border-radius: 10px; padding: 1.25rem; }
@@ -34,6 +40,7 @@
   <header>
     <h1>NERC26</h1>
     <p>National Engineering Robotics Contest 2026 — team dashboard</p>
+    <p><a class="cta" href="draws.html">View the Heat Draws →</a></p>
   </header>
   <main>
     <div class="cards" id="cards"></div>
@@ -42,7 +49,7 @@
     <h2>Teams by city</h2>
     <table id="cities"><tbody></tbody></table>
   </main>
-  <footer>Generated from <code>data/Teams_NERC 26.csv</code> · run <code>python3 process.py</code> to refresh.</footer>
+  <footer>Generated from <code>data/Teams_NERC_26.csv</code> · run <code>python3 process.py</code> to refresh.</footer>
 
   <script>
     async function load() {

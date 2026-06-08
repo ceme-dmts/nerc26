@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NERC 2026 — Draws</title>
+  <style>
+    :root {
+      --bg:#f5f7fb; --panel:#ffffff; --line:#e3e8f0; --fg:#16203a;
+      --muted:#5a6b8c; --accent:#2f6bff; --accent2:#00a884;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; background:var(--bg); color:var(--fg);
+      font-family:-apple-system,system-ui,Segoe UI,Roboto,sans-serif;
+      min-height:100vh; line-height:1.5;
+    }
+    header{
+      text-align:center; padding:2rem 1rem 1.2rem; border-bottom:1px solid var(--line);
+      background:#fff;
+    }
+    header h1{
+      margin:0; font-size:1.7rem; font-weight:800; letter-spacing:.01em;
+      color:var(--fg);
+    }
+    header p{margin:.35rem 0 0; color:var(--accent); letter-spacing:.22em;
+      text-transform:uppercase; font-size:.82rem; font-weight:700}
+    main{max-width:760px; margin:0 auto; padding:1.5rem 1.2rem 3rem}
+
+    /* Index of categories */
+    .cat-link{
+      display:flex; align-items:center; justify-content:space-between; gap:1rem;
+      text-decoration:none; color:inherit;
+      background:var(--panel); border:1px solid var(--line); border-radius:12px;
+      padding:1rem 1.25rem; margin-bottom:.8rem; transition:border-color .15s, transform .05s;
+    }
+    .cat-link:hover{border-color:var(--accent); transform:translateY(-1px)}
+    .cat-link .meta{font-weight:700; font-size:1.15rem}
+    .cat-link .sub{color:var(--muted); font-size:.82rem; font-weight:400; margin-top:.15rem}
+    .cat-link .count{
+      flex:0 0 auto; background:var(--accent); color:#fff; font-weight:700;
+      border-radius:999px; padding:.25rem .8rem; font-size:.9rem;
+    }
+
+    /* Single category page */
+    .back{display:inline-block; color:var(--accent); text-decoration:none;
+      font-weight:600; font-size:.9rem; margin-bottom:1rem}
+    .back:hover{text-decoration:underline}
+    .cat-head h2{margin:0; font-size:1.6rem}
+    .cat-head .sched{color:var(--muted); font-size:.9rem; margin:.25rem 0 1.2rem}
+
+    ol.heats{list-style:none; margin:0; padding:0}  /* single column */
+    ol.heats li{
+      display:flex; align-items:baseline; gap:.9rem;
+      background:var(--panel); border:1px solid var(--line); border-radius:10px;
+      padding:.7rem 1rem; margin-bottom:.5rem;
+    }
+    ol.heats .num{
+      flex:0 0 2.4rem; height:2.4rem; display:flex; align-items:center; justify-content:center;
+      background:var(--accent2); color:#fff; border-radius:8px; font-weight:800;
+      font-variant-numeric:tabular-nums;
+    }
+    ol.heats .name{font-weight:700; font-size:1.05rem}
+    ol.heats .inst{color:var(--muted); font-size:.85rem; margin-left:auto; text-align:right}
+
+    footer{text-align:center; color:var(--muted); font-size:.82rem; padding:1.5rem}
+    .empty{text-align:center; color:var(--muted); padding:4rem 1rem}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>National Engineering Robotics Contest 2026</h1>
+    <p>Heat Draws</p>
+  </header>
+  <main id="main"></main>
+  <footer id="foot"></footer>
+
+  <script>
+    let DRAW = null;
+
+    function ordered(categories){
+      return Object.entries(categories).sort((a,b)=>{
+        const sa=a[1].schedule||{}, sb=b[1].schedule||{};
+        return (sa.day||"").localeCompare(sb.day||"") ||
+               (sa.time||"").localeCompare(sb.time||"") ||
+               a[0].localeCompare(b[0]);
+      });
+    }
+    function schedText(s){ return s ? `${s.day} · ${s.time} · ${s.venue}` : "Schedule TBD"; }
+
+    function renderIndex(){
+      const main = document.getElementById("main");
+      main.innerHTML = ordered(DRAW.categories).map(([name,info])=>`
+        <a class="cat-link" href="#${encodeURIComponent(name)}">
+          <span><span class="meta">${name}</span>
+            <div class="sub">${schedText(info.schedule)}</div></span>
+          <span class="count">${info.team_count}</span>
+        </a>`).join("");
+    }
+
+    function renderCategory(name){
+      const info = DRAW.categories[name];
+      const main = document.getElementById("main");
+      if(!info){ location.hash=""; return; }
+      const rows = info.teams.map(t=>`<li>
+        <span class="num">${t.seed}</span>
+        <span class="name">${t.team_name||"—"}</span>
+        <span class="inst">${t.institution||""}</span></li>`).join("");
+      main.innerHTML = `
+        <a class="back" href="#">← All categories</a>
+        <div class="cat-head">
+          <h2>${name}</h2>
+          <div class="sched">${schedText(info.schedule)} · ${info.team_count} heats</div>
+        </div>
+        <ol class="heats">${rows}</ol>`;
+      window.scrollTo(0,0);
+    }
+
+    function route(){
+      if(!DRAW || !DRAW.categories) return;
+      const hash = decodeURIComponent(location.hash.replace(/^#/,""));
+      if(hash && DRAW.categories[hash]) renderCategory(hash);
+      else renderIndex();
+    }
+
+    async function load(){
+      try { DRAW = await fetch("draw.json").then(r=>r.json()); }
+      catch(e){ DRAW = null; }
+      if(!DRAW || !DRAW.categories){
+        document.getElementById("main").innerHTML =
+          '<div class="empty">The draw has not been published yet.</div>';
+        return;
+      }
+      document.getElementById("foot").textContent =
+        `Seed ${DRAW.rng_seed} · drawn ${DRAW.drawn_at}`;
+      route();
+    }
+
+    window.addEventListener("hashchange", route);
+    load();
+  </script>
+</body>
+</html>

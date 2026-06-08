@@ -14,7 +14,7 @@ seed.py               offline solo-run seeding CLI (dry-run / audit)
 app.py                live seeding-ceremony web app (Flask)
 templates/, static/   ceremony reveal UI
 output/               generated insights.md + insights.json + seeding.*
-docs/                 GitHub Pages site (index.html, seeding.html, *.json)
+docs/                 GitHub Pages site (index.html, draws.html, *.json)
 ```
 
 ## Usage
@@ -43,7 +43,7 @@ the result on the website:
 git add docs/draw.json && git commit -m "Publish NERC26 seeding" && git push
 ```
 
-The public page `docs/seeding.html` then shows the same order. The draw is
+The public page `docs/draws.html` then shows the same order. The draw is
 reproducible: `python3 seed.py --seed <seed shown on screen>` recreates it.
 
 ## Website

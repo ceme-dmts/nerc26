@@ -16,12 +16,13 @@ import secrets
 from datetime import datetime
 from pathlib import Path
 
-from flask import Flask, jsonify, render_template, request
+from flask import Flask, jsonify, render_template, request, send_from_directory
 
 import seed  # reuse load_teams / load_schedule / build_seeding
 
 ROOT = Path(__file__).parent
-DRAW_FILE = ROOT / "docs" / "draw.json"
+DOCS_DIR = ROOT / "docs"
+DRAW_FILE = DOCS_DIR / "draw.json"
 
 app = Flask(__name__)
 
@@ -48,6 +49,13 @@ def load_existing():
 @app.route("/")
 def index():
     return render_template("screen.html")
+
+
+@app.route("/site/")
+@app.route("/site/<path:filename>")
+def site(filename="draws.html"):
+    """Serve the public docs/ site locally (for the 'Go to website' option)."""
+    return send_from_directory(DOCS_DIR, filename)
 
 
 @app.route("/api/draw", methods=["GET"])

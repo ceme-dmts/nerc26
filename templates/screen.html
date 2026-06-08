@@ -3,27 +3,31 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NERC26 — Seeding Ceremony</title>
+  <title>National Engineering Robotics Contest 2026 — Heat Draws</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='screen.css') }}" />
 </head>
 <body>
   <header>
-    <h1>NERC26</h1>
-    <p>Solo-Run Seeding Ceremony</p>
+    <h1>National Engineering Robotics Contest 2026</h1>
+    <p>Heat Draws</p>
   </header>
 
-  <!-- Pre-draw: the ceremonial button -->
-  <section id="stage" class="stage">
-    <button id="drawBtn" class="draw-btn">DRAW THE SEEDING</button>
-    <p class="hint">Press once to draw the run order for all categories.</p>
-  </section>
+  <!-- Pre-reveal: either the DRAW button or, if a draw exists, the choice menu -->
+  <section id="stage" class="stage"></section>
 
-  <!-- Post-draw: the revealed categories -->
-  <main id="result" class="result hidden"></main>
+  <!-- Reveal: one category at a time, with Prev/Next -->
+  <main id="result" class="result hidden">
+    <div class="carousel-nav">
+      <button id="prevBtn" class="nav-btn">‹ Previous</button>
+      <span id="catProgress" class="progress"></span>
+      <button id="nextBtn" class="nav-btn">Next ›</button>
+    </div>
+    <div id="catHolder"></div>
+    <button id="menuBtn" class="menu-btn">≡ Menu</button>
+  </main>
 
   <footer>
     <span id="seedInfo"></span>
-    <button id="redoBtn" class="redo hidden">Redo draw</button>
   </footer>
 
   <script src="{{ url_for('static', filename='screen.js') }}"></script>
