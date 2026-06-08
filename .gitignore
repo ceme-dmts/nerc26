@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Source data (contains PII) and generated insights
+data/
+output/

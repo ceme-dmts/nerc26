@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NERC26</title>
+  <style>
+    :root { --fg: #1a1a1a; --muted: #666; --accent: #0b5fff; --line: #e5e5e5; }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, system-ui, Segoe UI, Roboto, sans-serif;
+      color: var(--fg); margin: 0; line-height: 1.5;
+    }
+    header {
+      padding: 3rem 1.5rem; text-align: center;
+      border-bottom: 1px solid var(--line);
+    }
+    header h1 { margin: 0 0 .25rem; font-size: 2.5rem; }
+    header p { margin: 0; color: var(--muted); }
+    main { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; }
+    .card { border: 1px solid var(--line); border-radius: 10px; padding: 1.25rem; }
+    .card .num { font-size: 2rem; font-weight: 700; color: var(--accent); }
+    .card .label { color: var(--muted); font-size: .9rem; }
+    h2 { margin-top: 2.5rem; border-bottom: 1px solid var(--line); padding-bottom: .4rem; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: .5rem .25rem; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); font-weight: 600; font-size: .85rem; }
+    .bar { background: var(--accent); height: 10px; border-radius: 5px; }
+    footer { color: var(--muted); text-align: center; padding: 2rem; font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NERC26</h1>
+    <p>National Engineering Robotics Contest 2026 — team dashboard</p>
+  </header>
+  <main>
+    <div class="cards" id="cards"></div>
+    <h2>Teams by event</h2>
+    <table id="events"><tbody></tbody></table>
+    <h2>Teams by city</h2>
+    <table id="cities"><tbody></tbody></table>
+  </main>
+  <footer>Generated from <code>data/Teams_NERC 26.csv</code> · run <code>python3 process.py</code> to refresh.</footer>
+
+  <script>
+    async function load() {
+      const d = await fetch('data.json').then(r => r.json());
+
+      const cards = [
+        ['Teams', d.total_teams],
+        ['Participants', d.total_participants],
+        ['Teams paid', d.teams_paid],
+        ['Events', Object.keys(d.by_event).length],
+      ];
+      document.getElementById('cards').innerHTML = cards.map(
+        ([l, n]) => `<div class="card"><div class="num">${n}</div><div class="label">${l}</div></div>`
+      ).join('');
+
+      function fill(id, obj, max) {
+        const top = Object.entries(obj).slice(0, max || 999);
+        const peak = Math.max(...top.map(([, v]) => v));
+        document.querySelector(`#${id} tbody`).innerHTML =
+          `<tr><th>Name</th><th>Teams</th><th></th></tr>` +
+          top.map(([k, v]) =>
+            `<tr><td>${k || '(blank)'}</td><td>${v}</td>
+             <td><div class="bar" style="width:${(v / peak) * 100}%"></div></td></tr>`
+          ).join('');
+      }
+      fill('events', d.by_event);
+      fill('cities', d.by_city, 15);
+    }
+    load();
+  </script>
+</body>
+</html>

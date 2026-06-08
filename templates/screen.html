@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NERC26 — Seeding Ceremony</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='screen.css') }}" />
+</head>
+<body>
+  <header>
+    <h1>NERC26</h1>
+    <p>Solo-Run Seeding Ceremony</p>
+  </header>
+
+  <!-- Pre-draw: the ceremonial button -->
+  <section id="stage" class="stage">
+    <button id="drawBtn" class="draw-btn">DRAW THE SEEDING</button>
+    <p class="hint">Press once to draw the run order for all categories.</p>
+  </section>
+
+  <!-- Post-draw: the revealed categories -->
+  <main id="result" class="result hidden"></main>
+
+  <footer>
+    <span id="seedInfo"></span>
+    <button id="redoBtn" class="redo hidden">Redo draw</button>
+  </footer>
+
+  <script src="{{ url_for('static', filename='screen.js') }}"></script>
+</body>
+</html>
