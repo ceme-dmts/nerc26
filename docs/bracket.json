@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T10:46:16",
+  "generated_at": "2026-06-09T10:47:59",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -8,7 +8,7 @@
         "venue": "Auditorium"
       },
       "bracket_size": 32,
-      "status": "seeded",
+      "status": "pending",
       "rounds": [
         {
           "name": "R32",
@@ -16,288 +16,192 @@
             {
               "no": 1,
               "a": {
-                "type": "team",
-                "seed": 1,
-                "team_no": "1215",
-                "team_name": "TMEareejfatima",
-                "institution": "(private)"
+                "type": "seed",
+                "seed": 1
               },
               "b": {
-                "type": "team",
-                "seed": 32,
-                "team_no": "1069",
-                "team_name": "Pink Panther",
-                "institution": "Lahore University of Management Sciences"
+                "type": "seed",
+                "seed": 32
               },
-              "winner": "1069"
+              "winner": null
             },
             {
               "no": 2,
               "a": {
-                "type": "team",
-                "seed": 16,
-                "team_no": "1152",
-                "team_name": "gg",
-                "institution": "Lahore Garrison University"
+                "type": "seed",
+                "seed": 16
               },
               "b": {
-                "type": "team",
-                "seed": 17,
-                "team_no": "1030",
-                "team_name": "Meow:3",
-                "institution": "Lahore University of Management Sciences"
+                "type": "seed",
+                "seed": 17
               },
-              "winner": "1152"
+              "winner": null
             },
             {
               "no": 3,
               "a": {
-                "type": "team",
-                "seed": 8,
-                "team_no": "1028",
-                "team_name": "Tarzan",
-                "institution": "Lahore University of Management Sciences"
+                "type": "seed",
+                "seed": 8
               },
               "b": {
-                "type": "team",
-                "seed": 25,
-                "team_no": "1164",
-                "team_name": "Team 7ups",
-                "institution": "Lahore Garrison University"
+                "type": "seed",
+                "seed": 25
               },
-              "winner": "1028"
+              "winner": null
             },
             {
               "no": 4,
               "a": {
-                "type": "team",
-                "seed": 9,
-                "team_no": "1039",
-                "team_name": "Adastra 2.0",
-                "institution": "Lahore University of Management Sciences"
+                "type": "seed",
+                "seed": 9
               },
               "b": {
-                "type": "team",
-                "seed": 24,
-                "team_no": "996",
-                "team_name": "Griffins",
-                "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology"
+                "type": "seed",
+                "seed": 24
               },
-              "winner": "1039"
+              "winner": null
             },
             {
               "no": 5,
               "a": {
-                "type": "team",
-                "seed": 4,
-                "team_no": "1017",
-                "team_name": "LUMS team 3",
-                "institution": "Lahore University of Management Sciences"
+                "type": "seed",
+                "seed": 4
               },
               "b": {
-                "type": "team",
-                "seed": 29,
-                "team_no": "930",
-                "team_name": "RoboNex",
-                "institution": "UET Taxila"
+                "type": "seed",
+                "seed": 29
               },
-              "winner": "1017"
+              "winner": null
             },
             {
               "no": 6,
               "a": {
-                "type": "team",
-                "seed": 13,
-                "team_no": "986",
-                "team_name": "Hexa",
-                "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology"
+                "type": "seed",
+                "seed": 13
               },
               "b": {
-                "type": "team",
-                "seed": 20,
-                "team_no": "974",
-                "team_name": "Titans",
-                "institution": "Lahore University of Management Sciences"
+                "type": "seed",
+                "seed": 20
               },
-              "winner": "974"
+              "winner": null
             },
             {
               "no": 7,
               "a": {
-                "type": "team",
-                "seed": 5,
-                "team_no": "1026",
-                "team_name": "Team Code Red 2.0",
-                "institution": "Lahore University of Management Sciences"
+                "type": "seed",
+                "seed": 5
               },
               "b": {
-                "type": "team",
-                "seed": 28,
-                "team_no": "1193",
-                "team_name": "Team Visitors",
-                "institution": "NUST EME"
+                "type": "seed",
+                "seed": 28
               },
-              "winner": "1193"
+              "winner": null
             },
             {
               "no": 8,
               "a": {
-                "type": "team",
-                "seed": 12,
-                "team_no": "997",
-                "team_name": "Pakora Bot",
-                "institution": "Habib University"
+                "type": "seed",
+                "seed": 12
               },
               "b": {
-                "type": "team",
-                "seed": 21,
-                "team_no": "1154",
-                "team_name": "Apex Dragons",
-                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
+                "type": "seed",
+                "seed": 21
               },
-              "winner": "1154"
+              "winner": null
             },
             {
               "no": 9,
               "a": {
-                "type": "team",
-                "seed": 2,
-                "team_no": "1192",
-                "team_name": "Visitors",
-                "institution": "(private)"
+                "type": "seed",
+                "seed": 2
               },
               "b": {
-                "type": "team",
-                "seed": 31,
-                "team_no": "1270",
-                "team_name": "Pheonix",
-                "institution": "NUST EME"
+                "type": "seed",
+                "seed": 31
               },
-              "winner": "1270"
+              "winner": null
             },
             {
               "no": 10,
               "a": {
-                "type": "team",
-                "seed": 15,
-                "team_no": "1068",
-                "team_name": "Rogue",
-                "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology"
+                "type": "seed",
+                "seed": 15
               },
               "b": {
-                "type": "team",
-                "seed": 18,
-                "team_no": "1184",
-                "team_name": "Noobray",
-                "institution": "Lahore Garrison University"
+                "type": "seed",
+                "seed": 18
               },
-              "winner": "1184"
+              "winner": null
             },
             {
               "no": 11,
               "a": {
-                "type": "team",
-                "seed": 7,
-                "team_no": "1119",
-                "team_name": "Tangled",
-                "institution": "CEME  NUST"
+                "type": "seed",
+                "seed": 7
               },
               "b": {
-                "type": "team",
-                "seed": 26,
-                "team_no": "1050",
-                "team_name": "el gato",
-                "institution": "Lahore University of Management Sciences"
+                "type": "seed",
+                "seed": 26
               },
               "winner": null
             },
             {
               "no": 12,
               "a": {
-                "type": "team",
-                "seed": 10,
-                "team_no": "1127",
-                "team_name": "PanBahar",
-                "institution": "CEME  NUST"
+                "type": "seed",
+                "seed": 10
               },
               "b": {
-                "type": "team",
-                "seed": 23,
-                "team_no": "1168",
-                "team_name": "LGS JTI Senior A",
-                "institution": "LGS"
+                "type": "seed",
+                "seed": 23
               },
               "winner": null
             },
             {
               "no": 13,
               "a": {
-                "type": "team",
-                "seed": 3,
-                "team_no": "1163",
-                "team_name": "Mechatronz",
-                "institution": "CEME  NUST"
+                "type": "seed",
+                "seed": 3
               },
               "b": {
-                "type": "team",
-                "seed": 30,
-                "team_no": "1263",
-                "team_name": "Binary Beasts",
-                "institution": "Habib University"
+                "type": "seed",
+                "seed": 30
               },
               "winner": null
             },
             {
               "no": 14,
               "a": {
-                "type": "team",
-                "seed": 14,
-                "team_no": "1216",
-                "team_name": "TMEareejfatima",
-                "institution": "(private)"
+                "type": "seed",
+                "seed": 14
               },
               "b": {
-                "type": "team",
-                "seed": 19,
-                "team_no": "1177",
-                "team_name": "LGS JTI Senior B",
-                "institution": "LGS"
+                "type": "seed",
+                "seed": 19
               },
               "winner": null
             },
             {
               "no": 15,
               "a": {
-                "type": "team",
-                "seed": 6,
-                "team_no": "1181",
-                "team_name": "Team 5VDC",
-                "institution": "Lahore Garrison University"
+                "type": "seed",
+                "seed": 6
               },
               "b": {
-                "type": "team",
-                "seed": 27,
-                "team_no": "989",
-                "team_name": "Usain Volt",
-                "institution": "(private)"
+                "type": "seed",
+                "seed": 27
               },
               "winner": null
             },
             {
               "no": 16,
               "a": {
-                "type": "team",
-                "seed": 11,
-                "team_no": "1037",
-                "team_name": "Nallay",
-                "institution": "Lahore University of Management Sciences"
+                "type": "seed",
+                "seed": 11
               },
               "b": {
-                "type": "team",
-                "seed": 22,
-                "team_no": "1266",
-                "team_name": "NUST ROBOTICS & AI",
-                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
+                "type": "seed",
+                "seed": 22
               },
               "winner": null
             }
@@ -309,90 +213,60 @@
             {
               "no": 17,
               "a": {
-                "type": "team",
-                "seed": 32,
-                "team_no": "1069",
-                "team_name": "Pink Panther",
-                "institution": "Lahore University of Management Sciences"
+                "type": "ref",
+                "text": "Winner of Match 1"
               },
               "b": {
-                "type": "team",
-                "seed": 16,
-                "team_no": "1152",
-                "team_name": "gg",
-                "institution": "Lahore Garrison University"
+                "type": "ref",
+                "text": "Winner of Match 2"
               },
               "winner": null
             },
             {
               "no": 18,
               "a": {
-                "type": "team",
-                "seed": 8,
-                "team_no": "1028",
-                "team_name": "Tarzan",
-                "institution": "Lahore University of Management Sciences"
+                "type": "ref",
+                "text": "Winner of Match 3"
               },
               "b": {
-                "type": "team",
-                "seed": 9,
-                "team_no": "1039",
-                "team_name": "Adastra 2.0",
-                "institution": "Lahore University of Management Sciences"
+                "type": "ref",
+                "text": "Winner of Match 4"
               },
               "winner": null
             },
             {
               "no": 19,
               "a": {
-                "type": "team",
-                "seed": 4,
-                "team_no": "1017",
-                "team_name": "LUMS team 3",
-                "institution": "Lahore University of Management Sciences"
+                "type": "ref",
+                "text": "Winner of Match 5"
               },
               "b": {
-                "type": "team",
-                "seed": 20,
-                "team_no": "974",
-                "team_name": "Titans",
-                "institution": "Lahore University of Management Sciences"
+                "type": "ref",
+                "text": "Winner of Match 6"
               },
               "winner": null
             },
             {
               "no": 20,
               "a": {
-                "type": "team",
-                "seed": 28,
-                "team_no": "1193",
-                "team_name": "Team Visitors",
-                "institution": "NUST EME"
+                "type": "ref",
+                "text": "Winner of Match 7"
               },
               "b": {
-                "type": "team",
-                "seed": 21,
-                "team_no": "1154",
-                "team_name": "Apex Dragons",
-                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
+                "type": "ref",
+                "text": "Winner of Match 8"
               },
               "winner": null
             },
             {
               "no": 21,
               "a": {
-                "type": "team",
-                "seed": 31,
-                "team_no": "1270",
-                "team_name": "Pheonix",
-                "institution": "NUST EME"
+                "type": "ref",
+                "text": "Winner of Match 9"
               },
               "b": {
-                "type": "team",
-                "seed": 18,
-                "team_no": "1184",
-                "team_name": "Noobray",
-                "institution": "Lahore Garrison University"
+                "type": "ref",
+                "text": "Winner of Match 10"
               },
               "winner": null
             },
@@ -591,7 +465,7 @@
         "venue": "CAR"
       },
       "bracket_size": 32,
-      "status": "seeded",
+      "status": "pending",
       "rounds": [
         {
           "name": "R32",
@@ -599,288 +473,192 @@
             {
               "no": 1,
               "a": {
-                "type": "team",
-                "seed": 1,
-                "team_no": "1157",
-                "team_name": "LGS JT Team C",
-                "institution": "LGS"
+                "type": "seed",
+                "seed": 1
               },
               "b": {
-                "type": "team",
-                "seed": 32,
-                "team_no": "1201",
-                "team_name": "TME Neural Knights",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 32
               },
               "winner": null
             },
             {
               "no": 2,
               "a": {
-                "type": "team",
-                "seed": 16,
-                "team_no": "1225",
-                "team_name": "TME Project Atlas",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 16
               },
               "b": {
-                "type": "team",
-                "seed": 17,
-                "team_no": "1146",
-                "team_name": "LGS JT Team E",
-                "institution": "LGS"
+                "type": "seed",
+                "seed": 17
               },
               "winner": null
             },
             {
               "no": 3,
               "a": {
-                "type": "team",
-                "seed": 8,
-                "team_no": "1223",
-                "team_name": "TME Phantom Core",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 8
               },
               "b": {
-                "type": "team",
-                "seed": 25,
-                "team_no": "1271",
-                "team_name": "Beqarar Janoon",
-                "institution": "Roots IVY ICMS"
+                "type": "seed",
+                "seed": 25
               },
               "winner": null
             },
             {
               "no": 4,
               "a": {
-                "type": "team",
-                "seed": 9,
-                "team_no": "1232",
-                "team_name": "TME RAZOR",
-                "institution": "Future World School Bahria Town"
+                "type": "seed",
+                "seed": 9
               },
               "b": {
-                "type": "team",
-                "seed": 24,
-                "team_no": "1208",
-                "team_name": "TME Innovon",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 24
               },
               "winner": null
             },
             {
               "no": 5,
               "a": {
-                "type": "team",
-                "seed": 4,
-                "team_no": "1204",
-                "team_name": "TME - One World Aurora",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 4
               },
               "b": {
-                "type": "team",
-                "seed": 29,
-                "team_no": "1244",
-                "team_name": "Quantum Bots",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 29
               },
               "winner": null
             },
             {
               "no": 6,
               "a": {
-                "type": "team",
-                "seed": 13,
-                "team_no": "1206",
-                "team_name": "TME Futurix",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 13
               },
               "b": {
-                "type": "team",
-                "seed": 20,
-                "team_no": "1280",
-                "team_name": "ISL Team 2",
-                "institution": "International School Lahore"
+                "type": "seed",
+                "seed": 20
               },
               "winner": null
             },
             {
               "no": 7,
               "a": {
-                "type": "team",
-                "seed": 5,
-                "team_no": "1227",
-                "team_name": "TME Maze Mastermind",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 5
               },
               "b": {
-                "type": "team",
-                "seed": 28,
-                "team_no": "1210",
-                "team_name": "TME Robo Titans",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 28
               },
               "winner": null
             },
             {
               "no": 8,
               "a": {
-                "type": "team",
-                "seed": 12,
-                "team_no": "1200",
-                "team_name": "TME - Onyx",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 12
               },
               "b": {
-                "type": "team",
-                "seed": 21,
-                "team_no": "1064",
-                "team_name": "Abdalian Lego",
-                "institution": "Cadet College Hasanabdal"
+                "type": "seed",
+                "seed": 21
               },
               "winner": null
             },
             {
               "no": 9,
               "a": {
-                "type": "team",
-                "seed": 2,
-                "team_no": "1224",
-                "team_name": "TME Algorithmics",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 2
               },
               "b": {
-                "type": "team",
-                "seed": 31,
-                "team_no": "1243",
-                "team_name": "TME RoboNova",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 31
               },
               "winner": null
             },
             {
               "no": 10,
               "a": {
-                "type": "team",
-                "seed": 15,
-                "team_no": "1218",
-                "team_name": "TME FrostByte",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 15
               },
               "b": {
-                "type": "team",
-                "seed": 18,
-                "team_no": "1222",
-                "team_name": "TME Innovators",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 18
               },
               "winner": null
             },
             {
               "no": 11,
               "a": {
-                "type": "team",
-                "seed": 7,
-                "team_no": "1238",
-                "team_name": "TME B",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 7
               },
               "b": {
-                "type": "team",
-                "seed": 26,
-                "team_no": "1282",
-                "team_name": "ISL Team 4",
-                "institution": "International School Lahore"
+                "type": "seed",
+                "seed": 26
               },
               "winner": null
             },
             {
               "no": 12,
               "a": {
-                "type": "team",
-                "seed": 10,
-                "team_no": "1233",
-                "team_name": "TME caption voltage",
-                "institution": "Future World School Bahria Town"
+                "type": "seed",
+                "seed": 10
               },
               "b": {
-                "type": "team",
-                "seed": 23,
-                "team_no": "1202",
-                "team_name": "TME - One World Bots",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 23
               },
               "winner": null
             },
             {
               "no": 13,
               "a": {
-                "type": "team",
-                "seed": 3,
-                "team_no": "1219",
-                "team_name": "TME RoboSapiens",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 3
               },
               "b": {
-                "type": "team",
-                "seed": 30,
-                "team_no": "1235",
-                "team_name": "TME Thunder17",
-                "institution": "Future World School Bahria Town"
+                "type": "seed",
+                "seed": 30
               },
               "winner": null
             },
             {
               "no": 14,
               "a": {
-                "type": "team",
-                "seed": 14,
-                "team_no": "1237",
-                "team_name": "TME A",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 14
               },
               "b": {
-                "type": "team",
-                "seed": 19,
-                "team_no": "1220",
-                "team_name": "TME Future Forge",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 19
               },
               "winner": null
             },
             {
               "no": 15,
               "a": {
-                "type": "team",
-                "seed": 6,
-                "team_no": "1213",
-                "team_name": "TME Voltage Vipers",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 6
               },
               "b": {
-                "type": "team",
-                "seed": 27,
-                "team_no": "1226",
-                "team_name": "TME Robo Raptors",
-                "institution": "The Millennium Education Pakistan"
+                "type": "seed",
+                "seed": 27
               },
               "winner": null
             },
             {
               "no": 16,
               "a": {
-                "type": "team",
-                "seed": 11,
-                "team_no": "1281",
-                "team_name": "ISL Team 3",
-                "institution": "International School Lahore"
+                "type": "seed",
+                "seed": 11
               },
               "b": {
-                "type": "team",
-                "seed": 22,
-                "team_no": "1279",
-                "team_name": "ISL Team 1",
-                "institution": "International School Lahore"
+                "type": "seed",
+                "seed": 22
               },
               "winner": null
             }
@@ -1122,7 +900,7 @@
         "venue": "Auditorium"
       },
       "bracket_size": 8,
-      "status": "seeded",
+      "status": "pending",
       "rounds": [
         {
           "name": "QF",
@@ -1130,72 +908,48 @@
             {
               "no": 1,
               "a": {
-                "type": "team",
-                "seed": 1,
-                "team_no": "1082",
-                "team_name": "The Black Cats",
-                "institution": "Capital University of Science & Technology"
+                "type": "seed",
+                "seed": 1
               },
               "b": {
-                "type": "team",
-                "seed": 8,
-                "team_no": "1189",
-                "team_name": "kacha Badam",
-                "institution": "Lahore Garrison University"
+                "type": "seed",
+                "seed": 8
               },
               "winner": null
             },
             {
               "no": 2,
               "a": {
-                "type": "team",
-                "seed": 4,
-                "team_no": "1014",
-                "team_name": "Fire Fighter robot",
-                "institution": "Riphah International University"
+                "type": "seed",
+                "seed": 4
               },
               "b": {
-                "type": "team",
-                "seed": 5,
-                "team_no": "1129",
-                "team_name": "Stardust Jihadists",
-                "institution": "CEME  NUST"
+                "type": "seed",
+                "seed": 5
               },
               "winner": null
             },
             {
               "no": 3,
               "a": {
-                "type": "team",
-                "seed": 2,
-                "team_no": "1186",
-                "team_name": "Code Kra do 2.0",
-                "institution": "Lahore Garrison University"
+                "type": "seed",
+                "seed": 2
               },
               "b": {
-                "type": "team",
-                "seed": 7,
-                "team_no": "1188",
-                "team_name": "Khatti Toffee",
-                "institution": "Lahore Garrison University"
+                "type": "seed",
+                "seed": 7
               },
               "winner": null
             },
             {
               "no": 4,
               "a": {
-                "type": "team",
-                "seed": 3,
-                "team_no": "1190",
-                "team_name": "Robot Chala do",
-                "institution": "Lahore Garrison University"
+                "type": "seed",
+                "seed": 3
               },
               "b": {
-                "type": "team",
-                "seed": 6,
-                "team_no": "1110",
-                "team_name": "Technologia",
-                "institution": "CEME  NUST"
+                "type": "seed",
+                "seed": 6
               },
               "winner": null
             }
@@ -1273,7 +1027,7 @@
         "venue": "CAR"
       },
       "bracket_size": 16,
-      "status": "seeded",
+      "status": "pending",
       "rounds": [
         {
           "name": "R16",
@@ -1281,144 +1035,96 @@
             {
               "no": 1,
               "a": {
-                "type": "team",
-                "seed": 1,
-                "team_no": "1253",
-                "team_name": "ISL TEAM 1",
-                "institution": "International School Lahore"
+                "type": "seed",
+                "seed": 1
               },
               "b": {
-                "type": "team",
-                "seed": 16,
-                "team_no": "1059",
-                "team_name": "CETC-1",
-                "institution": "Crescent Model Higher Secondary School"
+                "type": "seed",
+                "seed": 16
               },
               "winner": null
             },
             {
               "no": 2,
               "a": {
-                "type": "team",
-                "seed": 8,
-                "team_no": "1256",
-                "team_name": "ISL TEAM 4",
-                "institution": "International School Lahore"
+                "type": "seed",
+                "seed": 8
               },
               "b": {
-                "type": "team",
-                "seed": 9,
-                "team_no": "1264",
-                "team_name": "Barq Raftar",
-                "institution": "Learnobots"
+                "type": "seed",
+                "seed": 9
               },
               "winner": null
             },
             {
               "no": 3,
               "a": {
-                "type": "team",
-                "seed": 4,
-                "team_no": "1083",
-                "team_name": "DriftX",
-                "institution": "LGS"
+                "type": "seed",
+                "seed": 4
               },
               "b": {
-                "type": "team",
-                "seed": 13,
-                "team_no": "1212",
-                "team_name": "The Robo Kings",
-                "institution": "(private)"
+                "type": "seed",
+                "seed": 13
               },
               "winner": null
             },
             {
               "no": 4,
               "a": {
-                "type": "team",
-                "seed": 5,
-                "team_no": "1094",
-                "team_name": "JT Team Blitz",
-                "institution": "LGS"
+                "type": "seed",
+                "seed": 5
               },
               "b": {
-                "type": "team",
-                "seed": 12,
-                "team_no": "1103",
-                "team_name": "Team Robox",
-                "institution": "N/A"
+                "type": "seed",
+                "seed": 12
               },
               "winner": null
             },
             {
               "no": 5,
               "a": {
-                "type": "team",
-                "seed": 2,
-                "team_no": "957",
-                "team_name": "Team Forge",
-                "institution": "NUST EME"
+                "type": "seed",
+                "seed": 2
               },
               "b": {
-                "type": "team",
-                "seed": 15,
-                "team_no": "1273",
-                "team_name": "DroBotX1",
-                "institution": "Apple Group of Schools F17"
+                "type": "seed",
+                "seed": 15
               },
               "winner": null
             },
             {
               "no": 6,
               "a": {
-                "type": "team",
-                "seed": 7,
-                "team_no": "1145",
-                "team_name": "Wicked Crew",
-                "institution": "NUST EME"
+                "type": "seed",
+                "seed": 7
               },
               "b": {
-                "type": "team",
-                "seed": 10,
-                "team_no": "1102",
-                "team_name": "Dabba Union",
-                "institution": "(private)"
+                "type": "seed",
+                "seed": 10
               },
               "winner": null
             },
             {
               "no": 7,
               "a": {
-                "type": "team",
-                "seed": 3,
-                "team_no": "1099",
-                "team_name": "Error 404",
-                "institution": "N/A"
+                "type": "seed",
+                "seed": 3
               },
               "b": {
-                "type": "team",
-                "seed": 14,
-                "team_no": "1242",
-                "team_name": "Anday Wala Burger",
-                "institution": "(private)"
+                "type": "seed",
+                "seed": 14
               },
               "winner": null
             },
             {
               "no": 8,
               "a": {
-                "type": "team",
-                "seed": 6,
-                "team_no": "959",
-                "team_name": "Team nexus",
-                "institution": "(private)"
+                "type": "seed",
+                "seed": 6
               },
               "b": {
-                "type": "team",
-                "seed": 11,
-                "team_no": "994",
-                "team_name": "Apex Intellect",
-                "institution": "Suffah Intellectual School"
+                "type": "seed",
+                "seed": 11
               },
               "winner": null
             }
@@ -1554,7 +1260,7 @@
         "venue": "Auditorium"
       },
       "bracket_size": 16,
-      "status": "seeded",
+      "status": "pending",
       "rounds": [
         {
           "name": "R16",
@@ -1562,144 +1268,96 @@
             {
               "no": 1,
               "a": {
-                "type": "team",
-                "seed": 1,
-                "team_no": "1084",
-                "team_name": "The Black Cats",
-                "institution": "Capital University of Science & Technology"
+                "type": "seed",
+                "seed": 1
               },
               "b": {
-                "type": "team",
-                "seed": 16,
-                "team_no": "971",
-                "team_name": "STEM girls",
-                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
+                "type": "seed",
+                "seed": 16
               },
               "winner": null
             },
             {
               "no": 2,
               "a": {
-                "type": "team",
-                "seed": 8,
-                "team_no": "1130",
-                "team_name": "Power rangers",
-                "institution": "CEME  NUST"
+                "type": "seed",
+                "seed": 8
               },
               "b": {
-                "type": "team",
-                "seed": 9,
-                "team_no": "1158",
-                "team_name": "LineX",
-                "institution": "NUST EME"
+                "type": "seed",
+                "seed": 9
               },
               "winner": null
             },
             {
               "no": 3,
               "a": {
-                "type": "team",
-                "seed": 4,
-                "team_no": "978",
-                "team_name": "IDK",
-                "institution": "(private)"
+                "type": "seed",
+                "seed": 4
               },
               "b": {
-                "type": "team",
-                "seed": 13,
-                "team_no": "1173",
-                "team_name": "Janooni Garrisonians 2.0",
-                "institution": "Lahore Garrison University"
+                "type": "seed",
+                "seed": 13
               },
               "winner": null
             },
             {
               "no": 4,
               "a": {
-                "type": "team",
-                "seed": 5,
-                "team_no": "1109",
-                "team_name": "Technologia",
-                "institution": "CEME  NUST"
+                "type": "seed",
+                "seed": 5
               },
               "b": {
-                "type": "team",
-                "seed": 12,
-                "team_no": "1006",
-                "team_name": "Team Dominators",
-                "institution": "University of Central Punjab"
+                "type": "seed",
+                "seed": 12
               },
               "winner": null
             },
             {
               "no": 5,
               "a": {
-                "type": "team",
-                "seed": 2,
-                "team_no": "1165",
-                "team_name": "Andy wala burger",
-                "institution": "Lahore Garrison University"
+                "type": "seed",
+                "seed": 2
               },
               "b": {
-                "type": "team",
-                "seed": 15,
-                "team_no": "1151",
-                "team_name": "Farmers",
-                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
+                "type": "seed",
+                "seed": 15
               },
               "winner": null
             },
             {
               "no": 6,
               "a": {
-                "type": "team",
-                "seed": 7,
-                "team_no": "965",
-                "team_name": "Bayrakthar AF1",
-                "institution": "(private)"
+                "type": "seed",
+                "seed": 7
               },
               "b": {
-                "type": "team",
-                "seed": 10,
-                "team_no": "1262",
-                "team_name": "Electrobots",
-                "institution": "CEME  NUST"
+                "type": "seed",
+                "seed": 10
               },
               "winner": null
             },
             {
               "no": 7,
               "a": {
-                "type": "team",
-                "seed": 3,
-                "team_no": "988",
-                "team_name": "Mclaren",
-                "institution": "CEME  NUST"
+                "type": "seed",
+                "seed": 3
               },
               "b": {
-                "type": "team",
-                "seed": 14,
-                "team_no": "966",
-                "team_name": "Bayrakthar AF2",
-                "institution": "(private)"
+                "type": "seed",
+                "seed": 14
               },
               "winner": null
             },
             {
               "no": 8,
               "a": {
-                "type": "team",
-                "seed": 6,
-                "team_no": "998",
-                "team_name": "MK 4",
-                "institution": "CEME  NUST"
+                "type": "seed",
+                "seed": 6
               },
               "b": {
-                "type": "team",
-                "seed": 11,
-                "team_no": "987",
-                "team_name": "Mclaren-A",
-                "institution": "NUST EME"
+                "type": "seed",
+                "seed": 11
               },
               "winner": null
             }

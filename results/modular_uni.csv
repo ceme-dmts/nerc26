@@ -1,9 +1,9 @@
 seed,team_no,team_name,institution,score,time
-1,1186,Code Kra do 2.0,Lahore Garrison University,88,1:15.5
-2,1190,Robot Chala do,Lahore Garrison University,75,1:07.7
-3,1189,kacha Badam,Lahore Garrison University,54,56.4
-4,1129,Stardust Jihadists,CEME  NUST,70,35.4
-5,1014,Fire Fighter robot,Riphah International University,71,39.2
-6,1188,Khatti Toffee,Lahore Garrison University,55,1:16.8
-7,1110,Technologia,CEME  NUST,69,1:15.2
-8,1082,The Black Cats,Capital University of Science & Technology,98,1:14.1
+1,1082,The Black Cats,Capital University of Science & Technology,,
+2,1188,Khatti Toffee,Lahore Garrison University,,
+3,1189,kacha Badam,Lahore Garrison University,,
+4,1190,Robot Chala do,Lahore Garrison University,,
+5,1014,Fire Fighter robot,Riphah International University,,
+6,1186,Code Kra do 2.0,Lahore Garrison University,,
+7,1110,Technologia,CEME  NUST,,
+8,1129,Stardust Jihadists,CEME  NUST,,

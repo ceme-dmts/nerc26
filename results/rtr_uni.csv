@@ -1,49 +1,49 @@
 seed,team_no,team_name,institution,score,time
-1,950,AN�w�BIS EME,CEME  NUST,66,1:11.7
-2,1158,LineX,NUST EME,92,1:09.6
-3,1084,The Black Cats,Capital University of Science & Technology,100,54.6
-4,1056,Fobo,Bahria University Islamabad,77,1:10.2
-5,1170,Bado Badi,Lahore Garrison University,66,52.1
-6,988,Mclaren,CEME  NUST,99,54.7
-7,1074,Harry Potter,CEME  NUST,74,1:31.1
-8,1007,Team Dominators 2.0,University of Central Punjab,61,41.0
-9,1246,Visitors,CEME  NUST,63,1:24.3
-10,1058,Iceman,CEME  NUST,57,1:33.1
-11,1080,Spooky,CEME  NUST,83,1:27.7
-12,987,Mclaren-A,NUST EME,91,1:26.8
-13,998,MK 4,CEME  NUST,95,53.3
-14,978,IDK,(private),97,1:29.5
-15,1165,Andy wala burger,Lahore Garrison University,99,38.9
-16,1265,NUST Robotics & A.I.,National University of Sciences and Technology(NUST) Other than CEME,69,1:24.1
-17,1091,The Fast & The Curious,Institute of Business Administration Karachi,63,1:18.7
-18,1178,Aayein Baingan,Lahore Garrison University,51,1:06.1
-19,1169,Code kra do,Lahore Garrison University,52,30.8
-20,1259,Teen Bahadur,CEME  NUST,60,42.7
-21,979,GM,(private),62,1:16.5
-22,1076,Mike Oxman,CEME  NUST,68,1:30.3
-23,1115,Team Farhan,CEME  NUST,61,1:20.3
-24,1257,HyperTracer,CEME  NUST,84,1:26.0
-25,966,Bayrakthar AF2,(private),88,1:29.2
-26,977,MKC,(private),73,1:14.5
-27,971,STEM girls,National University of Sciences and Technology(NUST) Other than CEME,84,43.0
-28,1033,Team AK,University of the Punjab,56,1:04.3
-29,1262,Electrobots,CEME  NUST,91,38.2
-30,1174,HSB,Information Technology University Lahore  (ITU),75,1:02.8
-31,1006,Team Dominators,University of Central Punjab,90,49.1
-32,1260,Hypertracer,CEME  NUST,72,1:11.2
-33,1055,FAMAS,Habib University,74,1:25.4
-34,1038,Goli-Baz,Superior University,83,31.8
-35,1261,Hypertracer,CEME  NUST,67,31.3
-36,1144,Wicked Crew,NUST EME,59,1:02.0
-37,1081,Team Quantum,University of Central Punjab,73,1:14.9
-38,1130,Power rangers,CEME  NUST,93,1:21.8
-39,1151,Farmers,National University of Sciences and Technology(NUST) Other than CEME,85,56.4
-40,1173,Janooni Garrisonians 2.0,Lahore Garrison University,88,54.4
-41,982,Alamdar,(private),54,1:24.5
-42,1258,HyperTracer,CEME  NUST,58,52.6
-43,1155,System breakers,National University of Sciences and Technology(NUST) Other than CEME,64,37.0
-44,1251,GIKI_Hunters,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,55,1:22.4
-45,1004,Satra Meeli,CEME  NUST,50,1:30.6
-46,1125,ropeless knot,CEME  NUST,51,37.4
-47,965,Bayrakthar AF1,(private),93,1:06.7
-48,1109,Technologia,CEME  NUST,96,1:32.4
+1,1151,Farmers,National University of Sciences and Technology(NUST) Other than CEME,,
+2,998,MK 4,CEME  NUST,,
+3,982,Alamdar,(private),,
+4,1251,GIKI_Hunters,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,,
+5,978,IDK,(private),,
+6,1004,Satra Meeli,CEME  NUST,,
+7,950,AN�w�BIS EME,CEME  NUST,,
+8,966,Bayrakthar AF2,(private),,
+9,965,Bayrakthar AF1,(private),,
+10,1257,HyperTracer,CEME  NUST,,
+11,1259,Teen Bahadur,CEME  NUST,,
+12,1080,Spooky,CEME  NUST,,
+13,1155,System breakers,National University of Sciences and Technology(NUST) Other than CEME,,
+14,1246,Visitors,CEME  NUST,,
+15,1262,Electrobots,CEME  NUST,,
+16,1258,HyperTracer,CEME  NUST,,
+17,1178,Aayein Baingan,Lahore Garrison University,,
+18,1265,NUST Robotics & A.I.,National University of Sciences and Technology(NUST) Other than CEME,,
+19,1158,LineX,NUST EME,,
+20,1170,Bado Badi,Lahore Garrison University,,
+21,987,Mclaren-A,NUST EME,,
+22,1260,Hypertracer,CEME  NUST,,
+23,1076,Mike Oxman,CEME  NUST,,
+24,1109,Technologia,CEME  NUST,,
+25,1074,Harry Potter,CEME  NUST,,
+26,1169,Code kra do,Lahore Garrison University,,
+27,1261,Hypertracer,CEME  NUST,,
+28,1058,Iceman,CEME  NUST,,
+29,1056,Fobo,Bahria University Islamabad,,
+30,1084,The Black Cats,Capital University of Science & Technology,,
+31,979,GM,(private),,
+32,1125,ropeless knot,CEME  NUST,,
+33,1081,Team Quantum,University of Central Punjab,,
+34,1033,Team AK,University of the Punjab,,
+35,971,STEM girls,National University of Sciences and Technology(NUST) Other than CEME,,
+36,977,MKC,(private),,
+37,1144,Wicked Crew,NUST EME,,
+38,1173,Janooni Garrisonians 2.0,Lahore Garrison University,,
+39,1038,Goli-Baz,Superior University,,
+40,1115,Team Farhan,CEME  NUST,,
+41,1055,FAMAS,Habib University,,
+42,1091,The Fast & The Curious,Institute of Business Administration Karachi,,
+43,1130,Power rangers,CEME  NUST,,
+44,988,Mclaren,CEME  NUST,,
+45,1174,HSB,Information Technology University Lahore  (ITU),,
+46,1006,Team Dominators,University of Central Punjab,,
+47,1007,Team Dominators 2.0,University of Central Punjab,,
+48,1165,Andy wala burger,Lahore Garrison University,,
