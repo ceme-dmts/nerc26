@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NERC 2026 — Head-to-Head Match Schedule</title>
+  <style>
+    :root {
+      --bg:#f5f7fb; --panel:#ffffff; --line:#e3e8f0; --fg:#16203a;
+      --muted:#5a6b8c; --accent:#2f6bff; --accent2:#00a884;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; background:var(--bg); color:var(--fg);
+      font-family:-apple-system,system-ui,Segoe UI,Roboto,sans-serif;
+      min-height:100vh; line-height:1.5;
+    }
+    header{display:flex; align-items:center; gap:1.2rem; padding:1.1rem 1.5rem;
+      border-bottom:1px solid var(--line); background:#fff;}
+    header .brand{flex:0 0 auto}
+    header .brand img{height:62px; width:auto; display:block}
+    header .head-text{flex:1 1 auto; text-align:center; min-width:0}
+    header h1{margin:0; font-size:1.5rem; font-weight:800;}
+    header p{margin:.35rem 0 0; color:var(--accent); letter-spacing:.16em;
+      text-transform:uppercase; font-size:.78rem; font-weight:700}
+    @media(max-width:600px){ header{gap:.6rem; padding:.8rem .7rem}
+      header .brand img{height:38px} header h1{font-size:1.05rem}
+      header p{letter-spacing:.08em; font-size:.66rem} }
+
+    main{max-width:920px; margin:0 auto; padding:1.5rem 1.2rem 3rem}
+    .back{display:inline-block; color:var(--accent); text-decoration:none; font-weight:600;
+      font-size:.9rem; margin-bottom:1.2rem}
+    .back:hover{text-decoration:underline}
+
+    /* Day heading */
+    .day{display:flex; align-items:baseline; gap:.7rem; margin:2.2rem 0 1rem}
+    .day:first-of-type{margin-top:0}
+    .day h2{margin:0; font-size:1.35rem; font-weight:800}
+    .day .line{flex:1; height:2px; background:linear-gradient(90deg,var(--accent),transparent)}
+
+    /* Venue session card */
+    .venue{background:var(--panel); border:1px solid var(--line); border-radius:14px;
+      padding:1.1rem 1.2rem; margin-bottom:1.1rem; box-shadow:0 1px 2px rgba(20,32,58,.04)}
+    .venue-head{display:flex; align-items:center; gap:.7rem; margin-bottom:.4rem}
+    .venue-head .vn{font-size:1.05rem; font-weight:800}
+    .venue-head .win{margin-left:auto; background:#eef2fb; color:var(--accent);
+      border-radius:999px; padding:.15rem .7rem; font-size:.78rem; font-weight:700;
+      font-variant-numeric:tabular-nums; white-space:nowrap}
+
+    /* Category block within a venue */
+    .cat{margin-top:1rem}
+    .cat-title{display:flex; align-items:center; gap:.5rem; margin:0 0 .45rem;
+      font-size:.95rem; font-weight:700}
+    .cat-title .rnds{display:flex; gap:.3rem; flex-wrap:wrap}
+    .cat-title .rnds small{background:var(--fg); color:#fff; border-radius:6px;
+      padding:.05rem .4rem; font-size:.66rem; font-weight:700; letter-spacing:.04em}
+
+    .match-row{display:grid; grid-template-columns:3.4rem auto 1fr; align-items:center;
+      gap:.7rem; padding:.5rem .2rem; border-top:1px solid var(--line)}
+    .match-row .time{color:var(--accent2); font-weight:800; font-variant-numeric:tabular-nums}
+    .match-row .mno{color:var(--muted); font-size:.78rem; font-variant-numeric:tabular-nums;
+      white-space:nowrap}
+    .teams{display:flex; align-items:center; gap:.5rem; min-width:0; flex-wrap:wrap}
+    .side{min-width:0}
+    .side .tid{font-weight:800; color:var(--accent); font-variant-numeric:tabular-nums}
+    .side .seed{color:var(--muted); font-size:.78rem}
+    .side .nm{font-weight:600}
+    .side.ref{color:var(--muted); font-style:italic; font-size:.88rem}
+    .side.bye,.side.tbd{color:var(--muted)}
+    .vs{color:var(--muted); font-size:.72rem; font-weight:800; letter-spacing:.08em;
+      text-transform:uppercase}
+
+    footer{text-align:center; color:var(--muted); font-size:.82rem; padding:1.5rem}
+    .empty{text-align:center; color:var(--muted); padding:4rem 1rem}
+  </style>
+</head>
+<body>
+  <header>
+    <span class="brand"><img src="nust.png" alt="NUST" /></span>
+    <div class="head-text">
+      <h1>National Engineering Robotics Contest 2026</h1>
+      <p><a href="index.html" style="color:var(--accent);text-decoration:none">← Home</a> · Head-to-Head Match Schedule · <a href="bracket.html" style="color:var(--accent);text-decoration:none">Brackets →</a></p>
+    </div>
+    <span class="brand"><img src="ceme.png" alt="CEME" /></span>
+  </header>
+  <main id="main"></main>
+  <footer id="foot"></footer>
+
+  <script>
+    const main = document.getElementById("main");
+    const esc = s => (s||"").replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+    function side(s){
+      if(!s) return `<span class="side tbd">TBD</span>`;
+      if(s.type === "team")
+        return `<span class="side"><span class="tid">#${s.team_no||"—"}</span>
+          <span class="nm">${esc(s.team_name)}</span> <span class="seed">(seed ${s.seed})</span></span>`;
+      if(s.type === "ref") return `<span class="side ref">${esc(s.text)}</span>`;
+      if(s.type === "bye") return `<span class="side bye">BYE</span>`;
+      return `<span class="side tbd">TBD</span>`;
+    }
+
+    function catBlock(c){
+      const rounds = [...new Set(c.matches.map(m=>m.round))];
+      const rows = c.matches.map(m=>`
+        <div class="match-row">
+          <span class="time">${m.time||""}</span>
+          <span class="mno">Match ${m.no}<br>${m.round}</span>
+          <span class="teams">${side(m.a)} <span class="vs">vs</span> ${side(m.b)}</span>
+        </div>`).join("");
+      return `<div class="cat">
+        <div class="cat-title"><span>${esc(c.name)}</span>
+          <span class="rnds">${rounds.map(r=>`<small>${r}</small>`).join("")}</span></div>
+        ${rows}</div>`;
+    }
+
+    function venueCard(v){
+      return `<div class="venue">
+        <div class="venue-head"><span class="vn">${esc(v.venue)}</span>
+          <span class="win">${v.window}</span></div>
+        ${v.categories.map(catBlock).join("")}
+      </div>`;
+    }
+
+    function render(d){
+      // group sessions by day, preserving order
+      const days = [];
+      for(const s of d.sessions){
+        let g = days.find(x=>x.day === s.day);
+        if(!g){ g = {day:s.day, venues:[]}; days.push(g); }
+        g.venues.push(s);
+      }
+      main.innerHTML = `<a class="back" href="bracket.html">← View brackets</a>` +
+        days.map(g=>`
+          <div class="day"><h2>${esc(g.day)}</h2><span class="line"></span></div>
+          ${g.venues.map(venueCard).join("")}`).join("");
+      document.getElementById("foot").textContent =
+        `Generated ${d.generated_at} · times are estimates, 5 min per match`;
+    }
+
+    (async function(){
+      let d;
+      try { d = await fetch("schedule.json", {cache:"no-store"}).then(r=>r.json()); }
+      catch(e){ d = null; }
+      if(!d || !d.sessions){ main.innerHTML = '<div class="empty">The schedule will be published shortly.</div>'; return; }
+      render(d);
+    })();
+  </script>
+</body>
+</html>

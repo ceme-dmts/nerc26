@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>National Engineering Robotics Contest 2026 — Brackets</title>
+  <style>
+    :root {
+      --bg:#f5f7fb; --panel:#ffffff; --line:#e3e8f0; --fg:#16203a;
+      --muted:#5a6b8c; --accent:#2f6bff; --accent2:#00a884;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; background:var(--bg); color:var(--fg);
+      font-family:-apple-system,system-ui,Segoe UI,Roboto,sans-serif;
+      min-height:100vh; line-height:1.5;
+    }
+    header{display:flex; align-items:center; gap:1.2rem; padding:1.1rem 1.5rem;
+      border-bottom:1px solid var(--line); background:#fff;}
+    header .brand{flex:0 0 auto}
+    header .brand img{height:62px; width:auto; display:block}
+    header .head-text{flex:1 1 auto; text-align:center; min-width:0}
+    header h1{margin:0; font-size:1.5rem; font-weight:800;}
+    header p{margin:.35rem 0 0; color:var(--accent); letter-spacing:.16em;
+      text-transform:uppercase; font-size:.78rem; font-weight:700}
+    @media(max-width:600px){ header{gap:.6rem; padding:.8rem .7rem}
+      header .brand img{height:38px} header h1{font-size:1.05rem}
+      header p{letter-spacing:.08em; font-size:.66rem} }
+    main{max-width:1100px; margin:0 auto; padding:1.5rem 1.2rem 3rem}
+
+    /* Index of categories */
+    .cat-link{display:flex; align-items:center; justify-content:space-between; gap:1rem;
+      text-decoration:none; color:inherit; background:var(--panel); border:1px solid var(--line);
+      border-radius:12px; padding:1rem 1.25rem; margin-bottom:.8rem; transition:border-color .15s, transform .05s;}
+    .cat-link:hover{border-color:var(--accent); transform:translateY(-1px)}
+    .cat-link .meta{font-weight:700; font-size:1.15rem}
+    .cat-link .sub{color:var(--muted); font-size:.82rem; font-weight:400; margin-top:.15rem}
+    .cat-link .count{flex:0 0 auto; background:var(--accent); color:#fff; font-weight:700;
+      border-radius:999px; padding:.25rem .8rem; font-size:.9rem}
+    .cat-link .count.pending{background:var(--muted)}
+
+    .back{display:inline-block; color:var(--accent); text-decoration:none; font-weight:600;
+      font-size:.9rem; margin-bottom:1rem}
+    .back:hover{text-decoration:underline}
+    .cat-head h2{margin:0; font-size:1.6rem}
+    .cat-head .sched{color:var(--muted); font-size:.9rem; margin:.25rem 0 1.6rem}
+
+    /* Bracket: rounds stacked vertically, each a responsive grid of match cards */
+    .round{margin-bottom:2rem}
+    .round-name{display:flex; align-items:center; gap:.8rem;
+      font-size:.78rem; letter-spacing:.16em; text-transform:uppercase;
+      color:var(--muted); font-weight:700; margin:0 0 .9rem}
+    .round-name .rule{flex:1; height:1px; background:var(--line)}
+    .round-name .pill{background:var(--fg); color:#fff; border-radius:999px;
+      padding:.18rem .7rem; letter-spacing:.08em}
+    .round-name .when{flex:0 0 auto; color:var(--accent2); font-weight:700;
+      letter-spacing:.04em; text-transform:none; font-size:.8rem}
+    .round-name .when .dim{color:var(--muted); font-weight:600}
+    .grid{display:grid; gap:1rem;
+      grid-template-columns:repeat(auto-fill, minmax(15rem, 1fr))}
+
+    .match{background:var(--panel); border:1px solid var(--line); border-radius:14px;
+      padding:.55rem; box-shadow:0 1px 2px rgba(20,32,58,.04); transition:box-shadow .15s, border-color .15s}
+    .match:hover{box-shadow:0 6px 20px rgba(20,32,58,.09); border-color:#cdd7e8}
+
+    /* three lines: team A / vs / team B */
+    .slot{display:flex; align-items:center; gap:.65rem; padding:.55rem .6rem; border-radius:9px}
+    .slot .seed{flex:0 0 1.7rem; height:1.7rem; display:grid; place-items:center;
+      border-radius:8px; background:#eef2fb; color:var(--accent);
+      font-weight:800; font-size:.82rem; font-variant-numeric:tabular-nums}
+    .slot .who{min-width:0; flex:1}
+    .slot .nm{display:flex; align-items:baseline; gap:.45rem;
+      font-weight:700; font-size:.98rem}
+    .slot .nm .tname{min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+    .slot .nm .tid{flex:0 0 auto; color:var(--accent); font-weight:800;
+      font-size:.78rem; font-variant-numeric:tabular-nums}
+    .slot .uni{color:var(--muted); font-size:.78rem; overflow:hidden;
+      text-overflow:ellipsis; white-space:nowrap; margin-top:.1rem}
+    .slot.tbd{color:var(--muted)}
+    .slot.tbd .seed{background:#eef1f6; color:var(--muted)}
+    .slot.tbd .nm{font-weight:600}
+
+    .vs{display:flex; align-items:center; gap:.7rem; padding:.05rem .9rem; margin:.05rem 0}
+    .vs::before,.vs::after{content:""; flex:1; height:1px; background:var(--line)}
+    .vs span{font-size:.68rem; font-weight:800; letter-spacing:.12em;
+      text-transform:uppercase; color:var(--muted)}
+
+    footer{text-align:center; color:var(--muted); font-size:.82rem; padding:1.5rem}
+    .empty{text-align:center; color:var(--muted); padding:4rem 1rem}
+  </style>
+</head>
+<body>
+  <header>
+    <span class="brand"><img src="nust.png" alt="NUST" /></span>
+    <div class="head-text">
+      <h1>National Engineering Robotics Contest 2026</h1>
+      <p><a href="index.html" style="color:var(--accent);text-decoration:none">← Home</a> · Knockout Brackets · <a href="schedule.html" style="color:var(--accent);text-decoration:none">Match Schedule →</a></p>
+    </div>
+    <span class="brand"><img src="ceme.png" alt="CEME" /></span>
+  </header>
+  <main id="main"></main>
+  <footer id="foot"></footer>
+
+  <script>
+    const main = document.getElementById("main");
+    let DATA = null;
+
+    function ordered(categories){
+      return Object.entries(categories).sort((a,b)=>{
+        const sa=a[1].schedule||{}, sb=b[1].schedule||{};
+        return (sa.day||"").localeCompare(sb.day||"") ||
+               (sa.time||"").localeCompare(sb.time||"") ||
+               a[0].localeCompare(b[0]);
+      });
+    }
+    function schedText(s){ return s ? `${s.day} · ${s.time} · ${s.venue}` : "Schedule TBD"; }
+
+    function renderIndex(){
+      main.innerHTML = ordered(DATA.categories).map(([name,info])=>{
+        const pending = info.status !== "seeded";
+        const badge = pending ? "pending" : `Top ${info.bracket_size}`;
+        return `<a class="cat-link" href="#${encodeURIComponent(name)}">
+          <span><span class="meta">${name}</span>
+            <div class="sub">${schedText(info.schedule)}</div></span>
+          <span class="count ${pending?"pending":""}">${badge}</span>
+        </a>`;
+      }).join("");
+    }
+
+    const esc = s => (s||"").replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+    function slotHTML(s){
+      if(!s) return `<div class="slot tbd"><span class="seed">—</span>
+        <span class="who"><div class="nm">TBD</div></span></div>`;
+      return `<div class="slot"><span class="seed">${s.rank}</span>
+        <span class="who">
+          <div class="nm"><span class="tname">${esc(s.team_name)||"—"}</span><span class="tid">#${s.team_no||"—"}</span></div>
+          ${s.institution && s.institution !== "(private)" ? `<div class="uni">${esc(s.institution)}</div>` : ""}
+        </span></div>`;
+    }
+
+    const ROUND_LABELS = {R64:"Round of 64", R32:"Round of 32", R16:"Round of 16",
+      QF:"Quarter-finals", SF:"Semi-finals", Final:"Final"};
+
+    function matchHTML(m){
+      return `<div class="match">
+        ${slotHTML(m.a)}
+        <div class="vs"><span>vs</span></div>
+        ${slotHTML(m.b)}
+      </div>`;
+    }
+
+    function whenHTML(sched){
+      if(!sched) return "";
+      return `<span class="when">${esc(sched.day)} · ${sched.time}
+        <span class="dim">· ${esc(sched.venue)}</span></span>`;
+    }
+
+    // Concise summary of where/when the knockout rounds run.
+    function koLine(info){
+      const ks = Object.values(info.knockout_schedule || {});
+      if(!ks.length) return schedText(info.schedule);
+      const days = [...new Set(ks.map(v=>v.day))].join(" & ");
+      const venue = [...new Set(ks.map(v=>v.venue))].join(" / ");
+      return `Knockouts · ${days} · ${venue}`;
+    }
+
+    function renderCategory(name){
+      const info = DATA.categories[name];
+      if(!info){ location.hash=""; return; }
+      const ks = info.knockout_schedule || {};
+      let body;
+      if(info.status !== "seeded" || !info.rounds.length){
+        body = `<div class="empty">Heat results not in yet — this bracket will appear once scores are recorded.</div>`;
+      } else {
+        body = info.rounds.map(r=>`
+          <section class="round">
+            <h3 class="round-name"><span class="pill">${ROUND_LABELS[r.name]||r.name}</span>
+              <span class="rule"></span>${whenHTML(ks[r.name])}</h3>
+            <div class="grid">${r.matches.map(matchHTML).join("")}</div>
+          </section>`).join("");
+      }
+      main.innerHTML = `
+        <a class="back" href="#">← All categories</a>
+        <div class="cat-head"><h2>${name}</h2>
+          <div class="sched">${koLine(info)}</div></div>
+        ${body}`;
+      window.scrollTo(0,0);
+    }
+
+    function route(){
+      if(!DATA || !DATA.categories) return;
+      const hash = decodeURIComponent(location.hash.replace(/^#/,""));
+      if(hash && DATA.categories[hash]) renderCategory(hash);
+      else renderIndex();
+    }
+
+    async function start(){
+      try { DATA = await fetch("bracket.json", {cache:"no-store"}).then(r=>r.json()); }
+      catch(e){ DATA = null; }
+      if(!DATA || !DATA.categories){
+        main.innerHTML = '<div class="empty">The brackets will be published once the heats are complete.</div>';
+        return;
+      }
+      document.getElementById("foot").textContent = `Generated ${DATA.generated_at}`;
+      window.addEventListener("hashchange", route);
+      route();
+    }
+    start();
+  </script>
+</body>
+</html>

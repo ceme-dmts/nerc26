@@ -11,20 +11,75 @@ data/Teams_NERC_26.csv (operator copies the final list there before the ceremony
 Run:  python3 app.py    then open http://localhost:5000
 """
 
+import csv
 import json
 import secrets
 from datetime import datetime
 from pathlib import Path
 
-from flask import Flask, jsonify, render_template, request, send_from_directory
+from flask import Flask, jsonify, render_template, send_from_directory
 
-import seed  # reuse load_teams / load_schedule / build_seeding
+import seed  # reuse load_teams / load_schedule / build_seeding / SLUG
+from seed import SLUG
 
 ROOT = Path(__file__).parent
 DOCS_DIR = ROOT / "docs"
 DRAW_FILE = DOCS_DIR / "draw.json"
+RESULTS_DIR = ROOT / "results"  # per-category heats CSVs (operator fills score/time)
+
+RUN_GAP_MIN = 5  # minutes between consecutive runs (if the window allows)
 
 app = Flask(__name__)
+
+
+def _hhmm_to_min(s):
+    s = s.strip()
+    return int(s[:2]) * 60 + int(s[2:])
+
+
+def add_run_times(categories, gap=RUN_GAP_MIN):
+    """Add an estimated run_time (HH:MM) to each team.
+
+    Uses `gap` minutes between runs; if that would overflow the category's
+    scheduled window (e.g. 53 runs * 5 min > 4 hours), spreads the runs evenly
+    across the window instead.
+    """
+    for info in categories.values():
+        teams = info["teams"]
+        n = len(teams)
+        sched = info.get("schedule") or {}
+        try:
+            start_s, end_s = sched.get("time", "").split("-")
+            start = _hhmm_to_min(start_s)
+            window = _hhmm_to_min(end_s) - start
+        except (ValueError, AttributeError):
+            for t in teams:
+                t["run_time"] = ""
+            continue
+        interval = gap if n <= 1 or (n - 1) * gap <= window else window / n
+        for i, t in enumerate(teams):
+            total = int(round(start + i * interval))
+            t["run_time"] = f"{total // 60:02d}:{total % 60:02d}"
+
+
+def write_result_csvs(categories):
+    """Write one results/<slug>.csv per category for operators to fill in.
+
+    Columns are the draw fields plus blank `score` and `time`, recorded during
+    the heats and later ranked by bracket.py. A fresh draw overwrites these
+    (the draw defines the seeding, so re-drawing resets results).
+    """
+    RESULTS_DIR.mkdir(exist_ok=True)
+    for event, info in categories.items():
+        slug = SLUG.get(event)
+        if not slug:
+            continue
+        with open(RESULTS_DIR / f"{slug}.csv", "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            w.writerow(["seed", "team_no", "team_name", "institution", "score", "time"])
+            for t in info["teams"]:
+                w.writerow([t["seed"], t["team_no"], t["team_name"],
+                            t["institution"], "", ""])
 
 
 def run_draw():
@@ -33,6 +88,8 @@ def run_draw():
     teams = seed.load_teams()
     schedule = seed.load_schedule()
     categories = seed.build_seeding(teams, schedule, rng_seed)
+    add_run_times(categories)
+    write_result_csvs(categories)
     return {
         "rng_seed": rng_seed,
         "drawn_at": datetime.now().isoformat(timespec="seconds"),
@@ -65,9 +122,7 @@ def get_draw():
 
 @app.route("/api/draw", methods=["POST"])
 def post_draw():
-    # Guard the official draw: don't silently overwrite unless forced (redo).
-    if load_existing() and not request.args.get("force"):
-        return jsonify({"error": "already_drawn"}), 409
+    # One ceremonial press = one fresh random draw (overwrites any prior/test draw).
     result = run_draw()
     DRAW_FILE.parent.mkdir(exist_ok=True)
     DRAW_FILE.write_text(json.dumps(result, indent=2))

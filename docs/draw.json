@@ -1,6 +1,6 @@
 {
-  "rng_seed": 508308,
-  "drawn_at": "2026-06-09T02:56:09",
+  "rng_seed": 170486,
+  "drawn_at": "2026-06-09T03:56:05",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -12,374 +12,427 @@
       "teams": [
         {
           "seed": 1,
-          "team_no": "1028",
-          "team_name": "Tarzan",
-          "institution": "Lahore University of Management Sciences",
-          "city": "Lahore"
-        },
-        {
-          "seed": 2,
-          "team_no": "1197",
-          "team_name": "The sophomore slump",
-          "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
-          "city": "Swabi"
-        },
-        {
-          "seed": 3,
-          "team_no": "1041",
-          "team_name": "?The Thing?",
-          "institution": "Lahore University of Management Sciences",
-          "city": "Lahore"
-        },
-        {
-          "seed": 4,
-          "team_no": "1152",
-          "team_name": "gg",
-          "institution": "Lahore Garrison University",
-          "city": "Lahore"
-        },
-        {
-          "seed": 5,
-          "team_no": "1236",
-          "team_name": "TMEjawadkhattak",
-          "institution": "(private)",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 6,
-          "team_no": "1168",
-          "team_name": "LGS JTI Senior A",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 7,
-          "team_no": "1127",
-          "team_name": "PanBahar",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 8,
-          "team_no": "1035",
-          "team_name": "Confirm nhi hai",
-          "institution": "Habib University",
-          "city": "Karachi"
-        },
-        {
-          "seed": 9,
-          "team_no": "1181",
-          "team_name": "Team 5VDC",
-          "institution": "Lahore Garrison University",
-          "city": "Lahore"
-        },
-        {
-          "seed": 10,
-          "team_no": "986",
-          "team_name": "Hexa",
-          "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
-          "city": "Swabi"
-        },
-        {
-          "seed": 11,
-          "team_no": "997",
-          "team_name": "Pakora Bot",
-          "institution": "Habib University",
-          "city": "Karachi"
-        },
-        {
-          "seed": 12,
-          "team_no": "1217",
-          "team_name": "TMEayatfatima",
-          "institution": "(private)",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 13,
-          "team_no": "1250",
-          "team_name": "GIKI-I",
-          "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
-          "city": "Swabi"
-        },
-        {
-          "seed": 14,
-          "team_no": "1245",
-          "team_name": "LUMS team 3",
-          "institution": "Lahore University of Management Sciences",
-          "city": "Lahore"
-        },
-        {
-          "seed": 15,
-          "team_no": "1069",
-          "team_name": "Pink Panther",
-          "institution": "Lahore University of Management Sciences",
-          "city": "Lahore"
-        },
-        {
-          "seed": 16,
-          "team_no": "1030",
-          "team_name": "Meow:3",
-          "institution": "Lahore University of Management Sciences",
-          "city": "Lahore"
-        },
-        {
-          "seed": 17,
-          "team_no": "1011",
-          "team_name": "Loose Screws",
-          "institution": "Habib University",
-          "city": "Karachi"
-        },
-        {
-          "seed": 18,
-          "team_no": "1163",
-          "team_name": "Mechatronz",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 19,
-          "team_no": "1179",
-          "team_name": "LGS JTI Senior B",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 20,
-          "team_no": "1192",
-          "team_name": "Visitors",
-          "institution": "(private)",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 21,
-          "team_no": "1026",
-          "team_name": "Team Code Red 2.0",
-          "institution": "Lahore University of Management Sciences",
-          "city": "Lahore"
-        },
-        {
-          "seed": 22,
-          "team_no": "1266",
-          "team_name": "NUST ROBOTICS & AI",
-          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
-          "city": "Karachi"
-        },
-        {
-          "seed": 23,
-          "team_no": "996",
-          "team_name": "Griffins",
-          "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
-          "city": "Swabi"
-        },
-        {
-          "seed": 24,
-          "team_no": "1191",
-          "team_name": "Apex Robotics",
-          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 25,
-          "team_no": "1215",
-          "team_name": "TMEareejfatima",
-          "institution": "(private)",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 26,
-          "team_no": "1193",
-          "team_name": "Team Visitors",
-          "institution": "NUST EME",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 27,
-          "team_no": "1263",
-          "team_name": "Binary Beasts",
-          "institution": "Habib University",
-          "city": "Karachi"
-        },
-        {
-          "seed": 28,
-          "team_no": "1249",
-          "team_name": "Black Bird",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 29,
-          "team_no": "1050",
-          "team_name": "el gato",
-          "institution": "Lahore University of Management Sciences",
-          "city": "Lahore"
-        },
-        {
-          "seed": 30,
           "team_no": "1184",
           "team_name": "Noobray",
           "institution": "Lahore Garrison University",
-          "city": "Lahore"
+          "city": "Lahore",
+          "run_time": "14:00"
         },
         {
-          "seed": 31,
+          "seed": 2,
+          "team_no": "1068",
+          "team_name": "Rogue",
+          "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+          "city": "Swabi",
+          "run_time": "14:05"
+        },
+        {
+          "seed": 3,
+          "team_no": "1159",
+          "team_name": "Janooni Garrisonians",
+          "institution": "Lahore Garrison University",
+          "city": "Lahore",
+          "run_time": "14:09"
+        },
+        {
+          "seed": 4,
+          "team_no": "1263",
+          "team_name": "Binary Beasts",
+          "institution": "Habib University",
+          "city": "Karachi",
+          "run_time": "14:14"
+        },
+        {
+          "seed": 5,
+          "team_no": "997",
+          "team_name": "Pakora Bot",
+          "institution": "Habib University",
+          "city": "Karachi",
+          "run_time": "14:18"
+        },
+        {
+          "seed": 6,
+          "team_no": "1017",
+          "team_name": "LUMS team 3",
+          "institution": "Lahore University of Management Sciences",
+          "city": "Lahore",
+          "run_time": "14:23"
+        },
+        {
+          "seed": 7,
+          "team_no": "1245",
+          "team_name": "LUMS team 3",
+          "institution": "Lahore University of Management Sciences",
+          "city": "Lahore",
+          "run_time": "14:27"
+        },
+        {
+          "seed": 8,
+          "team_no": "1127",
+          "team_name": "PanBahar",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "14:32"
+        },
+        {
+          "seed": 9,
+          "team_no": "1266",
+          "team_name": "NUST ROBOTICS & AI",
+          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
+          "city": "Karachi",
+          "run_time": "14:36"
+        },
+        {
+          "seed": 10,
+          "team_no": "1041",
+          "team_name": "?The Thing?",
+          "institution": "Lahore University of Management Sciences",
+          "city": "Lahore",
+          "run_time": "14:41"
+        },
+        {
+          "seed": 11,
+          "team_no": "1217",
+          "team_name": "TMEayatfatima",
+          "institution": "(private)",
+          "city": "Islamabad",
+          "run_time": "14:45"
+        },
+        {
+          "seed": 12,
+          "team_no": "1035",
+          "team_name": "Confirm nhi hai",
+          "institution": "Habib University",
+          "city": "Karachi",
+          "run_time": "14:50"
+        },
+        {
+          "seed": 13,
+          "team_no": "1119",
+          "team_name": "Tangled",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "14:54"
+        },
+        {
+          "seed": 14,
+          "team_no": "1181",
+          "team_name": "Team 5VDC",
+          "institution": "Lahore Garrison University",
+          "city": "Lahore",
+          "run_time": "14:59"
+        },
+        {
+          "seed": 15,
+          "team_no": "1179",
+          "team_name": "LGS JTI Senior B",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "15:03"
+        },
+        {
+          "seed": 16,
+          "team_no": "1236",
+          "team_name": "TMEjawadkhattak",
+          "institution": "(private)",
+          "city": "Islamabad",
+          "run_time": "15:08"
+        },
+        {
+          "seed": 17,
+          "team_no": "1039",
+          "team_name": "Adastra 2.0",
+          "institution": "Lahore University of Management Sciences",
+          "city": "Lahore",
+          "run_time": "15:12"
+        },
+        {
+          "seed": 18,
+          "team_no": "1106",
+          "team_name": "404 Brain Not Found",
+          "institution": "Habib University",
+          "city": "Karachi",
+          "run_time": "15:17"
+        },
+        {
+          "seed": 19,
+          "team_no": "1050",
+          "team_name": "el gato",
+          "institution": "Lahore University of Management Sciences",
+          "city": "Lahore",
+          "run_time": "15:22"
+        },
+        {
+          "seed": 20,
+          "team_no": "975",
+          "team_name": "Ezy Seen Ha",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "15:26"
+        },
+        {
+          "seed": 21,
+          "team_no": "1124",
+          "team_name": "Jaadu",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "15:31"
+        },
+        {
+          "seed": 22,
+          "team_no": "986",
+          "team_name": "Hexa",
+          "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+          "city": "Swabi",
+          "run_time": "15:35"
+        },
+        {
+          "seed": 23,
+          "team_no": "1026",
+          "team_name": "Team Code Red 2.0",
+          "institution": "Lahore University of Management Sciences",
+          "city": "Lahore",
+          "run_time": "15:40"
+        },
+        {
+          "seed": 24,
+          "team_no": "1216",
+          "team_name": "TMEareejfatima",
+          "institution": "(private)",
+          "city": "Islamabad",
+          "run_time": "15:44"
+        },
+        {
+          "seed": 25,
           "team_no": "969",
           "team_name": "zero drift",
           "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
-          "city": "Swabi"
+          "city": "Swabi",
+          "run_time": "15:49"
+        },
+        {
+          "seed": 26,
+          "team_no": "989",
+          "team_name": "Usain Volt",
+          "institution": "(private)",
+          "city": "Lahore",
+          "run_time": "15:53"
+        },
+        {
+          "seed": 27,
+          "team_no": "1177",
+          "team_name": "LGS JTI Senior B",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "15:58"
+        },
+        {
+          "seed": 28,
+          "team_no": "1193",
+          "team_name": "Team Visitors",
+          "institution": "NUST EME",
+          "city": "Islamabad",
+          "run_time": "16:02"
+        },
+        {
+          "seed": 29,
+          "team_no": "1037",
+          "team_name": "Nallay",
+          "institution": "Lahore University of Management Sciences",
+          "city": "Lahore",
+          "run_time": "16:07"
+        },
+        {
+          "seed": 30,
+          "team_no": "1011",
+          "team_name": "Loose Screws",
+          "institution": "Habib University",
+          "city": "Karachi",
+          "run_time": "16:11"
+        },
+        {
+          "seed": 31,
+          "team_no": "1028",
+          "team_name": "Tarzan",
+          "institution": "Lahore University of Management Sciences",
+          "city": "Lahore",
+          "run_time": "16:16"
         },
         {
           "seed": 32,
           "team_no": "1270",
           "team_name": "Pheonix",
           "institution": "NUST EME",
-          "city": "Rawalpindi"
+          "city": "Rawalpindi",
+          "run_time": "16:20"
         },
         {
           "seed": 33,
-          "team_no": "975",
-          "team_name": "Ezy Seen Ha",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 34,
-          "team_no": "1039",
-          "team_name": "Adastra 2.0",
-          "institution": "Lahore University of Management Sciences",
-          "city": "Lahore"
-        },
-        {
-          "seed": 35,
-          "team_no": "989",
-          "team_name": "Usain Volt",
-          "institution": "(private)",
-          "city": "Lahore"
-        },
-        {
-          "seed": 36,
-          "team_no": "1164",
-          "team_name": "Team 7ups",
-          "institution": "Lahore Garrison University",
-          "city": "Lahore"
-        },
-        {
-          "seed": 37,
           "team_no": "930",
           "team_name": "RoboNex",
           "institution": "UET Taxila",
-          "city": "Taxila"
+          "city": "Taxila",
+          "run_time": "16:25"
         },
         {
-          "seed": 38,
-          "team_no": "1132",
-          "team_name": "Visitor",
-          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
-          "city": "Okara"
-        },
-        {
-          "seed": 39,
-          "team_no": "1077",
-          "team_name": "botzilla",
-          "institution": "Lahore University of Management Sciences",
-          "city": "Lahore"
-        },
-        {
-          "seed": 40,
-          "team_no": "1216",
-          "team_name": "TMEareejfatima",
-          "institution": "(private)",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 41,
-          "team_no": "1037",
-          "team_name": "Nallay",
-          "institution": "Lahore University of Management Sciences",
-          "city": "Lahore"
-        },
-        {
-          "seed": 42,
-          "team_no": "1161",
-          "team_name": "Team Maqsad",
-          "institution": "NUST EME",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 43,
-          "team_no": "1154",
-          "team_name": "Apex Dragons",
-          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 44,
-          "team_no": "1119",
-          "team_name": "Tangled",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 45,
-          "team_no": "985",
-          "team_name": "DJNZ",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 46,
-          "team_no": "1106",
-          "team_name": "404 Brain Not Found",
-          "institution": "Habib University",
-          "city": "Karachi"
-        },
-        {
-          "seed": 47,
-          "team_no": "1177",
-          "team_name": "LGS JTI Senior B",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 48,
+          "seed": 34,
           "team_no": "1116",
           "team_name": "Opsimath",
           "institution": "CEME  NUST",
-          "city": "Rawalpindi"
+          "city": "Rawalpindi",
+          "run_time": "16:29"
+        },
+        {
+          "seed": 35,
+          "team_no": "1250",
+          "team_name": "GIKI-I",
+          "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+          "city": "Swabi",
+          "run_time": "16:34"
+        },
+        {
+          "seed": 36,
+          "team_no": "1152",
+          "team_name": "gg",
+          "institution": "Lahore Garrison University",
+          "city": "Lahore",
+          "run_time": "16:38"
+        },
+        {
+          "seed": 37,
+          "team_no": "1215",
+          "team_name": "TMEareejfatima",
+          "institution": "(private)",
+          "city": "Islamabad",
+          "run_time": "16:43"
+        },
+        {
+          "seed": 38,
+          "team_no": "1077",
+          "team_name": "botzilla",
+          "institution": "Lahore University of Management Sciences",
+          "city": "Lahore",
+          "run_time": "16:48"
+        },
+        {
+          "seed": 39,
+          "team_no": "1168",
+          "team_name": "LGS JTI Senior A",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "16:52"
+        },
+        {
+          "seed": 40,
+          "team_no": "1191",
+          "team_name": "Apex Robotics",
+          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
+          "city": "Islamabad",
+          "run_time": "16:57"
+        },
+        {
+          "seed": 41,
+          "team_no": "996",
+          "team_name": "Griffins",
+          "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+          "city": "Swabi",
+          "run_time": "17:01"
+        },
+        {
+          "seed": 42,
+          "team_no": "1249",
+          "team_name": "Black Bird",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "17:06"
+        },
+        {
+          "seed": 43,
+          "team_no": "985",
+          "team_name": "DJNZ",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "17:10"
+        },
+        {
+          "seed": 44,
+          "team_no": "1132",
+          "team_name": "Visitor",
+          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
+          "city": "Okara",
+          "run_time": "17:15"
+        },
+        {
+          "seed": 45,
+          "team_no": "1163",
+          "team_name": "Mechatronz",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "17:19"
+        },
+        {
+          "seed": 46,
+          "team_no": "1164",
+          "team_name": "Team 7ups",
+          "institution": "Lahore Garrison University",
+          "city": "Lahore",
+          "run_time": "17:24"
+        },
+        {
+          "seed": 47,
+          "team_no": "1069",
+          "team_name": "Pink Panther",
+          "institution": "Lahore University of Management Sciences",
+          "city": "Lahore",
+          "run_time": "17:28"
+        },
+        {
+          "seed": 48,
+          "team_no": "1192",
+          "team_name": "Visitors",
+          "institution": "(private)",
+          "city": "Rawalpindi",
+          "run_time": "17:33"
         },
         {
           "seed": 49,
-          "team_no": "1159",
-          "team_name": "Janooni Garrisonians",
-          "institution": "Lahore Garrison University",
-          "city": "Lahore"
+          "team_no": "1154",
+          "team_name": "Apex Dragons",
+          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
+          "city": "Islamabad",
+          "run_time": "17:37"
         },
         {
           "seed": 50,
-          "team_no": "1068",
-          "team_name": "Rogue",
+          "team_no": "1197",
+          "team_name": "The sophomore slump",
           "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
-          "city": "Swabi"
+          "city": "Swabi",
+          "run_time": "17:42"
         },
         {
           "seed": 51,
           "team_no": "974",
           "team_name": "Titans",
           "institution": "Lahore University of Management Sciences",
-          "city": "Lahore"
+          "city": "Lahore",
+          "run_time": "17:46"
         },
         {
           "seed": 52,
-          "team_no": "1017",
-          "team_name": "LUMS team 3",
+          "team_no": "1030",
+          "team_name": "Meow:3",
           "institution": "Lahore University of Management Sciences",
-          "city": "Lahore"
+          "city": "Lahore",
+          "run_time": "17:51"
         },
         {
           "seed": 53,
-          "team_no": "1124",
-          "team_name": "Jaadu",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
+          "team_no": "1161",
+          "team_name": "Team Maqsad",
+          "institution": "NUST EME",
+          "city": "Rawalpindi",
+          "run_time": "17:55"
         }
       ]
     },
@@ -393,346 +446,395 @@
       "teams": [
         {
           "seed": 1,
-          "team_no": "1088",
-          "team_name": "JT Team X",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 2,
-          "team_no": "1220",
-          "team_name": "TME Future Forge",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 3,
-          "team_no": "1237",
-          "team_name": "TME A",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 4,
-          "team_no": "1199",
-          "team_name": "TME -Unicorn",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 5,
-          "team_no": "1202",
-          "team_name": "TME - One World Bots",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 6,
-          "team_no": "1218",
-          "team_name": "TME FrostByte",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 7,
-          "team_no": "1111",
-          "team_name": "CETC-1",
-          "institution": "Crescent Model Higher Secondary School",
-          "city": "Lahore"
-        },
-        {
-          "seed": 8,
-          "team_no": "1096",
-          "team_name": "chrispy chickens",
-          "institution": "(private)",
-          "city": "Lahore"
-        },
-        {
-          "seed": 9,
-          "team_no": "1201",
-          "team_name": "TME Neural Knights",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 10,
-          "team_no": "1207",
-          "team_name": "TME Robonova",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 11,
-          "team_no": "1209",
-          "team_name": "TME Mechadrive",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 12,
-          "team_no": "1238",
-          "team_name": "TME B",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 13,
-          "team_no": "1225",
-          "team_name": "TME Project Atlas",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 14,
-          "team_no": "1213",
-          "team_name": "TME Voltage Vipers",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 15,
-          "team_no": "1226",
-          "team_name": "TME Robo Raptors",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 16,
-          "team_no": "1233",
-          "team_name": "TME caption voltage",
-          "institution": "Future World School Bahria Town",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 17,
-          "team_no": "1211",
-          "team_name": "TME Robo Legends",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 18,
-          "team_no": "1122",
-          "team_name": "CyberCrafters",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Haripur"
-        },
-        {
-          "seed": 19,
-          "team_no": "1200",
-          "team_name": "TME - Onyx",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 20,
-          "team_no": "1224",
-          "team_name": "TME Algorithmics",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 21,
-          "team_no": "1208",
-          "team_name": "TME Innovon",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 22,
-          "team_no": "1227",
-          "team_name": "TME Maze Mastermind",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 23,
-          "team_no": "1279",
-          "team_name": "ISL Team 1",
-          "institution": "International School Lahore",
-          "city": "Lahore"
-        },
-        {
-          "seed": 24,
-          "team_no": "1229",
-          "team_name": "TME The Future Makers",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 25,
-          "team_no": "1157",
-          "team_name": "LGS JT Team C",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 26,
-          "team_no": "1241",
-          "team_name": "TME D",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 27,
-          "team_no": "1222",
-          "team_name": "TME Innovators",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 28,
-          "team_no": "1282",
-          "team_name": "ISL Team 4",
-          "institution": "International School Lahore",
-          "city": "Lahore"
-        },
-        {
-          "seed": 29,
-          "team_no": "1210",
-          "team_name": "TME Robo Titans",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 30,
           "team_no": "1206",
           "team_name": "TME Futurix",
           "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
+          "city": "Islamabad",
+          "run_time": "08:00"
         },
         {
-          "seed": 31,
-          "team_no": "1228",
-          "team_name": "TME The Arena Beast",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 32,
-          "team_no": "1223",
-          "team_name": "TME Phantom Core",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 33,
-          "team_no": "1204",
-          "team_name": "TME - One World Aurora",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 34,
-          "team_no": "1232",
-          "team_name": "TME RAZOR",
-          "institution": "Future World School Bahria Town",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 35,
-          "team_no": "1235",
-          "team_name": "TME Thunder17",
-          "institution": "Future World School Bahria Town",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 36,
-          "team_no": "1234",
-          "team_name": "TME robo titans",
-          "institution": "Future World School Bahria Town",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 37,
-          "team_no": "1281",
-          "team_name": "ISL Team 3",
-          "institution": "International School Lahore",
-          "city": "Lahore"
-        },
-        {
-          "seed": 38,
-          "team_no": "1219",
-          "team_name": "TME RoboSapiens",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 39,
-          "team_no": "1243",
-          "team_name": "TME RoboNova",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 40,
-          "team_no": "1146",
-          "team_name": "LGS JT Team E",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 41,
+          "seed": 2,
           "team_no": "1239",
           "team_name": "TME C",
           "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
+          "city": "Islamabad",
+          "run_time": "08:05"
         },
         {
-          "seed": 42,
-          "team_no": "1064",
-          "team_name": "Abdalian Lego",
-          "institution": "Cadet College Hasanabdal",
-          "city": "Hassan Abdal"
-        },
-        {
-          "seed": 43,
-          "team_no": "1118",
-          "team_name": "PakRobo",
-          "institution": "(private)",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 44,
-          "team_no": "1244",
-          "team_name": "Quantum Bots",
+          "seed": 3,
+          "team_no": "1241",
+          "team_name": "TME D",
           "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
+          "city": "Islamabad",
+          "run_time": "08:10"
         },
         {
-          "seed": 45,
-          "team_no": "1280",
-          "team_name": "ISL Team 2",
-          "institution": "International School Lahore",
-          "city": "Lahore"
+          "seed": 4,
+          "team_no": "1229",
+          "team_name": "TME The Future Makers",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "08:15"
         },
         {
-          "seed": 46,
+          "seed": 5,
+          "team_no": "1227",
+          "team_name": "TME Maze Mastermind",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "08:20"
+        },
+        {
+          "seed": 6,
           "team_no": "1203",
           "team_name": "TME Dark Voltage",
           "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
+          "city": "Islamabad",
+          "run_time": "08:25"
         },
         {
-          "seed": 47,
-          "team_no": "1240",
-          "team_name": "TME C",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 48,
-          "team_no": "1271",
-          "team_name": "Beqarar Janoon",
-          "institution": "Roots IVY ICMS",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 49,
+          "seed": 7,
           "team_no": "1214",
           "team_name": "TME Titan Torque",
           "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
+          "city": "Islamabad",
+          "run_time": "08:30"
+        },
+        {
+          "seed": 8,
+          "team_no": "1088",
+          "team_name": "JT Team X",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "08:35"
+        },
+        {
+          "seed": 9,
+          "team_no": "1226",
+          "team_name": "TME Robo Raptors",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "08:40"
+        },
+        {
+          "seed": 10,
+          "team_no": "1225",
+          "team_name": "TME Project Atlas",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "08:45"
+        },
+        {
+          "seed": 11,
+          "team_no": "1235",
+          "team_name": "TME Thunder17",
+          "institution": "Future World School Bahria Town",
+          "city": "Rawalpindi",
+          "run_time": "08:50"
+        },
+        {
+          "seed": 12,
+          "team_no": "1232",
+          "team_name": "TME RAZOR",
+          "institution": "Future World School Bahria Town",
+          "city": "Rawalpindi",
+          "run_time": "08:55"
+        },
+        {
+          "seed": 13,
+          "team_no": "1233",
+          "team_name": "TME caption voltage",
+          "institution": "Future World School Bahria Town",
+          "city": "Rawalpindi",
+          "run_time": "09:00"
+        },
+        {
+          "seed": 14,
+          "team_no": "1219",
+          "team_name": "TME RoboSapiens",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "09:05"
+        },
+        {
+          "seed": 15,
+          "team_no": "1220",
+          "team_name": "TME Future Forge",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "09:10"
+        },
+        {
+          "seed": 16,
+          "team_no": "1244",
+          "team_name": "Quantum Bots",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "09:15"
+        },
+        {
+          "seed": 17,
+          "team_no": "1279",
+          "team_name": "ISL Team 1",
+          "institution": "International School Lahore",
+          "city": "Lahore",
+          "run_time": "09:20"
+        },
+        {
+          "seed": 18,
+          "team_no": "1111",
+          "team_name": "CETC-1",
+          "institution": "Crescent Model Higher Secondary School",
+          "city": "Lahore",
+          "run_time": "09:25"
+        },
+        {
+          "seed": 19,
+          "team_no": "1281",
+          "team_name": "ISL Team 3",
+          "institution": "International School Lahore",
+          "city": "Lahore",
+          "run_time": "09:30"
+        },
+        {
+          "seed": 20,
+          "team_no": "1243",
+          "team_name": "TME RoboNova",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "09:35"
+        },
+        {
+          "seed": 21,
+          "team_no": "1146",
+          "team_name": "LGS JT Team E",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "09:40"
+        },
+        {
+          "seed": 22,
+          "team_no": "1064",
+          "team_name": "Abdalian Lego",
+          "institution": "Cadet College Hasanabdal",
+          "city": "Hassan Abdal",
+          "run_time": "09:45"
+        },
+        {
+          "seed": 23,
+          "team_no": "1209",
+          "team_name": "TME Mechadrive",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "09:50"
+        },
+        {
+          "seed": 24,
+          "team_no": "1218",
+          "team_name": "TME FrostByte",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "09:55"
+        },
+        {
+          "seed": 25,
+          "team_no": "1223",
+          "team_name": "TME Phantom Core",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "10:00"
+        },
+        {
+          "seed": 26,
+          "team_no": "1122",
+          "team_name": "CyberCrafters",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Haripur",
+          "run_time": "10:05"
+        },
+        {
+          "seed": 27,
+          "team_no": "1201",
+          "team_name": "TME Neural Knights",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "10:10"
+        },
+        {
+          "seed": 28,
+          "team_no": "1207",
+          "team_name": "TME Robonova",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "10:15"
+        },
+        {
+          "seed": 29,
+          "team_no": "1280",
+          "team_name": "ISL Team 2",
+          "institution": "International School Lahore",
+          "city": "Lahore",
+          "run_time": "10:20"
+        },
+        {
+          "seed": 30,
+          "team_no": "1237",
+          "team_name": "TME A",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "10:25"
+        },
+        {
+          "seed": 31,
+          "team_no": "1213",
+          "team_name": "TME Voltage Vipers",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "10:30"
+        },
+        {
+          "seed": 32,
+          "team_no": "1096",
+          "team_name": "chrispy chickens",
+          "institution": "(private)",
+          "city": "Lahore",
+          "run_time": "10:35"
+        },
+        {
+          "seed": 33,
+          "team_no": "1202",
+          "team_name": "TME - One World Bots",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "10:40"
+        },
+        {
+          "seed": 34,
+          "team_no": "1118",
+          "team_name": "PakRobo",
+          "institution": "(private)",
+          "city": "Islamabad",
+          "run_time": "10:45"
+        },
+        {
+          "seed": 35,
+          "team_no": "1224",
+          "team_name": "TME Algorithmics",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "10:50"
+        },
+        {
+          "seed": 36,
+          "team_no": "1200",
+          "team_name": "TME - Onyx",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "10:55"
+        },
+        {
+          "seed": 37,
+          "team_no": "1282",
+          "team_name": "ISL Team 4",
+          "institution": "International School Lahore",
+          "city": "Lahore",
+          "run_time": "11:00"
+        },
+        {
+          "seed": 38,
+          "team_no": "1271",
+          "team_name": "Beqarar Janoon",
+          "institution": "Roots IVY ICMS",
+          "city": "Islamabad",
+          "run_time": "11:05"
+        },
+        {
+          "seed": 39,
+          "team_no": "1199",
+          "team_name": "TME -Unicorn",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "11:10"
+        },
+        {
+          "seed": 40,
+          "team_no": "1228",
+          "team_name": "TME The Arena Beast",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "11:15"
+        },
+        {
+          "seed": 41,
+          "team_no": "1234",
+          "team_name": "TME robo titans",
+          "institution": "Future World School Bahria Town",
+          "city": "Rawalpindi",
+          "run_time": "11:20"
+        },
+        {
+          "seed": 42,
+          "team_no": "1208",
+          "team_name": "TME Innovon",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "11:25"
+        },
+        {
+          "seed": 43,
+          "team_no": "1204",
+          "team_name": "TME - One World Aurora",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "11:30"
+        },
+        {
+          "seed": 44,
+          "team_no": "1157",
+          "team_name": "LGS JT Team C",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "11:35"
+        },
+        {
+          "seed": 45,
+          "team_no": "1210",
+          "team_name": "TME Robo Titans",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "11:40"
+        },
+        {
+          "seed": 46,
+          "team_no": "1211",
+          "team_name": "TME Robo Legends",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "11:45"
+        },
+        {
+          "seed": 47,
+          "team_no": "1238",
+          "team_name": "TME B",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "11:50"
+        },
+        {
+          "seed": 48,
+          "team_no": "1222",
+          "team_name": "TME Innovators",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "11:55"
+        },
+        {
+          "seed": 49,
+          "team_no": "1240",
+          "team_name": "TME C",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "12:00"
         }
       ]
     },
@@ -746,59 +848,67 @@
       "teams": [
         {
           "seed": 1,
-          "team_no": "1189",
-          "team_name": "kacha Badam",
-          "institution": "Lahore Garrison University",
-          "city": "Lahore"
-        },
-        {
-          "seed": 2,
-          "team_no": "1082",
-          "team_name": "The Black Cats",
-          "institution": "Capital University of Science & Technology",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 3,
-          "team_no": "1014",
-          "team_name": "Fire Fighter robot",
-          "institution": "Riphah International University",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 4,
-          "team_no": "1188",
-          "team_name": "Khatti Toffee",
-          "institution": "Lahore Garrison University",
-          "city": "Lahore"
-        },
-        {
-          "seed": 5,
           "team_no": "1186",
           "team_name": "Code Kra do 2.0",
           "institution": "Lahore Garrison University",
-          "city": "Lahore"
+          "city": "Lahore",
+          "run_time": "08:00"
         },
         {
-          "seed": 6,
-          "team_no": "1110",
-          "team_name": "Technologia",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 7,
+          "seed": 2,
           "team_no": "1190",
           "team_name": "Robot Chala do",
           "institution": "Lahore Garrison University",
-          "city": "Lahore"
+          "city": "Lahore",
+          "run_time": "08:05"
         },
         {
-          "seed": 8,
+          "seed": 3,
+          "team_no": "1189",
+          "team_name": "kacha Badam",
+          "institution": "Lahore Garrison University",
+          "city": "Lahore",
+          "run_time": "08:10"
+        },
+        {
+          "seed": 4,
           "team_no": "1129",
           "team_name": "Stardust Jihadists",
           "institution": "CEME  NUST",
-          "city": "Lahore"
+          "city": "Lahore",
+          "run_time": "08:15"
+        },
+        {
+          "seed": 5,
+          "team_no": "1014",
+          "team_name": "Fire Fighter robot",
+          "institution": "Riphah International University",
+          "city": "Islamabad",
+          "run_time": "08:20"
+        },
+        {
+          "seed": 6,
+          "team_no": "1188",
+          "team_name": "Khatti Toffee",
+          "institution": "Lahore Garrison University",
+          "city": "Lahore",
+          "run_time": "08:25"
+        },
+        {
+          "seed": 7,
+          "team_no": "1110",
+          "team_name": "Technologia",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "08:30"
+        },
+        {
+          "seed": 8,
+          "team_no": "1082",
+          "team_name": "The Black Cats",
+          "institution": "Capital University of Science & Technology",
+          "city": "Islamabad",
+          "run_time": "08:35"
         }
       ]
     },
@@ -812,255 +922,291 @@
       "teams": [
         {
           "seed": 1,
-          "team_no": "1029",
-          "team_name": "LGS Islamabad",
-          "institution": "LGS",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 2,
-          "team_no": "959",
-          "team_name": "Team nexus",
-          "institution": "(private)",
-          "city": "Pakpattan"
-        },
-        {
-          "seed": 3,
-          "team_no": "1255",
-          "team_name": "ISL TEAM 3",
-          "institution": "International School Lahore",
-          "city": "Lahore"
-        },
-        {
-          "seed": 4,
-          "team_no": "1059",
-          "team_name": "CETC-1",
-          "institution": "Crescent Model Higher Secondary School",
-          "city": "Lahore"
-        },
-        {
-          "seed": 5,
-          "team_no": "1176",
-          "team_name": "LGS JTI Senior B",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 6,
-          "team_no": "1102",
-          "team_name": "Dabba Union",
-          "institution": "(private)",
-          "city": "Lahore"
-        },
-        {
-          "seed": 7,
-          "team_no": "1099",
-          "team_name": "Error 404",
-          "institution": "N/A",
-          "city": "Lahore"
-        },
-        {
-          "seed": 8,
-          "team_no": "1103",
-          "team_name": "Team Robox",
-          "institution": "N/A",
-          "city": "Lahore"
-        },
-        {
-          "seed": 9,
-          "team_no": "1212",
-          "team_name": "The Robo Kings",
-          "institution": "(private)",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 10,
-          "team_no": "1003",
-          "team_name": "ctrl+win",
-          "institution": "Cadet College Hasanabdal",
-          "city": "Hassan Abdal"
-        },
-        {
-          "seed": 11,
-          "team_no": "1083",
-          "team_name": "DriftX",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 12,
-          "team_no": "994",
-          "team_name": "Apex Intellect",
-          "institution": "Suffah Intellectual School",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 13,
-          "team_no": "1065",
-          "team_name": "Team Potentia",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 14,
-          "team_no": "961",
-          "team_name": "NJV Apex Racers",
-          "institution": "NJV Government Higher Secondary School Karachi.",
-          "city": "Karachi"
-        },
-        {
-          "seed": 15,
-          "team_no": "1253",
-          "team_name": "ISL TEAM 1",
-          "institution": "International School Lahore",
-          "city": "Lahore"
-        },
-        {
-          "seed": 16,
-          "team_no": "1145",
-          "team_name": "Wicked Crew",
-          "institution": "NUST EME",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 17,
-          "team_no": "1167",
-          "team_name": "LGS JTI Senior A",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 18,
-          "team_no": "1242",
-          "team_name": "Anday Wala Burger",
-          "institution": "(private)",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 19,
-          "team_no": "1254",
-          "team_name": "ISL TEAM 2",
-          "institution": "International School Lahore",
-          "city": "Lahore"
-        },
-        {
-          "seed": 20,
-          "team_no": "1086",
-          "team_name": "JT Team X",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 21,
-          "team_no": "1090",
-          "team_name": "chrispy chickens",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 22,
-          "team_no": "991",
-          "team_name": "Buraq Velocity",
-          "institution": "Suffah Intellectual School",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 23,
-          "team_no": "1198",
-          "team_name": "The Robo Kings",
-          "institution": "The Millennium Education Pakistan",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 24,
-          "team_no": "957",
-          "team_name": "Team Forge",
-          "institution": "NUST EME",
-          "city": "Pakpattan"
-        },
-        {
-          "seed": 25,
-          "team_no": "1016",
-          "team_name": "FAAAHHH",
-          "institution": "Roots IVY ICMS",
-          "city": "Faisalabad"
-        },
-        {
-          "seed": 26,
-          "team_no": "1049",
-          "team_name": "Abdalian Ready To Race",
-          "institution": "Cadet College Hasanabdal",
-          "city": "Lodhran"
-        },
-        {
-          "seed": 27,
-          "team_no": "1264",
-          "team_name": "Barq Raftar",
-          "institution": "Learnobots",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 28,
-          "team_no": "1107",
-          "team_name": "Team Forge",
-          "institution": "(private)",
-          "city": "Pakpattan"
-        },
-        {
-          "seed": 29,
-          "team_no": "1101",
-          "team_name": "Team Raftaar",
-          "institution": "N/A",
-          "city": "Lahore"
-        },
-        {
-          "seed": 30,
-          "team_no": "1094",
-          "team_name": "JT Team Blitz",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 31,
-          "team_no": "1089",
-          "team_name": "JT Team A",
-          "institution": "LGS",
-          "city": "Lahore"
-        },
-        {
-          "seed": 32,
-          "team_no": "1022",
-          "team_name": "LPPS - Nuevo V3",
-          "institution": "Private",
-          "city": "Lahore"
-        },
-        {
-          "seed": 33,
           "team_no": "1256",
           "team_name": "ISL TEAM 4",
           "institution": "International School Lahore",
-          "city": "Lahore"
+          "city": "Lahore",
+          "run_time": "14:00"
+        },
+        {
+          "seed": 2,
+          "team_no": "1059",
+          "team_name": "CETC-1",
+          "institution": "Crescent Model Higher Secondary School",
+          "city": "Lahore",
+          "run_time": "14:05"
+        },
+        {
+          "seed": 3,
+          "team_no": "1198",
+          "team_name": "The Robo Kings",
+          "institution": "The Millennium Education Pakistan",
+          "city": "Islamabad",
+          "run_time": "14:10"
+        },
+        {
+          "seed": 4,
+          "team_no": "1103",
+          "team_name": "Team Robox",
+          "institution": "N/A",
+          "city": "Lahore",
+          "run_time": "14:15"
+        },
+        {
+          "seed": 5,
+          "team_no": "1003",
+          "team_name": "ctrl+win",
+          "institution": "Cadet College Hasanabdal",
+          "city": "Hassan Abdal",
+          "run_time": "14:20"
+        },
+        {
+          "seed": 6,
+          "team_no": "1090",
+          "team_name": "chrispy chickens",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "14:25"
+        },
+        {
+          "seed": 7,
+          "team_no": "1016",
+          "team_name": "FAAAHHH",
+          "institution": "Roots IVY ICMS",
+          "city": "Faisalabad",
+          "run_time": "14:30"
+        },
+        {
+          "seed": 8,
+          "team_no": "1022",
+          "team_name": "LPPS - Nuevo V3",
+          "institution": "Private",
+          "city": "Lahore",
+          "run_time": "14:35"
+        },
+        {
+          "seed": 9,
+          "team_no": "1176",
+          "team_name": "LGS JTI Senior B",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "14:40"
+        },
+        {
+          "seed": 10,
+          "team_no": "1167",
+          "team_name": "LGS JTI Senior A",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "14:45"
+        },
+        {
+          "seed": 11,
+          "team_no": "1089",
+          "team_name": "JT Team A",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "14:50"
+        },
+        {
+          "seed": 12,
+          "team_no": "1101",
+          "team_name": "Team Raftaar",
+          "institution": "N/A",
+          "city": "Lahore",
+          "run_time": "14:55"
+        },
+        {
+          "seed": 13,
+          "team_no": "1083",
+          "team_name": "DriftX",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "15:00"
+        },
+        {
+          "seed": 14,
+          "team_no": "1102",
+          "team_name": "Dabba Union",
+          "institution": "(private)",
+          "city": "Lahore",
+          "run_time": "15:05"
+        },
+        {
+          "seed": 15,
+          "team_no": "1264",
+          "team_name": "Barq Raftar",
+          "institution": "Learnobots",
+          "city": "Islamabad",
+          "run_time": "15:10"
+        },
+        {
+          "seed": 16,
+          "team_no": "1099",
+          "team_name": "Error 404",
+          "institution": "N/A",
+          "city": "Lahore",
+          "run_time": "15:15"
+        },
+        {
+          "seed": 17,
+          "team_no": "994",
+          "team_name": "Apex Intellect",
+          "institution": "Suffah Intellectual School",
+          "city": "Rawalpindi",
+          "run_time": "15:20"
+        },
+        {
+          "seed": 18,
+          "team_no": "1254",
+          "team_name": "ISL TEAM 2",
+          "institution": "International School Lahore",
+          "city": "Lahore",
+          "run_time": "15:25"
+        },
+        {
+          "seed": 19,
+          "team_no": "1148",
+          "team_name": "LGS JT Team Alpha ReadyToRace",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "15:30"
+        },
+        {
+          "seed": 20,
+          "team_no": "1094",
+          "team_name": "JT Team Blitz",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "15:35"
+        },
+        {
+          "seed": 21,
+          "team_no": "1242",
+          "team_name": "Anday Wala Burger",
+          "institution": "(private)",
+          "city": "Islamabad",
+          "run_time": "15:40"
+        },
+        {
+          "seed": 22,
+          "team_no": "1212",
+          "team_name": "The Robo Kings",
+          "institution": "(private)",
+          "city": "Islamabad",
+          "run_time": "15:45"
+        },
+        {
+          "seed": 23,
+          "team_no": "991",
+          "team_name": "Buraq Velocity",
+          "institution": "Suffah Intellectual School",
+          "city": "Rawalpindi",
+          "run_time": "15:50"
+        },
+        {
+          "seed": 24,
+          "team_no": "959",
+          "team_name": "Team nexus",
+          "institution": "(private)",
+          "city": "Pakpattan",
+          "run_time": "15:55"
+        },
+        {
+          "seed": 25,
+          "team_no": "957",
+          "team_name": "Team Forge",
+          "institution": "NUST EME",
+          "city": "Pakpattan",
+          "run_time": "16:00"
+        },
+        {
+          "seed": 26,
+          "team_no": "1029",
+          "team_name": "LGS Islamabad",
+          "institution": "LGS",
+          "city": "Islamabad",
+          "run_time": "16:05"
+        },
+        {
+          "seed": 27,
+          "team_no": "1001",
+          "team_name": "Aitchison College Team A",
+          "institution": "Aitchison",
+          "city": "Lahore",
+          "run_time": "16:10"
+        },
+        {
+          "seed": 28,
+          "team_no": "1086",
+          "team_name": "JT Team X",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "16:15"
+        },
+        {
+          "seed": 29,
+          "team_no": "1065",
+          "team_name": "Team Potentia",
+          "institution": "LGS",
+          "city": "Lahore",
+          "run_time": "16:20"
+        },
+        {
+          "seed": 30,
+          "team_no": "1255",
+          "team_name": "ISL TEAM 3",
+          "institution": "International School Lahore",
+          "city": "Lahore",
+          "run_time": "16:25"
+        },
+        {
+          "seed": 31,
+          "team_no": "961",
+          "team_name": "NJV Apex Racers",
+          "institution": "NJV Government Higher Secondary School Karachi.",
+          "city": "Karachi",
+          "run_time": "16:30"
+        },
+        {
+          "seed": 32,
+          "team_no": "1107",
+          "team_name": "Team Forge",
+          "institution": "(private)",
+          "city": "Pakpattan",
+          "run_time": "16:35"
+        },
+        {
+          "seed": 33,
+          "team_no": "1145",
+          "team_name": "Wicked Crew",
+          "institution": "NUST EME",
+          "city": "Rawalpindi",
+          "run_time": "16:40"
         },
         {
           "seed": 34,
           "team_no": "1273",
           "team_name": "DroBotX1",
           "institution": "Apple Group of Schools F17",
-          "city": "Islamabad"
+          "city": "Islamabad",
+          "run_time": "16:45"
         },
         {
           "seed": 35,
-          "team_no": "1001",
-          "team_name": "Aitchison College Team A",
-          "institution": "Aitchison",
-          "city": "Lahore"
+          "team_no": "1253",
+          "team_name": "ISL TEAM 1",
+          "institution": "International School Lahore",
+          "city": "Lahore",
+          "run_time": "16:50"
         },
         {
           "seed": 36,
-          "team_no": "1148",
-          "team_name": "LGS JT Team Alpha ReadyToRace",
-          "institution": "LGS",
-          "city": "Lahore"
+          "team_no": "1049",
+          "team_name": "Abdalian Ready To Race",
+          "institution": "Cadet College Hasanabdal",
+          "city": "Lodhran",
+          "run_time": "16:55"
         }
       ]
     },
@@ -1074,339 +1220,387 @@
       "teams": [
         {
           "seed": 1,
-          "team_no": "1109",
-          "team_name": "Technologia",
+          "team_no": "950",
+          "team_name": "AN\ufffdw\ufffdBIS EME",
           "institution": "CEME  NUST",
-          "city": "Rawalakot"
+          "city": "Rawalpindi",
+          "run_time": "08:00"
         },
         {
           "seed": 2,
-          "team_no": "1076",
-          "team_name": "Mike Oxman",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
+          "team_no": "1158",
+          "team_name": "LineX",
+          "institution": "NUST EME",
+          "city": "Rawalpindi",
+          "run_time": "08:05"
         },
         {
           "seed": 3,
-          "team_no": "979",
-          "team_name": "GM",
-          "institution": "(private)",
-          "city": "Karachi"
+          "team_no": "1084",
+          "team_name": "The Black Cats",
+          "institution": "Capital University of Science & Technology",
+          "city": "Islamabad",
+          "run_time": "08:10"
         },
         {
           "seed": 4,
-          "team_no": "1262",
-          "team_name": "Electrobots",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
+          "team_no": "1056",
+          "team_name": "Fobo",
+          "institution": "Bahria University Islamabad",
+          "city": "Islamabad",
+          "run_time": "08:15"
         },
         {
           "seed": 5,
-          "team_no": "1125",
-          "team_name": "ropeless knot",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
+          "team_no": "1170",
+          "team_name": "Bado Badi",
+          "institution": "Lahore Garrison University",
+          "city": "Lahore",
+          "run_time": "08:20"
         },
         {
           "seed": 6,
           "team_no": "988",
           "team_name": "Mclaren",
           "institution": "CEME  NUST",
-          "city": "Rawalpindi"
+          "city": "Rawalpindi",
+          "run_time": "08:25"
         },
         {
           "seed": 7,
-          "team_no": "1165",
-          "team_name": "Andy wala burger",
-          "institution": "Lahore Garrison University",
-          "city": "Lahore"
-        },
-        {
-          "seed": 8,
-          "team_no": "1251",
-          "team_name": "GIKI_Hunters",
-          "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 9,
-          "team_no": "1055",
-          "team_name": "FAMAS",
-          "institution": "Habib University",
-          "city": "Karachi"
-        },
-        {
-          "seed": 10,
-          "team_no": "1151",
-          "team_name": "Farmers",
-          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 11,
-          "team_no": "1178",
-          "team_name": "Aayein Baingan",
-          "institution": "Lahore Garrison University",
-          "city": "Lahore"
-        },
-        {
-          "seed": 12,
-          "team_no": "950",
-          "team_name": "AN\ufffdw\ufffdBIS EME",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 13,
-          "team_no": "965",
-          "team_name": "Bayrakthar AF1",
-          "institution": "(private)",
-          "city": "Karachi"
-        },
-        {
-          "seed": 14,
           "team_no": "1074",
           "team_name": "Harry Potter",
           "institution": "CEME  NUST",
-          "city": "Rawalpindi"
+          "city": "Rawalpindi",
+          "run_time": "08:30"
         },
         {
-          "seed": 15,
-          "team_no": "1084",
-          "team_name": "The Black Cats",
-          "institution": "Capital University of Science & Technology",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 16,
-          "team_no": "982",
-          "team_name": "Alamdar",
-          "institution": "(private)",
-          "city": "Karachi"
-        },
-        {
-          "seed": 17,
-          "team_no": "1006",
-          "team_name": "Team Dominators",
-          "institution": "University of Central Punjab",
-          "city": "Lahore"
-        },
-        {
-          "seed": 18,
-          "team_no": "998",
-          "team_name": "MK 4",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 19,
-          "team_no": "987",
-          "team_name": "Mclaren-A",
-          "institution": "NUST EME",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 20,
-          "team_no": "977",
-          "team_name": "MKC",
-          "institution": "(private)",
-          "city": "Karachi"
-        },
-        {
-          "seed": 21,
-          "team_no": "978",
-          "team_name": "IDK",
-          "institution": "(private)",
-          "city": "Karachi"
-        },
-        {
-          "seed": 22,
-          "team_no": "1174",
-          "team_name": "HSB",
-          "institution": "Information Technology University Lahore  (ITU)",
-          "city": "Lahore"
-        },
-        {
-          "seed": 23,
-          "team_no": "1246",
-          "team_name": "Visitors",
-          "institution": "CEME  NUST",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 24,
-          "team_no": "1261",
-          "team_name": "Hypertracer",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 25,
-          "team_no": "1169",
-          "team_name": "Code kra do",
-          "institution": "Lahore Garrison University",
-          "city": "Lahore"
-        },
-        {
-          "seed": 26,
-          "team_no": "1058",
-          "team_name": "Iceman",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 27,
-          "team_no": "1091",
-          "team_name": "The Fast & The Curious",
-          "institution": "Institute of Business Administration Karachi",
-          "city": "Karachi"
-        },
-        {
-          "seed": 28,
-          "team_no": "1173",
-          "team_name": "Janooni Garrisonians 2.0",
-          "institution": "Lahore Garrison University",
-          "city": "Lahore"
-        },
-        {
-          "seed": 29,
-          "team_no": "1080",
-          "team_name": "Spooky",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 30,
-          "team_no": "1265",
-          "team_name": "NUST Robotics & A.I.",
-          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
-          "city": "Karachi"
-        },
-        {
-          "seed": 31,
-          "team_no": "1260",
-          "team_name": "Hypertracer",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 32,
-          "team_no": "1081",
-          "team_name": "Team Quantum",
-          "institution": "University of Central Punjab",
-          "city": "Lahore"
-        },
-        {
-          "seed": 33,
-          "team_no": "1144",
-          "team_name": "Wicked Crew",
-          "institution": "NUST EME",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 34,
-          "team_no": "1155",
-          "team_name": "System breakers",
-          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 35,
-          "team_no": "1257",
-          "team_name": "HyperTracer",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 36,
-          "team_no": "971",
-          "team_name": "STEM girls",
-          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
-          "city": "Nowshera"
-        },
-        {
-          "seed": 37,
-          "team_no": "1004",
-          "team_name": "Satra Meeli",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 38,
-          "team_no": "1033",
-          "team_name": "Team AK",
-          "institution": "University of the Punjab",
-          "city": "Lahore"
-        },
-        {
-          "seed": 39,
-          "team_no": "1170",
-          "team_name": "Bado Badi",
-          "institution": "Lahore Garrison University",
-          "city": "Lahore"
-        },
-        {
-          "seed": 40,
-          "team_no": "1056",
-          "team_name": "Fobo",
-          "institution": "Bahria University Islamabad",
-          "city": "Islamabad"
-        },
-        {
-          "seed": 41,
-          "team_no": "1130",
-          "team_name": "Power rangers",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 42,
-          "team_no": "1259",
-          "team_name": "Teen Bahadur",
-          "institution": "CEME  NUST",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 43,
-          "team_no": "1038",
-          "team_name": "Goli-Baz",
-          "institution": "Superior University",
-          "city": "Faisalabad"
-        },
-        {
-          "seed": 44,
+          "seed": 8,
           "team_no": "1007",
           "team_name": "Team Dominators 2.0",
           "institution": "University of Central Punjab",
-          "city": "Lahore"
+          "city": "Lahore",
+          "run_time": "08:35"
         },
         {
-          "seed": 45,
+          "seed": 9,
+          "team_no": "1246",
+          "team_name": "Visitors",
+          "institution": "CEME  NUST",
+          "city": "Islamabad",
+          "run_time": "08:40"
+        },
+        {
+          "seed": 10,
+          "team_no": "1058",
+          "team_name": "Iceman",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "08:45"
+        },
+        {
+          "seed": 11,
+          "team_no": "1080",
+          "team_name": "Spooky",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "08:50"
+        },
+        {
+          "seed": 12,
+          "team_no": "987",
+          "team_name": "Mclaren-A",
+          "institution": "NUST EME",
+          "city": "Rawalpindi",
+          "run_time": "08:55"
+        },
+        {
+          "seed": 13,
+          "team_no": "998",
+          "team_name": "MK 4",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "09:00"
+        },
+        {
+          "seed": 14,
+          "team_no": "978",
+          "team_name": "IDK",
+          "institution": "(private)",
+          "city": "Karachi",
+          "run_time": "09:05"
+        },
+        {
+          "seed": 15,
+          "team_no": "1165",
+          "team_name": "Andy wala burger",
+          "institution": "Lahore Garrison University",
+          "city": "Lahore",
+          "run_time": "09:10"
+        },
+        {
+          "seed": 16,
+          "team_no": "1265",
+          "team_name": "NUST Robotics & A.I.",
+          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
+          "city": "Karachi",
+          "run_time": "09:15"
+        },
+        {
+          "seed": 17,
+          "team_no": "1091",
+          "team_name": "The Fast & The Curious",
+          "institution": "Institute of Business Administration Karachi",
+          "city": "Karachi",
+          "run_time": "09:20"
+        },
+        {
+          "seed": 18,
+          "team_no": "1178",
+          "team_name": "Aayein Baingan",
+          "institution": "Lahore Garrison University",
+          "city": "Lahore",
+          "run_time": "09:25"
+        },
+        {
+          "seed": 19,
+          "team_no": "1169",
+          "team_name": "Code kra do",
+          "institution": "Lahore Garrison University",
+          "city": "Lahore",
+          "run_time": "09:30"
+        },
+        {
+          "seed": 20,
+          "team_no": "1259",
+          "team_name": "Teen Bahadur",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "09:35"
+        },
+        {
+          "seed": 21,
+          "team_no": "979",
+          "team_name": "GM",
+          "institution": "(private)",
+          "city": "Karachi",
+          "run_time": "09:40"
+        },
+        {
+          "seed": 22,
+          "team_no": "1076",
+          "team_name": "Mike Oxman",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "09:45"
+        },
+        {
+          "seed": 23,
           "team_no": "1115",
           "team_name": "Team Farhan",
           "institution": "CEME  NUST",
-          "city": "Rawalpindi"
+          "city": "Rawalpindi",
+          "run_time": "09:50"
         },
         {
-          "seed": 46,
-          "team_no": "1258",
+          "seed": 24,
+          "team_no": "1257",
           "team_name": "HyperTracer",
           "institution": "CEME  NUST",
-          "city": "Rawalpindi"
+          "city": "Rawalpindi",
+          "run_time": "09:55"
         },
         {
-          "seed": 47,
-          "team_no": "1158",
-          "team_name": "LineX",
-          "institution": "NUST EME",
-          "city": "Rawalpindi"
-        },
-        {
-          "seed": 48,
+          "seed": 25,
           "team_no": "966",
           "team_name": "Bayrakthar AF2",
           "institution": "(private)",
-          "city": "Karachi"
+          "city": "Karachi",
+          "run_time": "10:00"
+        },
+        {
+          "seed": 26,
+          "team_no": "977",
+          "team_name": "MKC",
+          "institution": "(private)",
+          "city": "Karachi",
+          "run_time": "10:05"
+        },
+        {
+          "seed": 27,
+          "team_no": "971",
+          "team_name": "STEM girls",
+          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
+          "city": "Nowshera",
+          "run_time": "10:10"
+        },
+        {
+          "seed": 28,
+          "team_no": "1033",
+          "team_name": "Team AK",
+          "institution": "University of the Punjab",
+          "city": "Lahore",
+          "run_time": "10:15"
+        },
+        {
+          "seed": 29,
+          "team_no": "1262",
+          "team_name": "Electrobots",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "10:20"
+        },
+        {
+          "seed": 30,
+          "team_no": "1174",
+          "team_name": "HSB",
+          "institution": "Information Technology University Lahore  (ITU)",
+          "city": "Lahore",
+          "run_time": "10:25"
+        },
+        {
+          "seed": 31,
+          "team_no": "1006",
+          "team_name": "Team Dominators",
+          "institution": "University of Central Punjab",
+          "city": "Lahore",
+          "run_time": "10:30"
+        },
+        {
+          "seed": 32,
+          "team_no": "1260",
+          "team_name": "Hypertracer",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "10:35"
+        },
+        {
+          "seed": 33,
+          "team_no": "1055",
+          "team_name": "FAMAS",
+          "institution": "Habib University",
+          "city": "Karachi",
+          "run_time": "10:40"
+        },
+        {
+          "seed": 34,
+          "team_no": "1038",
+          "team_name": "Goli-Baz",
+          "institution": "Superior University",
+          "city": "Faisalabad",
+          "run_time": "10:45"
+        },
+        {
+          "seed": 35,
+          "team_no": "1261",
+          "team_name": "Hypertracer",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "10:50"
+        },
+        {
+          "seed": 36,
+          "team_no": "1144",
+          "team_name": "Wicked Crew",
+          "institution": "NUST EME",
+          "city": "Rawalpindi",
+          "run_time": "10:55"
+        },
+        {
+          "seed": 37,
+          "team_no": "1081",
+          "team_name": "Team Quantum",
+          "institution": "University of Central Punjab",
+          "city": "Lahore",
+          "run_time": "11:00"
+        },
+        {
+          "seed": 38,
+          "team_no": "1130",
+          "team_name": "Power rangers",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "11:05"
+        },
+        {
+          "seed": 39,
+          "team_no": "1151",
+          "team_name": "Farmers",
+          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
+          "city": "Islamabad",
+          "run_time": "11:10"
+        },
+        {
+          "seed": 40,
+          "team_no": "1173",
+          "team_name": "Janooni Garrisonians 2.0",
+          "institution": "Lahore Garrison University",
+          "city": "Lahore",
+          "run_time": "11:15"
+        },
+        {
+          "seed": 41,
+          "team_no": "982",
+          "team_name": "Alamdar",
+          "institution": "(private)",
+          "city": "Karachi",
+          "run_time": "11:20"
+        },
+        {
+          "seed": 42,
+          "team_no": "1258",
+          "team_name": "HyperTracer",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "11:25"
+        },
+        {
+          "seed": 43,
+          "team_no": "1155",
+          "team_name": "System breakers",
+          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
+          "city": "Islamabad",
+          "run_time": "11:30"
+        },
+        {
+          "seed": 44,
+          "team_no": "1251",
+          "team_name": "GIKI_Hunters",
+          "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+          "city": "Islamabad",
+          "run_time": "11:35"
+        },
+        {
+          "seed": 45,
+          "team_no": "1004",
+          "team_name": "Satra Meeli",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "11:40"
+        },
+        {
+          "seed": 46,
+          "team_no": "1125",
+          "team_name": "ropeless knot",
+          "institution": "CEME  NUST",
+          "city": "Rawalpindi",
+          "run_time": "11:45"
+        },
+        {
+          "seed": 47,
+          "team_no": "965",
+          "team_name": "Bayrakthar AF1",
+          "institution": "(private)",
+          "city": "Karachi",
+          "run_time": "11:50"
+        },
+        {
+          "seed": 48,
+          "team_no": "1109",
+          "team_name": "Technologia",
+          "institution": "CEME  NUST",
+          "city": "Rawalakot",
+          "run_time": "11:55"
         }
       ]
     }

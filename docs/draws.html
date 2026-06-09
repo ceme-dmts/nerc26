@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NERC 2026 — Draws</title>
+  <title>National Engineering Robotics Contest 2026 — Draws</title>
   <style>
     :root {
       --bg:#f5f7fb; --panel:#ffffff; --line:#e3e8f0; --fg:#16203a;
@@ -15,53 +15,61 @@
       font-family:-apple-system,system-ui,Segoe UI,Roboto,sans-serif;
       min-height:100vh; line-height:1.5;
     }
-    header{
-      text-align:center; padding:2rem 1rem 1.2rem; border-bottom:1px solid var(--line);
-      background:#fff;
-    }
-    header h1{
-      margin:0; font-size:1.7rem; font-weight:800; letter-spacing:.01em;
-      color:var(--fg);
-    }
-    header p{margin:.35rem 0 0; color:var(--accent); letter-spacing:.22em;
-      text-transform:uppercase; font-size:.82rem; font-weight:700}
-    main{max-width:760px; margin:0 auto; padding:1.5rem 1.2rem 3rem}
+    header{display:flex; align-items:center; gap:1.2rem; padding:1.1rem 1.5rem;
+      border-bottom:1px solid var(--line); background:#fff;}
+    header .brand{flex:0 0 auto}
+    header .brand img{height:62px; width:auto; display:block}
+    header .head-text{flex:1 1 auto; text-align:center; min-width:0}
+    header h1{margin:0; font-size:1.5rem; font-weight:800;}
+    header p{margin:.35rem 0 0; color:var(--accent); letter-spacing:.16em;
+      text-transform:uppercase; font-size:.78rem; font-weight:700}
+    @media(max-width:600px){ header{gap:.6rem; padding:.8rem .7rem}
+      header .brand img{height:38px} header h1{font-size:1.05rem}
+      header p{letter-spacing:.08em; font-size:.66rem} }
+    main{max-width:820px; margin:0 auto; padding:1.5rem 1.2rem 3rem}
+
+    /* Countdown */
+    .countdown-wrap{text-align:center; padding:3rem 1rem}
+    .countdown-wrap .msg{font-size:1.25rem; color:var(--muted); margin-bottom:.4rem}
+    .countdown-wrap .when{font-size:1.5rem; font-weight:800; color:var(--fg); margin-bottom:2rem}
+    .clock{display:flex; gap:1rem; justify-content:center; flex-wrap:wrap}
+    .clock .unit{background:var(--panel); border:1px solid var(--line); border-radius:14px;
+      padding:1rem 1.2rem; min-width:5rem; box-shadow:0 4px 18px rgba(20,30,60,.06)}
+    .clock .n{font-size:2.6rem; font-weight:800; color:var(--accent); font-variant-numeric:tabular-nums; line-height:1}
+    .clock .l{font-size:.7rem; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin-top:.4rem}
 
     /* Index of categories */
-    .cat-link{
-      display:flex; align-items:center; justify-content:space-between; gap:1rem;
-      text-decoration:none; color:inherit;
-      background:var(--panel); border:1px solid var(--line); border-radius:12px;
-      padding:1rem 1.25rem; margin-bottom:.8rem; transition:border-color .15s, transform .05s;
-    }
+    .cat-link{display:flex; align-items:center; justify-content:space-between; gap:1rem;
+      text-decoration:none; color:inherit; background:var(--panel); border:1px solid var(--line);
+      border-radius:12px; padding:1rem 1.25rem; margin-bottom:.8rem; transition:border-color .15s, transform .05s;}
     .cat-link:hover{border-color:var(--accent); transform:translateY(-1px)}
     .cat-link .meta{font-weight:700; font-size:1.15rem}
     .cat-link .sub{color:var(--muted); font-size:.82rem; font-weight:400; margin-top:.15rem}
-    .cat-link .count{
-      flex:0 0 auto; background:var(--accent); color:#fff; font-weight:700;
-      border-radius:999px; padding:.25rem .8rem; font-size:.9rem;
-    }
+    .cat-link .count{flex:0 0 auto; background:var(--accent); color:#fff; font-weight:700;
+      border-radius:999px; padding:.25rem .8rem; font-size:.9rem}
 
     /* Single category page */
-    .back{display:inline-block; color:var(--accent); text-decoration:none;
-      font-weight:600; font-size:.9rem; margin-bottom:1rem}
+    .back{display:inline-block; color:var(--accent); text-decoration:none; font-weight:600;
+      font-size:.9rem; margin-bottom:1rem}
     .back:hover{text-decoration:underline}
     .cat-head h2{margin:0; font-size:1.6rem}
     .cat-head .sched{color:var(--muted); font-size:.9rem; margin:.25rem 0 1.2rem}
 
     ol.heats{list-style:none; margin:0; padding:0}  /* single column */
-    ol.heats li{
-      display:flex; align-items:baseline; gap:.9rem;
-      background:var(--panel); border:1px solid var(--line); border-radius:10px;
-      padding:.7rem 1rem; margin-bottom:.5rem;
-    }
-    ol.heats .num{
-      flex:0 0 2.4rem; height:2.4rem; display:flex; align-items:center; justify-content:center;
-      background:var(--accent2); color:#fff; border-radius:8px; font-weight:800;
-      font-variant-numeric:tabular-nums;
-    }
-    ol.heats .name{font-weight:700; font-size:1.05rem}
-    ol.heats .inst{color:var(--muted); font-size:.85rem; margin-left:auto; text-align:right}
+    ol.heats li{display:flex; align-items:center; gap:.9rem; background:var(--panel);
+      border:1px solid var(--line); border-radius:10px; padding:.6rem 1rem; margin-bottom:.5rem}
+    /* run-order number: plain */
+    ol.heats .order{flex:0 0 1.8rem; text-align:right; color:var(--muted);
+      font-weight:400; font-variant-numeric:tabular-nums}
+    /* Team ID: the hero */
+    ol.heats .tid{flex:0 0 auto; min-width:5rem; font-size:1.8rem; font-weight:800;
+      color:var(--accent); font-variant-numeric:tabular-nums; line-height:1}
+    ol.heats .tid small{display:block; font-size:.6rem; font-weight:700; letter-spacing:.12em;
+      text-transform:uppercase; color:var(--muted)}
+    ol.heats .who{display:flex; flex-direction:column; min-width:0}
+    ol.heats .tname{font-weight:700}
+    ol.heats .inst{color:var(--muted); font-size:.8rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+    ol.heats .rtime{margin-left:auto; flex:0 0 auto; font-weight:700; color:var(--accent2); font-variant-numeric:tabular-nums}
 
     footer{text-align:center; color:var(--muted); font-size:.82rem; padding:1.5rem}
     .empty{text-align:center; color:var(--muted); padding:4rem 1rem}
@@ -69,13 +77,23 @@
 </head>
 <body>
   <header>
-    <h1>National Engineering Robotics Contest 2026</h1>
-    <p>Heat Draws</p>
+    <span class="brand"><img src="nust.png" alt="NUST" /></span>
+    <div class="head-text">
+      <h1>National Engineering Robotics Contest 2026</h1>
+      <p><a href="index.html" style="color:var(--accent);text-decoration:none">← Home</a> · Heat Draws · <a href="bracket.html" style="color:var(--accent);text-decoration:none">Brackets →</a>
+         · <a href="schedule.html" style="color:var(--accent);text-decoration:none">Schedule →</a></p>
+    </div>
+    <span class="brand"><img src="ceme.png" alt="CEME" /></span>
   </header>
   <main id="main"></main>
   <footer id="foot"></footer>
 
   <script>
+    // ----- CONFIG: when the draws are announced (edit as needed) -----
+    // Defaults to the first scheduled slot (Day 1, Thursday 11 June 2026, 14:00).
+    const ANNOUNCE_AT = new Date("2026-06-11T14:00:00");
+
+    const main = document.getElementById("main");
     let DRAW = null;
 
     function ordered(categories){
@@ -87,9 +105,40 @@
       });
     }
     function schedText(s){ return s ? `${s.day} · ${s.time} · ${s.venue}` : "Schedule TBD"; }
+    function fmtWhen(d){
+      return d.toLocaleString("en-GB", {weekday:"long", day:"numeric", month:"long",
+        hour:"2-digit", minute:"2-digit"});
+    }
 
+    /* ---------- Countdown (before announcement) ---------- */
+    function showCountdown(){
+      main.innerHTML = `
+        <div class="countdown-wrap">
+          <div class="msg">The draws will be announced on</div>
+          <div class="when">${fmtWhen(ANNOUNCE_AT)}</div>
+          <div class="clock" id="clock"></div>
+        </div>`;
+      const clock = document.getElementById("clock");
+      function tick(){
+        const diff = ANNOUNCE_AT - new Date();
+        if(diff <= 0){ clearInterval(timer); startDraws(); return; } // disappears at zero
+        const s = Math.floor(diff/1000);
+        const parts = [
+          ["Days", Math.floor(s/86400)],
+          ["Hours", Math.floor(s%86400/3600)],
+          ["Minutes", Math.floor(s%3600/60)],
+          ["Seconds", s%60],
+        ];
+        clock.innerHTML = parts.map(([l,n])=>
+          `<div class="unit"><div class="n">${String(n).padStart(2,"0")}</div><div class="l">${l}</div></div>`
+        ).join("");
+      }
+      tick();
+      const timer = setInterval(tick, 1000);
+    }
+
+    /* ---------- Draws (after announcement) ---------- */
     function renderIndex(){
-      const main = document.getElementById("main");
       main.innerHTML = ordered(DRAW.categories).map(([name,info])=>`
         <a class="cat-link" href="#${encodeURIComponent(name)}">
           <span><span class="meta">${name}</span>
@@ -97,47 +146,48 @@
           <span class="count">${info.team_count}</span>
         </a>`).join("");
     }
-
     function renderCategory(name){
       const info = DRAW.categories[name];
-      const main = document.getElementById("main");
       if(!info){ location.hash=""; return; }
       const rows = info.teams.map(t=>`<li>
-        <span class="num">${t.seed}</span>
-        <span class="name">${t.team_name||"—"}</span>
-        <span class="inst">${t.institution||""}</span></li>`).join("");
+        <span class="order">${t.seed}</span>
+        <span class="tid"><small>Team</small> ${t.team_no||"—"}</span>
+        <span class="who"><span class="tname">${t.team_name||"—"}</span>
+          <span class="inst">${t.institution||""}</span></span>
+        <span class="rtime">${t.run_time||""}</span></li>`).join("");
       main.innerHTML = `
         <a class="back" href="#">← All categories</a>
-        <div class="cat-head">
-          <h2>${name}</h2>
-          <div class="sched">${schedText(info.schedule)} · ${info.team_count} heats</div>
-        </div>
+        <div class="cat-head"><h2>${name}</h2>
+          <div class="sched">${schedText(info.schedule)} · ${info.team_count} heats</div></div>
         <ol class="heats">${rows}</ol>`;
       window.scrollTo(0,0);
     }
-
     function route(){
       if(!DRAW || !DRAW.categories) return;
       const hash = decodeURIComponent(location.hash.replace(/^#/,""));
       if(hash && DRAW.categories[hash]) renderCategory(hash);
       else renderIndex();
     }
-
-    async function load(){
-      try { DRAW = await fetch("draw.json").then(r=>r.json()); }
+    async function startDraws(){
+      try { DRAW = await fetch("draw.json", {cache:"no-store"}).then(r=>r.json()); }
       catch(e){ DRAW = null; }
       if(!DRAW || !DRAW.categories){
-        document.getElementById("main").innerHTML =
-          '<div class="empty">The draw has not been published yet.</div>';
+        main.innerHTML = '<div class="empty">The draws will be announced shortly.</div>';
         return;
       }
       document.getElementById("foot").textContent =
         `Seed ${DRAW.rng_seed} · drawn ${DRAW.drawn_at}`;
+      window.addEventListener("hashchange", route);
       route();
     }
 
-    window.addEventListener("hashchange", route);
-    load();
+    // Add ?preview to the URL to bypass the countdown and view the draws now
+    // (for checking the page offline before the announcement / before pushing).
+    const preview = new URLSearchParams(location.search).has("preview");
+
+    // Before the announcement time -> countdown; after (or ?preview) -> the draws.
+    if(!preview && new Date() < ANNOUNCE_AT) showCountdown();
+    else startDraws();
   </script>
 </body>
 </html>

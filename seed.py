@@ -39,6 +39,16 @@ TIMING_TO_EVENT = {
     "Modular Uni": "Modular University",
 }
 
+# Event name (as in the teams CSV) -> short filename slug, used for the
+# per-category results/<slug>.csv files written by app.py and read by bracket.py.
+SLUG = {
+    "Indigenous Category": "indigenous",
+    "Modular School": "modular_school",
+    "Modular University": "modular_uni",
+    "Ready to Race-School": "rtr_school",
+    "Ready to Race-University": "rtr_uni",
+}
+
 
 def load_teams():
     with open(TEAMS_CSV, newline="", encoding="utf-8", errors="replace") as f:

@@ -4,7 +4,6 @@ const catHolder = document.getElementById("catHolder");
 const catProgress = document.getElementById("catProgress");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
-const menuBtn = document.getElementById("menuBtn");
 const seedInfo = document.getElementById("seedInfo");
 
 let DRAW = null;   // current draw data
@@ -20,65 +19,56 @@ function ordered(categories) {
   });
 }
 function schedText(s) { return s ? `${s.day} · ${s.time} · ${s.venue}` : "Schedule TBD"; }
-function seedFooter() {
-  seedInfo.textContent = DRAW ? `Seed ${DRAW.rng_seed} · drawn ${DRAW.drawn_at}` : "";
-}
 
-/* ---------- Pre-reveal screen ---------- */
+/* ---------- Start screen: always just the big button ---------- */
 function showStart() {
   result.classList.add("hidden");
   stage.classList.remove("hidden");
-  if (DRAW && DRAW.categories) {
-    stage.innerHTML = `
-      <div class="choice">
-        <p class="exists">A draw already exists — seed <b>${DRAW.rng_seed}</b>, drawn ${DRAW.drawn_at}.</p>
-        <div class="btns">
-          <button id="viewBtn" class="primary">View draws</button>
-          <button id="redoBtn" class="danger">Re-do draw</button>
-          <a id="siteBtn" class="ghost" href="/site/">Go to website</a>
-        </div>
-      </div>`;
-    document.getElementById("viewBtn").onclick = () => openReveal(true);
-    document.getElementById("redoBtn").onclick = () => {
-      if (confirm("Re-do the official draw? This overwrites the current result.")) draw(true);
-    };
-  } else {
-    stage.innerHTML = `
-      <button id="drawBtn" class="draw-btn">DRAW THE HEATS</button>
-      <p class="hint">Press once to draw the heat order for all categories.</p>`;
-    document.getElementById("drawBtn").onclick = () => draw(false);
-  }
-  seedFooter();
+  seedInfo.textContent = "";
+  stage.innerHTML = `
+    <button id="drawBtn" class="draw-btn">DRAW THE HEATS</button>
+    <p class="hint">Press to draw the heat order for all categories.</p>`;
+  document.getElementById("drawBtn").onclick = draw;
 }
 
 /* ---------- Reveal carousel ---------- */
-function openReveal(animate) {
+function openReveal() {
   stage.classList.add("hidden");
   result.classList.remove("hidden");
   cats = ordered(DRAW.categories);
   idx = 0;
-  showCat(animate);
-  seedFooter();
+  showCat(true);
+  seedInfo.textContent = `Seed ${DRAW.rng_seed} · drawn ${DRAW.drawn_at}`;
 }
+
+function row(t, animate, i) {
+  const delay = animate ? (0.15 + i * 0.04).toFixed(2) : "0";
+  return `<li style="animation-delay:${delay}s">
+    <span class="order">${t.seed}</span>
+    <span class="tid"><small>Team</small> ${t.team_no || "—"}</span>
+    <span class="who"><span class="tname">${t.team_name || "—"}</span>
+      <span class="inst">${t.institution || ""}</span></span>
+    <span class="rtime">${t.run_time || ""}</span>
+  </li>`;
+}
+
+const HEAD_ROW = `<li class="head">
+    <span class="order">S#</span>
+    <span class="tid">Team ID</span>
+    <span class="who">Team Name</span>
+    <span class="rtime">Expected Time</span>
+  </li>`;
 
 function showCat(animate) {
   const [name, info] = cats[idx];
-  const rows = info.teams.map((t, i) => {
-    const delay = animate ? (0.15 + i * 0.04).toFixed(2) : "0";
-    return `<li style="animation-delay:${delay}s">
-      <span class="num">${t.seed}</span>
-      <span class="name">${t.team_name || "—"}</span>
-      <span class="inst">${t.institution || ""}</span>
-    </li>`;
-  }).join("");
-
+  const rows = info.teams.map((t, i) => row(t, animate, i)).join("");
   catHolder.innerHTML = `
     <section class="cat ${animate ? "anim" : ""}">
       <h2>${name} <small>(${info.team_count} heats)</small></h2>
       <div class="sched">${schedText(info.schedule)}</div>
-      <ol>${rows}</ol>
+      <ol>${HEAD_ROW}${rows}</ol>
     </section>`;
-
+  catHolder.scrollTop = 0;  // back to top on each category change
   catProgress.textContent = `${idx + 1} / ${cats.length} · ${name}`;
   prevBtn.disabled = idx === 0;
   nextBtn.disabled = idx === cats.length - 1;
@@ -93,28 +83,18 @@ function step(delta) {
 
 prevBtn.onclick = () => step(-1);
 nextBtn.onclick = () => step(1);
-menuBtn.onclick = showStart;
 document.addEventListener("keydown", (e) => {
   if (result.classList.contains("hidden")) return;
   if (e.key === "ArrowLeft") step(-1);
   if (e.key === "ArrowRight") step(1);
-  if (e.key === "Escape") showStart();
 });
 
 /* ---------- Drawing ---------- */
-async function draw(force) {
-  const url = "/api/draw" + (force ? "?force=1" : "");
-  const res = await fetch(url, { method: "POST" });
-  if (res.status === 409) { return load(); } // already drawn elsewhere
-  DRAW = await res.json();
-  openReveal(true);
+async function draw() {
+  const btn = document.getElementById("drawBtn");
+  if (btn) { btn.disabled = true; btn.textContent = "DRAWING…"; }
+  DRAW = await fetch("/api/draw", { method: "POST" }).then((r) => r.json());
+  openReveal();
 }
 
-async function load() {
-  try { DRAW = await fetch("/api/draw").then((r) => r.json()); }
-  catch (e) { DRAW = null; }
-  if (DRAW && !DRAW.categories) DRAW = null;
-  showStart();
-}
-
-load();
+showStart();
