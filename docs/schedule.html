@@ -106,11 +106,11 @@
 
     function catBlock(c){
       const rounds = c.solo ? ["Heats"] : [...new Set(c.matches.map(m=>m.round))];
-      const rows = c.matches.map(m => c.solo ? `
+      const rows = c.matches.map(m => (c.solo || !m.b) ? `
         <div class="match-row">
           <span class="time">${m.time||""}</span>
-          <span class="mno">Heat ${m.no}</span>
-          <span class="teams">${side(m.a)}</span>
+          <span class="mno">${c.solo ? "Heat" : "Match"} ${m.no}${c.solo ? "" : "<br>"+m.round}</span>
+          <span class="teams">${side(m.a, m.winner)}</span>
         </div>` : `
         <div class="match-row">
           <span class="time">${m.time||""}</span>
