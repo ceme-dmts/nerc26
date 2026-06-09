@@ -31,6 +31,7 @@ DOCS_DIR = ROOT / "docs"
 RESULTS_DIR = ROOT / "results"
 BRACKET_FILE = DOCS_DIR / "bracket.json"
 SCHEDULE_FILE = DOCS_DIR / "schedule.json"
+DRAW_FILE = DOCS_DIR / "draw.json"  # solo-run heats (written by app.py on draw)
 
 # Teams advancing from the heats into each knockout (must be a power of two).
 # Edit here to change a category's bracket size.
@@ -315,6 +316,52 @@ def write_bracket_csv(slug, resolved):
             ])
 
 
+def _canon_day(raw):
+    for i, label in ((1, "Day 1 · Thu 11 Jun"), (2, "Day 2 · Fri 12 Jun"),
+                     (3, "Day 3 · Sat 13 Jun")):
+        if f"Day {i}" in raw:
+            return label
+    return raw
+
+
+def _canon_venue(raw):
+    return "Central Activity Room" if raw.strip().upper() == "CAR" else raw.strip()
+
+
+def heats_sessions():
+    """Solo-run heat schedule, read from docs/draw.json (run order + run times).
+
+    Returns schedule `sessions` (same shape as schedule_brackets) with one
+    "Heats" block per category, sorted chronologically; [] if no draw exists.
+    """
+    if not DRAW_FILE.exists():
+        return []
+    cats = json.loads(DRAW_FILE.read_text()).get("categories", {})
+    groups, order = {}, []
+    for event, info in cats.items():
+        sch = info.get("schedule") or {}
+        key = (_canon_day(sch.get("day", "")), _canon_venue(sch.get("venue", "")),
+               sch.get("time", ""))
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        groups[key].append({"name": event, "solo": True, "matches": [
+            {"no": t.get("seed"), "round": "Heats", "time": t.get("run_time", ""),
+             "a": {"type": "team", "seed": t.get("seed"), "team_no": t.get("team_no"),
+                   "team_name": t.get("team_name"),
+                   "institution": t.get("institution", "")}}
+            for t in info.get("teams", [])]})
+
+    def sort_key(k):
+        day, _venue, window = k
+        idx = next((i for i in (1, 2, 3) if f"Day {i}" in day), 9)
+        start = int(window[:4]) if window[:4].isdigit() else 0
+        return (idx, start)
+
+    return [{"day": k[0], "venue": k[1], "window": k[2], "categories": groups[k]}
+            for k in sorted(order, key=sort_key)]
+
+
 def schedule_brackets(all_matches):
     """Assign a clock time to every head-to-head match, per BRACKET_PLAN.
 
@@ -373,7 +420,8 @@ def main():
             "rounds": group_rounds(resolved),
         }
 
-    sessions, round_sched = schedule_brackets(all_matches)
+    bracket_sessions, round_sched = schedule_brackets(all_matches)
+    sessions = heats_sessions() + bracket_sessions  # heats are chronologically first
     for event, entry in categories.items():
         entry["knockout_schedule"] = round_sched.get(event, {})
 

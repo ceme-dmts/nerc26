@@ -70,9 +70,11 @@ git commit -m "Publish NERC26 brackets" && git push
 ```
 
 `bracket.py` also writes `docs/schedule.json`, rendered by `docs/schedule.html`
-as the **head-to-head match schedule** — matches grouped by day, venue
-(Auditorium / Central Activity Room) and category, with estimated start times.
-The day/venue/round layout is defined in `BRACKET_PLAN` in `bracket.py`,
+as the **full match schedule** — grouped by day, venue (Auditorium / Central
+Activity Room) and category, with estimated start times. It begins with the
+solo-run **heats** (labelled "Heat N", read from `docs/draw.json` with each
+team's run order and time) and then the **head-to-head** knockout matches. The
+knockout day/venue/round layout is defined in `BRACKET_PLAN` in `bracket.py`,
 transcribed from `data/Timing Plan brackets.csv`.
 
 ### Recording match winners

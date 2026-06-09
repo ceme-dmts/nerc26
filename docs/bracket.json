@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T10:02:33",
+  "generated_at": "2026-06-09T10:40:35",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -47,7 +47,7 @@
                 "team_name": "Meow:3",
                 "institution": "Lahore University of Management Sciences"
               },
-              "winner": null
+              "winner": "1152"
             },
             {
               "no": 3,
@@ -65,7 +65,7 @@
                 "team_name": "Team 7ups",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null
+              "winner": "1028"
             },
             {
               "no": 4,
@@ -83,7 +83,7 @@
                 "team_name": "Griffins",
                 "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology"
               },
-              "winner": null
+              "winner": "1039"
             },
             {
               "no": 5,
@@ -101,7 +101,7 @@
                 "team_name": "RoboNex",
                 "institution": "UET Taxila"
               },
-              "winner": null
+              "winner": "1017"
             },
             {
               "no": 6,
@@ -119,7 +119,7 @@
                 "team_name": "Titans",
                 "institution": "Lahore University of Management Sciences"
               },
-              "winner": null
+              "winner": "974"
             },
             {
               "no": 7,
@@ -137,7 +137,7 @@
                 "team_name": "Team Visitors",
                 "institution": "NUST EME"
               },
-              "winner": null
+              "winner": "1193"
             },
             {
               "no": 8,
@@ -155,7 +155,7 @@
                 "team_name": "Apex Dragons",
                 "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
-              "winner": null
+              "winner": "1154"
             },
             {
               "no": 9,
@@ -173,7 +173,7 @@
                 "team_name": "Pheonix",
                 "institution": "NUST EME"
               },
-              "winner": null
+              "winner": "1270"
             },
             {
               "no": 10,
@@ -191,7 +191,7 @@
                 "team_name": "Noobray",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null
+              "winner": "1184"
             },
             {
               "no": 11,
@@ -316,56 +316,83 @@
                 "institution": "Lahore University of Management Sciences"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 2"
+                "type": "team",
+                "seed": 16,
+                "team_no": "1152",
+                "team_name": "gg",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             },
             {
               "no": 18,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 3"
+                "type": "team",
+                "seed": 8,
+                "team_no": "1028",
+                "team_name": "Tarzan",
+                "institution": "Lahore University of Management Sciences"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 4"
+                "type": "team",
+                "seed": 9,
+                "team_no": "1039",
+                "team_name": "Adastra 2.0",
+                "institution": "Lahore University of Management Sciences"
               },
               "winner": null
             },
             {
               "no": 19,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 5"
+                "type": "team",
+                "seed": 4,
+                "team_no": "1017",
+                "team_name": "LUMS team 3",
+                "institution": "Lahore University of Management Sciences"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 6"
+                "type": "team",
+                "seed": 20,
+                "team_no": "974",
+                "team_name": "Titans",
+                "institution": "Lahore University of Management Sciences"
               },
               "winner": null
             },
             {
               "no": 20,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 7"
+                "type": "team",
+                "seed": 28,
+                "team_no": "1193",
+                "team_name": "Team Visitors",
+                "institution": "NUST EME"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 8"
+                "type": "team",
+                "seed": 21,
+                "team_no": "1154",
+                "team_name": "Apex Dragons",
+                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "winner": null
             },
             {
               "no": 21,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 9"
+                "type": "team",
+                "seed": 31,
+                "team_no": "1270",
+                "team_name": "Pheonix",
+                "institution": "NUST EME"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 10"
+                "type": "team",
+                "seed": 18,
+                "team_no": "1184",
+                "team_name": "Noobray",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             },
