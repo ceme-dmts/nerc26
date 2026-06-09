@@ -54,6 +54,40 @@ def to_int(value, default=0):
         return default
 
 
+# Institution values that aren't a real institution — bucketed as "Private Teams".
+PRIVATE_LABELS = {"", "(private)", "private", "n/a", "na", "none", "-"}
+
+
+def norm_inst(s):
+    """Collapse whitespace in an institution name (e.g. 'CEME  NUST' -> 'CEME NUST')."""
+    return " ".join((s or "").split())
+
+
+def city_institution_detail(rows):
+    """Per city, a breakdown of teams by institution (most teams first).
+
+    Private / unspecified institutions are merged into a single "Private Teams"
+    entry shown last. Cities are ordered by total team count, descending.
+    """
+    city_totals = Counter(r["City"].strip() for r in rows)
+    by_city = {}
+    for r in rows:
+        city = r["City"].strip()
+        inst = norm_inst(r.get("institution", ""))
+        bucket = by_city.setdefault(city, Counter())
+        bucket["\0private" if inst.lower() in PRIVATE_LABELS else inst] += 1
+
+    detail = {}
+    for city, total in city_totals.most_common():
+        counts = by_city[city]
+        private = counts.pop("\0private", 0)
+        insts = [{"name": name, "count": n} for name, n in counts.most_common()]
+        if private:
+            insts.append({"name": "Private Teams", "count": private})
+        detail[city] = {"total": total, "institutions": insts}
+    return detail
+
+
 def compute(rows):
     participants = 0
     gender = Counter()
@@ -82,6 +116,7 @@ def compute(rows):
         "outstation_teams": len(rows) - instation,
         "by_event": dict(Counter(r["Event"].strip() for r in rows).most_common()),
         "by_city": dict(Counter(r["City"].strip() for r in rows).most_common()),
+        "by_city_detail": city_institution_detail(rows),
         "by_institution": dict(
             Counter(r["institution"].strip() for r in rows).most_common()
         ),

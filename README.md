@@ -63,27 +63,44 @@ columns. During the heats, fill those in:
 Then regenerate and publish the brackets:
 
 ```bash
-python3 bracket.py    # ranks each category (score desc, time tiebreak) and
-                      # seeds the top-N into docs/bracket.json
-git add results docs/bracket.json
+python3 bracket.py    # ranks each category (score desc, time tiebreak), seeds
+                      # the top-N, and writes docs/bracket.json + docs/schedule.json
+git add results docs/bracket.json docs/schedule.json
 git commit -m "Publish NERC26 brackets" && git push
 ```
 
 `bracket.py` also writes `docs/schedule.json`, rendered by `docs/schedule.html`
-as the **Day-2 head-to-head match schedule** — matches grouped by venue
-(Auditorium, then Central Activity Room) and category, with estimated start
-times. Round-1 matches show the seeded teams; later same-day rounds show
-"Winner of Match X vs Winner of Match Y". The Day-2 layout (venues, categories,
-rounds) is defined in `DAY2` in `bracket.py`, mirroring
-`data/Timing Plan brackets.csv`. (Day-3 finals and live winner scoring come later.)
+as the **head-to-head match schedule** — matches grouped by day, venue
+(Auditorium / Central Activity Room) and category, with estimated start times.
+The day/venue/round layout is defined in `BRACKET_PLAN` in `bracket.py`,
+transcribed from `data/Timing Plan brackets.csv`.
 
-The public page `docs/bracket.html` shows each bracket. Round 1 is seeded from
-the heat ranking (#1 vs lowest qualifier, etc.); later rounds show **TBD** until
-winners are recorded. A category with no scores yet shows as *pending*.
+### Recording match winners
+
+Each run also creates/updates `results/<slug>_bracket.csv` — one row per match
+across the whole bracket (e.g. `results/modular_uni_bracket.csv`):
+
+```
+match_no,round,team_a,team_a_name,team_b,team_b_name,winner
+1,QF,1082,The Black Cats,1189,kacha Badam,1082
+5,SF,,,,,          # team_a/team_b auto-fill once matches 1 & 2 have winners
+```
+
+Fill in **only the `winner` column** with the winning team's ID, then re-run
+`bracket.py`. It propagates winners into later rounds (auto-filling the real
+teams and names), refreshes both JSON files, and rewrites the CSV with the now-known
+matchups. Round-1 cells and the `match_no`/`round`/team columns are generated for
+you — don't edit them. An entered winner that isn't one of that match's two teams
+is ignored (so stale entries after a re-draw self-correct). Then `git push`.
+
+The bracket page (`docs/bracket.html`) highlights winners and fills later rounds;
+unplayed matches show "Winner of Match X". A category with no heat scores yet shows
+as *pending*.
 
 Bracket sizes are set per category in `BRACKET_SIZE` at the top of `bracket.py`
 (top 32 for Indigenous and Modular School, top 16 for the Ready-to-Race events,
-top 8 for Modular University).
+top 8 for Modular University). Indigenous additionally plays a **3rd-place match**
+between the two semi-final losers (`THIRD_PLACE` in `bracket.py`).
 
 ## Website
 

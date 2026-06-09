@@ -41,7 +41,23 @@
     th, td { text-align: left; padding: .5rem .25rem; border-bottom: 1px solid var(--line); }
     th { color: var(--muted); font-weight: 600; font-size: .85rem; }
     .bar { background: var(--accent); height: 10px; border-radius: 5px; }
-    footer { color: var(--muted); text-align: center; padding: 2rem; font-size: .85rem; }
+
+    /* Teams by city -> institution breakdown */
+    .city { margin-bottom: 1.6rem; }
+    .city-head { display: flex; align-items: baseline; gap: .6rem;
+      border-bottom: 2px solid var(--accent); padding-bottom: .35rem; margin-bottom: .3rem; }
+    .city-head .name { font-size: 1.15rem; font-weight: 700; }
+    .city-head .count { margin-left: auto; background: var(--accent); color: #fff;
+      border-radius: 999px; padding: .1rem .65rem; font-size: .8rem; font-weight: 700;
+      font-variant-numeric: tabular-nums; }
+    ol.insts { margin: .25rem 0 0; padding: 0 0 0 1.9rem; }
+    ol.insts li { display: flex; align-items: baseline; gap: 1rem; padding: .28rem 0;
+      border-bottom: 1px solid var(--line); }
+    ol.insts li::marker { color: var(--muted); font-size: .85rem; }
+    ol.insts .iname { flex: 1; min-width: 0; }
+    ol.insts .icount { flex: 0 0 auto; color: var(--muted); font-weight: 700;
+      font-variant-numeric: tabular-nums; }
+    ol.insts li.private .iname { color: var(--muted); font-style: italic; }
   </style>
 </head>
 <body>
@@ -51,7 +67,7 @@
       <h1>NERC26</h1>
       <img src="ceme.png" alt="CEME" />
     </div>
-    <p>National Engineering Robotics Contest 2026 — team dashboard</p>
+    <p>National Engineering Robotics Contest 2026 — <a href="https://www.dmtsnust.com/" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600;text-decoration:none">Official Website ↗</a></p>
     <p><a class="cta" href="draws.html">View the Heat Draws →</a>
        <a class="cta" href="bracket.html">View the Brackets →</a>
        <a class="cta" href="schedule.html">Match Schedule →</a></p>
@@ -61,18 +77,16 @@
     <h2>Teams by event</h2>
     <table id="events"><tbody></tbody></table>
     <h2>Teams by city</h2>
-    <table id="cities"><tbody></tbody></table>
+    <div id="cities"></div>
   </main>
-  <footer>Generated from <code>data/Teams_NERC_26.csv</code> · run <code>python3 process.py</code> to refresh.</footer>
 
   <script>
     async function load() {
-      const d = await fetch('data.json').then(r => r.json());
+      const d = await fetch('data.json', { cache: 'no-store' }).then(r => r.json());
 
       const cards = [
         ['Teams', d.total_teams],
         ['Participants', d.total_participants],
-        ['Teams paid', d.teams_paid],
         ['Events', Object.keys(d.by_event).length],
       ];
       document.getElementById('cards').innerHTML = cards.map(
@@ -90,7 +104,21 @@
           ).join('');
       }
       fill('events', d.by_event);
-      fill('cities', d.by_city, 15);
+
+      document.getElementById('cities').innerHTML =
+        Object.entries(d.by_city_detail || {}).map(([city, info]) => `
+          <div class="city">
+            <div class="city-head"><span class="name">${city || '(blank)'}</span>
+              <span class="count">${info.total}</span></div>
+            <ol class="insts">
+              ${info.institutions.map(i =>
+                `<li${i.name === 'Private Teams' ? ' class="private"' : ''}>
+                   <span class="iname">${i.name}</span>
+                   <span class="icount">${i.count}</span></li>`
+              ).join('')}
+            </ol>
+          </div>`
+        ).join('');
     }
     load();
   </script>

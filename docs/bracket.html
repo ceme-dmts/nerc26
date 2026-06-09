@@ -79,6 +79,11 @@
     .slot.tbd{color:var(--muted)}
     .slot.tbd .seed{background:#eef1f6; color:var(--muted)}
     .slot.tbd .nm{font-weight:600}
+    .slot.ref .nm{font-weight:600; font-style:italic; color:var(--muted)}
+    /* winner of a played match */
+    .slot.win{background:#e9f8f1}
+    .slot.win .seed{background:var(--accent2); color:#fff}
+    .slot.win .tick{flex:0 0 auto; color:var(--accent2); font-weight:800}
 
     .vs{display:flex; align-items:center; gap:.7rem; padding:.05rem .9rem; margin:.05rem 0}
     .vs::before,.vs::after{content:""; flex:1; height:1px; background:var(--line)}
@@ -129,24 +134,29 @@
 
     const esc = s => (s||"").replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 
-    function slotHTML(s){
-      if(!s) return `<div class="slot tbd"><span class="seed">—</span>
+    function slotHTML(s, winnerNo){
+      if(!s || s.type === "tbd") return `<div class="slot tbd"><span class="seed">—</span>
         <span class="who"><div class="nm">TBD</div></span></div>`;
-      return `<div class="slot"><span class="seed">${s.rank}</span>
+      if(s.type === "bye") return `<div class="slot tbd"><span class="seed">—</span>
+        <span class="who"><div class="nm">BYE</div></span></div>`;
+      if(s.type === "ref") return `<div class="slot ref"><span class="seed">—</span>
+        <span class="who"><div class="nm">${esc(s.text)}</div></span></div>`;
+      const won = winnerNo && s.team_no === winnerNo;
+      return `<div class="slot${won ? " win" : ""}"><span class="seed">${s.seed}</span>
         <span class="who">
           <div class="nm"><span class="tname">${esc(s.team_name)||"—"}</span><span class="tid">#${s.team_no||"—"}</span></div>
           ${s.institution && s.institution !== "(private)" ? `<div class="uni">${esc(s.institution)}</div>` : ""}
-        </span></div>`;
+        </span>${won ? '<span class="tick">✓</span>' : ""}</div>`;
     }
 
     const ROUND_LABELS = {R64:"Round of 64", R32:"Round of 32", R16:"Round of 16",
-      QF:"Quarter-finals", SF:"Semi-finals", Final:"Final"};
+      QF:"Quarter-finals", SF:"Semi-finals", Final:"Final", "3rd":"3rd-place playoff"};
 
     function matchHTML(m){
       return `<div class="match">
-        ${slotHTML(m.a)}
+        ${slotHTML(m.a, m.winner)}
         <div class="vs"><span>vs</span></div>
-        ${slotHTML(m.b)}
+        ${slotHTML(m.b, m.winner)}
       </div>`;
     }
 

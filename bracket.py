@@ -358,13 +358,15 @@ def main():
         n = BRACKET_SIZE[event]
         ranked = rank(load_results(slug))
         seeded = any(r["score"] is not None for r in ranked)
-        rounds = build_bracket(ranked, n)
-        all_matches[event] = numbered_matches(rounds, seeded)
+        matches = build_matches(ranked, n, seeded, event in THIRD_PLACE)
+        resolved = resolve(matches, load_bracket_winners(slug))
+        write_bracket_csv(slug, resolved)
+        all_matches[event] = resolved
         categories[event] = {
             "schedule": schedule.get(event),  # the heats (seeding) slot
             "bracket_size": n,
             "status": "seeded" if seeded else "pending",
-            "rounds": rounds if seeded else [],
+            "rounds": group_rounds(resolved) if seeded else [],
         }
 
     sessions, round_sched = schedule_brackets(all_matches)

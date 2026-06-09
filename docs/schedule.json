@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T04:37:25",
+  "generated_at": "2026-06-09T09:55:33",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -26,6 +26,7 @@
                 "team_name": "CETC-1",
                 "institution": "Crescent Model Higher Secondary School"
               },
+              "winner": null,
               "time": "14:00"
             },
             {
@@ -45,6 +46,7 @@
                 "team_name": "Barq Raftar",
                 "institution": "Learnobots"
               },
+              "winner": null,
               "time": "14:05"
             },
             {
@@ -64,6 +66,7 @@
                 "team_name": "The Robo Kings",
                 "institution": "(private)"
               },
+              "winner": null,
               "time": "14:10"
             },
             {
@@ -83,6 +86,7 @@
                 "team_name": "Team Robox",
                 "institution": "N/A"
               },
+              "winner": null,
               "time": "14:15"
             },
             {
@@ -102,6 +106,7 @@
                 "team_name": "DroBotX1",
                 "institution": "Apple Group of Schools F17"
               },
+              "winner": null,
               "time": "14:20"
             },
             {
@@ -121,6 +126,7 @@
                 "team_name": "Dabba Union",
                 "institution": "(private)"
               },
+              "winner": null,
               "time": "14:25"
             },
             {
@@ -140,6 +146,7 @@
                 "team_name": "Anday Wala Burger",
                 "institution": "(private)"
               },
+              "winner": null,
               "time": "14:30"
             },
             {
@@ -159,6 +166,7 @@
                 "team_name": "Apex Intellect",
                 "institution": "Suffah Intellectual School"
               },
+              "winner": null,
               "time": "14:35"
             }
           ]
@@ -183,6 +191,7 @@
                 "team_name": "STEM girls",
                 "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
+              "winner": null,
               "time": "14:40"
             },
             {
@@ -202,6 +211,7 @@
                 "team_name": "LineX",
                 "institution": "NUST EME"
               },
+              "winner": null,
               "time": "14:45"
             },
             {
@@ -221,6 +231,7 @@
                 "team_name": "Janooni Garrisonians 2.0",
                 "institution": "Lahore Garrison University"
               },
+              "winner": null,
               "time": "14:50"
             },
             {
@@ -240,6 +251,7 @@
                 "team_name": "Team Dominators",
                 "institution": "University of Central Punjab"
               },
+              "winner": null,
               "time": "14:55"
             },
             {
@@ -259,6 +271,7 @@
                 "team_name": "Farmers",
                 "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
+              "winner": null,
               "time": "15:00"
             },
             {
@@ -278,6 +291,7 @@
                 "team_name": "Electrobots",
                 "institution": "CEME  NUST"
               },
+              "winner": null,
               "time": "15:05"
             },
             {
@@ -297,6 +311,7 @@
                 "team_name": "Bayrakthar AF2",
                 "institution": "(private)"
               },
+              "winner": null,
               "time": "15:10"
             },
             {
@@ -316,6 +331,7 @@
                 "team_name": "Mclaren-A",
                 "institution": "NUST EME"
               },
+              "winner": null,
               "time": "15:15"
             }
           ]
@@ -340,6 +356,7 @@
                 "team_name": "kacha Badam",
                 "institution": "Lahore Garrison University"
               },
+              "winner": null,
               "time": "15:20"
             },
             {
@@ -359,6 +376,7 @@
                 "team_name": "Stardust Jihadists",
                 "institution": "CEME  NUST"
               },
+              "winner": null,
               "time": "15:25"
             },
             {
@@ -378,6 +396,7 @@
                 "team_name": "Khatti Toffee",
                 "institution": "Lahore Garrison University"
               },
+              "winner": null,
               "time": "15:30"
             },
             {
@@ -397,6 +416,7 @@
                 "team_name": "Technologia",
                 "institution": "CEME  NUST"
               },
+              "winner": null,
               "time": "15:35"
             }
           ]
@@ -428,6 +448,7 @@
                 "team_name": "TME Neural Knights",
                 "institution": "The Millennium Education Pakistan"
               },
+              "winner": null,
               "time": "14:00"
             },
             {
@@ -447,6 +468,7 @@
                 "team_name": "LGS JT Team E",
                 "institution": "LGS"
               },
+              "winner": null,
               "time": "14:05"
             },
             {
@@ -466,6 +488,7 @@
                 "team_name": "Beqarar Janoon",
                 "institution": "Roots IVY ICMS"
               },
+              "winner": null,
               "time": "14:10"
             },
             {
@@ -485,6 +508,7 @@
                 "team_name": "TME Innovon",
                 "institution": "The Millennium Education Pakistan"
               },
+              "winner": null,
               "time": "14:15"
             },
             {
@@ -504,6 +528,7 @@
                 "team_name": "Quantum Bots",
                 "institution": "The Millennium Education Pakistan"
               },
+              "winner": null,
               "time": "14:20"
             },
             {
@@ -523,6 +548,7 @@
                 "team_name": "ISL Team 2",
                 "institution": "International School Lahore"
               },
+              "winner": null,
               "time": "14:25"
             },
             {
@@ -542,6 +568,7 @@
                 "team_name": "TME Robo Titans",
                 "institution": "The Millennium Education Pakistan"
               },
+              "winner": null,
               "time": "14:30"
             },
             {
@@ -561,6 +588,7 @@
                 "team_name": "Abdalian Lego",
                 "institution": "Cadet College Hasanabdal"
               },
+              "winner": null,
               "time": "14:35"
             },
             {
@@ -580,6 +608,7 @@
                 "team_name": "TME RoboNova",
                 "institution": "The Millennium Education Pakistan"
               },
+              "winner": null,
               "time": "14:40"
             },
             {
@@ -599,6 +628,7 @@
                 "team_name": "TME Innovators",
                 "institution": "The Millennium Education Pakistan"
               },
+              "winner": null,
               "time": "14:45"
             },
             {
@@ -618,6 +648,7 @@
                 "team_name": "ISL Team 4",
                 "institution": "International School Lahore"
               },
+              "winner": null,
               "time": "14:50"
             },
             {
@@ -637,6 +668,7 @@
                 "team_name": "TME - One World Bots",
                 "institution": "The Millennium Education Pakistan"
               },
+              "winner": null,
               "time": "14:55"
             },
             {
@@ -656,6 +688,7 @@
                 "team_name": "TME Thunder17",
                 "institution": "Future World School Bahria Town"
               },
+              "winner": null,
               "time": "15:00"
             },
             {
@@ -675,6 +708,7 @@
                 "team_name": "TME Future Forge",
                 "institution": "The Millennium Education Pakistan"
               },
+              "winner": null,
               "time": "15:05"
             },
             {
@@ -694,6 +728,7 @@
                 "team_name": "TME Robo Raptors",
                 "institution": "The Millennium Education Pakistan"
               },
+              "winner": null,
               "time": "15:10"
             },
             {
@@ -713,6 +748,7 @@
                 "team_name": "ISL Team 1",
                 "institution": "International School Lahore"
               },
+              "winner": null,
               "time": "15:15"
             },
             {
@@ -726,6 +762,7 @@
                 "type": "ref",
                 "text": "Winner of Match 2"
               },
+              "winner": null,
               "time": "15:20"
             },
             {
@@ -739,6 +776,7 @@
                 "type": "ref",
                 "text": "Winner of Match 4"
               },
+              "winner": null,
               "time": "15:25"
             },
             {
@@ -752,6 +790,7 @@
                 "type": "ref",
                 "text": "Winner of Match 6"
               },
+              "winner": null,
               "time": "15:30"
             },
             {
@@ -765,6 +804,7 @@
                 "type": "ref",
                 "text": "Winner of Match 8"
               },
+              "winner": null,
               "time": "15:35"
             },
             {
@@ -778,6 +818,7 @@
                 "type": "ref",
                 "text": "Winner of Match 10"
               },
+              "winner": null,
               "time": "15:40"
             },
             {
@@ -791,6 +832,7 @@
                 "type": "ref",
                 "text": "Winner of Match 12"
               },
+              "winner": null,
               "time": "15:45"
             },
             {
@@ -804,6 +846,7 @@
                 "type": "ref",
                 "text": "Winner of Match 14"
               },
+              "winner": null,
               "time": "15:50"
             },
             {
@@ -817,6 +860,7 @@
                 "type": "ref",
                 "text": "Winner of Match 16"
               },
+              "winner": null,
               "time": "15:55"
             }
           ]
@@ -841,6 +885,7 @@
                 "team_name": "Pink Panther",
                 "institution": "Lahore University of Management Sciences"
               },
+              "winner": "1069",
               "time": "16:00"
             },
             {
@@ -860,6 +905,7 @@
                 "team_name": "Meow:3",
                 "institution": "Lahore University of Management Sciences"
               },
+              "winner": null,
               "time": "16:05"
             },
             {
@@ -879,6 +925,7 @@
                 "team_name": "Team 7ups",
                 "institution": "Lahore Garrison University"
               },
+              "winner": null,
               "time": "16:10"
             },
             {
@@ -898,6 +945,7 @@
                 "team_name": "Griffins",
                 "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology"
               },
+              "winner": null,
               "time": "16:15"
             },
             {
@@ -917,6 +965,7 @@
                 "team_name": "RoboNex",
                 "institution": "UET Taxila"
               },
+              "winner": null,
               "time": "16:20"
             },
             {
@@ -936,6 +985,7 @@
                 "team_name": "Titans",
                 "institution": "Lahore University of Management Sciences"
               },
+              "winner": null,
               "time": "16:25"
             },
             {
@@ -955,6 +1005,7 @@
                 "team_name": "Team Visitors",
                 "institution": "NUST EME"
               },
+              "winner": null,
               "time": "16:30"
             },
             {
@@ -974,6 +1025,7 @@
                 "team_name": "Apex Dragons",
                 "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
+              "winner": null,
               "time": "16:35"
             },
             {
@@ -993,6 +1045,7 @@
                 "team_name": "Pheonix",
                 "institution": "NUST EME"
               },
+              "winner": null,
               "time": "16:40"
             },
             {
@@ -1012,6 +1065,7 @@
                 "team_name": "Noobray",
                 "institution": "Lahore Garrison University"
               },
+              "winner": null,
               "time": "16:45"
             },
             {
@@ -1031,6 +1085,7 @@
                 "team_name": "el gato",
                 "institution": "Lahore University of Management Sciences"
               },
+              "winner": null,
               "time": "16:50"
             },
             {
@@ -1050,6 +1105,7 @@
                 "team_name": "LGS JTI Senior A",
                 "institution": "LGS"
               },
+              "winner": null,
               "time": "16:55"
             },
             {
@@ -1069,6 +1125,7 @@
                 "team_name": "Binary Beasts",
                 "institution": "Habib University"
               },
+              "winner": null,
               "time": "17:00"
             },
             {
@@ -1088,6 +1145,7 @@
                 "team_name": "LGS JTI Senior B",
                 "institution": "LGS"
               },
+              "winner": null,
               "time": "17:05"
             },
             {
@@ -1107,6 +1165,7 @@
                 "team_name": "Usain Volt",
                 "institution": "(private)"
               },
+              "winner": null,
               "time": "17:10"
             },
             {
@@ -1126,19 +1185,24 @@
                 "team_name": "NUST ROBOTICS & AI",
                 "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
+              "winner": null,
               "time": "17:15"
             },
             {
               "no": 17,
               "round": "R16",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 1"
+                "type": "team",
+                "seed": 32,
+                "team_no": "1069",
+                "team_name": "Pink Panther",
+                "institution": "Lahore University of Management Sciences"
               },
               "b": {
                 "type": "ref",
                 "text": "Winner of Match 2"
               },
+              "winner": null,
               "time": "17:20"
             },
             {
@@ -1152,6 +1216,7 @@
                 "type": "ref",
                 "text": "Winner of Match 4"
               },
+              "winner": null,
               "time": "17:25"
             },
             {
@@ -1165,6 +1230,7 @@
                 "type": "ref",
                 "text": "Winner of Match 6"
               },
+              "winner": null,
               "time": "17:30"
             },
             {
@@ -1178,6 +1244,7 @@
                 "type": "ref",
                 "text": "Winner of Match 8"
               },
+              "winner": null,
               "time": "17:35"
             },
             {
@@ -1191,6 +1258,7 @@
                 "type": "ref",
                 "text": "Winner of Match 10"
               },
+              "winner": null,
               "time": "17:40"
             },
             {
@@ -1204,6 +1272,7 @@
                 "type": "ref",
                 "text": "Winner of Match 12"
               },
+              "winner": null,
               "time": "17:45"
             },
             {
@@ -1217,6 +1286,7 @@
                 "type": "ref",
                 "text": "Winner of Match 14"
               },
+              "winner": null,
               "time": "17:50"
             },
             {
@@ -1230,6 +1300,7 @@
                 "type": "ref",
                 "text": "Winner of Match 16"
               },
+              "winner": null,
               "time": "17:55"
             }
           ]
@@ -1255,6 +1326,7 @@
                 "type": "ref",
                 "text": "Winner of Match 2"
               },
+              "winner": null,
               "time": "10:00"
             },
             {
@@ -1268,6 +1340,7 @@
                 "type": "ref",
                 "text": "Winner of Match 4"
               },
+              "winner": null,
               "time": "10:05"
             },
             {
@@ -1281,6 +1354,7 @@
                 "type": "ref",
                 "text": "Winner of Match 6"
               },
+              "winner": null,
               "time": "10:10"
             },
             {
@@ -1294,6 +1368,7 @@
                 "type": "ref",
                 "text": "Winner of Match 8"
               },
+              "winner": null,
               "time": "10:15"
             },
             {
@@ -1307,6 +1382,7 @@
                 "type": "ref",
                 "text": "Winner of Match 10"
               },
+              "winner": null,
               "time": "10:20"
             },
             {
@@ -1320,6 +1396,7 @@
                 "type": "ref",
                 "text": "Winner of Match 12"
               },
+              "winner": null,
               "time": "10:25"
             }
           ]
@@ -1338,6 +1415,7 @@
                 "type": "ref",
                 "text": "Winner of Match 2"
               },
+              "winner": null,
               "time": "10:30"
             },
             {
@@ -1351,6 +1429,7 @@
                 "type": "ref",
                 "text": "Winner of Match 4"
               },
+              "winner": null,
               "time": "10:35"
             },
             {
@@ -1364,6 +1443,7 @@
                 "type": "ref",
                 "text": "Winner of Match 6"
               },
+              "winner": null,
               "time": "10:40"
             },
             {
@@ -1377,6 +1457,7 @@
                 "type": "ref",
                 "text": "Winner of Match 8"
               },
+              "winner": null,
               "time": "10:45"
             },
             {
@@ -1390,6 +1471,7 @@
                 "type": "ref",
                 "text": "Winner of Match 10"
               },
+              "winner": null,
               "time": "10:50"
             },
             {
@@ -1403,6 +1485,7 @@
                 "type": "ref",
                 "text": "Winner of Match 12"
               },
+              "winner": null,
               "time": "10:55"
             }
           ]
@@ -1421,6 +1504,7 @@
                 "type": "ref",
                 "text": "Winner of Match 2"
               },
+              "winner": null,
               "time": "11:00"
             },
             {
@@ -1434,6 +1518,7 @@
                 "type": "ref",
                 "text": "Winner of Match 4"
               },
+              "winner": null,
               "time": "11:05"
             }
           ]
@@ -1452,6 +1537,7 @@
                 "type": "ref",
                 "text": "Winner of Match 18"
               },
+              "winner": null,
               "time": "11:10"
             },
             {
@@ -1465,6 +1551,7 @@
                 "type": "ref",
                 "text": "Winner of Match 20"
               },
+              "winner": null,
               "time": "11:15"
             },
             {
@@ -1478,6 +1565,7 @@
                 "type": "ref",
                 "text": "Winner of Match 22"
               },
+              "winner": null,
               "time": "11:20"
             },
             {
@@ -1491,6 +1579,7 @@
                 "type": "ref",
                 "text": "Winner of Match 24"
               },
+              "winner": null,
               "time": "11:25"
             },
             {
@@ -1504,6 +1593,7 @@
                 "type": "ref",
                 "text": "Winner of Match 26"
               },
+              "winner": null,
               "time": "11:30"
             },
             {
@@ -1517,6 +1607,7 @@
                 "type": "ref",
                 "text": "Winner of Match 28"
               },
+              "winner": null,
               "time": "11:35"
             }
           ]
@@ -1535,6 +1626,7 @@
                 "type": "ref",
                 "text": "Winner of Match 18"
               },
+              "winner": null,
               "time": "11:40"
             },
             {
@@ -1548,6 +1640,7 @@
                 "type": "ref",
                 "text": "Winner of Match 20"
               },
+              "winner": null,
               "time": "11:45"
             },
             {
@@ -1561,6 +1654,7 @@
                 "type": "ref",
                 "text": "Winner of Match 22"
               },
+              "winner": null,
               "time": "11:50"
             },
             {
@@ -1574,33 +1668,8 @@
                 "type": "ref",
                 "text": "Winner of Match 24"
               },
+              "winner": null,
               "time": "11:55"
-            },
-            {
-              "no": 29,
-              "round": "SF",
-              "a": {
-                "type": "ref",
-                "text": "Winner of Match 25"
-              },
-              "b": {
-                "type": "ref",
-                "text": "Winner of Match 26"
-              },
-              "time": "12:00"
-            },
-            {
-              "no": 30,
-              "round": "SF",
-              "a": {
-                "type": "ref",
-                "text": "Winner of Match 27"
-              },
-              "b": {
-                "type": "ref",
-                "text": "Winner of Match 28"
-              },
-              "time": "12:05"
             }
           ]
         }
@@ -1625,6 +1694,7 @@
                 "type": "ref",
                 "text": "Winner of Match 14"
               },
+              "winner": null,
               "time": "15:00"
             }
           ]
@@ -1643,6 +1713,7 @@
                 "type": "ref",
                 "text": "Winner of Match 14"
               },
+              "winner": null,
               "time": "15:05"
             }
           ]
@@ -1661,6 +1732,7 @@
                 "type": "ref",
                 "text": "Winner of Match 6"
               },
+              "winner": null,
               "time": "15:10"
             }
           ]
@@ -1679,6 +1751,7 @@
                 "type": "ref",
                 "text": "Winner of Match 30"
               },
+              "winner": null,
               "time": "15:15"
             }
           ]
@@ -1686,6 +1759,48 @@
         {
           "name": "Indigenous Category",
           "matches": [
+            {
+              "no": 29,
+              "round": "SF",
+              "a": {
+                "type": "ref",
+                "text": "Winner of Match 25"
+              },
+              "b": {
+                "type": "ref",
+                "text": "Winner of Match 26"
+              },
+              "winner": null,
+              "time": "15:20"
+            },
+            {
+              "no": 30,
+              "round": "SF",
+              "a": {
+                "type": "ref",
+                "text": "Winner of Match 27"
+              },
+              "b": {
+                "type": "ref",
+                "text": "Winner of Match 28"
+              },
+              "winner": null,
+              "time": "15:25"
+            },
+            {
+              "no": 32,
+              "round": "3rd",
+              "a": {
+                "type": "ref",
+                "text": "Loser of Match 29"
+              },
+              "b": {
+                "type": "ref",
+                "text": "Loser of Match 30"
+              },
+              "winner": null,
+              "time": "15:30"
+            },
             {
               "no": 31,
               "round": "Final",
@@ -1697,7 +1812,8 @@
                 "type": "ref",
                 "text": "Winner of Match 30"
               },
-              "time": "15:20"
+              "winner": null,
+              "time": "15:35"
             }
           ]
         }

@@ -67,6 +67,7 @@
     .side .nm{font-weight:600}
     .side.ref{color:var(--muted); font-style:italic; font-size:.88rem}
     .side.bye,.side.tbd{color:var(--muted)}
+    .side.won .nm{color:var(--accent2)} .side.won .tick{color:var(--accent2); font-weight:800}
     .vs{color:var(--muted); font-size:.72rem; font-weight:800; letter-spacing:.08em;
       text-transform:uppercase}
 
@@ -90,11 +91,13 @@
     const main = document.getElementById("main");
     const esc = s => (s||"").replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
 
-    function side(s){
+    function side(s, winnerNo){
       if(!s) return `<span class="side tbd">TBD</span>`;
-      if(s.type === "team")
-        return `<span class="side"><span class="tid">#${s.team_no||"—"}</span>
-          <span class="nm">${esc(s.team_name)}</span> <span class="seed">(seed ${s.seed})</span></span>`;
+      if(s.type === "team"){
+        const won = winnerNo && s.team_no === winnerNo;
+        return `<span class="side${won ? " won" : ""}"><span class="tid">#${s.team_no||"—"}</span>
+          <span class="nm">${esc(s.team_name)}</span> <span class="seed">(seed ${s.seed})</span>${won ? ' <span class="tick">✓</span>' : ""}</span>`;
+      }
       if(s.type === "ref") return `<span class="side ref">${esc(s.text)}</span>`;
       if(s.type === "bye") return `<span class="side bye">BYE</span>`;
       return `<span class="side tbd">TBD</span>`;
@@ -106,7 +109,7 @@
         <div class="match-row">
           <span class="time">${m.time||""}</span>
           <span class="mno">Match ${m.no}<br>${m.round}</span>
-          <span class="teams">${side(m.a)} <span class="vs">vs</span> ${side(m.b)}</span>
+          <span class="teams">${side(m.a, m.winner)} <span class="vs">vs</span> ${side(m.b, m.winner)}</span>
         </div>`).join("");
       return `<div class="cat">
         <div class="cat-title"><span>${esc(c.name)}</span>
