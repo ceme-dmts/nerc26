@@ -43,7 +43,7 @@
       font-size:.9rem; margin-bottom:1rem}
     .back:hover{text-decoration:underline}
     .cat-head h2{margin:0; font-size:1.6rem}
-    .cat-head .sched{color:var(--muted); font-size:.9rem; margin:.25rem 0 1.6rem}
+    .cat-head{margin-bottom:1.6rem}
 
     /* Bracket: rounds stacked vertically, each a responsive grid of match cards */
     .round{margin-bottom:2rem}
@@ -53,9 +53,6 @@
     .round-name .rule{flex:1; height:1px; background:var(--line)}
     .round-name .pill{background:var(--fg); color:#fff; border-radius:999px;
       padding:.18rem .7rem; letter-spacing:.08em}
-    .round-name .when{flex:0 0 auto; color:var(--accent2); font-weight:700;
-      letter-spacing:.04em; text-transform:none; font-size:.8rem}
-    .round-name .when .dim{color:var(--muted); font-weight:600}
     .grid{display:grid; gap:1rem;
       grid-template-columns:repeat(auto-fill, minmax(15rem, 1fr))}
 
@@ -118,15 +115,12 @@
                a[0].localeCompare(b[0]);
       });
     }
-    function schedText(s){ return s ? `${s.day} · ${s.time} · ${s.venue}` : "Schedule TBD"; }
-
     function renderIndex(){
       main.innerHTML = ordered(DATA.categories).map(([name,info])=>{
         const pending = info.status !== "seeded";
         const badge = pending ? "pending" : `Top ${info.bracket_size}`;
         return `<a class="cat-link" href="#${encodeURIComponent(name)}">
-          <span><span class="meta">${name}</span>
-            <div class="sub">${schedText(info.schedule)}</div></span>
+          <span class="meta">${name}</span>
           <span class="count ${pending?"pending":""}">${badge}</span>
         </a>`;
       }).join("");
@@ -162,25 +156,9 @@
       </div>`;
     }
 
-    function whenHTML(sched){
-      if(!sched) return "";
-      return `<span class="when">${esc(sched.day)} · ${sched.time}
-        <span class="dim">· ${esc(sched.venue)}</span></span>`;
-    }
-
-    // Concise summary of where/when the knockout rounds run.
-    function koLine(info){
-      const ks = Object.values(info.knockout_schedule || {});
-      if(!ks.length) return schedText(info.schedule);
-      const days = [...new Set(ks.map(v=>v.day))].join(" & ");
-      const venue = [...new Set(ks.map(v=>v.venue))].join(" / ");
-      return `Knockouts · ${days} · ${venue}`;
-    }
-
     function renderCategory(name){
       const info = DATA.categories[name];
       if(!info){ location.hash=""; return; }
-      const ks = info.knockout_schedule || {};
       let body;
       if(!info.rounds || !info.rounds.length){
         body = `<div class="empty">This bracket will appear once the draw is run.</div>`;
@@ -188,14 +166,13 @@
         body = info.rounds.map(r=>`
           <section class="round">
             <h3 class="round-name"><span class="pill">${ROUND_LABELS[r.name]||r.name}</span>
-              <span class="rule"></span>${whenHTML(ks[r.name])}</h3>
+              <span class="rule"></span></h3>
             <div class="grid">${r.matches.map(matchHTML).join("")}</div>
           </section>`).join("");
       }
       main.innerHTML = `
         <a class="back" href="#">← All categories</a>
-        <div class="cat-head"><h2>${name}</h2>
-          <div class="sched">${koLine(info)}</div></div>
+        <div class="cat-head"><h2>${name}</h2></div>
         ${body}`;
       window.scrollTo(0,0);
     }
