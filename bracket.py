@@ -169,7 +169,7 @@ def build_matches(ranked, n, seeded, third_place=False):
 
     def r1_side(rk):
         if not seeded:
-            return {"pending": True}
+            return {"seed_ref": rk}  # before heats: show "Seed N" placeholders
         r = by_rank.get(rk)
         if r is None:
             return {"bye": True}
@@ -260,6 +260,8 @@ def _ser(side):
         return {"type": "bye"}
     if "ref" in side:
         return {"type": "ref", "text": side["ref"]}
+    if "seed_ref" in side:
+        return {"type": "seed", "seed": side["seed_ref"]}
     return {"type": "tbd"}
 
 
@@ -366,7 +368,9 @@ def main():
             "schedule": schedule.get(event),  # the heats (seeding) slot
             "bracket_size": n,
             "status": "seeded" if seeded else "pending",
-            "rounds": group_rounds(resolved) if seeded else [],
+            # Rounds are always emitted: before heats they read "Seed N" / "Winner
+            # of Match X"; after heats the real teams replace the seed placeholders.
+            "rounds": group_rounds(resolved),
         }
 
     sessions, round_sched = schedule_brackets(all_matches)

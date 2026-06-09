@@ -94,8 +94,9 @@ you — don't edit them. An entered winner that isn't one of that match's two te
 is ignored (so stale entries after a re-draw self-correct). Then `git push`.
 
 The bracket page (`docs/bracket.html`) highlights winners and fills later rounds;
-unplayed matches show "Winner of Match X". A category with no heat scores yet shows
-as *pending*.
+unplayed matches show "Winner of Match X". Before the heats are scored the bracket
+isn't empty — round 1 reads **"Seed 1 vs Seed 16"** etc., and the real teams replace
+those placeholders once heat scores are entered.
 
 Bracket sizes are set per category in `BRACKET_SIZE` at the top of `bracket.py`
 (top 32 for Indigenous and Modular School, top 16 for the Ready-to-Race events,

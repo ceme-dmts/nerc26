@@ -99,6 +99,7 @@
           <span class="nm">${esc(s.team_name)}</span> <span class="seed">(seed ${s.seed})</span>${won ? ' <span class="tick">✓</span>' : ""}</span>`;
       }
       if(s.type === "ref") return `<span class="side ref">${esc(s.text)}</span>`;
+      if(s.type === "seed") return `<span class="side ref">Seed ${s.seed}</span>`;
       if(s.type === "bye") return `<span class="side bye">BYE</span>`;
       return `<span class="side tbd">TBD</span>`;
     }

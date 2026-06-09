@@ -141,6 +141,8 @@
         <span class="who"><div class="nm">BYE</div></span></div>`;
       if(s.type === "ref") return `<div class="slot ref"><span class="seed">—</span>
         <span class="who"><div class="nm">${esc(s.text)}</div></span></div>`;
+      if(s.type === "seed") return `<div class="slot ref"><span class="seed">${s.seed}</span>
+        <span class="who"><div class="nm">Seed ${s.seed}</div></span></div>`;
       const won = winnerNo && s.team_no === winnerNo;
       return `<div class="slot${won ? " win" : ""}"><span class="seed">${s.seed}</span>
         <span class="who">
@@ -180,8 +182,8 @@
       if(!info){ location.hash=""; return; }
       const ks = info.knockout_schedule || {};
       let body;
-      if(info.status !== "seeded" || !info.rounds.length){
-        body = `<div class="empty">Heat results not in yet — this bracket will appear once scores are recorded.</div>`;
+      if(!info.rounds || !info.rounds.length){
+        body = `<div class="empty">This bracket will appear once the draw is run.</div>`;
       } else {
         body = info.rounds.map(r=>`
           <section class="round">
