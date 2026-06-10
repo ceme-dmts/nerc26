@@ -20,6 +20,7 @@ Usage:
 
 import csv
 import json
+from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
@@ -50,23 +51,27 @@ ROUND_NAMES = {2: "Final", 4: "SF", 8: "QF", 16: "R16", 32: "R32", 64: "R64"}
 # semi-final losers. Indigenous only, per the organisers.
 THIRD_PLACE = {"Indigenous Category"}
 
-# Head-to-head knockout plan, transcribed from data/Timing Plan brackets.csv.
+# Head-to-head knockout plan, transcribed from
+# data/Timing Plan brackets revised.csv.
 # Each session is a (day, venue, time-window): the listed categories play the
 # listed rounds back-to-back at MATCH_MIN each, starting at `start`. Match counts
 # per round (R32=16, R16=8, QF=4, SF=2, Final=1) at 5 min give the CSV's stated
-# block lengths (R32 80min, R16 40min, QF 20min, SF 10min).
+# block lengths (R32 80min, R16 40min, QF 20min, SF 10min). A slot with
+# `heats_first` opens with that category's overflow heats (seed.HEATS_OVERFLOW);
+# its matches start once those runs are done.
 MATCH_MIN = 5  # minutes per head-to-head match
 BRACKET_PLAN = [
     {"day": "Day 2 · Fri 12 Jun", "venue": "Central Activity Room",
-     "window": "1400-1830", "start": "14:00", "events": [
+     "window": "1400-1830", "start": "14:00", "heats_first": "Modular School",
+     "events": [
          ("Ready to Race-School", ["R16"]),
          ("Ready to Race-University", ["R16"]),
          ("Modular University", ["QF"]),
      ]},
     {"day": "Day 2 · Fri 12 Jun", "venue": "Auditorium",
      "window": "1400-1830", "start": "14:00", "events": [
-         ("Modular School", ["R32", "R16"]),
          ("Indigenous Category", ["R32", "R16"]),
+         ("Modular School", ["R32", "R16"]),
      ]},
     {"day": "Day 3 · Sat 13 Jun", "venue": "Auditorium",
      "window": "0800-1300", "start": "10:00", "events": [
@@ -339,18 +344,26 @@ def heats_sessions():
     cats = json.loads(DRAW_FILE.read_text()).get("categories", {})
     groups, order = {}, []
     for event, info in cats.items():
-        sch = info.get("schedule") or {}
-        key = (_canon_day(sch.get("day", "")), _canon_venue(sch.get("venue", "")),
-               sch.get("time", ""))
-        if key not in groups:
-            groups[key] = []
-            order.append(key)
-        groups[key].append({"name": event, "solo": True, "matches": [
-            {"no": t.get("seed"), "round": "Heats", "time": t.get("run_time", ""),
-             "a": {"type": "team", "seed": t.get("seed"), "team_no": t.get("team_no"),
-                   "team_name": t.get("team_name"),
-                   "institution": t.get("institution", "")}}
-            for t in info.get("teams", [])]})
+        teams = info.get("teams", [])
+        over = info.get("overflow")
+        cut = over["from_seed"] - 1 if over else len(teams)
+        slots = [(info.get("schedule") or {}, teams[:cut])]
+        if over:
+            slots.append((over, teams[cut:]))
+        for sch, group in slots:
+            if not group:
+                continue
+            key = (_canon_day(sch.get("day", "")), _canon_venue(sch.get("venue", "")),
+                   sch.get("time", ""))
+            if key not in groups:
+                groups[key] = []
+                order.append(key)
+            groups[key].append({"name": event, "solo": True, "matches": [
+                {"no": t.get("seed"), "round": "Heats", "time": t.get("run_time", ""),
+                 "a": {"type": "team", "seed": t.get("seed"),
+                       "team_no": t.get("team_no"), "team_name": t.get("team_name"),
+                       "institution": t.get("institution", "")}}
+                for t in group]})
 
     def sort_key(k):
         day, _venue, window = k
@@ -362,11 +375,27 @@ def heats_sessions():
             for k in sorted(order, key=sort_key)]
 
 
-def schedule_brackets(all_matches):
+def heats_spill():
+    """Per-event count of heats that run in the overflow slot (seed.HEATS_OVERFLOW).
+
+    Counts the drawn teams when a draw exists, else the registered teams, so
+    the knockout start times stay correct before and after the ceremony.
+    """
+    if DRAW_FILE.exists():
+        cats = json.loads(DRAW_FILE.read_text()).get("categories", {})
+        counts = {e: len(i.get("teams", [])) for e, i in cats.items()}
+    else:
+        counts = Counter(t["Event"].strip() for t in seed.load_teams())
+    return {e: seed.overflow_count(e, counts.get(e, 0))
+            for e in seed.HEATS_OVERFLOW}
+
+
+def schedule_brackets(all_matches, spill):
     """Assign a clock time to every head-to-head match, per BRACKET_PLAN.
 
     Within each session, matches run back-to-back (MATCH_MIN each) from `start`,
-    in the configured category + round order. Returns:
+    in the configured category + round order; a `heats_first` slot starts after
+    that category's overflow heats (`spill`, from heats_spill()). Returns:
       sessions    - list of {day, venue, window, categories:[{name, matches}]}
                     for the schedule page (each match carries its `time`).
       round_sched - {event: {round: {day, venue, time}}} for the bracket page,
@@ -376,6 +405,7 @@ def schedule_brackets(all_matches):
     round_sched = {event: {} for event in all_matches}
     for slot in BRACKET_PLAN:
         clock = _hhmm_to_min(slot["start"])
+        clock += spill.get(slot.get("heats_first"), 0) * MATCH_MIN
         blocks = []
         for event, rounds in slot["events"]:
             picked = []
@@ -420,7 +450,7 @@ def main():
             "rounds": group_rounds(resolved),
         }
 
-    bracket_sessions, round_sched = schedule_brackets(all_matches)
+    bracket_sessions, round_sched = schedule_brackets(all_matches, heats_spill())
     sessions = heats_sessions() + bracket_sessions  # heats are chronologically first
     for event, entry in categories.items():
         entry["knockout_schedule"] = round_sched.get(event, {})

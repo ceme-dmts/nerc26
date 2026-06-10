@@ -49,6 +49,25 @@ SLUG = {
     "Ready to Race-University": "rtr_uni",
 }
 
+# Overflow heats, per data/Timing Plan brackets revised.csv: Modular School's
+# Friday-morning slot fits 64 heats; any teams drawn beyond that run in a
+# second slot on Friday afternoon in CAR, just before the knockout matches
+# there (which bracket.py pushes back accordingly).
+HEATS_OVERFLOW = {
+    "Modular School": {
+        "capacity": 64,
+        "day": "Day 2 Friday 12th June",
+        "time": "1400-1440",
+        "venue": "CAR",
+    },
+}
+
+
+def overflow_count(event, n_teams):
+    """How many of a category's teams run in its overflow heats slot (0 if none)."""
+    over = HEATS_OVERFLOW.get(event)
+    return max(0, n_teams - over["capacity"]) if over else 0
+
 
 def load_teams():
     with open(TEAMS_CSV, newline="", encoding="utf-8", errors="replace") as f:
@@ -96,8 +115,15 @@ def build_seeding(teams, schedule, rng_seed):
             }
             for i, t in enumerate(group, start=1)
         ]
+        spill = overflow_count(event, len(seeded))
+        over = HEATS_OVERFLOW.get(event)
         result[event] = {
             "schedule": schedule.get(event),
+            # Trailing teams (seed from_seed..N) run in the overflow slot.
+            "overflow": {
+                "day": over["day"], "time": over["time"], "venue": over["venue"],
+                "from_seed": len(seeded) - spill + 1,
+            } if spill else None,
             "team_count": len(seeded),
             "teams": seeded,
         }
@@ -125,6 +151,12 @@ def write_outputs(seeding, rng_seed):
             )
         else:
             lines.append("_Schedule: TBD_")
+        over = info.get("overflow")
+        if over:
+            lines.append(
+                f"_Overflow heats (seed {over['from_seed']} onward): "
+                f"{over['day']} · {over['time']} · {over['venue']}_"
+            )
         lines += ["", "| Seed | Team # | Team Name | Institution | City |",
                   "| ---: | --- | --- | --- | --- |"]
         for s in info["teams"]:

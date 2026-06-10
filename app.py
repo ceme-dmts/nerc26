@@ -40,26 +40,37 @@ def _hhmm_to_min(s):
 def add_run_times(categories, gap=RUN_GAP_MIN):
     """Add an estimated run_time (HH:MM) to each team.
 
-    Uses `gap` minutes between runs; if that would overflow the category's
-    scheduled window (e.g. 53 runs * 5 min > 4 hours), spreads the runs evenly
-    across the window instead.
+    A category with an overflow slot (see seed.HEATS_OVERFLOW) has its trailing
+    teams timed in that slot; everyone else runs in the main scheduled window.
     """
     for info in categories.values():
         teams = info["teams"]
-        n = len(teams)
-        sched = info.get("schedule") or {}
-        try:
-            start_s, end_s = sched.get("time", "").split("-")
-            start = _hhmm_to_min(start_s)
-            window = _hhmm_to_min(end_s) - start
-        except (ValueError, AttributeError):
-            for t in teams:
-                t["run_time"] = ""
-            continue
-        interval = gap if n <= 1 or (n - 1) * gap <= window else window / n
-        for i, t in enumerate(teams):
-            total = int(round(start + i * interval))
-            t["run_time"] = f"{total // 60:02d}:{total % 60:02d}"
+        over = info.get("overflow")
+        cut = over["from_seed"] - 1 if over else len(teams)
+        _time_runs(teams[:cut], info.get("schedule") or {}, gap)
+        if over:
+            _time_runs(teams[cut:], over, gap)
+
+
+def _time_runs(teams, sched, gap):
+    """Assign run_time to `teams` within one slot's HHMM-HHMM window.
+
+    Uses `gap` minutes between runs; if that would overflow the window
+    (e.g. 53 runs * 5 min > 4 hours), spreads the runs evenly instead.
+    """
+    n = len(teams)
+    try:
+        start_s, end_s = sched.get("time", "").split("-")
+        start = _hhmm_to_min(start_s)
+        window = _hhmm_to_min(end_s) - start
+    except (ValueError, AttributeError):
+        for t in teams:
+            t["run_time"] = ""
+        return
+    interval = gap if n <= 1 or (n - 1) * gap <= window else window / n
+    for i, t in enumerate(teams):
+        total = int(round(start + i * interval))
+        t["run_time"] = f"{total // 60:02d}:{total % 60:02d}"
 
 
 def write_result_csvs(categories):

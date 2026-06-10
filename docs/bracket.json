@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T10:57:20",
+  "generated_at": "2026-06-11T01:22:36",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -429,12 +429,12 @@
         "R32": {
           "day": "Day 2 \u00b7 Fri 12 Jun",
           "venue": "Auditorium",
-          "time": "16:00"
+          "time": "14:00"
         },
         "R16": {
           "day": "Day 2 \u00b7 Fri 12 Jun",
           "venue": "Auditorium",
-          "time": "17:20"
+          "time": "15:20"
         },
         "QF": {
           "day": "Day 3 \u00b7 Sat 13 Jun",
@@ -869,12 +869,12 @@
         "R32": {
           "day": "Day 2 \u00b7 Fri 12 Jun",
           "venue": "Auditorium",
-          "time": "14:00"
+          "time": "16:00"
         },
         "R16": {
           "day": "Day 2 \u00b7 Fri 12 Jun",
           "venue": "Auditorium",
-          "time": "15:20"
+          "time": "17:20"
         },
         "QF": {
           "day": "Day 3 \u00b7 Sat 13 Jun",
