@@ -69,7 +69,6 @@
     ol.heats .who{display:flex; flex-direction:column; min-width:0}
     ol.heats .tname{font-weight:700}
     ol.heats .inst{color:var(--muted); font-size:.8rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
-    ol.heats .rtime{margin-left:auto; flex:0 0 auto; font-weight:700; color:var(--accent2); font-variant-numeric:tabular-nums}
 
     footer{text-align:center; color:var(--muted); font-size:.82rem; padding:1.5rem}
     .empty{text-align:center; color:var(--muted); padding:4rem 1rem}
@@ -104,7 +103,7 @@
                a[0].localeCompare(b[0]);
       });
     }
-    function schedText(s){ return s ? `${s.day} · ${s.time} · ${s.venue}` : "Schedule TBD"; }
+    function schedText(s){ return s ? s.venue : "Venue TBD"; }
     function fmtWhen(d){
       return d.toLocaleString("en-GB", {weekday:"long", day:"numeric", month:"long",
         hour:"2-digit", minute:"2-digit"});
@@ -154,7 +153,7 @@
         <span class="tid"><small>Team</small> ${t.team_no||"—"}</span>
         <span class="who"><span class="tname">${t.team_name||"—"}</span>
           <span class="inst">${t.institution||""}</span></span>
-        <span class="rtime">${t.run_time||""}</span></li>`).join("");
+        </li>`).join("");
       main.innerHTML = `
         <a class="back" href="#">← All categories</a>
         <div class="cat-head"><h2>${name}</h2>
