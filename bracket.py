@@ -37,7 +37,7 @@ DRAW_FILE = DOCS_DIR / "draw.json"  # solo-run heats (written by app.py on draw)
 # Teams advancing from the heats into each knockout (must be a power of two).
 # Edit here to change a category's bracket size.
 BRACKET_SIZE = {
-    "Indigenous Category": 32,
+    "Indigenous Category": 16,
     "Modular School": 32,
     "Ready to Race-School": 16,
     "Ready to Race-University": 16,
@@ -70,7 +70,7 @@ BRACKET_PLAN = [
      ]},
     {"day": "Day 2 · Fri 12 Jun", "venue": "Auditorium",
      "window": "1400-1830", "start": "14:00", "events": [
-         ("Indigenous Category", ["R32", "R16"]),
+         ("Indigenous Category", ["R16"]),
          ("Modular School", ["R32", "R16"]),
      ]},
     {"day": "Day 3 · Sat 13 Jun", "venue": "Auditorium",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T10:42:41",
+  "generated_at": "2026-06-11T10:46:41",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -2213,339 +2213,115 @@
           "matches": [
             {
               "no": 1,
-              "round": "R32",
+              "round": "R16",
               "a": {
                 "type": "seed",
                 "seed": 1
               },
               "b": {
                 "type": "seed",
-                "seed": 32
+                "seed": 16
               },
               "winner": null,
               "time": "14:00"
             },
             {
               "no": 2,
-              "round": "R32",
-              "a": {
-                "type": "seed",
-                "seed": 16
-              },
-              "b": {
-                "type": "seed",
-                "seed": 17
-              },
-              "winner": null,
-              "time": "14:05"
-            },
-            {
-              "no": 3,
-              "round": "R32",
+              "round": "R16",
               "a": {
                 "type": "seed",
                 "seed": 8
               },
               "b": {
                 "type": "seed",
-                "seed": 25
-              },
-              "winner": null,
-              "time": "14:10"
-            },
-            {
-              "no": 4,
-              "round": "R32",
-              "a": {
-                "type": "seed",
                 "seed": 9
               },
-              "b": {
-                "type": "seed",
-                "seed": 24
-              },
               "winner": null,
-              "time": "14:15"
+              "time": "14:05"
             },
             {
-              "no": 5,
-              "round": "R32",
+              "no": 3,
+              "round": "R16",
               "a": {
                 "type": "seed",
                 "seed": 4
               },
               "b": {
                 "type": "seed",
-                "seed": 29
-              },
-              "winner": null,
-              "time": "14:20"
-            },
-            {
-              "no": 6,
-              "round": "R32",
-              "a": {
-                "type": "seed",
                 "seed": 13
               },
-              "b": {
-                "type": "seed",
-                "seed": 20
-              },
               "winner": null,
-              "time": "14:25"
+              "time": "14:10"
             },
             {
-              "no": 7,
-              "round": "R32",
+              "no": 4,
+              "round": "R16",
               "a": {
                 "type": "seed",
                 "seed": 5
               },
               "b": {
                 "type": "seed",
-                "seed": 28
-              },
-              "winner": null,
-              "time": "14:30"
-            },
-            {
-              "no": 8,
-              "round": "R32",
-              "a": {
-                "type": "seed",
                 "seed": 12
               },
-              "b": {
-                "type": "seed",
-                "seed": 21
-              },
               "winner": null,
-              "time": "14:35"
+              "time": "14:15"
             },
             {
-              "no": 9,
-              "round": "R32",
+              "no": 5,
+              "round": "R16",
               "a": {
                 "type": "seed",
                 "seed": 2
               },
               "b": {
                 "type": "seed",
-                "seed": 31
-              },
-              "winner": null,
-              "time": "14:40"
-            },
-            {
-              "no": 10,
-              "round": "R32",
-              "a": {
-                "type": "seed",
                 "seed": 15
               },
-              "b": {
-                "type": "seed",
-                "seed": 18
-              },
               "winner": null,
-              "time": "14:45"
+              "time": "14:20"
             },
             {
-              "no": 11,
-              "round": "R32",
+              "no": 6,
+              "round": "R16",
               "a": {
                 "type": "seed",
                 "seed": 7
               },
               "b": {
                 "type": "seed",
-                "seed": 26
-              },
-              "winner": null,
-              "time": "14:50"
-            },
-            {
-              "no": 12,
-              "round": "R32",
-              "a": {
-                "type": "seed",
                 "seed": 10
               },
-              "b": {
-                "type": "seed",
-                "seed": 23
-              },
               "winner": null,
-              "time": "14:55"
+              "time": "14:25"
             },
             {
-              "no": 13,
-              "round": "R32",
+              "no": 7,
+              "round": "R16",
               "a": {
                 "type": "seed",
                 "seed": 3
               },
               "b": {
                 "type": "seed",
-                "seed": 30
-              },
-              "winner": null,
-              "time": "15:00"
-            },
-            {
-              "no": 14,
-              "round": "R32",
-              "a": {
-                "type": "seed",
                 "seed": 14
               },
-              "b": {
-                "type": "seed",
-                "seed": 19
-              },
               "winner": null,
-              "time": "15:05"
+              "time": "14:30"
             },
             {
-              "no": 15,
-              "round": "R32",
+              "no": 8,
+              "round": "R16",
               "a": {
                 "type": "seed",
                 "seed": 6
               },
               "b": {
                 "type": "seed",
-                "seed": 27
-              },
-              "winner": null,
-              "time": "15:10"
-            },
-            {
-              "no": 16,
-              "round": "R32",
-              "a": {
-                "type": "seed",
                 "seed": 11
               },
-              "b": {
-                "type": "seed",
-                "seed": 22
-              },
               "winner": null,
-              "time": "15:15"
-            },
-            {
-              "no": 17,
-              "round": "R16",
-              "a": {
-                "type": "ref",
-                "text": "Winner of Match 1"
-              },
-              "b": {
-                "type": "ref",
-                "text": "Winner of Match 2"
-              },
-              "winner": null,
-              "time": "15:20"
-            },
-            {
-              "no": 18,
-              "round": "R16",
-              "a": {
-                "type": "ref",
-                "text": "Winner of Match 3"
-              },
-              "b": {
-                "type": "ref",
-                "text": "Winner of Match 4"
-              },
-              "winner": null,
-              "time": "15:25"
-            },
-            {
-              "no": 19,
-              "round": "R16",
-              "a": {
-                "type": "ref",
-                "text": "Winner of Match 5"
-              },
-              "b": {
-                "type": "ref",
-                "text": "Winner of Match 6"
-              },
-              "winner": null,
-              "time": "15:30"
-            },
-            {
-              "no": 20,
-              "round": "R16",
-              "a": {
-                "type": "ref",
-                "text": "Winner of Match 7"
-              },
-              "b": {
-                "type": "ref",
-                "text": "Winner of Match 8"
-              },
-              "winner": null,
-              "time": "15:35"
-            },
-            {
-              "no": 21,
-              "round": "R16",
-              "a": {
-                "type": "ref",
-                "text": "Winner of Match 9"
-              },
-              "b": {
-                "type": "ref",
-                "text": "Winner of Match 10"
-              },
-              "winner": null,
-              "time": "15:40"
-            },
-            {
-              "no": 22,
-              "round": "R16",
-              "a": {
-                "type": "ref",
-                "text": "Winner of Match 11"
-              },
-              "b": {
-                "type": "ref",
-                "text": "Winner of Match 12"
-              },
-              "winner": null,
-              "time": "15:45"
-            },
-            {
-              "no": 23,
-              "round": "R16",
-              "a": {
-                "type": "ref",
-                "text": "Winner of Match 13"
-              },
-              "b": {
-                "type": "ref",
-                "text": "Winner of Match 14"
-              },
-              "winner": null,
-              "time": "15:50"
-            },
-            {
-              "no": 24,
-              "round": "R16",
-              "a": {
-                "type": "ref",
-                "text": "Winner of Match 15"
-              },
-              "b": {
-                "type": "ref",
-                "text": "Winner of Match 16"
-              },
-              "winner": null,
-              "time": "15:55"
+              "time": "14:35"
             }
           ]
         },
@@ -2564,7 +2340,7 @@
                 "seed": 32
               },
               "winner": null,
-              "time": "16:00"
+              "time": "14:40"
             },
             {
               "no": 2,
@@ -2578,7 +2354,7 @@
                 "seed": 17
               },
               "winner": null,
-              "time": "16:05"
+              "time": "14:45"
             },
             {
               "no": 3,
@@ -2592,7 +2368,7 @@
                 "seed": 25
               },
               "winner": null,
-              "time": "16:10"
+              "time": "14:50"
             },
             {
               "no": 4,
@@ -2606,7 +2382,7 @@
                 "seed": 24
               },
               "winner": null,
-              "time": "16:15"
+              "time": "14:55"
             },
             {
               "no": 5,
@@ -2620,7 +2396,7 @@
                 "seed": 29
               },
               "winner": null,
-              "time": "16:20"
+              "time": "15:00"
             },
             {
               "no": 6,
@@ -2634,7 +2410,7 @@
                 "seed": 20
               },
               "winner": null,
-              "time": "16:25"
+              "time": "15:05"
             },
             {
               "no": 7,
@@ -2648,7 +2424,7 @@
                 "seed": 28
               },
               "winner": null,
-              "time": "16:30"
+              "time": "15:10"
             },
             {
               "no": 8,
@@ -2662,7 +2438,7 @@
                 "seed": 21
               },
               "winner": null,
-              "time": "16:35"
+              "time": "15:15"
             },
             {
               "no": 9,
@@ -2676,7 +2452,7 @@
                 "seed": 31
               },
               "winner": null,
-              "time": "16:40"
+              "time": "15:20"
             },
             {
               "no": 10,
@@ -2690,7 +2466,7 @@
                 "seed": 18
               },
               "winner": null,
-              "time": "16:45"
+              "time": "15:25"
             },
             {
               "no": 11,
@@ -2704,7 +2480,7 @@
                 "seed": 26
               },
               "winner": null,
-              "time": "16:50"
+              "time": "15:30"
             },
             {
               "no": 12,
@@ -2718,7 +2494,7 @@
                 "seed": 23
               },
               "winner": null,
-              "time": "16:55"
+              "time": "15:35"
             },
             {
               "no": 13,
@@ -2732,7 +2508,7 @@
                 "seed": 30
               },
               "winner": null,
-              "time": "17:00"
+              "time": "15:40"
             },
             {
               "no": 14,
@@ -2746,7 +2522,7 @@
                 "seed": 19
               },
               "winner": null,
-              "time": "17:05"
+              "time": "15:45"
             },
             {
               "no": 15,
@@ -2760,7 +2536,7 @@
                 "seed": 27
               },
               "winner": null,
-              "time": "17:10"
+              "time": "15:50"
             },
             {
               "no": 16,
@@ -2774,7 +2550,7 @@
                 "seed": 22
               },
               "winner": null,
-              "time": "17:15"
+              "time": "15:55"
             },
             {
               "no": 17,
@@ -2788,7 +2564,7 @@
                 "text": "Winner of Match 2"
               },
               "winner": null,
-              "time": "17:20"
+              "time": "16:00"
             },
             {
               "no": 18,
@@ -2802,7 +2578,7 @@
                 "text": "Winner of Match 4"
               },
               "winner": null,
-              "time": "17:25"
+              "time": "16:05"
             },
             {
               "no": 19,
@@ -2816,7 +2592,7 @@
                 "text": "Winner of Match 6"
               },
               "winner": null,
-              "time": "17:30"
+              "time": "16:10"
             },
             {
               "no": 20,
@@ -2830,7 +2606,7 @@
                 "text": "Winner of Match 8"
               },
               "winner": null,
-              "time": "17:35"
+              "time": "16:15"
             },
             {
               "no": 21,
@@ -2844,7 +2620,7 @@
                 "text": "Winner of Match 10"
               },
               "winner": null,
-              "time": "17:40"
+              "time": "16:20"
             },
             {
               "no": 22,
@@ -2858,7 +2634,7 @@
                 "text": "Winner of Match 12"
               },
               "winner": null,
-              "time": "17:45"
+              "time": "16:25"
             },
             {
               "no": 23,
@@ -2872,7 +2648,7 @@
                 "text": "Winner of Match 14"
               },
               "winner": null,
-              "time": "17:50"
+              "time": "16:30"
             },
             {
               "no": 24,
@@ -2886,7 +2662,7 @@
                 "text": "Winner of Match 16"
               },
               "winner": null,
-              "time": "17:55"
+              "time": "16:35"
             }
           ]
         }
@@ -3201,57 +2977,57 @@
           "name": "Indigenous Category",
           "matches": [
             {
-              "no": 25,
+              "no": 9,
               "round": "QF",
               "a": {
                 "type": "ref",
-                "text": "Winner of Match 17"
+                "text": "Winner of Match 1"
               },
               "b": {
                 "type": "ref",
-                "text": "Winner of Match 18"
+                "text": "Winner of Match 2"
               },
               "winner": null,
               "time": "11:40"
             },
             {
-              "no": 26,
+              "no": 10,
               "round": "QF",
               "a": {
                 "type": "ref",
-                "text": "Winner of Match 19"
+                "text": "Winner of Match 3"
               },
               "b": {
                 "type": "ref",
-                "text": "Winner of Match 20"
+                "text": "Winner of Match 4"
               },
               "winner": null,
               "time": "11:45"
             },
             {
-              "no": 27,
+              "no": 11,
               "round": "QF",
               "a": {
                 "type": "ref",
-                "text": "Winner of Match 21"
+                "text": "Winner of Match 5"
               },
               "b": {
                 "type": "ref",
-                "text": "Winner of Match 22"
+                "text": "Winner of Match 6"
               },
               "winner": null,
               "time": "11:50"
             },
             {
-              "no": 28,
+              "no": 12,
               "round": "QF",
               "a": {
                 "type": "ref",
-                "text": "Winner of Match 23"
+                "text": "Winner of Match 7"
               },
               "b": {
                 "type": "ref",
-                "text": "Winner of Match 24"
+                "text": "Winner of Match 8"
               },
               "winner": null,
               "time": "11:55"
@@ -3345,57 +3121,57 @@
           "name": "Indigenous Category",
           "matches": [
             {
-              "no": 29,
+              "no": 13,
               "round": "SF",
               "a": {
                 "type": "ref",
-                "text": "Winner of Match 25"
+                "text": "Winner of Match 9"
               },
               "b": {
                 "type": "ref",
-                "text": "Winner of Match 26"
+                "text": "Winner of Match 10"
               },
               "winner": null,
               "time": "15:20"
             },
             {
-              "no": 30,
+              "no": 14,
               "round": "SF",
               "a": {
                 "type": "ref",
-                "text": "Winner of Match 27"
+                "text": "Winner of Match 11"
               },
               "b": {
                 "type": "ref",
-                "text": "Winner of Match 28"
+                "text": "Winner of Match 12"
               },
               "winner": null,
               "time": "15:25"
             },
             {
-              "no": 32,
+              "no": 16,
               "round": "3rd",
               "a": {
                 "type": "ref",
-                "text": "Loser of Match 29"
+                "text": "Loser of Match 13"
               },
               "b": {
                 "type": "ref",
-                "text": "Loser of Match 30"
+                "text": "Loser of Match 14"
               },
               "winner": null,
               "time": "15:30"
             },
             {
-              "no": 31,
+              "no": 15,
               "round": "Final",
               "a": {
                 "type": "ref",
-                "text": "Winner of Match 29"
+                "text": "Winner of Match 13"
               },
               "b": {
                 "type": "ref",
-                "text": "Winner of Match 30"
+                "text": "Winner of Match 14"
               },
               "winner": null,
               "time": "15:35"
