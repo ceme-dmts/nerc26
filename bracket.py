@@ -360,6 +360,14 @@ OVERFLOW_NOTE = ("Note: this applies only to teams whose heats are not "
                  "completed before the lunch break — those teams are to remain "
                  "available in the Central Activity Room.")
 
+# One-off notices shown at the top of a session card on the schedule page,
+# keyed by (day, venue, window) as they appear in schedule.json.
+SESSION_NOTES = {
+    ("Day 2 · Fri 12 Jun", "Auditorium", "0800-1300"):
+        "Leftover matches of Indigenous category will be conducted in "
+        "this session.",
+}
+
 
 def heats_sessions():
     """Solo-run heat schedule: run order from docs/draw.json, slots refreshed
@@ -503,6 +511,10 @@ def main():
 
     bracket_sessions, round_sched = schedule_brackets(all_matches, heats_spill())
     sessions = heats_sessions() + bracket_sessions  # heats are chronologically first
+    for s in sessions:
+        note = SESSION_NOTES.get((s["day"], s["venue"], s["window"]))
+        if note:
+            s["note"] = note
     for event, entry in categories.items():
         entry["knockout_schedule"] = round_sched.get(event, {})
 

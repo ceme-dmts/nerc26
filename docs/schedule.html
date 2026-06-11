@@ -54,7 +54,7 @@
     .cat-title .rnds{display:flex; gap:.3rem; flex-wrap:wrap}
     .cat-title .rnds small{background:var(--fg); color:#fff; border-radius:6px;
       padding:.05rem .4rem; font-size:.66rem; font-weight:700; letter-spacing:.04em}
-    .cat .note{background:#fff7e6; border:1px solid #f0deb0; color:#7a5c10;
+    .note{background:#fff7e6; border:1px solid #f0deb0; color:#7a5c10;
       border-radius:8px; padding:.45rem .7rem; font-size:.84rem; margin:.15rem 0 .55rem}
 
     .match-row{display:grid; grid-template-columns:3.4rem auto 1fr; align-items:center;
@@ -130,6 +130,7 @@
       return `<div class="venue">
         <div class="venue-head"><span class="vn">${esc(v.venue)}</span>
           <span class="win">${v.window}</span></div>
+        ${v.note ? `<div class="note">⚠ ${esc(v.note)}</div>` : ""}
         ${v.categories.map(catBlock).join("")}
       </div>`;
     }
