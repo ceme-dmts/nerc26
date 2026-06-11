@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T19:48:29",
+  "generated_at": "2026-06-11T19:57:40",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -52,6 +52,14 @@
         },
         {
           "rank": 6,
+          "team_no": "1184",
+          "team_name": "Team 5VDC",
+          "institution": "Lahore Garrison University",
+          "score": 40.0,
+          "time": 91.0
+        },
+        {
+          "rank": 7,
           "team_no": "1119",
           "team_name": "Opsimath",
           "institution": "CEME  NUST",
@@ -59,7 +67,15 @@
           "time": 94.0
         },
         {
-          "rank": 7,
+          "rank": 8,
+          "team_no": "1191",
+          "team_name": "Noobray",
+          "institution": "Lahore Garrison University",
+          "score": 20.0,
+          "time": 50.2
+        },
+        {
+          "rank": 9,
           "team_no": "1024",
           "team_name": "LUMS team 3",
           "institution": "Lahore University of Management Sciences",
@@ -67,7 +83,7 @@
           "time": 86.0
         },
         {
-          "rank": 8,
+          "rank": 10,
           "team_no": "1039",
           "team_name": "Nallay",
           "institution": "Lahore University of Management Sciences",
@@ -75,7 +91,7 @@
           "time": 44.0
         },
         {
-          "rank": 9,
+          "rank": 11,
           "team_no": "1030",
           "team_name": "Tarzan",
           "institution": "Lahore University of Management Sciences",
@@ -83,7 +99,7 @@
           "time": 96.0
         },
         {
-          "rank": 10,
+          "rank": 12,
           "team_no": "1028",
           "team_name": "Team Code Red 2.0",
           "institution": "Lahore University of Management Sciences",
@@ -91,7 +107,7 @@
           "time": 116.0
         },
         {
-          "rank": 11,
+          "rank": 13,
           "team_no": "930",
           "team_name": "RoboNex",
           "institution": "UET Taxila",
@@ -99,7 +115,23 @@
           "time": 117.0
         },
         {
-          "rank": 12,
+          "rank": 14,
+          "team_no": "1106",
+          "team_name": "botzilla",
+          "institution": "Lahore University of Management Sciences",
+          "score": 0.0,
+          "time": 151.0
+        },
+        {
+          "rank": 15,
+          "team_no": "1066",
+          "team_name": "el gato",
+          "institution": "Lahore University of Management Sciences",
+          "score": 0.0,
+          "time": 167.62
+        },
+        {
+          "rank": 16,
           "team_no": "1161",
           "team_name": "Janooni Garrisonians",
           "institution": "Lahore Garrison University",
@@ -107,7 +139,7 @@
           "time": 180.0
         },
         {
-          "rank": 13,
+          "rank": 17,
           "team_no": "1011",
           "team_name": "Pakora Bot",
           "institution": "Habib University",
@@ -115,7 +147,7 @@
           "time": null
         },
         {
-          "rank": 14,
+          "rank": 18,
           "team_no": "1197",
           "team_name": "Team Visitors",
           "institution": "NUST EME",
@@ -123,23 +155,7 @@
           "time": null
         },
         {
-          "rank": 15,
-          "team_no": "1191",
-          "team_name": "Noobray",
-          "institution": "Lahore Garrison University",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 16,
-          "team_no": "1066",
-          "team_name": "el gato",
-          "institution": "Lahore University of Management Sciences",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 17,
+          "rank": 19,
           "team_no": "1035",
           "team_name": "Meow:3",
           "institution": "Lahore University of Management Sciences",
@@ -147,7 +163,7 @@
           "time": null
         },
         {
-          "rank": 18,
+          "rank": 20,
           "team_no": "1270",
           "team_name": "NUST ROBOTICS & AI",
           "institution": "National University of Sciences and Technology(NUST) Other than CEME",
@@ -155,15 +171,7 @@
           "time": null
         },
         {
-          "rank": 19,
-          "team_no": "1106",
-          "team_name": "botzilla",
-          "institution": "Lahore University of Management Sciences",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 20,
+          "rank": 21,
           "team_no": "974",
           "team_name": "Titans",
           "institution": "Lahore University of Management Sciences",
@@ -171,7 +179,7 @@
           "time": null
         },
         {
-          "rank": 21,
+          "rank": 22,
           "team_no": "1245",
           "team_name": "The sophomore slump",
           "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
@@ -179,7 +187,7 @@
           "time": null
         },
         {
-          "rank": 22,
+          "rank": 23,
           "team_no": "1116",
           "team_name": "404 Brain Not Found",
           "institution": "Habib University",
@@ -187,18 +195,10 @@
           "time": null
         },
         {
-          "rank": 23,
+          "rank": 24,
           "team_no": "1250",
           "team_name": "Black Bird",
           "institution": "CEME  NUST",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 24,
-          "team_no": "1184",
-          "team_name": "Team 5VDC",
-          "institution": "Lahore Garrison University",
           "score": null,
           "time": null
         }

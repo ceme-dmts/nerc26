@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T19:48:29",
+  "generated_at": "2026-06-11T19:57:40",
   "sessions": [
     {
       "day": "Day 1 \u00b7 Thu 11 Jun",
@@ -1904,7 +1904,8 @@
                 "institution": "HeadStart"
               }
             }
-          ]
+          ],
+          "note": "Note: this applies only to teams whose heats are not completed before the lunch break \u2014 those teams are to remain available in the Central Activity Room."
         }
       ]
     },

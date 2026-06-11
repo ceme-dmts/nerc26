@@ -355,6 +355,12 @@ def _retime_runs(teams, window):
         t["run_time"] = f"{total // 60:02d}:{total % 60:02d}"
 
 
+# Shown on the schedule page next to a category's overflow-heats block.
+OVERFLOW_NOTE = ("Note: this applies only to teams whose heats are not "
+                 "completed before the lunch break — those teams are to remain "
+                 "available in the Central Activity Room.")
+
+
 def heats_sessions():
     """Solo-run heat schedule: run order from docs/draw.json, slots refreshed
     from the current timing plan (the draw-time snapshot can go stale).
@@ -371,10 +377,10 @@ def heats_sessions():
         teams = info.get("teams", [])
         over = info.get("overflow")
         cut = over["from_seed"] - 1 if over else len(teams)
-        slots = [(fresh.get(event) or info.get("schedule") or {}, teams[:cut])]
+        slots = [(fresh.get(event) or info.get("schedule") or {}, teams[:cut], None)]
         if over:
-            slots.append((over, teams[cut:]))
-        for sch, group in slots:
+            slots.append((over, teams[cut:], OVERFLOW_NOTE))
+        for sch, group, note in slots:
             if not group:
                 continue
             _retime_runs(group, sch.get("time", ""))
@@ -383,12 +389,15 @@ def heats_sessions():
             if key not in groups:
                 groups[key] = []
                 order.append(key)
-            groups[key].append({"name": event, "solo": True, "matches": [
+            block = {"name": event, "solo": True, "matches": [
                 {"no": t.get("seed"), "round": "Heats", "time": t.get("run_time", ""),
                  "a": {"type": "team", "seed": t.get("seed"),
                        "team_no": t.get("team_no"), "team_name": t.get("team_name"),
                        "institution": t.get("institution", "")}}
-                for t in group]})
+                for t in group]}
+            if note:
+                block["note"] = note
+            groups[key].append(block)
 
     def sort_key(k):
         day, _venue, window = k
