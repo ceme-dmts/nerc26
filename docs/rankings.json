@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T20:13:16",
+  "generated_at": "2026-06-11T20:27:47",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -52,6 +52,14 @@
         },
         {
           "rank": 6,
+          "team_no": "1028",
+          "team_name": "Team Code Red 2.0",
+          "institution": "Lahore University of Management Sciences",
+          "score": 40.0,
+          "time": 32.59
+        },
+        {
+          "rank": 7,
           "team_no": "1184",
           "team_name": "Team 5VDC",
           "institution": "Lahore Garrison University",
@@ -59,7 +67,7 @@
           "time": 91.0
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team_no": "1119",
           "team_name": "Opsimath",
           "institution": "CEME  NUST",
@@ -67,7 +75,7 @@
           "time": 94.0
         },
         {
-          "rank": 8,
+          "rank": 9,
           "team_no": "1191",
           "team_name": "Noobray",
           "institution": "Lahore Garrison University",
@@ -75,7 +83,7 @@
           "time": 50.2
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team_no": "1024",
           "team_name": "LUMS team 3",
           "institution": "Lahore University of Management Sciences",
@@ -83,7 +91,7 @@
           "time": 86.0
         },
         {
-          "rank": 10,
+          "rank": 11,
           "team_no": "1039",
           "team_name": "Nallay",
           "institution": "Lahore University of Management Sciences",
@@ -91,20 +99,12 @@
           "time": 44.0
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team_no": "1030",
           "team_name": "Tarzan",
           "institution": "Lahore University of Management Sciences",
           "score": 0.0,
           "time": 96.0
-        },
-        {
-          "rank": 12,
-          "team_no": "1028",
-          "team_name": "Team Code Red 2.0",
-          "institution": "Lahore University of Management Sciences",
-          "score": 0.0,
-          "time": 116.0
         },
         {
           "rank": 13,
