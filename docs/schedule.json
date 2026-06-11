@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T10:54:07",
+  "generated_at": "2026-06-11T11:36:38",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -2224,9 +2224,9 @@
               "b": {
                 "type": "team",
                 "seed": 16,
-                "team_no": "1270",
-                "team_name": "NUST ROBOTICS & AI",
-                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
+                "team_no": "1066",
+                "team_name": "el gato",
+                "institution": "Lahore University of Management Sciences"
               },
               "winner": null,
               "time": "14:00"
@@ -2237,16 +2237,16 @@
               "a": {
                 "type": "team",
                 "seed": 8,
-                "team_no": "1028",
-                "team_name": "Team Code Red 2.0",
+                "team_no": "1039",
+                "team_name": "Nallay",
                 "institution": "Lahore University of Management Sciences"
               },
               "b": {
                 "type": "team",
                 "seed": 9,
-                "team_no": "930",
-                "team_name": "RoboNex",
-                "institution": "UET Taxila"
+                "team_no": "1030",
+                "team_name": "Tarzan",
+                "institution": "Lahore University of Management Sciences"
               },
               "winner": null,
               "time": "14:05"
@@ -2257,16 +2257,16 @@
               "a": {
                 "type": "team",
                 "seed": 4,
-                "team_no": "975",
-                "team_name": "Ezy Seen Ha",
+                "team_no": "985",
+                "team_name": "DJNZ",
                 "institution": "CEME  NUST"
               },
               "b": {
                 "type": "team",
                 "seed": 13,
-                "team_no": "1191",
-                "team_name": "Noobray",
-                "institution": "Lahore Garrison University"
+                "team_no": "1011",
+                "team_name": "Pakora Bot",
+                "institution": "Habib University"
               },
               "winner": null,
               "time": "14:10"
@@ -2277,16 +2277,16 @@
               "a": {
                 "type": "team",
                 "seed": 5,
-                "team_no": "1119",
-                "team_name": "Opsimath",
+                "team_no": "975",
+                "team_name": "Ezy Seen Ha",
                 "institution": "CEME  NUST"
               },
               "b": {
                 "type": "team",
                 "seed": 12,
-                "team_no": "1197",
-                "team_name": "Team Visitors",
-                "institution": "NUST EME"
+                "team_no": "1161",
+                "team_name": "Janooni Garrisonians",
+                "institution": "Lahore Garrison University"
               },
               "winner": null,
               "time": "14:15"
@@ -2304,9 +2304,9 @@
               "b": {
                 "type": "team",
                 "seed": 15,
-                "team_no": "1035",
-                "team_name": "Meow:3",
-                "institution": "Lahore University of Management Sciences"
+                "team_no": "1191",
+                "team_name": "Noobray",
+                "institution": "Lahore Garrison University"
               },
               "winner": null,
               "time": "14:20"
@@ -2317,16 +2317,16 @@
               "a": {
                 "type": "team",
                 "seed": 7,
-                "team_no": "1030",
-                "team_name": "Tarzan",
+                "team_no": "1024",
+                "team_name": "LUMS team 3",
                 "institution": "Lahore University of Management Sciences"
               },
               "b": {
                 "type": "team",
                 "seed": 10,
-                "team_no": "1161",
-                "team_name": "Janooni Garrisonians",
-                "institution": "Lahore Garrison University"
+                "team_no": "1028",
+                "team_name": "Team Code Red 2.0",
+                "institution": "Lahore University of Management Sciences"
               },
               "winner": null,
               "time": "14:25"
@@ -2344,9 +2344,9 @@
               "b": {
                 "type": "team",
                 "seed": 14,
-                "team_no": "1066",
-                "team_name": "el gato",
-                "institution": "Lahore University of Management Sciences"
+                "team_no": "1197",
+                "team_name": "Team Visitors",
+                "institution": "NUST EME"
               },
               "winner": null,
               "time": "14:30"
@@ -2357,16 +2357,16 @@
               "a": {
                 "type": "team",
                 "seed": 6,
-                "team_no": "1039",
-                "team_name": "Nallay",
-                "institution": "Lahore University of Management Sciences"
+                "team_no": "1119",
+                "team_name": "Opsimath",
+                "institution": "CEME  NUST"
               },
               "b": {
                 "type": "team",
                 "seed": 11,
-                "team_no": "1011",
-                "team_name": "Pakora Bot",
-                "institution": "Habib University"
+                "team_no": "930",
+                "team_name": "RoboNex",
+                "institution": "UET Taxila"
               },
               "winner": null,
               "time": "14:35"
