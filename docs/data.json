@@ -54,7 +54,7 @@
           "count": 2
         },
         {
-          "name": "NUST EME",
+          "name": "CEME NUST",
           "count": 1
         },
         {
@@ -182,19 +182,11 @@
       "institutions": [
         {
           "name": "CEME NUST",
-          "count": 8
-        },
-        {
-          "name": "CEME, NUST",
-          "count": 5
+          "count": 15
         },
         {
           "name": "Future World School Bahria Town",
           "count": 4
-        },
-        {
-          "name": "NUST EME",
-          "count": 2
         },
         {
           "name": "Suffah Intellectual School",
@@ -277,19 +269,17 @@
   "by_institution": {
     "The Millennium Education Pakistan": 33,
     "HeadStart": 18,
+    "CEME  NUST": 17,
     "LGS": 13,
     "(private)": 12,
     "Lahore Garrison University": 11,
     "Lahore University of Management Sciences": 9,
-    "CEME  NUST": 9,
     "International School Lahore": 8,
     "The Lab School": 8,
     "Cadet College Hasanabdal": 5,
-    "CEME, NUST": 5,
     "National University of Sciences and Technology(NUST) Other than CEME": 4,
     "Future World School Bahria Town": 4,
     "Habib University": 3,
-    "NUST EME": 3,
     "NJV Government Higher Secondary School Karachi.": 3,
     "University of Central Punjab": 3,
     "University of the Punjab": 3,
