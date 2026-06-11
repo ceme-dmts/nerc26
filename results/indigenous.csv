@@ -1,54 +1,27 @@
-seed,team_no,team_name,institution,score,time
-1,1152,gg,Lahore Garrison University,,
-2,985,DJNZ,CEME  NUST,,
-3,1119,Tangled,CEME  NUST,,
-4,1011,Loose Screws,Habib University,,
-5,1116,Opsimath,CEME  NUST,,
-6,1177,LGS JTI Senior B,LGS,,
-7,1181,Team 5VDC,Lahore Garrison University,,
-8,975,Ezy Seen Ha,CEME  NUST,,
-9,1106,404 Brain Not Found,Habib University,,
-10,1124,Jaadu,CEME  NUST,,
-11,1069,Pink Panther,Lahore University of Management Sciences,,
-12,1217,TMEayatfatima,(private),,
-13,1161,Team Maqsad,NUST EME,,
-14,1017,LUMS team 3,Lahore University of Management Sciences,,
-15,1236,TMEjawadkhattak,(private),,
-16,989,Usain Volt,(private),,
-17,1037,Nallay,Lahore University of Management Sciences,,
-18,1035,Confirm nhi hai,Habib University,,
-19,1132,Visitor,National University of Sciences and Technology(NUST) Other than CEME,,
-20,1192,Visitors,(private),,
-21,1215,TMEareejfatima,(private),,
-22,1263,Binary Beasts,Habib University,,
-23,1159,Janooni Garrisonians,Lahore Garrison University,,
-24,1041,?The Thing?,Lahore University of Management Sciences,,
-25,1245,LUMS team 3,Lahore University of Management Sciences,,
-26,1026,Team Code Red 2.0,Lahore University of Management Sciences,,
-27,1077,botzilla,Lahore University of Management Sciences,,
-28,1191,Apex Robotics,National University of Sciences and Technology(NUST) Other than CEME,,
-29,969,zero drift,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,,
-30,1154,Apex Dragons,National University of Sciences and Technology(NUST) Other than CEME,,
-31,1030,Meow:3,Lahore University of Management Sciences,,
-32,1270,Pheonix,NUST EME,,
-33,1193,Team Visitors,NUST EME,,
-34,1127,PanBahar,CEME  NUST,,
-35,1168,LGS JTI Senior A,LGS,,
-36,930,RoboNex,UET Taxila,,
-37,1039,Adastra 2.0,Lahore University of Management Sciences,,
-38,1249,Black Bird,CEME  NUST,,
-39,997,Pakora Bot,Habib University,,
-40,1197,The sophomore slump,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,,
-41,986,Hexa,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,,
-42,974,Titans,Lahore University of Management Sciences,,
-43,1184,Noobray,Lahore Garrison University,,
-44,1163,Mechatronz,CEME  NUST,,
-45,1050,el gato,Lahore University of Management Sciences,,
-46,996,Griffins,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,,
-47,1068,Rogue,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,,
-48,1250,GIKI-I,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,,
-49,1216,TMEareejfatima,(private),,
-50,1266,NUST ROBOTICS & AI,National University of Sciences and Technology(NUST) Other than CEME,,
-51,1164,Team 7ups,Lahore Garrison University,,
-52,1028,Tarzan,Lahore University of Management Sciences,,
-53,1179,LGS JTI Senior B,LGS,,
+Indigineous Heats,,,
+Venue: Auditorium. Timing: 1400 - 1800 hrs,,,
+Order,team_no,team_name,institution
+1,1011,Pakora Bot,Habib University
+2,1197,Team Visitors,NUST EME
+3,1119,Opsimath,CEME  NUST
+4,1161,Janooni Garrisonians,Lahore Garrison University
+5,1191,Noobray,Lahore Garrison University
+6,1066,el gato,Lahore University of Management Sciences
+7,1035,Meow:3,Lahore University of Management Sciences
+8,975,Ezy Seen Ha,CEME  NUST
+9,1270,NUST ROBOTICS & AI,National University of Sciences and Technology(NUST) Other than CEME
+10,1039,Nallay,Lahore University of Management Sciences
+11,1028,Team Code Red 2.0,Lahore University of Management Sciences
+12,1106,botzilla,Lahore University of Management Sciences
+13,974,Titans,Lahore University of Management Sciences
+14,1124,Tangled,CEME  NUST
+15,1286,Pheonix,NUST EME
+16,1041,Adastra 2.0,Lahore University of Management Sciences
+17,1030,Tarzan,Lahore University of Management Sciences
+18,1245,The sophomore slump,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
+19,930,RoboNex,UET Taxila
+20,1116,404 Brain Not Found,Habib University
+21,1250,Black Bird,CEME  NUST
+22,1024,LUMS team 3,Lahore University of Management Sciences
+23,1184,Team 5VDC,Lahore Garrison University
+24,985,DJNZ,CEME  NUST

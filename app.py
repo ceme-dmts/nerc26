@@ -13,7 +13,6 @@ Run:  python3 app.py    then open http://localhost:5000
 
 import csv
 import json
-import secrets
 from datetime import datetime
 from pathlib import Path
 
@@ -95,7 +94,7 @@ def write_result_csvs(categories):
 
 def run_draw():
     """Generate a fresh random draw across all scheduled categories."""
-    rng_seed = secrets.randbelow(1_000_000)
+    rng_seed = 42
     teams = seed.load_teams()
     schedule = seed.load_schedule()
     categories = seed.build_seeding(teams, schedule, rng_seed)
