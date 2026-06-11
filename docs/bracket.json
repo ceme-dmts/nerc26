@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-11T11:36:38",
+  "generated_at": "2026-06-11T19:37:38",
   "categories": {
     "Indigenous Category": {
       "schedule": {
-        "day": "",
+        "day": "Day 1 Thursday 11th June",
         "time": "1400-1800",
         "venue": "Auditorium"
       },
@@ -306,9 +306,9 @@
     },
     "Modular School": {
       "schedule": {
-        "day": "",
-        "time": "1500-1700",
-        "venue": "Auditorium"
+        "day": "Day 2 Friday 12th June",
+        "time": "0800-1300",
+        "venue": "CAR"
       },
       "bracket_size": 32,
       "status": "pending",
@@ -741,8 +741,8 @@
     },
     "Modular University": {
       "schedule": {
-        "day": "",
-        "time": "1500-1700",
+        "day": "Day 2 Friday 12th June",
+        "time": "0800-1300",
         "venue": "Auditorium"
       },
       "bracket_size": 8,
@@ -868,12 +868,12 @@
     },
     "Ready to Race-School": {
       "schedule": {
-        "day": "",
+        "day": "Day 1 Thursday 11th June",
         "time": "1400-1800",
         "venue": "CAR"
       },
       "bracket_size": 16,
-      "status": "pending",
+      "status": "seeded",
       "rounds": [
         {
           "name": "R16",
@@ -881,96 +881,144 @@
             {
               "no": 1,
               "a": {
-                "type": "seed",
-                "seed": 1
+                "type": "team",
+                "seed": 1,
+                "team_no": "1090",
+                "team_name": "chrispy chickens",
+                "institution": "LGS"
               },
               "b": {
-                "type": "seed",
-                "seed": 16
+                "type": "team",
+                "seed": 16,
+                "team_no": "1016",
+                "team_name": "FAAAHHH",
+                "institution": "Roots IVY ICMS"
               },
               "winner": null
             },
             {
               "no": 2,
               "a": {
-                "type": "seed",
-                "seed": 8
+                "type": "team",
+                "seed": 8,
+                "team_no": "1264",
+                "team_name": "Barq Raftar",
+                "institution": "Learnobots"
               },
               "b": {
-                "type": "seed",
-                "seed": 9
+                "type": "team",
+                "seed": 9,
+                "team_no": "1029",
+                "team_name": "LGS Islamabad",
+                "institution": "LGS"
               },
               "winner": null
             },
             {
               "no": 3,
               "a": {
-                "type": "seed",
-                "seed": 4
+                "type": "team",
+                "seed": 4,
+                "team_no": "1086",
+                "team_name": "JT Team X",
+                "institution": "LGS"
               },
               "b": {
-                "type": "seed",
-                "seed": 13
+                "type": "team",
+                "seed": 13,
+                "team_no": "994",
+                "team_name": "Apex Intellect",
+                "institution": "Suffah Intellectual School"
               },
               "winner": null
             },
             {
               "no": 4,
               "a": {
-                "type": "seed",
-                "seed": 5
+                "type": "team",
+                "seed": 5,
+                "team_no": "1255",
+                "team_name": "ISL TEAM 3",
+                "institution": "International School Lahore"
               },
               "b": {
-                "type": "seed",
-                "seed": 12
+                "type": "team",
+                "seed": 12,
+                "team_no": "961",
+                "team_name": "NJV Apex Racers",
+                "institution": "NJV Government Higher Secondary School Karachi."
               },
               "winner": null
             },
             {
               "no": 5,
               "a": {
-                "type": "seed",
-                "seed": 2
+                "type": "team",
+                "seed": 2,
+                "team_no": "1307",
+                "team_name": "Berozgar",
+                "institution": "The Lab School"
               },
               "b": {
-                "type": "seed",
-                "seed": 15
+                "type": "team",
+                "seed": 15,
+                "team_no": "1253",
+                "team_name": "ISL TEAM 1",
+                "institution": "International School Lahore"
               },
               "winner": null
             },
             {
               "no": 6,
               "a": {
-                "type": "seed",
-                "seed": 7
+                "type": "team",
+                "seed": 7,
+                "team_no": "1302",
+                "team_name": "BnW",
+                "institution": "The Lab School"
               },
               "b": {
-                "type": "seed",
-                "seed": 10
+                "type": "team",
+                "seed": 10,
+                "team_no": "1254",
+                "team_name": "ISL TEAM 2",
+                "institution": "International School Lahore"
               },
               "winner": null
             },
             {
               "no": 7,
               "a": {
-                "type": "seed",
-                "seed": 3
+                "type": "team",
+                "seed": 3,
+                "team_no": "1256",
+                "team_name": "ISL TEAM 4",
+                "institution": "International School Lahore"
               },
               "b": {
-                "type": "seed",
-                "seed": 14
+                "type": "team",
+                "seed": 14,
+                "team_no": "1021",
+                "team_name": "LPPS - Nuevo V3",
+                "institution": "Private"
               },
               "winner": null
             },
             {
               "no": 8,
               "a": {
-                "type": "seed",
-                "seed": 6
+                "type": "team",
+                "seed": 6,
+                "team_no": "1303",
+                "team_name": "Leer",
+                "institution": "The Lab School"
               },
               "b": {
-                "type": "seed",
-                "seed": 11
+                "type": "team",
+                "seed": 11,
+                "team_no": "1102",
+                "team_name": "Dabba Union",
+                "institution": "(private)"
               },
               "winner": null
             }
@@ -1101,8 +1149,8 @@
     },
     "Ready to Race-University": {
       "schedule": {
-        "day": "",
-        "time": "1500-1700",
+        "day": "Day 2 Friday 12th June",
+        "time": "0800-1300",
         "venue": "Auditorium"
       },
       "bracket_size": 16,

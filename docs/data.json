@@ -1,59 +1,162 @@
 {
-  "total_teams": 179,
-  "total_participants": 628,
-  "teams_paid": 57,
-  "teams_unpaid": 122,
-  "fees_due_rs": 807700,
-  "fees_collected_rs": 285000,
-  "instation_teams": 87,
-  "outstation_teams": 92,
+  "total_teams": 309,
+  "total_participants": 1122,
+  "teams_paid": 9,
+  "teams_unpaid": 300,
+  "fees_due_rs": 1355600,
+  "fees_collected_rs": 45000,
+  "instation_teams": 134,
+  "outstation_teams": 175,
   "by_event": {
-    "Modular School": 68,
-    "Ready to Race-School": 33,
-    "Indigenous Category": 24,
-    "Ready to Race-University": 23,
-    "SumoWars": 15,
-    "Modular University": 5,
-    "modular school": 3,
-    "Light Weight Robowars": 2,
-    "Aero": 2,
-    "Ready to Race School": 1,
-    "Ready to Race University": 1,
-    "Aero Exhibition": 1,
-    "aero": 1
+    "Indigenous Category": 53,
+    "Modular School": 49,
+    "Ready to Race-University": 48,
+    "SumoWars": 44,
+    "Ready to Race-School": 36,
+    "Aero": 33,
+    "Light Weight Robowars": 19,
+    "RoboWars": 11,
+    "Aero Exhibition": 8,
+    "Modular University": 8
   },
   "by_city": {
-    "Islamabad": 67,
-    "Lahore": 54,
-    "Rawalpindi": 23,
-    "Karachi": 23,
-    "Hassan Abdal": 4,
-    "Pakpattan": 2,
-    "Faisalabad": 2,
-    "Taxila": 1,
-    "Swabi": 1,
+    "Lahore": 87,
+    "Islamabad": 85,
+    "Rawalpindi": 48,
+    "Karachi": 36,
+    "Sahiwal": 10,
+    "Hassan Abdal": 8,
+    "Nowshera": 7,
+    "Swabi": 6,
+    "Peshawar": 4,
+    "Faisalabad": 4,
+    "Bahawalpur": 3,
+    "Pakpattan": 3,
     "Lodhran": 1,
-    "Sargodha": 1
+    "Rawalakot": 1,
+    "Abbottabad": 1,
+    "Multan": 1,
+    "Okara": 1,
+    "Sargodha": 1,
+    "Haripur": 1,
+    "Taxila": 1
   },
   "by_city_detail": {
+    "Lahore": {
+      "total": 87,
+      "institutions": [
+        {
+          "name": "LGS",
+          "count": 20
+        },
+        {
+          "name": "Lahore Garrison University",
+          "count": 16
+        },
+        {
+          "name": "Lahore University of Management Sciences",
+          "count": 12
+        },
+        {
+          "name": "International School Lahore",
+          "count": 8
+        },
+        {
+          "name": "University of Central Punjab",
+          "count": 7
+        },
+        {
+          "name": "National University of Computer and Emerging Sciences",
+          "count": 4
+        },
+        {
+          "name": "Crescent Model Higher Secondary School",
+          "count": 3
+        },
+        {
+          "name": "University of the Punjab",
+          "count": 3
+        },
+        {
+          "name": "Aitchison",
+          "count": 1
+        },
+        {
+          "name": "CEME NUST",
+          "count": 1
+        },
+        {
+          "name": "Information Technology University Lahore (ITU)",
+          "count": 1
+        },
+        {
+          "name": "University of Engineering and Technology",
+          "count": 1
+        },
+        {
+          "name": "Private Teams",
+          "count": 10
+        }
+      ]
+    },
     "Islamabad": {
-      "total": 67,
+      "total": 85,
       "institutions": [
         {
           "name": "The Millennium Education Pakistan",
           "count": 33
         },
         {
-          "name": "HeadStart",
-          "count": 17
+          "name": "National University of Sciences and Technology(NUST) Other than CEME",
+          "count": 12
         },
         {
-          "name": "headStart",
-          "count": 2
+          "name": "Capital University of Science & Technology",
+          "count": 8
         },
         {
           "name": "Apple Group of Schools F17",
+          "count": 4
+        },
+        {
+          "name": "COMSATS University",
           "count": 2
+        },
+        {
+          "name": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+          "count": 2
+        },
+        {
+          "name": "Riphah International University",
+          "count": 2
+        },
+        {
+          "name": "Air University Islamabad",
+          "count": 1
+        },
+        {
+          "name": "Bahria University Islamabad",
+          "count": 1
+        },
+        {
+          "name": "beaconhouse margalla international",
+          "count": 1
+        },
+        {
+          "name": "CEME NUST",
+          "count": 1
+        },
+        {
+          "name": "Learnobots",
+          "count": 1
+        },
+        {
+          "name": "LGS",
+          "count": 1
+        },
+        {
+          "name": "National University of Modern Languages",
+          "count": 1
         },
         {
           "name": "NUST EME",
@@ -64,119 +167,50 @@
           "count": 1
         },
         {
-          "name": "ems high school",
-          "count": 1
-        },
-        {
-          "name": "Riphah International University",
-          "count": 1
-        },
-        {
-          "name": "LGS",
-          "count": 1
-        },
-        {
-          "name": "Learnobots",
-          "count": 1
-        },
-        {
-          "name": "supernova",
-          "count": 1
-        },
-        {
-          "name": "Bahria University Islamabad",
-          "count": 1
-        },
-        {
-          "name": "National University of Sciences and Technology(NUST) Other than CEME",
-          "count": 1
-        },
-        {
           "name": "Private Teams",
-          "count": 4
-        }
-      ]
-    },
-    "Lahore": {
-      "total": 54,
-      "institutions": [
-        {
-          "name": "LGS",
-          "count": 12
-        },
-        {
-          "name": "Lahore Garrison University",
-          "count": 11
-        },
-        {
-          "name": "Lahore University of Management Sciences",
-          "count": 9
-        },
-        {
-          "name": "International School Lahore",
-          "count": 8
-        },
-        {
-          "name": "University of Central Punjab",
-          "count": 3
-        },
-        {
-          "name": "University of the Punjab",
-          "count": 3
-        },
-        {
-          "name": "National University of Computer and Emerging Sciences",
-          "count": 2
-        },
-        {
-          "name": "CEME NUST",
-          "count": 1
-        },
-        {
-          "name": "Aitchison",
-          "count": 1
-        },
-        {
-          "name": "Private Teams",
-          "count": 4
+          "count": 13
         }
       ]
     },
     "Rawalpindi": {
-      "total": 23,
+      "total": 48,
       "institutions": [
         {
           "name": "CEME NUST",
-          "count": 13
+          "count": 28
+        },
+        {
+          "name": "NUST EME",
+          "count": 6
+        },
+        {
+          "name": "Suffah Intellectual School",
+          "count": 6
         },
         {
           "name": "Future World School Bahria Town",
           "count": 4
         },
         {
-          "name": "NUST EME",
+          "name": "National University of Sciences and Technology(NUST) Other than CEME",
           "count": 2
         },
         {
-          "name": "Suffah Intellectual School",
-          "count": 2
-        },
-        {
-          "name": "SKANS SCHOOL SYSTEM",
+          "name": "Private Teams",
           "count": 2
         }
       ]
     },
     "Karachi": {
-      "total": 23,
+      "total": 36,
       "institutions": [
         {
-          "name": "The Lab School",
-          "count": 8
+          "name": "Habib University",
+          "count": 9
         },
         {
-          "name": "Habib University",
-          "count": 3
+          "name": "Air University Islamabad",
+          "count": 4
         },
         {
           "name": "National University of Sciences and Technology(NUST) Other than CEME",
@@ -187,7 +221,7 @@
           "count": 3
         },
         {
-          "name": "Air uni karchi",
+          "name": "Al-Bunyan Academy",
           "count": 1
         },
         {
@@ -195,32 +229,83 @@
           "count": 1
         },
         {
+          "name": "Karachi Institute of Economics and Technology",
+          "count": 1
+        },
+        {
           "name": "Private Teams",
-          "count": 4
+          "count": 14
+        }
+      ]
+    },
+    "Sahiwal": {
+      "total": 10,
+      "institutions": [
+        {
+          "name": "COMSATS University",
+          "count": 10
         }
       ]
     },
     "Hassan Abdal": {
-      "total": 4,
+      "total": 8,
       "institutions": [
         {
           "name": "Cadet College Hasanabdal",
-          "count": 4
+          "count": 8
         }
       ]
     },
-    "Pakpattan": {
-      "total": 2,
+    "Nowshera": {
+      "total": 7,
       "institutions": [
         {
-          "name": "Private Teams",
+          "name": "National University of Sciences and Technology(NUST) Other than CEME",
+          "count": 3
+        },
+        {
+          "name": "Pakistan Air Force Academy",
+          "count": 3
+        },
+        {
+          "name": "National University of Technology",
+          "count": 1
+        }
+      ]
+    },
+    "Swabi": {
+      "total": 6,
+      "institutions": [
+        {
+          "name": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+          "count": 6
+        }
+      ]
+    },
+    "Peshawar": {
+      "total": 4,
+      "institutions": [
+        {
+          "name": "UET Peshawar",
           "count": 2
+        },
+        {
+          "name": "National University of Computer and Emerging Sciences",
+          "count": 1
+        },
+        {
+          "name": "Private Teams",
+          "count": 1
         }
       ]
     },
     "Faisalabad": {
-      "total": 2,
+      "total": 4,
       "institutions": [
+        {
+          "name": "Beaconhouse College Programme Faisalabad",
+          "count": 2
+        },
         {
           "name": "Roots IVY ICMS",
           "count": 1
@@ -231,21 +316,25 @@
         }
       ]
     },
-    "Taxila": {
-      "total": 1,
+    "Bahawalpur": {
+      "total": 3,
       "institutions": [
         {
-          "name": "UET Taxila",
-          "count": 1
+          "name": "Private Teams",
+          "count": 3
         }
       ]
     },
-    "Swabi": {
-      "total": 1,
+    "Pakpattan": {
+      "total": 3,
       "institutions": [
         {
-          "name": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+          "name": "NUST EME",
           "count": 1
+        },
+        {
+          "name": "Private Teams",
+          "count": 2
         }
       ]
     },
@@ -258,6 +347,42 @@
         }
       ]
     },
+    "Rawalakot": {
+      "total": 1,
+      "institutions": [
+        {
+          "name": "CEME NUST",
+          "count": 1
+        }
+      ]
+    },
+    "Abbottabad": {
+      "total": 1,
+      "institutions": [
+        {
+          "name": "COMSATS University",
+          "count": 1
+        }
+      ]
+    },
+    "Multan": {
+      "total": 1,
+      "institutions": [
+        {
+          "name": "LGS",
+          "count": 1
+        }
+      ]
+    },
+    "Okara": {
+      "total": 1,
+      "institutions": [
+        {
+          "name": "National University of Sciences and Technology(NUST) Other than CEME",
+          "count": 1
+        }
+      ]
+    },
     "Sargodha": {
       "total": 1,
       "institutions": [
@@ -266,57 +391,81 @@
           "count": 1
         }
       ]
+    },
+    "Haripur": {
+      "total": 1,
+      "institutions": [
+        {
+          "name": "The Millennium Education Pakistan",
+          "count": 1
+        }
+      ]
+    },
+    "Taxila": {
+      "total": 1,
+      "institutions": [
+        {
+          "name": "UET Taxila",
+          "count": 1
+        }
+      ]
     }
   },
   "by_institution": {
-    "The Millennium Education Pakistan": 33,
-    "HeadStart": 17,
-    "CEME  NUST": 14,
-    "LGS": 13,
-    "(private)": 12,
-    "Lahore Garrison University": 11,
-    "Lahore University of Management Sciences": 9,
-    "The Lab School": 8,
+    "(private)": 39,
+    "The Millennium Education Pakistan": 34,
+    "CEME  NUST": 31,
+    "LGS": 22,
+    "National University of Sciences and Technology(NUST) Other than CEME": 21,
+    "Lahore Garrison University": 16,
+    "COMSATS University": 13,
+    "Lahore University of Management Sciences": 12,
+    "Cadet College Hasanabdal": 9,
+    "Habib University": 9,
+    "Capital University of Science & Technology": 8,
+    "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology": 8,
     "International School Lahore": 8,
-    "Cadet College Hasanabdal": 5,
-    "National University of Sciences and Technology(NUST) Other than CEME": 4,
+    "NUST EME": 8,
+    "University of Central Punjab": 7,
+    "Suffah Intellectual School": 6,
+    "Air University Islamabad": 5,
+    "N/A": 5,
+    "National University of Computer and Emerging Sciences": 5,
+    "Apple Group of Schools F17": 4,
     "Future World School Bahria Town": 4,
-    "Habib University": 3,
-    "NUST EME": 3,
+    "Crescent Model Higher Secondary School": 3,
     "NJV Government Higher Secondary School Karachi.": 3,
-    "University of Central Punjab": 3,
+    "Pakistan Air Force Academy": 3,
     "University of the Punjab": 3,
+    "Beaconhouse College Programme Faisalabad": 2,
+    "Riphah International University": 2,
     "Roots IVY ICMS": 2,
-    "headStart": 2,
-    "Suffah Intellectual School": 2,
-    "Apple Group of Schools F17": 2,
     "Superior University": 2,
-    "National University of Computer and Emerging Sciences": 2,
-    "SKANS SCHOOL SYSTEM": 2,
-    "UET Taxila": 1,
-    "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology": 1,
-    "Air uni karchi": 1,
-    "ems high school": 1,
-    "Riphah International University": 1,
-    "": 1,
-    "Private": 1,
-    "Learnobots": 1,
+    "UET Peshawar": 2,
     "Aitchison": 1,
-    "supernova": 1,
+    "Al-Bunyan Academy": 1,
     "Bahria University Islamabad": 1,
-    "Institute of Business Administration Karachi": 1
+    "beaconhouse margalla international": 1,
+    "Information Technology University Lahore  (ITU)": 1,
+    "Institute of Business Administration Karachi": 1,
+    "Karachi Institute of Economics and Technology": 1,
+    "Learnobots": 1,
+    "National University of Modern Languages": 1,
+    "National University of Technology": 1,
+    "Private": 1,
+    "UET Taxila": 1,
+    "University of Engineering and Technology": 1
   },
   "by_gender": {
-    "Male": 496,
-    "Female": 106
+    "Male": 879,
+    "Female": 228
   },
   "team_size_distribution": {
-    "0": 2,
-    "1": 52,
-    "2": 14,
-    "3": 23,
-    "4": 17,
-    "5": 15,
-    "6": 56
+    "1": 76,
+    "2": 28,
+    "3": 39,
+    "4": 41,
+    "5": 41,
+    "6": 84
   }
 }

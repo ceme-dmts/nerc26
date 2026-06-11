@@ -5,8 +5,8 @@ Each of the five scheduled categories runs as timed solo "heats". Operators
 record each team's `score` and `time` in results/<slug>.csv (created by app.py
 when the draw is pressed). This script ranks every category by score (desc),
 breaking ties by time (asc), seeds the top-N teams into a standard knockout
-bracket (so #1 and #2 can only meet in the final), and writes docs/bracket.json
-and docs/schedule.json for the public pages.
+bracket (so #1 and #2 can only meet in the final), and writes docs/bracket.json,
+docs/schedule.json and docs/rankings.json for the public pages.
 
 Match results are recorded per category in results/<slug>_bracket.csv: the
 operator types the winning team's ID in the `winner` column and re-runs this
@@ -32,6 +32,7 @@ DOCS_DIR = ROOT / "docs"
 RESULTS_DIR = ROOT / "results"
 BRACKET_FILE = DOCS_DIR / "bracket.json"
 SCHEDULE_FILE = DOCS_DIR / "schedule.json"
+RANKINGS_FILE = DOCS_DIR / "rankings.json"
 DRAW_FILE = DOCS_DIR / "draw.json"  # solo-run heats (written by app.py on draw)
 
 # Teams advancing from the heats into each knockout (must be a power of two).
@@ -333,8 +334,29 @@ def _canon_venue(raw):
     return "Central Activity Room" if raw.strip().upper() == "CAR" else raw.strip()
 
 
+def _retime_runs(teams, window):
+    """Recompute run_time across a HHMM-HHMM window, keeping the drawn order.
+
+    The slot may have moved since draw.json was written (its stored run times
+    follow the old window), so retime against the current timing plan. Runs are
+    MATCH_MIN apart, or spread evenly if the window is too short for that.
+    """
+    try:
+        start_s, end_s = window.split("-")
+        start = int(start_s[:2]) * 60 + int(start_s[2:])
+        span = int(end_s[:2]) * 60 + int(end_s[2:]) - start
+    except (ValueError, AttributeError):
+        return  # no parseable window: keep whatever the draw recorded
+    n = len(teams)
+    step = MATCH_MIN if n <= 1 or (n - 1) * MATCH_MIN <= span else span / n
+    for i, t in enumerate(teams):
+        total = int(round(start + i * step))
+        t["run_time"] = f"{total // 60:02d}:{total % 60:02d}"
+
+
 def heats_sessions():
-    """Solo-run heat schedule, read from docs/draw.json (run order + run times).
+    """Solo-run heat schedule: run order from docs/draw.json, slots refreshed
+    from the current timing plan (the draw-time snapshot can go stale).
 
     Returns schedule `sessions` (same shape as schedule_brackets) with one
     "Heats" block per category, sorted chronologically; [] if no draw exists.
@@ -342,17 +364,19 @@ def heats_sessions():
     if not DRAW_FILE.exists():
         return []
     cats = json.loads(DRAW_FILE.read_text()).get("categories", {})
+    fresh = seed.load_schedule()
     groups, order = {}, []
     for event, info in cats.items():
         teams = info.get("teams", [])
         over = info.get("overflow")
         cut = over["from_seed"] - 1 if over else len(teams)
-        slots = [(info.get("schedule") or {}, teams[:cut])]
+        slots = [(fresh.get(event) or info.get("schedule") or {}, teams[:cut])]
         if over:
             slots.append((over, teams[cut:]))
         for sch, group in slots:
             if not group:
                 continue
+            _retime_runs(group, sch.get("time", ""))
             key = (_canon_day(sch.get("day", "")), _canon_venue(sch.get("venue", "")),
                    sch.get("time", ""))
             if key not in groups:
@@ -433,6 +457,7 @@ def main():
     schedule = seed.load_schedule()
     categories = {}
     all_matches = {}
+    rankings = {}
     for event, slug in SLUG.items():
         n = BRACKET_SIZE[event]
         ranked = rank(load_results(slug))
@@ -449,6 +474,17 @@ def main():
             # of Match X"; after heats the real teams replace the seed placeholders.
             "rounds": group_rounds(resolved),
         }
+        rankings[event] = {
+            "schedule": schedule.get(event),
+            "bracket_size": n,
+            "status": "seeded" if seeded else "pending",
+            "teams": [
+                {"rank": r["rank"], "team_no": r["team_no"],
+                 "team_name": r["team_name"], "institution": r["institution"],
+                 "score": r["score"], "time": r["time"]}  # time in seconds
+                for r in ranked
+            ],
+        }
 
     bracket_sessions, round_sched = schedule_brackets(all_matches, heats_spill())
     sessions = heats_sessions() + bracket_sessions  # heats are chronologically first
@@ -464,11 +500,15 @@ def main():
         "generated_at": datetime.now().isoformat(timespec="seconds"),
         "sessions": sessions,
     }, indent=2))
+    RANKINGS_FILE.write_text(json.dumps({
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "categories": rankings,
+    }, indent=2))
 
     print("Brackets generated:")
     for event, entry in categories.items():
         print(f"  {event:<28} size {entry['bracket_size']:>2}  [{entry['status']}]")
-    print(f"Wrote {BRACKET_FILE} and {SCHEDULE_FILE}.")
+    print(f"Wrote {BRACKET_FILE}, {SCHEDULE_FILE} and {RANKINGS_FILE}.")
 
 
 if __name__ == "__main__":

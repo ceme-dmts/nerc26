@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NERC 2026 — Head-to-Head Match Schedule</title>
+  <title>NERC 2026 — Match Schedule</title>
   <style>
     :root {
       --bg:#f5f7fb; --panel:#ffffff; --line:#e3e8f0; --fg:#16203a;
@@ -80,7 +80,7 @@
     <span class="brand"><img src="nust.png" alt="NUST" /></span>
     <div class="head-text">
       <h1>National Engineering Robotics Contest 2026</h1>
-      <p><a href="index.html" style="color:var(--accent);text-decoration:none">← Home</a> · Head-to-Head Match Schedule · <a href="bracket.html" style="color:var(--accent);text-decoration:none">Brackets →</a></p>
+      <p><a href="index.html" style="color:var(--accent);text-decoration:none">← Home</a> · Match Schedule · <a href="rankings.html" style="color:var(--accent);text-decoration:none">Rankings →</a> · <a href="bracket.html" style="color:var(--accent);text-decoration:none">Brackets →</a></p>
     </div>
     <span class="brand"><img src="ceme.png" alt="CEME" /></span>
   </header>
@@ -132,15 +132,13 @@
     }
 
     function render(d){
-      // group sessions by day, preserving order; skip solo-run heats
+      // group sessions by day, preserving order; Day 1 (heats already run) is omitted
       const days = [];
       for(const s of d.sessions){
-        const cats = s.categories.filter(c => !c.solo);
-        if(!cats.length) continue;
-        const venue = Object.assign({}, s, {categories: cats});
-        let g = days.find(x=>x.day === venue.day);
-        if(!g){ g = {day:venue.day, venues:[]}; days.push(g); }
-        g.venues.push(venue);
+        if((s.day||"").includes("Day 1") || !s.categories.length) continue;
+        let g = days.find(x=>x.day === s.day);
+        if(!g){ g = {day:s.day, venues:[]}; days.push(g); }
+        g.venues.push(s);
       }
       main.innerHTML = `<a class="back" href="bracket.html">← View brackets</a>` +
         days.map(g=>`

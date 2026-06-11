@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>National Engineering Robotics Contest 2026 — Heat Rankings</title>
+  <style>
+    :root {
+      --bg:#f5f7fb; --panel:#ffffff; --line:#e3e8f0; --fg:#16203a;
+      --muted:#5a6b8c; --accent:#2f6bff; --accent2:#00a884;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; background:var(--bg); color:var(--fg);
+      font-family:-apple-system,system-ui,Segoe UI,Roboto,sans-serif;
+      min-height:100vh; line-height:1.5;
+    }
+    header{display:flex; align-items:center; gap:1.2rem; padding:1.1rem 1.5rem;
+      border-bottom:1px solid var(--line); background:#fff;}
+    header .brand{flex:0 0 auto}
+    header .brand img{height:62px; width:auto; display:block}
+    header .head-text{flex:1 1 auto; text-align:center; min-width:0}
+    header h1{margin:0; font-size:1.5rem; font-weight:800;}
+    header p{margin:.35rem 0 0; color:var(--accent); letter-spacing:.16em;
+      text-transform:uppercase; font-size:.78rem; font-weight:700}
+    @media(max-width:600px){ header{gap:.6rem; padding:.8rem .7rem}
+      header .brand img{height:38px} header h1{font-size:1.05rem}
+      header p{letter-spacing:.08em; font-size:.66rem} }
+    main{max-width:1100px; margin:0 auto; padding:1.5rem 1.2rem 3rem}
+
+    /* in-page event navigation */
+    .nav{display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:1.6rem}
+    .nav a{text-decoration:none; color:var(--accent); background:var(--panel);
+      border:1px solid var(--line); border-radius:999px; padding:.3rem .9rem;
+      font-size:.85rem; font-weight:700}
+    .nav a:hover{border-color:var(--accent)}
+
+    section.cat{margin-bottom:2.6rem}
+    .cat-head{display:flex; align-items:baseline; flex-wrap:wrap; gap:.7rem;
+      border-bottom:2px solid var(--accent); padding-bottom:.4rem; margin-bottom:.9rem}
+    .cat-head h2{margin:0; font-size:1.35rem}
+    .cat-head .sub{color:var(--muted); font-size:.82rem; margin-left:auto}
+    .pending-note{color:var(--muted); font-style:italic; padding:.6rem 0 0}
+
+    table{width:100%; border-collapse:collapse; background:var(--panel);
+      border:1px solid var(--line); border-radius:12px; overflow:hidden}
+    th,td{text-align:left; padding:.5rem .7rem; border-bottom:1px solid var(--line);
+      font-size:.92rem}
+    th{color:var(--muted); font-weight:700; font-size:.74rem; letter-spacing:.1em;
+      text-transform:uppercase; background:#fafbfe}
+    td.r,th.r{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+    td.rank{font-weight:800; color:var(--accent); width:3rem;
+      font-variant-numeric:tabular-nums}
+    td .tname{font-weight:700}
+    td .tid{color:var(--accent); font-weight:800; font-size:.78rem; margin-left:.45rem;
+      font-variant-numeric:tabular-nums}
+    td .uni{color:var(--muted); font-size:.78rem}
+    tr.q td.rank{color:var(--accent2)}
+    tr.q td:first-child{box-shadow:inset 3px 0 0 var(--accent2)}
+    tr.unscored td{color:var(--muted)}
+    tr.unscored td.rank{color:var(--muted); font-weight:600}
+    tr.cut td{padding:.3rem .7rem; background:#e9f8f1; color:var(--accent2);
+      font-size:.72rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase;
+      text-align:center; border-bottom:1px solid var(--line)}
+    @media(max-width:600px){ th,td{padding:.42rem .45rem; font-size:.85rem}
+      td .uni{display:block; margin-left:0} }
+
+    footer{text-align:center; color:var(--muted); font-size:.82rem; padding:1.5rem}
+    .empty{text-align:center; color:var(--muted); padding:4rem 1rem}
+  </style>
+</head>
+<body>
+  <header>
+    <span class="brand"><img src="nust.png" alt="NUST" /></span>
+    <div class="head-text">
+      <h1>National Engineering Robotics Contest 2026</h1>
+      <p><a href="index.html" style="color:var(--accent);text-decoration:none">← Home</a> · Heat Rankings · <a href="bracket.html" style="color:var(--accent);text-decoration:none">Brackets →</a> · <a href="schedule.html" style="color:var(--accent);text-decoration:none">Schedule →</a></p>
+    </div>
+    <span class="brand"><img src="ceme.png" alt="CEME" /></span>
+  </header>
+  <main id="main"></main>
+  <footer id="foot"></footer>
+
+  <script>
+    const main = document.getElementById("main");
+    const esc = s => (s||"").replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+
+    function fmtTime(t){
+      if(t == null) return "—";
+      const m = Math.floor(t/60), s = t - m*60;
+      return `${m}:${s.toFixed(2).padStart(5,"0")}`;
+    }
+    function fmtScore(sc){
+      if(sc == null) return "—";
+      return Number.isInteger(sc) ? String(sc) : sc.toFixed(2);
+    }
+
+    function rowHTML(t, cut){
+      const scored = t.score != null;
+      const cls = [scored && t.rank <= cut ? "q" : "", scored ? "" : "unscored"]
+        .filter(Boolean).join(" ");
+      return `<tr class="${cls}">
+        <td class="rank">${t.rank}</td>
+        <td><span class="tname">${esc(t.team_name)||"—"}</span><span class="tid">#${esc(t.team_no)}</span></td>
+        <td><span class="uni">${t.institution && t.institution !== "(private)" ? esc(t.institution) : ""}</span></td>
+        <td class="r">${fmtScore(t.score)}</td>
+        <td class="r">${fmtTime(t.time)}</td>
+      </tr>`;
+    }
+
+    function tableHTML(info){
+      const cut = info.bracket_size;
+      const rows = [];
+      info.teams.forEach((t, i) => {
+        rows.push(rowHTML(t, cut));
+        if(t.rank === cut && i < info.teams.length - 1)
+          rows.push(`<tr class="cut"><td colspan="5">Top ${cut} advance to the knockout</td></tr>`);
+      });
+      return `<table>
+        <thead><tr><th>#</th><th>Team</th><th>Institution</th>
+          <th class="r">Score</th><th class="r">Time</th></tr></thead>
+        <tbody>${rows.join("")}</tbody>
+      </table>`;
+    }
+
+    function render(DATA){
+      const cats = Object.entries(DATA.categories);
+      const nav = `<nav class="nav">${cats.map(([name]) =>
+        `<a href="#${encodeURIComponent(name)}">${esc(name)}</a>`).join("")}</nav>`;
+      const sections = cats.map(([name, info]) => {
+        const scored = info.teams.filter(t => t.score != null).length;
+        const body = info.status === "seeded"
+          ? tableHTML(info)
+          : `<div class="pending-note">Heat scores not entered yet — rankings will appear here.</div>`;
+        const sub = info.status === "seeded"
+          ? `${scored} of ${info.teams.length} teams scored · ranked by score, ties by time`
+          : "";
+        return `<section class="cat" id="${esc(name)}">
+          <div class="cat-head"><h2>${esc(name)}</h2><span class="sub">${sub}</span></div>
+          ${body}
+        </section>`;
+      }).join("");
+      main.innerHTML = nav + sections;
+    }
+
+    async function start(){
+      let DATA = null;
+      try { DATA = await fetch("rankings.json", {cache:"no-store"}).then(r=>r.json()); }
+      catch(e){}
+      if(!DATA || !DATA.categories){
+        main.innerHTML = '<div class="empty">The rankings will be published once the heats begin.</div>';
+        return;
+      }
+      document.getElementById("foot").textContent = `Generated ${DATA.generated_at}`;
+      render(DATA);
+      if(location.hash){
+        const el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+        if(el) el.scrollIntoView();
+      }
+    }
+    start();
+  </script>
+</body>
+</html>
