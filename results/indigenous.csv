@@ -1,27 +1,25 @@
-Indigineous Heats,,,
-Venue: Auditorium. Timing: 1400 - 1800 hrs,,,
-Order,team_no,team_name,institution
-1,1011,Pakora Bot,Habib University
-2,1197,Team Visitors,NUST EME
-3,1119,Opsimath,CEME  NUST
-4,1161,Janooni Garrisonians,Lahore Garrison University
-5,1191,Noobray,Lahore Garrison University
-6,1066,el gato,Lahore University of Management Sciences
-7,1035,Meow:3,Lahore University of Management Sciences
-8,975,Ezy Seen Ha,CEME  NUST
-9,1270,NUST ROBOTICS & AI,National University of Sciences and Technology(NUST) Other than CEME
-10,1039,Nallay,Lahore University of Management Sciences
-11,1028,Team Code Red 2.0,Lahore University of Management Sciences
-12,1106,botzilla,Lahore University of Management Sciences
-13,974,Titans,Lahore University of Management Sciences
-14,1124,Tangled,CEME  NUST
-15,1286,Pheonix,NUST EME
-16,1041,Adastra 2.0,Lahore University of Management Sciences
-17,1030,Tarzan,Lahore University of Management Sciences
-18,1245,The sophomore slump,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology
-19,930,RoboNex,UET Taxila
-20,1116,404 Brain Not Found,Habib University
-21,1250,Black Bird,CEME  NUST
-22,1024,LUMS team 3,Lahore University of Management Sciences
-23,1184,Team 5VDC,Lahore Garrison University
-24,985,DJNZ,CEME  NUST
+seed,team_no,team_name,institution,score,time
+1,1011,Pakora Bot,Habib University,,
+2,1197,Team Visitors,NUST EME,,
+3,1119,Opsimath,CEME  NUST,40,1:34
+4,1161,Janooni Garrisonians,Lahore Garrison University,0,3:00
+5,1191,Noobray,Lahore Garrison University,,
+6,1066,el gato,Lahore University of Management Sciences,,
+7,1035,Meow:3,Lahore University of Management Sciences,,
+8,975,Ezy Seen Ha,CEME  NUST,60,2:18
+9,1270,NUST ROBOTICS & AI,National University of Sciences and Technology(NUST) Other than CEME,,
+10,1039,Nallay,Lahore University of Management Sciences,0,44
+11,1028,Team Code Red 2.0,Lahore University of Management Sciences,0,1:56
+12,1106,botzilla,Lahore University of Management Sciences,,
+13,974,Titans,Lahore University of Management Sciences,,
+14,1124,Tangled,CEME  NUST,70,38.4
+15,1286,Pheonix,NUST EME,100,54.62
+16,1041,Adastra 2.0,Lahore University of Management Sciences,100,1:26
+17,1030,Tarzan,Lahore University of Management Sciences,0,1:36
+18,1245,The sophomore slump,Ghulam Ishaq Khan Institute of Engineering Sciences and Technology,,
+19,930,RoboNex,UET Taxila,0,1:57
+20,1116,404 Brain Not Found,Habib University,,
+21,1250,Black Bird,CEME  NUST,,
+22,1024,LUMS team 3,Lahore University of Management Sciences,,
+23,1184,Team 5VDC,Lahore Garrison University,,
+24,985,DJNZ,CEME  NUST,,
