@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T19:37:38",
+  "generated_at": "2026-06-11T19:48:29",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -8,7 +8,7 @@
         "venue": "Auditorium"
       },
       "bracket_size": 16,
-      "status": "seeded",
+      "status": "partial",
       "teams": [
         {
           "rank": 1,
@@ -946,142 +946,6 @@
           "institution": "Roots IVY ICMS",
           "score": 50.0,
           "time": 36.9
-        },
-        {
-          "rank": 17,
-          "team_no": "1003",
-          "team_name": "ctrl+win",
-          "institution": "Cadet College Hasanabdal",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 18,
-          "team_no": "1107",
-          "team_name": "Team Forge",
-          "institution": "(private)",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 19,
-          "team_no": "1273",
-          "team_name": "DroBotX1",
-          "institution": "Apple Group of Schools F17",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 20,
-          "team_no": "959",
-          "team_name": "Team nexus",
-          "institution": "(private)",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 21,
-          "team_no": "1212",
-          "team_name": "The Robo Kings",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 22,
-          "team_no": "1285",
-          "team_name": "DroBotX2",
-          "institution": "Apple Group of Schools F17",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 23,
-          "team_no": "1283",
-          "team_name": "Aitchison College Team A",
-          "institution": "Aitchison",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 24,
-          "team_no": "1309",
-          "team_name": "Nebula",
-          "institution": "supernova",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 25,
-          "team_no": "1306",
-          "team_name": "TraceTech titans",
-          "institution": "The Lab School",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 26,
-          "team_no": "1049",
-          "team_name": "Abdalian Ready To Race",
-          "institution": "Cadet College Hasanabdal",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 27,
-          "team_no": "1305",
-          "team_name": "Constantine",
-          "institution": "The Lab School",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 28,
-          "team_no": "1089",
-          "team_name": "JT Team A",
-          "institution": "LGS",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 29,
-          "team_no": "1176",
-          "team_name": "LGS JTI Senior B",
-          "institution": "LGS",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 30,
-          "team_no": "991",
-          "team_name": "Buraq Velocity",
-          "institution": "Suffah Intellectual School",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 31,
-          "team_no": "1083",
-          "team_name": "DriftX",
-          "institution": "LGS",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 32,
-          "team_no": "1148",
-          "team_name": "LGS JT Team Alpha ReadyToRace",
-          "institution": "LGS",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 33,
-          "team_no": "1167",
-          "team_name": "LGS JTI Senior A",
-          "institution": "LGS",
-          "score": null,
-          "time": null
         }
       ]
     },

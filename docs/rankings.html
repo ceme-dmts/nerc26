@@ -129,11 +129,11 @@
         `<a href="#${encodeURIComponent(name)}">${esc(name)}</a>`).join("")}</nav>`;
       const sections = cats.map(([name, info]) => {
         const scored = info.teams.filter(t => t.score != null).length;
-        const body = info.status === "seeded"
+        const body = scored
           ? tableHTML(info)
           : `<div class="pending-note">Heat scores not entered yet — rankings will appear here.</div>`;
-        const sub = info.status === "seeded"
-          ? `${scored} of ${info.teams.length} teams scored · ranked by score, ties by time`
+        const sub = info.status === "partial"
+          ? `${scored} of ${info.teams.length} teams scored · heats in progress — standings are provisional`
           : "";
         return `<section class="cat" id="${esc(name)}">
           <div class="cat-head"><h2>${esc(name)}</h2><span class="sub">${sub}</span></div>

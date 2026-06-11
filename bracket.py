@@ -11,8 +11,9 @@ docs/schedule.json and docs/rankings.json for the public pages.
 Match results are recorded per category in results/<slug>_bracket.csv: the
 operator types the winning team's ID in the `winner` column and re-runs this
 script, which propagates winners into later rounds (filling the real teams and
-names) and refreshes both JSON files. A category whose heats CSV has no scores
-yet is marked "pending".
+names) and refreshes both JSON files. A category stays "pending" (placeholder
+bracket) until every team in its heats CSV has a score — a blank score means
+that team hasn't run yet, so seeding early would be premature.
 
 Usage:
   python3 bracket.py
@@ -461,7 +462,10 @@ def main():
     for event, slug in SLUG.items():
         n = BRACKET_SIZE[event]
         ranked = rank(load_results(slug))
-        seeded = any(r["score"] is not None for r in ranked)
+        scored = sum(1 for r in ranked if r["score"] is not None)
+        # Seed only once every team has a score: a blank row means a team is
+        # still to run, and its result could displace the current top-N.
+        seeded = bool(ranked) and scored == len(ranked)
         matches = build_matches(ranked, n, seeded, event in THIRD_PLACE)
         resolved = resolve(matches, load_bracket_winners(slug))
         write_bracket_csv(slug, resolved)
@@ -477,7 +481,9 @@ def main():
         rankings[event] = {
             "schedule": schedule.get(event),
             "bracket_size": n,
-            "status": "seeded" if seeded else "pending",
+            # "partial": some scores are in, so live standings can be shown,
+            # but the knockout isn't seeded yet.
+            "status": "seeded" if seeded else ("partial" if scored else "pending"),
             "teams": [
                 {"rank": r["rank"], "team_no": r["team_no"],
                  "team_name": r["team_name"], "institution": r["institution"],
