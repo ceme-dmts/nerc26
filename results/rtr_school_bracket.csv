@@ -1,16 +1,16 @@
 match_no,round,team_a,team_a_name,team_b,team_b_name,winner
-1,R16,1090,chrispy chickens,1016,FAAAHHH,
-2,R16,1264,Barq Raftar,1029,LGS Islamabad,
-3,R16,1086,JT Team X,994,Apex Intellect,
-4,R16,1255,ISL TEAM 3,961,NJV Apex Racers,
-5,R16,1307,Berozgar,1253,ISL TEAM 1,
-6,R16,1302,BnW,1254,ISL TEAM 2,
-7,R16,1256,ISL TEAM 4,1021,LPPS - Nuevo V3,
-8,R16,1303,Leer,1102,Dabba Union,
-9,QF,,,,,
-10,QF,,,,,
-11,QF,,,,,
-12,QF,,,,,
+1,R16,1090,chrispy chickens,1016,FAAAHHH,1016
+2,R16,1264,Barq Raftar,1029,LGS Islamabad,1264
+3,R16,1086,JT Team X,994,Apex Intellect,1086
+4,R16,1255,ISL TEAM 3,961,NJV Apex Racers,1255
+5,R16,1307,Berozgar,1253,ISL TEAM 1,1253
+6,R16,1302,BnW,1254,ISL TEAM 2,1254
+7,R16,1256,ISL TEAM 4,1021,LPPS - Nuevo V3,1256
+8,R16,1303,Leer,1102,Dabba Union,1102
+9,QF,1016,FAAAHHH,1264,Barq Raftar,
+10,QF,1086,JT Team X,1255,ISL TEAM 3,
+11,QF,1253,ISL TEAM 1,1254,ISL TEAM 2,
+12,QF,1256,ISL TEAM 4,1102,Dabba Union,
 13,SF,,,,,
 14,SF,,,,,
 15,Final,,,,,

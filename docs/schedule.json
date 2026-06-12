@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T10:53:40",
+  "generated_at": "2026-06-12T11:23:45",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -1927,7 +1927,7 @@
                 "team_name": "FAAAHHH",
                 "institution": "Roots IVY ICMS"
               },
-              "winner": null,
+              "winner": "1016",
               "time": "14:20"
             },
             {
@@ -1947,7 +1947,7 @@
                 "team_name": "LGS Islamabad",
                 "institution": "LGS"
               },
-              "winner": null,
+              "winner": "1264",
               "time": "14:25"
             },
             {
@@ -1967,7 +1967,7 @@
                 "team_name": "Apex Intellect",
                 "institution": "Suffah Intellectual School"
               },
-              "winner": null,
+              "winner": "1086",
               "time": "14:30"
             },
             {
@@ -1987,7 +1987,7 @@
                 "team_name": "NJV Apex Racers",
                 "institution": "NJV Government Higher Secondary School Karachi."
               },
-              "winner": null,
+              "winner": "1255",
               "time": "14:35"
             },
             {
@@ -2007,7 +2007,7 @@
                 "team_name": "ISL TEAM 1",
                 "institution": "International School Lahore"
               },
-              "winner": null,
+              "winner": "1253",
               "time": "14:40"
             },
             {
@@ -2027,7 +2027,7 @@
                 "team_name": "ISL TEAM 2",
                 "institution": "International School Lahore"
               },
-              "winner": null,
+              "winner": "1254",
               "time": "14:45"
             },
             {
@@ -2047,7 +2047,7 @@
                 "team_name": "LPPS - Nuevo V3",
                 "institution": "Private"
               },
-              "winner": null,
+              "winner": "1256",
               "time": "14:50"
             },
             {
@@ -2067,7 +2067,7 @@
                 "team_name": "Dabba Union",
                 "institution": "(private)"
               },
-              "winner": null,
+              "winner": "1102",
               "time": "14:55"
             }
           ]
@@ -2486,7 +2486,7 @@
                 "team_name": "Techno Crusaders",
                 "institution": "The Lab School"
               },
-              "winner": null,
+              "winner": "1510",
               "time": "14:45"
             },
             {
@@ -2506,7 +2506,7 @@
                 "team_name": "Archive",
                 "institution": ""
               },
-              "winner": null,
+              "winner": "1611",
               "time": "14:50"
             },
             {
@@ -2526,7 +2526,7 @@
                 "team_name": "TME Innovon",
                 "institution": "The Millennium Education Pakistan"
               },
-              "winner": null,
+              "winner": "1208",
               "time": "14:55"
             },
             {
@@ -2566,7 +2566,7 @@
                 "team_name": "ISL Team 1",
                 "institution": "International School Lahore"
               },
-              "winner": null,
+              "winner": "1279",
               "time": "15:05"
             },
             {
@@ -2780,8 +2780,11 @@
                 "institution": "Future World School Bahria Town"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 2"
+                "type": "team",
+                "seed": 16,
+                "team_no": "1510",
+                "team_name": "HS12",
+                "institution": "HeadStart"
               },
               "winner": null,
               "time": "16:00"
@@ -2790,12 +2793,18 @@
               "no": 18,
               "round": "R16",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 3"
+                "type": "team",
+                "seed": 25,
+                "team_no": "1611",
+                "team_name": "Archive",
+                "institution": ""
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 4"
+                "type": "team",
+                "seed": 24,
+                "team_no": "1208",
+                "team_name": "TME Innovon",
+                "institution": "The Millennium Education Pakistan"
               },
               "winner": null,
               "time": "16:05"
@@ -2808,8 +2817,11 @@
                 "text": "Winner of Match 5"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 6"
+                "type": "team",
+                "seed": 20,
+                "team_no": "1279",
+                "team_name": "ISL Team 1",
+                "institution": "International School Lahore"
               },
               "winner": null,
               "time": "16:10"
@@ -2995,12 +3007,18 @@
               "no": 9,
               "round": "QF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 1"
+                "type": "team",
+                "seed": 16,
+                "team_no": "1016",
+                "team_name": "FAAAHHH",
+                "institution": "Roots IVY ICMS"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 2"
+                "type": "team",
+                "seed": 8,
+                "team_no": "1264",
+                "team_name": "Barq Raftar",
+                "institution": "Learnobots"
               },
               "winner": null,
               "time": "10:30"
@@ -3009,12 +3027,18 @@
               "no": 10,
               "round": "QF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 3"
+                "type": "team",
+                "seed": 4,
+                "team_no": "1086",
+                "team_name": "JT Team X",
+                "institution": "LGS"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 4"
+                "type": "team",
+                "seed": 5,
+                "team_no": "1255",
+                "team_name": "ISL TEAM 3",
+                "institution": "International School Lahore"
               },
               "winner": null,
               "time": "10:35"
@@ -3023,12 +3047,18 @@
               "no": 11,
               "round": "QF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 5"
+                "type": "team",
+                "seed": 15,
+                "team_no": "1253",
+                "team_name": "ISL TEAM 1",
+                "institution": "International School Lahore"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 6"
+                "type": "team",
+                "seed": 10,
+                "team_no": "1254",
+                "team_name": "ISL TEAM 2",
+                "institution": "International School Lahore"
               },
               "winner": null,
               "time": "10:40"
@@ -3037,12 +3067,18 @@
               "no": 12,
               "round": "QF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 7"
+                "type": "team",
+                "seed": 3,
+                "team_no": "1256",
+                "team_name": "ISL TEAM 4",
+                "institution": "International School Lahore"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 8"
+                "type": "team",
+                "seed": 11,
+                "team_no": "1102",
+                "team_name": "Dabba Union",
+                "institution": "(private)"
               },
               "winner": null,
               "time": "10:45"

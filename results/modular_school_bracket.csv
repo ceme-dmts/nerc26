@@ -1,10 +1,10 @@
 match_no,round,team_a,team_a_name,team_b,team_b_name,winner
 1,R32,1235,TME Thunder17,1224,TME Algorithmics,1235
-2,R32,1510,HS12,1301,Techno Crusaders,
-3,R32,1507,HS 7,1611,Archive,
-4,R32,1516,HS 10,1208,TME Innovon,
+2,R32,1510,HS12,1301,Techno Crusaders,1510
+3,R32,1507,HS 7,1611,Archive,1611
+4,R32,1516,HS 10,1208,TME Innovon,1208
 5,R32,1280,ISL Team 2,1271,Beqarar Janoon,
-6,R32,1515,HS 17,1279,ISL Team 1,
+6,R32,1515,HS 17,1279,ISL Team 1,1279
 7,R32,1281,ISL Team 3,1509,HS 9,
 8,R32,1242,Andey wala burger,1233,TME caption voltage,
 9,R32,1518,hs18,1226,TME Robo Raptors,
@@ -15,9 +15,9 @@ match_no,round,team_a,team_a_name,team_b,team_b_name,winner
 14,R32,1505,HS 5,1514,HS16,
 15,R32,1503,HS 3,1227,TME Maze Mastermind,
 16,R32,1218,TME FrostByte,1238,TME B,
-17,R16,1235,TME Thunder17,,,
-18,R16,,,,,
-19,R16,,,,,
+17,R16,1235,TME Thunder17,1510,HS12,
+18,R16,1611,Archive,1208,TME Innovon,
+19,R16,,,1279,ISL Team 1,
 20,R16,,,,,
 21,R16,,,,,
 22,R16,,,,,
