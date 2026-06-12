@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T05:40:39",
+  "generated_at": "2026-06-12T06:44:06",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -1163,7 +1163,11 @@
                 "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "b": {
-                "type": "bye"
+                "type": "team",
+                "seed": 16,
+                "team_no": "950",
+                "team_name": "ANUwUBIS EME",
+                "institution": "CEME NUST"
               },
               "winner": "1265"
             },
@@ -1172,16 +1176,16 @@
               "a": {
                 "type": "team",
                 "seed": 8,
-                "team_no": "1173",
-                "team_name": "Janooni Garrisonians 2.0",
-                "institution": "Lahore Garrison University"
+                "team_no": "1287",
+                "team_name": "SS battalion",
+                "institution": "Institute of Business Administration Karachi"
               },
               "b": {
                 "type": "team",
                 "seed": 9,
-                "team_no": "1261",
-                "team_name": "Hypertracer",
-                "institution": "CEME NUST"
+                "team_no": "1173",
+                "team_name": "Janooni Garrisonians 2.0",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             },
@@ -1190,16 +1194,16 @@
               "a": {
                 "type": "team",
                 "seed": 4,
-                "team_no": "966",
-                "team_name": "Bayrakthar AF2",
-                "institution": "Air University/KIET"
+                "team_no": "1033",
+                "team_name": "Team AK",
+                "institution": "University of the Punjab"
               },
               "b": {
                 "type": "team",
                 "seed": 13,
-                "team_no": "1155",
-                "team_name": "System breakers",
-                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
+                "team_no": "1169",
+                "team_name": "Code kra do",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             },
@@ -1208,15 +1212,15 @@
               "a": {
                 "type": "team",
                 "seed": 5,
-                "team_no": "1081",
-                "team_name": "Team Quantum",
-                "institution": "University of Central Punjab"
+                "team_no": "966",
+                "team_name": "Bayrakthar AF2",
+                "institution": "Air University/KIET"
               },
               "b": {
                 "type": "team",
                 "seed": 12,
-                "team_no": "1169",
-                "team_name": "Code kra do",
+                "team_no": "1165",
+                "team_name": "Andy wala burger",
                 "institution": "Lahore Garrison University"
               },
               "winner": null
@@ -1233,8 +1237,8 @@
               "b": {
                 "type": "team",
                 "seed": 15,
-                "team_no": "950",
-                "team_name": "ANUwUBIS EME",
+                "team_no": "1262",
+                "team_name": "Electrobots",
                 "institution": "CEME NUST"
               },
               "winner": null
@@ -1244,16 +1248,16 @@
               "a": {
                 "type": "team",
                 "seed": 7,
-                "team_no": "1287",
-                "team_name": "SS battalion",
-                "institution": "Institute of Business Administration Karachi"
+                "team_no": "1170",
+                "team_name": "Bado Badi",
+                "institution": "Lahore Garrison University"
               },
               "b": {
                 "type": "team",
                 "seed": 10,
-                "team_no": "1158",
-                "team_name": "LineX",
-                "institution": "NUST EME"
+                "team_no": "1261",
+                "team_name": "Hypertracer",
+                "institution": "CEME NUST"
               },
               "winner": null
             },
@@ -1262,16 +1266,16 @@
               "a": {
                 "type": "team",
                 "seed": 3,
-                "team_no": "1033",
-                "team_name": "Team AK",
-                "institution": "University of the Punjab"
+                "team_no": "1038",
+                "team_name": "GoliBaz",
+                "institution": "Superior University"
               },
               "b": {
                 "type": "team",
                 "seed": 14,
-                "team_no": "1262",
-                "team_name": "Electrobots",
-                "institution": "CEME NUST"
+                "team_no": "1155",
+                "team_name": "System breakers",
+                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "winner": null
             },
@@ -1280,16 +1284,16 @@
               "a": {
                 "type": "team",
                 "seed": 6,
-                "team_no": "1170",
-                "team_name": "Bado Badi",
-                "institution": "Lahore Garrison University"
+                "team_no": "1081",
+                "team_name": "Team Quantum",
+                "institution": "University of Central Punjab"
               },
               "b": {
                 "type": "team",
                 "seed": 11,
-                "team_no": "1165",
-                "team_name": "Andy wala burger",
-                "institution": "Lahore Garrison University"
+                "team_no": "1158",
+                "team_name": "LineX",
+                "institution": "NUST EME"
               },
               "winner": null
             }

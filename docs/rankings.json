@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T05:40:39",
+  "generated_at": "2026-06-12T06:44:06",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -864,6 +864,14 @@
         },
         {
           "rank": 3,
+          "team_no": "1038",
+          "team_name": "GoliBaz",
+          "institution": "Superior University",
+          "score": 75.0,
+          "time": 19.64
+        },
+        {
+          "rank": 4,
           "team_no": "1033",
           "team_name": "Team AK",
           "institution": "University of the Punjab",
@@ -871,7 +879,7 @@
           "time": 21.76
         },
         {
-          "rank": 4,
+          "rank": 5,
           "team_no": "966",
           "team_name": "Bayrakthar AF2",
           "institution": "Air University/KIET",
@@ -879,7 +887,7 @@
           "time": 25.86
         },
         {
-          "rank": 5,
+          "rank": 6,
           "team_no": "1081",
           "team_name": "Team Quantum",
           "institution": "University of Central Punjab",
@@ -887,7 +895,7 @@
           "time": 43.33
         },
         {
-          "rank": 6,
+          "rank": 7,
           "team_no": "1170",
           "team_name": "Bado Badi",
           "institution": "Lahore Garrison University",
@@ -895,7 +903,7 @@
           "time": 47.79
         },
         {
-          "rank": 7,
+          "rank": 8,
           "team_no": "1287",
           "team_name": "SS battalion",
           "institution": "Institute of Business Administration Karachi",
@@ -903,7 +911,7 @@
           "time": 67.17
         },
         {
-          "rank": 8,
+          "rank": 9,
           "team_no": "1173",
           "team_name": "Janooni Garrisonians 2.0",
           "institution": "Lahore Garrison University",
@@ -911,7 +919,7 @@
           "time": 70.76
         },
         {
-          "rank": 9,
+          "rank": 10,
           "team_no": "1261",
           "team_name": "Hypertracer",
           "institution": "CEME NUST",
@@ -919,7 +927,7 @@
           "time": 96.28999999999999
         },
         {
-          "rank": 10,
+          "rank": 11,
           "team_no": "1158",
           "team_name": "LineX",
           "institution": "NUST EME",
@@ -927,7 +935,7 @@
           "time": 114.88
         },
         {
-          "rank": 11,
+          "rank": 12,
           "team_no": "1165",
           "team_name": "Andy wala burger",
           "institution": "Lahore Garrison University",
@@ -935,7 +943,7 @@
           "time": 118.3
         },
         {
-          "rank": 12,
+          "rank": 13,
           "team_no": "1169",
           "team_name": "Code kra do",
           "institution": "Lahore Garrison University",
@@ -943,7 +951,7 @@
           "time": 136.85
         },
         {
-          "rank": 13,
+          "rank": 14,
           "team_no": "1155",
           "team_name": "System breakers",
           "institution": "National University of Sciences and Technology(NUST) Other than CEME",
@@ -951,7 +959,7 @@
           "time": 17.64
         },
         {
-          "rank": 14,
+          "rank": 15,
           "team_no": "1262",
           "team_name": "Electrobots",
           "institution": "CEME NUST",
@@ -959,7 +967,7 @@
           "time": 53.1
         },
         {
-          "rank": 15,
+          "rank": 16,
           "team_no": "950",
           "team_name": "ANUwUBIS EME",
           "institution": "CEME NUST",
