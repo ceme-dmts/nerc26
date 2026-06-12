@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T06:58:33",
+  "generated_at": "2026-06-12T07:02:53",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -2086,13 +2086,9 @@
                 "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "b": {
-                "type": "team",
-                "seed": 16,
-                "team_no": "950",
-                "team_name": "ANUwUBIS EME",
-                "institution": "CEME NUST"
+                "type": "bye"
               },
-              "winner": null,
+              "winner": "1265",
               "time": "15:00"
             },
             {
@@ -2166,13 +2162,9 @@
                 "institution": "CEME NUST"
               },
               "b": {
-                "type": "team",
-                "seed": 15,
-                "team_no": "1262",
-                "team_name": "Electrobots",
-                "institution": "CEME NUST"
+                "type": "bye"
               },
-              "winner": null,
+              "winner": "1076",
               "time": "15:20"
             },
             {
@@ -2801,8 +2793,11 @@
               "no": 9,
               "round": "QF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 1"
+                "type": "team",
+                "seed": 1,
+                "team_no": "1265",
+                "team_name": "NUST Robotics & A.I.",
+                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "b": {
                 "type": "ref",
@@ -2829,8 +2824,11 @@
               "no": 11,
               "round": "QF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 5"
+                "type": "team",
+                "seed": 2,
+                "team_no": "1076",
+                "team_name": "Mike Oxman",
+                "institution": "CEME NUST"
               },
               "b": {
                 "type": "ref",

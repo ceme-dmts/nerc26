@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T06:58:33",
+  "generated_at": "2026-06-12T07:02:53",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -957,22 +957,6 @@
           "institution": "National University of Sciences and Technology(NUST) Other than CEME",
           "score": 50.0,
           "time": 17.64
-        },
-        {
-          "rank": 15,
-          "team_no": "1262",
-          "team_name": "Electrobots",
-          "institution": "CEME NUST",
-          "score": 0.0,
-          "time": 53.1
-        },
-        {
-          "rank": 16,
-          "team_no": "950",
-          "team_name": "ANUwUBIS EME",
-          "institution": "CEME NUST",
-          "score": 0.0,
-          "time": 125.85
         }
       ]
     }
