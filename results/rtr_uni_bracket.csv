@@ -1,5 +1,5 @@
 match_no,round,team_a,team_a_name,team_b,team_b_name,winner
-1,R16,1265,NUST Robotics & A.I.,950,ANUwUBIS EME,1265
+1,R16,1265,NUST Robotics & A.I.,950,ANUwUBIS EME,
 2,R16,1287,SS battalion,1173,Janooni Garrisonians 2.0,
 3,R16,1033,Team AK,1169,Code kra do,
 4,R16,966,Bayrakthar AF2,1165,Andy wala burger,
@@ -7,7 +7,7 @@ match_no,round,team_a,team_a_name,team_b,team_b_name,winner
 6,R16,1170,Bado Badi,1261,Hypertracer,
 7,R16,1038,GoliBaz,1155,System breakers,
 8,R16,1081,Team Quantum,1158,LineX,
-9,QF,1265,NUST Robotics & A.I.,,,
+9,QF,,,,,
 10,QF,,,,,
 11,QF,,,,,
 12,QF,,,,,

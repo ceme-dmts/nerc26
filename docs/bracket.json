@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T06:47:14",
+  "generated_at": "2026-06-12T06:58:33",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -1169,7 +1169,7 @@
                 "team_name": "ANUwUBIS EME",
                 "institution": "CEME NUST"
               },
-              "winner": "1265"
+              "winner": null
             },
             {
               "no": 2,
@@ -1305,11 +1305,8 @@
             {
               "no": 9,
               "a": {
-                "type": "team",
-                "seed": 1,
-                "team_no": "1265",
-                "team_name": "NUST Robotics & A.I.",
-                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
+                "type": "ref",
+                "text": "Winner of Match 1"
               },
               "b": {
                 "type": "ref",
