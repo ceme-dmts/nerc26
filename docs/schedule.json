@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T12:25:35",
+  "generated_at": "2026-06-12T12:26:22",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -2746,7 +2746,7 @@
                 "team_name": "TME Maze Mastermind",
                 "institution": "The Millennium Education Pakistan"
               },
-              "winner": null,
+              "winner": "1503",
               "time": "15:50"
             },
             {
@@ -2913,8 +2913,11 @@
               "no": 24,
               "round": "R16",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 15"
+                "type": "team",
+                "seed": 6,
+                "team_no": "1503",
+                "team_name": "HS 3",
+                "institution": "HeadStart"
               },
               "b": {
                 "type": "team",

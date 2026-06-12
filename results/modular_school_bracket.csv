@@ -13,7 +13,7 @@ match_no,round,team_a,team_a_name,team_b,team_b_name,winner
 12,R32,1241,TME D,1508,HS 8,1241
 13,R32,1237,TME A,1200,TME - Onyx,1237
 14,R32,1505,HS 5,1514,HS16,1505
-15,R32,1503,HS 3,1227,TME Maze Mastermind,
+15,R32,1503,HS 3,1227,TME Maze Mastermind,1503
 16,R32,1218,TME FrostByte,1238,TME B,1238
 17,R16,1235,TME Thunder17,1510,HS12,
 18,R16,1611,Archive,1208,TME Innovon,
@@ -22,7 +22,7 @@ match_no,round,team_a,team_a_name,team_b,team_b_name,winner
 21,R16,1518,hs18,1506,HS 6,
 22,R16,1234,TME robo titans,1241,TME D,
 23,R16,1237,TME A,1505,HS 5,
-24,R16,,,1238,TME B,
+24,R16,1503,HS 3,1238,TME B,
 25,QF,,,,,
 26,QF,,,,,
 27,QF,,,,,
