@@ -22,11 +22,11 @@ match_no,round,team_a,team_a_name,team_b,team_b_name,winner
 21,R16,1518,hs18,1506,HS 6,1518
 22,R16,1234,TME robo titans,1241,TME D,1241
 23,R16,1237,TME A,1505,HS 5,1237
-24,R16,1503,HS 3,1238,TME B,1503
+24,R16,1503,HS 3,1238,TME B,1238
 25,QF,1510,HS12,1208,TME Innovon,
 26,QF,1279,ISL Team 1,1233,TME caption voltage,
 27,QF,1518,hs18,1241,TME D,
-28,QF,1237,TME A,1503,HS 3,
+28,QF,1237,TME A,1238,TME B,
 29,SF,,,,,
 30,SF,,,,,
 31,Final,,,,,

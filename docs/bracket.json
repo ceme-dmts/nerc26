@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T13:30:08",
+  "generated_at": "2026-06-12T13:31:11",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -745,7 +745,7 @@
                 "team_name": "TME B",
                 "institution": "The Millennium Education Pakistan"
               },
-              "winner": "1503"
+              "winner": "1238"
             }
           ]
         },
@@ -817,10 +817,10 @@
               },
               "b": {
                 "type": "team",
-                "seed": 6,
-                "team_no": "1503",
-                "team_name": "HS 3",
-                "institution": "HeadStart"
+                "seed": 22,
+                "team_no": "1238",
+                "team_name": "TME B",
+                "institution": "The Millennium Education Pakistan"
               },
               "winner": null
             }
