@@ -136,13 +136,15 @@
     }
 
     function render(d){
-      // group sessions by day, preserving order; Day 1 (heats already run) is omitted
+      // group sessions by day, preserving order; skip solo-run heats
       const days = [];
       for(const s of d.sessions){
-        if((s.day||"").includes("Day 1") || !s.categories.length) continue;
-        let g = days.find(x=>x.day === s.day);
-        if(!g){ g = {day:s.day, venues:[]}; days.push(g); }
-        g.venues.push(s);
+        const cats = s.categories.filter(c => !c.solo);
+        if(!cats.length) continue;
+        const venue = Object.assign({}, s, {categories: cats});
+        let g = days.find(x=>x.day === venue.day);
+        if(!g){ g = {day:venue.day, venues:[]}; days.push(g); }
+        g.venues.push(venue);
       }
       main.innerHTML = `<a class="back" href="bracket.html">← View brackets</a>` +
         days.map(g=>`
