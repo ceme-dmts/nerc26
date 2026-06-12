@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T11:23:45",
+  "generated_at": "2026-06-12T11:55:18",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -2546,7 +2546,7 @@
                 "team_name": "Beqarar Janoon",
                 "institution": "Roots IVY ICMS"
               },
-              "winner": null,
+              "winner": "1280",
               "time": "15:00"
             },
             {
@@ -2586,7 +2586,7 @@
                 "team_name": "HS 9",
                 "institution": "HeadStart"
               },
-              "winner": null,
+              "winner": "1509",
               "time": "15:10"
             },
             {
@@ -2606,7 +2606,7 @@
                 "team_name": "TME caption voltage",
                 "institution": "Future World School Bahria Town"
               },
-              "winner": null,
+              "winner": "1233",
               "time": "15:15"
             },
             {
@@ -2626,7 +2626,7 @@
                 "team_name": "TME Robo Raptors",
                 "institution": "The Millennium Education Pakistan"
               },
-              "winner": null,
+              "winner": "1518",
               "time": "15:20"
             },
             {
@@ -2646,7 +2646,7 @@
                 "team_name": "HS 6",
                 "institution": "HeadStart"
               },
-              "winner": null,
+              "winner": "1506",
               "time": "15:25"
             },
             {
@@ -2666,7 +2666,7 @@
                 "team_name": "TME robo titans",
                 "institution": "Future World School Bahria Town"
               },
-              "winner": null,
+              "winner": "1234",
               "time": "15:30"
             },
             {
@@ -2813,8 +2813,11 @@
               "no": 19,
               "round": "R16",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 5"
+                "type": "team",
+                "seed": 4,
+                "team_no": "1280",
+                "team_name": "ISL Team 2",
+                "institution": "International School Lahore"
               },
               "b": {
                 "type": "team",
@@ -2830,12 +2833,18 @@
               "no": 20,
               "round": "R16",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 7"
+                "type": "team",
+                "seed": 28,
+                "team_no": "1509",
+                "team_name": "HS 9",
+                "institution": "HeadStart"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 8"
+                "type": "team",
+                "seed": 21,
+                "team_no": "1233",
+                "team_name": "TME caption voltage",
+                "institution": "Future World School Bahria Town"
               },
               "winner": null,
               "time": "16:15"
@@ -2844,12 +2853,18 @@
               "no": 21,
               "round": "R16",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 9"
+                "type": "team",
+                "seed": 2,
+                "team_no": "1518",
+                "team_name": "hs18",
+                "institution": "headStart"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 10"
+                "type": "team",
+                "seed": 18,
+                "team_no": "1506",
+                "team_name": "HS 6",
+                "institution": "HeadStart"
               },
               "winner": null,
               "time": "16:20"
@@ -2858,8 +2873,11 @@
               "no": 22,
               "round": "R16",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 11"
+                "type": "team",
+                "seed": 26,
+                "team_no": "1234",
+                "team_name": "TME robo titans",
+                "institution": "Future World School Bahria Town"
               },
               "b": {
                 "type": "ref",
