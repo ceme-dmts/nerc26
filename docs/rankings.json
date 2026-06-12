@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-12T03:30:37",
+  "generated_at": "2026-06-12T05:31:45",
   "categories": {
     "Indigenous Category": {
       "schedule": {
-        "day": "Day 1 Thursday 11th June",
+        "day": "",
         "time": "1400-1800",
         "venue": "Auditorium"
       },
       "bracket_size": 16,
-      "status": "partial",
+      "status": "seeded",
       "teams": [
         {
           "rank": 1,
@@ -92,123 +92,59 @@
         },
         {
           "rank": 11,
-          "team_no": "1039",
-          "team_name": "Nallay",
-          "institution": "Lahore University of Management Sciences",
-          "score": 0.0,
-          "time": 44.0
-        },
-        {
-          "rank": 12,
-          "team_no": "1030",
-          "team_name": "Tarzan",
-          "institution": "Lahore University of Management Sciences",
-          "score": 0.0,
-          "time": 96.0
-        },
-        {
-          "rank": 13,
-          "team_no": "930",
-          "team_name": "RoboNex",
-          "institution": "UET Taxila",
-          "score": 0.0,
-          "time": 117.0
-        },
-        {
-          "rank": 14,
-          "team_no": "1106",
-          "team_name": "botzilla",
-          "institution": "Lahore University of Management Sciences",
-          "score": 0.0,
-          "time": 151.0
-        },
-        {
-          "rank": 15,
-          "team_no": "1066",
-          "team_name": "el gato",
-          "institution": "Lahore University of Management Sciences",
-          "score": 0.0,
-          "time": 167.62
-        },
-        {
-          "rank": 16,
-          "team_no": "1161",
-          "team_name": "Janooni Garrisonians",
-          "institution": "Lahore Garrison University",
+          "team_no": "1",
+          "team_name": "N/A",
+          "institution": "",
           "score": 0.0,
           "time": 180.0
         },
         {
-          "rank": 17,
-          "team_no": "1011",
-          "team_name": "Pakora Bot",
-          "institution": "Habib University",
-          "score": null,
-          "time": null
+          "rank": 12,
+          "team_no": "2",
+          "team_name": "N/A",
+          "institution": "",
+          "score": 0.0,
+          "time": 180.0
         },
         {
-          "rank": 18,
-          "team_no": "1197",
-          "team_name": "Team Visitors",
-          "institution": "NUST EME",
-          "score": null,
-          "time": null
+          "rank": 13,
+          "team_no": "3",
+          "team_name": "N/A",
+          "institution": "",
+          "score": 0.0,
+          "time": 180.0
         },
         {
-          "rank": 19,
-          "team_no": "1035",
-          "team_name": "Meow:3",
-          "institution": "Lahore University of Management Sciences",
-          "score": null,
-          "time": null
+          "rank": 14,
+          "team_no": "4",
+          "team_name": "N/A",
+          "institution": "",
+          "score": 0.0,
+          "time": 180.0
         },
         {
-          "rank": 20,
-          "team_no": "1270",
-          "team_name": "NUST ROBOTICS & AI",
-          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
-          "score": null,
-          "time": null
+          "rank": 15,
+          "team_no": "5",
+          "team_name": "N/A",
+          "institution": "",
+          "score": 0.0,
+          "time": 180.0
         },
         {
-          "rank": 21,
-          "team_no": "974",
-          "team_name": "Titans",
-          "institution": "Lahore University of Management Sciences",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 22,
-          "team_no": "1245",
-          "team_name": "The sophomore slump",
-          "institution": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 23,
-          "team_no": "1116",
-          "team_name": "404 Brain Not Found",
-          "institution": "Habib University",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 24,
-          "team_no": "1250",
-          "team_name": "Black Bird",
-          "institution": "CEME  NUST",
-          "score": null,
-          "time": null
+          "rank": 16,
+          "team_no": "6",
+          "team_name": "N/A",
+          "institution": "",
+          "score": 0.0,
+          "time": 180.0
         }
       ]
     },
     "Modular School": {
       "schedule": {
-        "day": "Day 2 Friday 12th June",
-        "time": "0800-1300",
-        "venue": "CAR"
+        "day": "",
+        "time": "1500-1700",
+        "venue": "Auditorium"
       },
       "bracket_size": 32,
       "status": "pending",
@@ -761,8 +697,8 @@
     },
     "Modular University": {
       "schedule": {
-        "day": "Day 2 Friday 12th June",
-        "time": "0800-1300",
+        "day": "",
+        "time": "1500-1700",
         "venue": "Auditorium"
       },
       "bracket_size": 8,
@@ -812,7 +748,7 @@
     },
     "Ready to Race-School": {
       "schedule": {
-        "day": "Day 1 Thursday 11th June",
+        "day": "",
         "time": "1400-1800",
         "venue": "CAR"
       },
@@ -951,8 +887,8 @@
     },
     "Ready to Race-University": {
       "schedule": {
-        "day": "Day 2 Friday 12th June",
-        "time": "0800-1300",
+        "day": "",
+        "time": "1500-1700",
         "venue": "Auditorium"
       },
       "bracket_size": 16,

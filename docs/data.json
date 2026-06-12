@@ -9,22 +9,24 @@
   "outstation_teams": 92,
   "by_event": {
     "Modular School": 70,
-    "Ready to Race-School": 35,
+    "Ready to Race-School": 34,
     "Indigenous Category": 24,
-    "Ready to Race-University": 24,
+    "Ready to Race-University": 23,
     "SumoWars": 15,
     "Modular University": 5,
-    "Aero": 2,
     "Light Weight Robowars": 2,
-    "aero": 1,
+    "Aero": 2,
+    "Ready to Race University": 1,
     "Aero Exhibition": 1,
+    "aero": 1,
+    "Ready to Race School": 1,
     "modular school": 1
   },
   "by_city": {
     "Islamabad": 68,
     "Lahore": 54,
-    "Karachi": 23,
     "Rawalpindi": 23,
+    "Karachi": 23,
     "Hassan Abdal": 4,
     "Pakpattan": 2,
     "Faisalabad": 2,
@@ -54,18 +56,6 @@
           "count": 2
         },
         {
-          "name": "CEME NUST",
-          "count": 1
-        },
-        {
-          "name": "Roots IVY ICMS",
-          "count": 1
-        },
-        {
-          "name": "ems high school",
-          "count": 1
-        },
-        {
           "name": "Riphah International University",
           "count": 1
         },
@@ -74,7 +64,23 @@
           "count": 1
         },
         {
+          "name": "Bahria University Islamabad",
+          "count": 1
+        },
+        {
+          "name": "National University of Sciences and Technology(NUST) Other than CEME",
+          "count": 1
+        },
+        {
+          "name": "NUST EME",
+          "count": 1
+        },
+        {
           "name": "Learnobots",
+          "count": 1
+        },
+        {
+          "name": "Roots IVY ICMS",
           "count": 1
         },
         {
@@ -86,11 +92,7 @@
           "count": 1
         },
         {
-          "name": "Bahria University Islamabad",
-          "count": 1
-        },
-        {
-          "name": "National University of Sciences and Technology(NUST) Other than CEME",
+          "name": "ems high school",
           "count": 1
         },
         {
@@ -144,16 +146,37 @@
         }
       ]
     },
+    "Rawalpindi": {
+      "total": 23,
+      "institutions": [
+        {
+          "name": "CEME NUST",
+          "count": 13
+        },
+        {
+          "name": "Future World School Bahria Town",
+          "count": 4
+        },
+        {
+          "name": "NUST EME",
+          "count": 2
+        },
+        {
+          "name": "Suffah Intellectual School",
+          "count": 2
+        },
+        {
+          "name": "SKANS SCHOOL SYSTEM",
+          "count": 2
+        }
+      ]
+    },
     "Karachi": {
       "total": 23,
       "institutions": [
         {
           "name": "The Lab School",
           "count": 8
-        },
-        {
-          "name": "National University of Sciences and Technology(NUST) Other than CEME",
-          "count": 3
         },
         {
           "name": "Habib University",
@@ -164,37 +187,20 @@
           "count": 3
         },
         {
-          "name": "Institute of Business Administration Karachi",
-          "count": 1
+          "name": "National University of Sciences and Technology(NUST) Other than CEME",
+          "count": 3
         },
         {
           "name": "Air uni karchi",
           "count": 1
         },
         {
+          "name": "Institute of Business Administration Karachi",
+          "count": 1
+        },
+        {
           "name": "Private Teams",
           "count": 4
-        }
-      ]
-    },
-    "Rawalpindi": {
-      "total": 23,
-      "institutions": [
-        {
-          "name": "CEME NUST",
-          "count": 15
-        },
-        {
-          "name": "Future World School Bahria Town",
-          "count": 4
-        },
-        {
-          "name": "Suffah Intellectual School",
-          "count": 2
-        },
-        {
-          "name": "SKANS SCHOOL SYSTEM",
-          "count": 2
         }
       ]
     },
@@ -269,7 +275,7 @@
   "by_institution": {
     "The Millennium Education Pakistan": 33,
     "HeadStart": 18,
-    "CEME  NUST": 17,
+    "CEME  NUST": 14,
     "LGS": 13,
     "(private)": 12,
     "Lahore Garrison University": 11,
@@ -280,28 +286,29 @@
     "National University of Sciences and Technology(NUST) Other than CEME": 4,
     "Future World School Bahria Town": 4,
     "Habib University": 3,
+    "NUST EME": 3,
     "NJV Government Higher Secondary School Karachi.": 3,
     "University of Central Punjab": 3,
     "University of the Punjab": 3,
-    "headStart": 2,
-    "Roots IVY ICMS": 2,
     "Suffah Intellectual School": 2,
-    "Apple Group of Schools F17": 2,
+    "Roots IVY ICMS": 2,
     "Superior University": 2,
     "SKANS SCHOOL SYSTEM": 2,
+    "headStart": 2,
+    "Apple Group of Schools F17": 2,
     "National University of Computer and Emerging Sciences": 2,
     "UET Taxila": 1,
     "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology": 1,
-    "ems high school": 1,
     "Riphah International University": 1,
     "Private": 1,
+    "Bahria University Islamabad": 1,
     "Learnobots": 1,
+    "Air uni karchi": 1,
     "Aitchison": 1,
+    "Institute of Business Administration Karachi": 1,
     "supernova": 1,
     "Islamabad Alma": 1,
-    "Bahria University Islamabad": 1,
-    "Institute of Business Administration Karachi": 1,
-    "Air uni karchi": 1
+    "ems high school": 1
   },
   "by_gender": {
     "Male": 497,
