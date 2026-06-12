@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T13:46:34",
+  "generated_at": "2026-06-12T13:52:20",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -103,7 +103,7 @@
                 "team_name": "LUMS team 3",
                 "institution": "Lahore University of Management Sciences"
               },
-              "winner": null
+              "winner": "1184"
             },
             {
               "no": 7,
@@ -181,8 +181,11 @@
                 "institution": "Lahore University of Management Sciences"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 6"
+                "type": "team",
+                "seed": 7,
+                "team_no": "1184",
+                "team_name": "Team 5VDC",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             },

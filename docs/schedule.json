@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T13:46:34",
+  "generated_at": "2026-06-12T13:52:20",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -2409,7 +2409,7 @@
                 "team_name": "LUMS team 3",
                 "institution": "Lahore University of Management Sciences"
               },
-              "winner": null,
+              "winner": "1184",
               "time": "14:25"
             },
             {
@@ -3373,8 +3373,11 @@
                 "institution": "Lahore University of Management Sciences"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 6"
+                "type": "team",
+                "seed": 7,
+                "team_no": "1184",
+                "team_name": "Team 5VDC",
+                "institution": "Lahore Garrison University"
               },
               "winner": null,
               "time": "11:50"
