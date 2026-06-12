@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T05:39:39",
+  "generated_at": "2026-06-12T05:40:39",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -2315,13 +2315,9 @@
                 "institution": "NUST EME"
               },
               "b": {
-                "type": "team",
-                "seed": 16,
-                "team_no": "6",
-                "team_name": "N/A",
-                "institution": ""
+                "type": "bye"
               },
-              "winner": null,
+              "winner": "1286",
               "time": "14:00"
             },
             {
@@ -2355,13 +2351,9 @@
                 "institution": "CEME  NUST"
               },
               "b": {
-                "type": "team",
-                "seed": 13,
-                "team_no": "3",
-                "team_name": "N/A",
-                "institution": ""
+                "type": "bye"
               },
-              "winner": null,
+              "winner": "985",
               "time": "14:10"
             },
             {
@@ -2375,13 +2367,9 @@
                 "institution": "CEME  NUST"
               },
               "b": {
-                "type": "team",
-                "seed": 12,
-                "team_no": "2",
-                "team_name": "N/A",
-                "institution": ""
+                "type": "bye"
               },
-              "winner": null,
+              "winner": "975",
               "time": "14:15"
             },
             {
@@ -2395,13 +2383,9 @@
                 "institution": "Lahore University of Management Sciences"
               },
               "b": {
-                "type": "team",
-                "seed": 15,
-                "team_no": "5",
-                "team_name": "N/A",
-                "institution": ""
+                "type": "bye"
               },
-              "winner": null,
+              "winner": "1041",
               "time": "14:20"
             },
             {
@@ -2435,13 +2419,9 @@
                 "institution": "CEME  NUST"
               },
               "b": {
-                "type": "team",
-                "seed": 14,
-                "team_no": "4",
-                "team_name": "N/A",
-                "institution": ""
+                "type": "bye"
               },
-              "winner": null,
+              "winner": "1124",
               "time": "14:30"
             },
             {
@@ -2455,13 +2435,9 @@
                 "institution": "Lahore University of Management Sciences"
               },
               "b": {
-                "type": "team",
-                "seed": 11,
-                "team_no": "1",
-                "team_name": "N/A",
-                "institution": ""
+                "type": "bye"
               },
-              "winner": null,
+              "winner": "1028",
               "time": "14:35"
             }
           ]
@@ -3124,8 +3100,11 @@
               "no": 9,
               "round": "QF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 1"
+                "type": "team",
+                "seed": 1,
+                "team_no": "1286",
+                "team_name": "Pheonix",
+                "institution": "NUST EME"
               },
               "b": {
                 "type": "ref",
@@ -3138,12 +3117,18 @@
               "no": 10,
               "round": "QF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 3"
+                "type": "team",
+                "seed": 4,
+                "team_no": "985",
+                "team_name": "DJNZ",
+                "institution": "CEME  NUST"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 4"
+                "type": "team",
+                "seed": 5,
+                "team_no": "975",
+                "team_name": "Ezy Seen Ha",
+                "institution": "CEME  NUST"
               },
               "winner": null,
               "time": "11:45"
@@ -3152,8 +3137,11 @@
               "no": 11,
               "round": "QF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 5"
+                "type": "team",
+                "seed": 2,
+                "team_no": "1041",
+                "team_name": "Adastra 2.0",
+                "institution": "Lahore University of Management Sciences"
               },
               "b": {
                 "type": "ref",
@@ -3166,12 +3154,18 @@
               "no": 12,
               "round": "QF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 7"
+                "type": "team",
+                "seed": 3,
+                "team_no": "1124",
+                "team_name": "Tangled",
+                "institution": "CEME  NUST"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 8"
+                "type": "team",
+                "seed": 6,
+                "team_no": "1028",
+                "team_name": "Team Code Red 2.0",
+                "institution": "Lahore University of Management Sciences"
               },
               "winner": null,
               "time": "11:55"

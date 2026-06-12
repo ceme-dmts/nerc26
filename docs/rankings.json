@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T05:39:39",
+  "generated_at": "2026-06-12T05:40:39",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -89,54 +89,6 @@
           "institution": "Lahore University of Management Sciences",
           "score": 10.0,
           "time": 86.0
-        },
-        {
-          "rank": 11,
-          "team_no": "1",
-          "team_name": "N/A",
-          "institution": "",
-          "score": 0.0,
-          "time": 180.0
-        },
-        {
-          "rank": 12,
-          "team_no": "2",
-          "team_name": "N/A",
-          "institution": "",
-          "score": 0.0,
-          "time": 180.0
-        },
-        {
-          "rank": 13,
-          "team_no": "3",
-          "team_name": "N/A",
-          "institution": "",
-          "score": 0.0,
-          "time": 180.0
-        },
-        {
-          "rank": 14,
-          "team_no": "4",
-          "team_name": "N/A",
-          "institution": "",
-          "score": 0.0,
-          "time": 180.0
-        },
-        {
-          "rank": 15,
-          "team_no": "5",
-          "team_name": "N/A",
-          "institution": "",
-          "score": 0.0,
-          "time": 180.0
-        },
-        {
-          "rank": 16,
-          "team_no": "6",
-          "team_name": "N/A",
-          "institution": "",
-          "score": 0.0,
-          "time": 180.0
         }
       ]
     },
