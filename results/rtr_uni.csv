@@ -1,24 +1,16 @@
 seed,team_no,team_name,institution,score,time
-1,1165,Andy wala burger,Lahore Garrison University,,
-2,1173,Janooni Garrisonians 2.0,Lahore Garrison University,,
-3,1074,Harry Potter,CEME  NUST,,
-4,1004,Satra Meeli,CEME  NUST,,
-5,998,MK 4,CEME  NUST,,
-6,1038,Goli-Baz,Superior University,,
-7,1265,NUST Robotics & A.I.,National University of Sciences and Technology(NUST) Other than CEME,,
-8,1033,Team AK,University of the Punjab,,
-9,950,AN�w�BIS EME,CEME  NUST,,
-10,1076,Mike Oxman,CEME  NUST,,
-11,1007,,University of Central Punjab,,
-12,1056,Fobo,Bahria University Islamabad,,
-13,1169,Code kra do,Lahore Garrison University,,
-14,966,Bayrakthar AF2,(private),,
-15,1261,Hypertracer,CEME  NUST,,
-16,1170,Bado Badi,Lahore Garrison University,,
-17,1337,HyperDrive,CEME  NUST,,
-18,1081,Team Quantum,University of Central Punjab,,
-19,1155,System breakers,National University of Sciences and Technology(NUST) Other than CEME,,
-20,1158,LineX,NUST EME,,
-21,1287,SS battalion,Institute of Business Administration Karachi,,
-22,1262,Electrobots,CEME  NUST,,
-23,1006,Team Dominators,University of Central Punjab,,
+1,1165,Andy wala burger,Lahore Garrison University,75,1:58.3
+2,1173,Janooni Garrisonians 2.0,Lahore Garrison University,75,1:10.76
+7,1265,NUST Robotics & A.I.,National University of Sciences and Technology(NUST) Other than CEME,75,14.14
+8,1033,Team AK,University of the Punjab,75,21.76
+9,950,ANUwUBIS EME,CEME NUST,0,2:5.85
+10,1076,Mike Oxman,CEME NUST,75,18.39
+13,1169,Code kra do,Lahore Garrison University,75,2:16.85
+14,966,Bayrakthar AF2,Air University/KIET,75,25.86
+15,1261,Hypertracer,CEME NUST,75,1:36.29
+16,1170,Bado Badi,Lahore Garrison University,75,47.79
+18,1081,Team Quantum,University of Central Punjab,75,43.33
+19,1155,System breakers,National University of Sciences and Technology(NUST) Other than CEME,50,17.64
+20,1158,LineX,NUST EME,75,1:54.88
+21,1287,SS battalion,Institute of Business Administration Karachi,75,1:7.17
+22,1262,Electrobots,CEME NUST,0,53.1

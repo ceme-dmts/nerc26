@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T05:35:29",
+  "generated_at": "2026-06-12T05:38:40",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -1154,7 +1154,7 @@
         "venue": "Auditorium"
       },
       "bracket_size": 16,
-      "status": "pending",
+      "status": "seeded",
       "rounds": [
         {
           "name": "R16",
@@ -1162,96 +1162,140 @@
             {
               "no": 1,
               "a": {
-                "type": "seed",
-                "seed": 1
+                "type": "team",
+                "seed": 1,
+                "team_no": "1265",
+                "team_name": "NUST Robotics & A.I.",
+                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "b": {
-                "type": "seed",
-                "seed": 16
+                "type": "bye"
               },
-              "winner": null
+              "winner": "1265"
             },
             {
               "no": 2,
               "a": {
-                "type": "seed",
-                "seed": 8
+                "type": "team",
+                "seed": 8,
+                "team_no": "1173",
+                "team_name": "Janooni Garrisonians 2.0",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "seed",
-                "seed": 9
+                "type": "team",
+                "seed": 9,
+                "team_no": "1261",
+                "team_name": "Hypertracer",
+                "institution": "CEME NUST"
               },
               "winner": null
             },
             {
               "no": 3,
               "a": {
-                "type": "seed",
-                "seed": 4
+                "type": "team",
+                "seed": 4,
+                "team_no": "966",
+                "team_name": "Bayrakthar AF2",
+                "institution": "Air University/KIET"
               },
               "b": {
-                "type": "seed",
-                "seed": 13
+                "type": "team",
+                "seed": 13,
+                "team_no": "1155",
+                "team_name": "System breakers",
+                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "winner": null
             },
             {
               "no": 4,
               "a": {
-                "type": "seed",
-                "seed": 5
+                "type": "team",
+                "seed": 5,
+                "team_no": "1081",
+                "team_name": "Team Quantum",
+                "institution": "University of Central Punjab"
               },
               "b": {
-                "type": "seed",
-                "seed": 12
+                "type": "team",
+                "seed": 12,
+                "team_no": "1169",
+                "team_name": "Code kra do",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             },
             {
               "no": 5,
               "a": {
-                "type": "seed",
-                "seed": 2
+                "type": "team",
+                "seed": 2,
+                "team_no": "1076",
+                "team_name": "Mike Oxman",
+                "institution": "CEME NUST"
               },
               "b": {
-                "type": "seed",
-                "seed": 15
+                "type": "team",
+                "seed": 15,
+                "team_no": "950",
+                "team_name": "ANUwUBIS EME",
+                "institution": "CEME NUST"
               },
               "winner": null
             },
             {
               "no": 6,
               "a": {
-                "type": "seed",
-                "seed": 7
+                "type": "team",
+                "seed": 7,
+                "team_no": "1287",
+                "team_name": "SS battalion",
+                "institution": "Institute of Business Administration Karachi"
               },
               "b": {
-                "type": "seed",
-                "seed": 10
+                "type": "team",
+                "seed": 10,
+                "team_no": "1158",
+                "team_name": "LineX",
+                "institution": "NUST EME"
               },
               "winner": null
             },
             {
               "no": 7,
               "a": {
-                "type": "seed",
-                "seed": 3
+                "type": "team",
+                "seed": 3,
+                "team_no": "1033",
+                "team_name": "Team AK",
+                "institution": "University of the Punjab"
               },
               "b": {
-                "type": "seed",
-                "seed": 14
+                "type": "team",
+                "seed": 14,
+                "team_no": "1262",
+                "team_name": "Electrobots",
+                "institution": "CEME NUST"
               },
               "winner": null
             },
             {
               "no": 8,
               "a": {
-                "type": "seed",
-                "seed": 6
+                "type": "team",
+                "seed": 6,
+                "team_no": "1170",
+                "team_name": "Bado Badi",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "seed",
-                "seed": 11
+                "type": "team",
+                "seed": 11,
+                "team_no": "1165",
+                "team_name": "Andy wala burger",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             }
@@ -1263,8 +1307,11 @@
             {
               "no": 9,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 1"
+                "type": "team",
+                "seed": 1,
+                "team_no": "1265",
+                "team_name": "NUST Robotics & A.I.",
+                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "b": {
                 "type": "ref",

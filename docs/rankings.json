@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T05:35:29",
+  "generated_at": "2026-06-12T05:38:40",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -892,191 +892,127 @@
         "venue": "Auditorium"
       },
       "bracket_size": 16,
-      "status": "pending",
+      "status": "seeded",
       "teams": [
         {
           "rank": 1,
-          "team_no": "1165",
-          "team_name": "Andy wala burger",
-          "institution": "Lahore Garrison University",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 2,
-          "team_no": "1173",
-          "team_name": "Janooni Garrisonians 2.0",
-          "institution": "Lahore Garrison University",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 3,
-          "team_no": "1074",
-          "team_name": "Harry Potter",
-          "institution": "CEME  NUST",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 4,
-          "team_no": "1004",
-          "team_name": "Satra Meeli",
-          "institution": "CEME  NUST",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 5,
-          "team_no": "998",
-          "team_name": "MK 4",
-          "institution": "CEME  NUST",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 6,
-          "team_no": "1038",
-          "team_name": "Goli-Baz",
-          "institution": "Superior University",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 7,
           "team_no": "1265",
           "team_name": "NUST Robotics & A.I.",
           "institution": "National University of Sciences and Technology(NUST) Other than CEME",
-          "score": null,
-          "time": null
+          "score": 75.0,
+          "time": 14.14
         },
         {
-          "rank": 8,
+          "rank": 2,
+          "team_no": "1076",
+          "team_name": "Mike Oxman",
+          "institution": "CEME NUST",
+          "score": 75.0,
+          "time": 18.39
+        },
+        {
+          "rank": 3,
           "team_no": "1033",
           "team_name": "Team AK",
           "institution": "University of the Punjab",
-          "score": null,
-          "time": null
+          "score": 75.0,
+          "time": 21.76
         },
         {
-          "rank": 9,
-          "team_no": "950",
-          "team_name": "AN\ufffdw\ufffdBIS EME",
-          "institution": "CEME  NUST",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 10,
-          "team_no": "1076",
-          "team_name": "Mike Oxman",
-          "institution": "CEME  NUST",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 11,
-          "team_no": "1007",
-          "team_name": "",
-          "institution": "University of Central Punjab",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 12,
-          "team_no": "1056",
-          "team_name": "Fobo",
-          "institution": "Bahria University Islamabad",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 13,
-          "team_no": "1169",
-          "team_name": "Code kra do",
-          "institution": "Lahore Garrison University",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 14,
+          "rank": 4,
           "team_no": "966",
           "team_name": "Bayrakthar AF2",
-          "institution": "(private)",
-          "score": null,
-          "time": null
+          "institution": "Air University/KIET",
+          "score": 75.0,
+          "time": 25.86
         },
         {
-          "rank": 15,
-          "team_no": "1261",
-          "team_name": "Hypertracer",
-          "institution": "CEME  NUST",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 16,
-          "team_no": "1170",
-          "team_name": "Bado Badi",
-          "institution": "Lahore Garrison University",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 17,
-          "team_no": "1337",
-          "team_name": "HyperDrive",
-          "institution": "CEME  NUST",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 18,
+          "rank": 5,
           "team_no": "1081",
           "team_name": "Team Quantum",
           "institution": "University of Central Punjab",
-          "score": null,
-          "time": null
+          "score": 75.0,
+          "time": 43.33
         },
         {
-          "rank": 19,
-          "team_no": "1155",
-          "team_name": "System breakers",
-          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
-          "score": null,
-          "time": null
+          "rank": 6,
+          "team_no": "1170",
+          "team_name": "Bado Badi",
+          "institution": "Lahore Garrison University",
+          "score": 75.0,
+          "time": 47.79
         },
         {
-          "rank": 20,
-          "team_no": "1158",
-          "team_name": "LineX",
-          "institution": "NUST EME",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 21,
+          "rank": 7,
           "team_no": "1287",
           "team_name": "SS battalion",
           "institution": "Institute of Business Administration Karachi",
-          "score": null,
-          "time": null
+          "score": 75.0,
+          "time": 67.17
         },
         {
-          "rank": 22,
+          "rank": 8,
+          "team_no": "1173",
+          "team_name": "Janooni Garrisonians 2.0",
+          "institution": "Lahore Garrison University",
+          "score": 75.0,
+          "time": 70.76
+        },
+        {
+          "rank": 9,
+          "team_no": "1261",
+          "team_name": "Hypertracer",
+          "institution": "CEME NUST",
+          "score": 75.0,
+          "time": 96.28999999999999
+        },
+        {
+          "rank": 10,
+          "team_no": "1158",
+          "team_name": "LineX",
+          "institution": "NUST EME",
+          "score": 75.0,
+          "time": 114.88
+        },
+        {
+          "rank": 11,
+          "team_no": "1165",
+          "team_name": "Andy wala burger",
+          "institution": "Lahore Garrison University",
+          "score": 75.0,
+          "time": 118.3
+        },
+        {
+          "rank": 12,
+          "team_no": "1169",
+          "team_name": "Code kra do",
+          "institution": "Lahore Garrison University",
+          "score": 75.0,
+          "time": 136.85
+        },
+        {
+          "rank": 13,
+          "team_no": "1155",
+          "team_name": "System breakers",
+          "institution": "National University of Sciences and Technology(NUST) Other than CEME",
+          "score": 50.0,
+          "time": 17.64
+        },
+        {
+          "rank": 14,
           "team_no": "1262",
           "team_name": "Electrobots",
-          "institution": "CEME  NUST",
-          "score": null,
-          "time": null
+          "institution": "CEME NUST",
+          "score": 0.0,
+          "time": 53.1
         },
         {
-          "rank": 23,
-          "team_no": "1006",
-          "team_name": "Team Dominators",
-          "institution": "University of Central Punjab",
-          "score": null,
-          "time": null
+          "rank": 15,
+          "team_no": "950",
+          "team_name": "ANUwUBIS EME",
+          "institution": "CEME NUST",
+          "score": 0.0,
+          "time": 125.85
         }
       ]
     }
