@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T06:44:06",
+  "generated_at": "2026-06-12T06:47:14",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -654,45 +654,45 @@
         "venue": "Auditorium"
       },
       "bracket_size": 8,
-      "status": "pending",
+      "status": "partial",
       "teams": [
         {
           "rank": 1,
           "team_no": "1188",
           "team_name": "Khatti Toffee",
           "institution": "Lahore Garrison University",
-          "score": null,
-          "time": null
+          "score": 100.0,
+          "time": 40.92
         },
         {
           "rank": 2,
-          "team_no": "1014",
-          "team_name": "Fire Fighter robot",
-          "institution": "Riphah International University",
-          "score": null,
-          "time": null
+          "team_no": "1189",
+          "team_name": "kacha Badam",
+          "institution": "Lahore Garrison University",
+          "score": 100.0,
+          "time": 50.6
         },
         {
           "rank": 3,
           "team_no": "1186",
           "team_name": "Code Kra do 2.0",
           "institution": "Lahore Garrison University",
-          "score": null,
-          "time": null
+          "score": 55.0,
+          "time": 90.6
         },
         {
           "rank": 4,
-          "team_no": "1189",
-          "team_name": "kacha Badam",
-          "institution": "Lahore Garrison University",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 5,
           "team_no": "1190",
           "team_name": "Robot Chala do",
           "institution": "Lahore Garrison University",
+          "score": 25.0,
+          "time": 125.26
+        },
+        {
+          "rank": 5,
+          "team_no": "1014",
+          "team_name": "Fire Fighter robot",
+          "institution": "Riphah International University",
           "score": null,
           "time": null
         }
