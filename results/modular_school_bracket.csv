@@ -1,5 +1,5 @@
 match_no,round,team_a,team_a_name,team_b,team_b_name,winner
-1,R32,1235,TME Thunder17,1224,TME Algorithmics,
+1,R32,1235,TME Thunder17,1224,TME Algorithmics,1235
 2,R32,1510,HS12,1301,Techno Crusaders,
 3,R32,1507,HS 7,1611,Archive,
 4,R32,1516,HS 10,1208,TME Innovon,
@@ -15,7 +15,7 @@ match_no,round,team_a,team_a_name,team_b,team_b_name,winner
 14,R32,1505,HS 5,1514,HS16,
 15,R32,1503,HS 3,1227,TME Maze Mastermind,
 16,R32,1218,TME FrostByte,1238,TME B,
-17,R16,,,,,
+17,R16,1235,TME Thunder17,,,
 18,R16,,,,,
 19,R16,,,,,
 20,R16,,,,,

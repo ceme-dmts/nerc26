@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T10:14:48",
+  "generated_at": "2026-06-12T10:53:40",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -2466,7 +2466,7 @@
                 "team_name": "TME Algorithmics",
                 "institution": "The Millennium Education Pakistan"
               },
-              "winner": null,
+              "winner": "1235",
               "time": "14:40"
             },
             {
@@ -2773,8 +2773,11 @@
               "no": 17,
               "round": "R16",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 1"
+                "type": "team",
+                "seed": 1,
+                "team_no": "1235",
+                "team_name": "TME Thunder17",
+                "institution": "Future World School Bahria Town"
               },
               "b": {
                 "type": "ref",
