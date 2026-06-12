@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T10:10:48",
+  "generated_at": "2026-06-12T10:14:48",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -305,7 +305,7 @@
         "venue": "Auditorium"
       },
       "bracket_size": 32,
-      "status": "pending",
+      "status": "seeded",
       "rounds": [
         {
           "name": "R32",
@@ -313,192 +313,288 @@
             {
               "no": 1,
               "a": {
-                "type": "seed",
-                "seed": 1
+                "type": "team",
+                "seed": 1,
+                "team_no": "1235",
+                "team_name": "TME Thunder17",
+                "institution": "Future World School Bahria Town"
               },
               "b": {
-                "type": "seed",
-                "seed": 32
+                "type": "team",
+                "seed": 32,
+                "team_no": "1224",
+                "team_name": "TME Algorithmics",
+                "institution": "The Millennium Education Pakistan"
               },
               "winner": null
             },
             {
               "no": 2,
               "a": {
-                "type": "seed",
-                "seed": 16
+                "type": "team",
+                "seed": 16,
+                "team_no": "1510",
+                "team_name": "HS12",
+                "institution": "HeadStart"
               },
               "b": {
-                "type": "seed",
-                "seed": 17
+                "type": "team",
+                "seed": 17,
+                "team_no": "1301",
+                "team_name": "Techno Crusaders",
+                "institution": "The Lab School"
               },
               "winner": null
             },
             {
               "no": 3,
               "a": {
-                "type": "seed",
-                "seed": 8
+                "type": "team",
+                "seed": 8,
+                "team_no": "1507",
+                "team_name": "HS 7",
+                "institution": "HeadStart"
               },
               "b": {
-                "type": "seed",
-                "seed": 25
+                "type": "team",
+                "seed": 25,
+                "team_no": "1611",
+                "team_name": "Archive",
+                "institution": ""
               },
               "winner": null
             },
             {
               "no": 4,
               "a": {
-                "type": "seed",
-                "seed": 9
+                "type": "team",
+                "seed": 9,
+                "team_no": "1516",
+                "team_name": "HS 10",
+                "institution": "HeadStart"
               },
               "b": {
-                "type": "seed",
-                "seed": 24
+                "type": "team",
+                "seed": 24,
+                "team_no": "1208",
+                "team_name": "TME Innovon",
+                "institution": "The Millennium Education Pakistan"
               },
               "winner": null
             },
             {
               "no": 5,
               "a": {
-                "type": "seed",
-                "seed": 4
+                "type": "team",
+                "seed": 4,
+                "team_no": "1280",
+                "team_name": "ISL Team 2",
+                "institution": "International School Lahore"
               },
               "b": {
-                "type": "seed",
-                "seed": 29
+                "type": "team",
+                "seed": 29,
+                "team_no": "1271",
+                "team_name": "Beqarar Janoon",
+                "institution": "Roots IVY ICMS"
               },
               "winner": null
             },
             {
               "no": 6,
               "a": {
-                "type": "seed",
-                "seed": 13
+                "type": "team",
+                "seed": 13,
+                "team_no": "1515",
+                "team_name": "HS 17",
+                "institution": "HeadStart"
               },
               "b": {
-                "type": "seed",
-                "seed": 20
+                "type": "team",
+                "seed": 20,
+                "team_no": "1279",
+                "team_name": "ISL Team 1",
+                "institution": "International School Lahore"
               },
               "winner": null
             },
             {
               "no": 7,
               "a": {
-                "type": "seed",
-                "seed": 5
+                "type": "team",
+                "seed": 5,
+                "team_no": "1281",
+                "team_name": "ISL Team 3",
+                "institution": "International School Lahore"
               },
               "b": {
-                "type": "seed",
-                "seed": 28
+                "type": "team",
+                "seed": 28,
+                "team_no": "1509",
+                "team_name": "HS 9",
+                "institution": "HeadStart"
               },
               "winner": null
             },
             {
               "no": 8,
               "a": {
-                "type": "seed",
-                "seed": 12
+                "type": "team",
+                "seed": 12,
+                "team_no": "1242",
+                "team_name": "Andey wala burger",
+                "institution": ""
               },
               "b": {
-                "type": "seed",
-                "seed": 21
+                "type": "team",
+                "seed": 21,
+                "team_no": "1233",
+                "team_name": "TME caption voltage",
+                "institution": "Future World School Bahria Town"
               },
               "winner": null
             },
             {
               "no": 9,
               "a": {
-                "type": "seed",
-                "seed": 2
+                "type": "team",
+                "seed": 2,
+                "team_no": "1518",
+                "team_name": "hs18",
+                "institution": "headStart"
               },
               "b": {
-                "type": "seed",
-                "seed": 31
+                "type": "team",
+                "seed": 31,
+                "team_no": "1226",
+                "team_name": "TME Robo Raptors",
+                "institution": "The Millennium Education Pakistan"
               },
               "winner": null
             },
             {
               "no": 10,
               "a": {
-                "type": "seed",
-                "seed": 15
+                "type": "team",
+                "seed": 15,
+                "team_no": "1504",
+                "team_name": "HS 4",
+                "institution": "HeadStart"
               },
               "b": {
-                "type": "seed",
-                "seed": 18
+                "type": "team",
+                "seed": 18,
+                "team_no": "1506",
+                "team_name": "HS 6",
+                "institution": "HeadStart"
               },
               "winner": null
             },
             {
               "no": 11,
               "a": {
-                "type": "seed",
-                "seed": 7
+                "type": "team",
+                "seed": 7,
+                "team_no": "1502",
+                "team_name": "HS 2",
+                "institution": "HeadStart"
               },
               "b": {
-                "type": "seed",
-                "seed": 26
+                "type": "team",
+                "seed": 26,
+                "team_no": "1234",
+                "team_name": "TME robo titans",
+                "institution": "Future World School Bahria Town"
               },
               "winner": null
             },
             {
               "no": 12,
               "a": {
-                "type": "seed",
-                "seed": 10
+                "type": "team",
+                "seed": 10,
+                "team_no": "1241",
+                "team_name": "TME D",
+                "institution": "The Millennium Education Pakistan"
               },
               "b": {
-                "type": "seed",
-                "seed": 23
+                "type": "team",
+                "seed": 23,
+                "team_no": "1508",
+                "team_name": "HS 8",
+                "institution": "HeadStart"
               },
               "winner": null
             },
             {
               "no": 13,
               "a": {
-                "type": "seed",
-                "seed": 3
+                "type": "team",
+                "seed": 3,
+                "team_no": "1237",
+                "team_name": "TME A",
+                "institution": "The Millennium Education Pakistan"
               },
               "b": {
-                "type": "seed",
-                "seed": 30
+                "type": "team",
+                "seed": 30,
+                "team_no": "1200",
+                "team_name": "TME - Onyx",
+                "institution": "The Millennium Education Pakistan"
               },
               "winner": null
             },
             {
               "no": 14,
               "a": {
-                "type": "seed",
-                "seed": 14
+                "type": "team",
+                "seed": 14,
+                "team_no": "1505",
+                "team_name": "HS 5",
+                "institution": "HeadStart"
               },
               "b": {
-                "type": "seed",
-                "seed": 19
+                "type": "team",
+                "seed": 19,
+                "team_no": "1514",
+                "team_name": "HS16",
+                "institution": "HeadStart"
               },
               "winner": null
             },
             {
               "no": 15,
               "a": {
-                "type": "seed",
-                "seed": 6
+                "type": "team",
+                "seed": 6,
+                "team_no": "1503",
+                "team_name": "HS 3",
+                "institution": "HeadStart"
               },
               "b": {
-                "type": "seed",
-                "seed": 27
+                "type": "team",
+                "seed": 27,
+                "team_no": "1227",
+                "team_name": "TME Maze Mastermind",
+                "institution": "The Millennium Education Pakistan"
               },
               "winner": null
             },
             {
               "no": 16,
               "a": {
-                "type": "seed",
-                "seed": 11
+                "type": "team",
+                "seed": 11,
+                "team_no": "1218",
+                "team_name": "TME FrostByte",
+                "institution": "The Millennium Education Pakistan"
               },
               "b": {
-                "type": "seed",
-                "seed": 22
+                "type": "team",
+                "seed": 22,
+                "team_no": "1238",
+                "team_name": "TME B",
+                "institution": "The Millennium Education Pakistan"
               },
               "winner": null
             }
