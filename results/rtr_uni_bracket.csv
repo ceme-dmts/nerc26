@@ -1,14 +1,14 @@
 match_no,round,team_a,team_a_name,team_b,team_b_name,winner
 1,R16,1265,NUST Robotics & A.I.,,,1265
-2,R16,1287,SS battalion,1173,Janooni Garrisonians 2.0,
-3,R16,1033,Team AK,1169,Code kra do,
+2,R16,1287,SS battalion,1173,Janooni Garrisonians 2.0,1287
+3,R16,1033,Team AK,1169,Code kra do,1033
 4,R16,966,Bayrakthar AF2,1165,Andy wala burger,
 5,R16,1076,Mike Oxman,,,1076
 6,R16,1170,Bado Badi,1261,Hypertracer,
 7,R16,1038,GoliBaz,1155,System breakers,
 8,R16,1081,Team Quantum,1158,LineX,
-9,QF,1265,NUST Robotics & A.I.,,,
-10,QF,,,,,
+9,QF,1265,NUST Robotics & A.I.,1287,SS battalion,
+10,QF,1033,Team AK,,,
 11,QF,1076,Mike Oxman,,,
 12,QF,,,,,
 13,SF,,,,,

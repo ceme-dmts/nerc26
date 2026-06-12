@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T11:55:18",
+  "generated_at": "2026-06-12T12:25:35",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -2108,7 +2108,7 @@
                 "team_name": "Janooni Garrisonians 2.0",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null,
+              "winner": "1287",
               "time": "15:05"
             },
             {
@@ -2128,7 +2128,7 @@
                 "team_name": "Code kra do",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null,
+              "winner": "1033",
               "time": "15:10"
             },
             {
@@ -2686,7 +2686,7 @@
                 "team_name": "HS 8",
                 "institution": "HeadStart"
               },
-              "winner": null,
+              "winner": "1241",
               "time": "15:35"
             },
             {
@@ -2706,7 +2706,7 @@
                 "team_name": "TME - Onyx",
                 "institution": "The Millennium Education Pakistan"
               },
-              "winner": null,
+              "winner": "1237",
               "time": "15:40"
             },
             {
@@ -2726,7 +2726,7 @@
                 "team_name": "HS16",
                 "institution": "HeadStart"
               },
-              "winner": null,
+              "winner": "1505",
               "time": "15:45"
             },
             {
@@ -2766,7 +2766,7 @@
                 "team_name": "TME B",
                 "institution": "The Millennium Education Pakistan"
               },
-              "winner": null,
+              "winner": "1238",
               "time": "15:55"
             },
             {
@@ -2880,8 +2880,11 @@
                 "institution": "Future World School Bahria Town"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 12"
+                "type": "team",
+                "seed": 10,
+                "team_no": "1241",
+                "team_name": "TME D",
+                "institution": "The Millennium Education Pakistan"
               },
               "winner": null,
               "time": "16:25"
@@ -2890,12 +2893,18 @@
               "no": 23,
               "round": "R16",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 13"
+                "type": "team",
+                "seed": 3,
+                "team_no": "1237",
+                "team_name": "TME A",
+                "institution": "The Millennium Education Pakistan"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 14"
+                "type": "team",
+                "seed": 14,
+                "team_no": "1505",
+                "team_name": "HS 5",
+                "institution": "HeadStart"
               },
               "winner": null,
               "time": "16:30"
@@ -2908,8 +2917,11 @@
                 "text": "Winner of Match 15"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 16"
+                "type": "team",
+                "seed": 22,
+                "team_no": "1238",
+                "team_name": "TME B",
+                "institution": "The Millennium Education Pakistan"
               },
               "winner": null,
               "time": "16:35"
@@ -2937,8 +2949,11 @@
                 "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 2"
+                "type": "team",
+                "seed": 8,
+                "team_no": "1287",
+                "team_name": "SS battalion",
+                "institution": "Institute of Business Administration Karachi"
               },
               "winner": null,
               "time": "10:00"
@@ -2947,8 +2962,11 @@
               "no": 10,
               "round": "QF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 3"
+                "type": "team",
+                "seed": 4,
+                "team_no": "1033",
+                "team_name": "Team AK",
+                "institution": "University of the Punjab"
               },
               "b": {
                 "type": "ref",
