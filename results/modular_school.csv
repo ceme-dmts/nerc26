@@ -1,69 +1,71 @@
-seed,team_no,team_name,institution,score,time
-1,1502,HS 2,HeadStart,,
-2,1209,TME Mechadrive,The Millennium Education Pakistan,,
-3,1234,TME robo titans,Future World School Bahria Town,,
-4,1514,HS16,HeadStart,,
-5,1208,TME Innovon,The Millennium Education Pakistan,,
-6,1518,hs18,headStart,,
-7,1244,Quantum Bots,The Millennium Education Pakistan,,
-8,1281,ISL Team 3,International School Lahore,,
-9,1213,TME Voltage Vipers,The Millennium Education Pakistan,,
-10,1199,TME -Unicorn,The Millennium Education Pakistan,,
-11,1203,TME Dark Voltage,The Millennium Education Pakistan,,
-12,1204,TME - One World Aurora,The Millennium Education Pakistan,,
-13,1238,TME B,The Millennium Education Pakistan,,
-14,1517,HS 11,HeadStart,,
-15,1512,HS14,HeadStart,,
-16,1210,TME Robo Titans,The Millennium Education Pakistan,,
-17,1220,TME Future Forge,The Millennium Education Pakistan,,
-18,1516,HS 10,HeadStart,,
-19,1217,TMEayatfatima,(private),,
-20,1229,TME The Future Makers,The Millennium Education Pakistan,,
-21,1507,HS 7,HeadStart,,
-22,1515,HS 17,HeadStart,,
-23,1211,TME Robo Legends,The Millennium Education Pakistan,,
-24,1088,JT Team X,LGS,,
-25,1279,ISL Team 1,International School Lahore,,
-26,1218,TME FrostByte,The Millennium Education Pakistan,,
-27,1271,Beqarar Janoon,Roots IVY ICMS,,
-28,1506,HS 6,HeadStart,,
-29,1233,TME caption voltage,Future World School Bahria Town,,
-30,1228,TME The Arena Beast,The Millennium Education Pakistan,,
-31,1207,TME Robonova,The Millennium Education Pakistan,,
-32,1223,TME Phantom Core,The Millennium Education Pakistan,,
-33,1235,TME Thunder17,Future World School Bahria Town,,
-34,1200,TME - Onyx,The Millennium Education Pakistan,,
-35,1510,HS12,HeadStart,,
-36,1505,HS 5,HeadStart,,
-37,1511,HS 13,HeadStart,,
-38,1236,TMEjawadkhattak,(private),,
-39,1225,TME Project Atlas,The Millennium Education Pakistan,,
-40,1064,Abdalian Lego,Cadet College Hasanabdal,,
-41,1240,TME C,The Millennium Education Pakistan,,
-42,1206,TME Futurix,The Millennium Education Pakistan,,
-43,1214,TME Titan Torque,The Millennium Education Pakistan,,
-44,1501,HS 1,HeadStart,,
-45,1201,TME Neural Knights,The Millennium Education Pakistan,,
-46,1224,TME Algorithmics,The Millennium Education Pakistan,,
-47,1219,TME RoboSapiens,The Millennium Education Pakistan,,
-48,1282,ISL Team 4,International School Lahore,,
-49,1503,HS 3,HeadStart,,
-50,1508,HS 8,HeadStart,,
-51,1096,chrispy chickens,(private),,
-52,1227,TME Maze Mastermind,The Millennium Education Pakistan,,
-53,1157,LGS JT Team C,LGS,,
-54,1243,TME RoboNova,The Millennium Education Pakistan,,
-55,1241,TME D,The Millennium Education Pakistan,,
-56,1215,TMEareejfatima,(private),,
-57,1146,LGS JT Team E,LGS,,
-58,1232,TME RAZOR,Future World School Bahria Town,,
-59,1308,Micro Byte,The Lab School,,
-60,1504,HS 4,HeadStart,,
-61,1513,HS15,HeadStart,,
-62,1222,TME Innovators,The Millennium Education Pakistan,,
-63,1202,TME - One World Bots,The Millennium Education Pakistan,,
-64,1226,TME Robo Raptors,The Millennium Education Pakistan,,
-65,1280,ISL Team 2,International School Lahore,,
-66,1237,TME A,The Millennium Education Pakistan,,
-67,1301,Techno Crusaders,The Lab School,,
-68,1509,HS 9,HeadStart,,
+﻿S,team_no,team_name,institution,score,Time
+1,1502,HS 2,HeadStart,100,0:27.33
+2,1209,TME Mechadrive,The Millennium Education Pakistan,0,2:4.95
+3,1234,TME robo titans,Future World School Bahria Town,55,0:45.98
+4,1514,HS16,HeadStart,100,1:58.21
+5,1208,TME Innovon,The Millennium Education Pakistan,55,0:32.64
+6,1518,hs18,headStart,100,0:13.92
+7,1244,Quantum Bots,The Millennium Education Pakistan,55,1:50.32
+8,1281,ISL Team 3,International School Lahore,100,0:25.7
+9,1213,TME Voltage Vipers,The Millennium Education Pakistan,40,2:48.61
+10,1199,TME -Unicorn,The Millennium Education Pakistan,40,2:29.79
+11,1203,TME Dark Voltage,The Millennium Education Pakistan,40,1:10.45
+12,1204,TME - One World Aurora,The Millennium Education Pakistan,10,2:46.17
+13,1238,TME B,The Millennium Education Pakistan,70,0:24.45
+14,1517,HS 11,HeadStart,55,1:48.57
+15,1512,HS14,HeadStart,55,1:53.38
+16,1210,TME Robo Titans,The Millennium Education Pakistan,,:0
+17,1220,TME Future Forge,The Millennium Education Pakistan,15,3:0
+18,1516,HS 10,HeadStart,100,0:27.98
+19,1217,TMEayatfatima,(private),0,2:26.2
+20,1229,TME The Future Makers,The Millennium Education Pakistan,55,2:31.2
+21,1507,HS 7,HeadStart,100,0:27.38
+22,1515,HS 17,HeadStart,100,0:55.26
+23,1211,TME Robo Legends,The Millennium Education Pakistan,25,2:49.92
+24,1088,JT Team X,LGS,,:0
+25,1279,ISL Team 1,International School Lahore,100,2:27.42
+26,1218,TME FrostByte,The Millennium Education Pakistan,100,0:37.95
+27,1271,Beqarar Janoon,Roots IVY ICMS,55,1:17.63
+28,1506,HS 6,HeadStart,100,1:37.5
+29,1233,TME caption voltage,Future World School Bahria Town,80,1:52.26
+30,1228,TME The Arena Beast,The Millennium Education Pakistan,55,1:46.54
+31,1207,TME Robonova,The Millennium Education Pakistan,30,2:44.41
+32,1223,TME Phantom Core,The Millennium Education Pakistan,25,3:0
+33,1235,TME Thunder17,Future World School Bahria Town,100,1:98
+34,1200,TME - Onyx,The Millennium Education Pakistan,55,1:23.26
+35,1510,HS12,HeadStart,100,1:13.85
+36,1505,HS 5,HeadStart,100,1:9.3
+37,1511,HS 13,HeadStart,40,1:18.14
+38,1236,TMEjawadkhattak,(private),0,3:0
+39,1225,TME Project Atlas,The Millennium Education Pakistan,45,2:51.1
+40,1064,Abdalian Lego,Cadet College Hasanabdal,,:0
+41,1240,TME C,The Millennium Education Pakistan,55,1:58.86
+42,1206,TME Futurix,The Millennium Education Pakistan,,:0
+43,1214,TME Titan Torque,The Millennium Education Pakistan,40,3:0
+44,1501,HS 1,HeadStart,40,1:40.22
+45,1201,TME Neural Knights,The Millennium Education Pakistan,25,2:35.76
+46,1224,TME Algorithmics,The Millennium Education Pakistan,55,1:40.82
+47,1219,TME RoboSapiens,The Millennium Education Pakistan,45,1:16.98
+48,1282,ISL Team 4,International School Lahore,55,3:0
+49,1503,HS 3,HeadStart,100,0:27.13
+50,1508,HS 8,HeadStart,65,1:2.82
+51,1096,chrispy chickens,(private),,:0
+52,1227,TME Maze Mastermind,The Millennium Education Pakistan,55,0:54.98
+53,1157,LGS JT Team C,LGS,,:0
+54,1243,TME RoboNova,The Millennium Education Pakistan,55,3:0
+55,1241,TME D,The Millennium Education Pakistan,100,0:30.8
+56,1215,TMEareejfatima,(private),25,2:46.06
+57,1146,LGS JT Team E,LGS,10,2:58.98
+58,1232,TME RAZOR,Future World School Bahria Town,55,2:55.85
+59,1308,Micro Byte,The Lab School,,:0
+60,1504,HS 4,HeadStart,100,1:9.45
+61,1513,HS15,HeadStart,0,2:55.1
+62,1222,TME Innovators,The Millennium Education Pakistan,40,0:31.23
+63,1202,TME - One World Bots,The Millennium Education Pakistan,25,1:59.29
+64,1226,TME Robo Raptors,The Millennium Education Pakistan,55,1:37.58
+65,1280,ISL Team 2,International School Lahore,100,0:21.23
+66,1237,TME A,The Millennium Education Pakistan,100,0:15.91
+67,1301,Techno Crusaders,The Lab School,100,1:18.6
+68,1509,HS 9,HeadStart,55,1:14.92
+69,1611,Archive,,55,0:43.76
+70,1242,Andey wala burger,,100,0:51.95

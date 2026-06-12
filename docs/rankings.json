@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T09:47:32",
+  "generated_at": "2026-06-12T10:01:08",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -99,130 +99,514 @@
         "venue": "Auditorium"
       },
       "bracket_size": 32,
-      "status": "pending",
+      "status": "partial",
       "teams": [
         {
           "rank": 1,
           "team_no": "1502",
           "team_name": "HS 2",
           "institution": "HeadStart",
-          "score": null,
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 2,
-          "team_no": "1209",
-          "team_name": "TME Mechadrive",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
+          "team_no": "1514",
+          "team_name": "HS16",
+          "institution": "HeadStart",
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 3,
-          "team_no": "1234",
-          "team_name": "TME robo titans",
-          "institution": "Future World School Bahria Town",
-          "score": null,
+          "team_no": "1518",
+          "team_name": "hs18",
+          "institution": "headStart",
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 4,
-          "team_no": "1514",
-          "team_name": "HS16",
-          "institution": "HeadStart",
-          "score": null,
+          "team_no": "1281",
+          "team_name": "ISL Team 3",
+          "institution": "International School Lahore",
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 5,
-          "team_no": "1208",
-          "team_name": "TME Innovon",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
+          "team_no": "1516",
+          "team_name": "HS 10",
+          "institution": "HeadStart",
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 6,
-          "team_no": "1518",
-          "team_name": "hs18",
-          "institution": "headStart",
-          "score": null,
+          "team_no": "1507",
+          "team_name": "HS 7",
+          "institution": "HeadStart",
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 7,
-          "team_no": "1244",
-          "team_name": "Quantum Bots",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
+          "team_no": "1515",
+          "team_name": "HS 17",
+          "institution": "HeadStart",
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 8,
-          "team_no": "1281",
-          "team_name": "ISL Team 3",
+          "team_no": "1279",
+          "team_name": "ISL Team 1",
           "institution": "International School Lahore",
-          "score": null,
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 9,
-          "team_no": "1213",
-          "team_name": "TME Voltage Vipers",
+          "team_no": "1218",
+          "team_name": "TME FrostByte",
           "institution": "The Millennium Education Pakistan",
-          "score": null,
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 10,
-          "team_no": "1199",
-          "team_name": "TME -Unicorn",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
+          "team_no": "1506",
+          "team_name": "HS 6",
+          "institution": "HeadStart",
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 11,
-          "team_no": "1203",
-          "team_name": "TME Dark Voltage",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
+          "team_no": "1235",
+          "team_name": "TME Thunder17",
+          "institution": "Future World School Bahria Town",
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 12,
-          "team_no": "1204",
-          "team_name": "TME - One World Aurora",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
+          "team_no": "1510",
+          "team_name": "HS12",
+          "institution": "HeadStart",
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 13,
-          "team_no": "1238",
-          "team_name": "TME B",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
+          "team_no": "1505",
+          "team_name": "HS 5",
+          "institution": "HeadStart",
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 14,
-          "team_no": "1517",
-          "team_name": "HS 11",
+          "team_no": "1503",
+          "team_name": "HS 3",
           "institution": "HeadStart",
-          "score": null,
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 15,
-          "team_no": "1512",
-          "team_name": "HS14",
-          "institution": "HeadStart",
-          "score": null,
+          "team_no": "1241",
+          "team_name": "TME D",
+          "institution": "The Millennium Education Pakistan",
+          "score": 100.0,
           "time": null
         },
         {
           "rank": 16,
+          "team_no": "1504",
+          "team_name": "HS 4",
+          "institution": "HeadStart",
+          "score": 100.0,
+          "time": null
+        },
+        {
+          "rank": 17,
+          "team_no": "1280",
+          "team_name": "ISL Team 2",
+          "institution": "International School Lahore",
+          "score": 100.0,
+          "time": null
+        },
+        {
+          "rank": 18,
+          "team_no": "1237",
+          "team_name": "TME A",
+          "institution": "The Millennium Education Pakistan",
+          "score": 100.0,
+          "time": null
+        },
+        {
+          "rank": 19,
+          "team_no": "1301",
+          "team_name": "Techno Crusaders",
+          "institution": "The Lab School",
+          "score": 100.0,
+          "time": null
+        },
+        {
+          "rank": 20,
+          "team_no": "1242",
+          "team_name": "Andey wala burger",
+          "institution": "",
+          "score": 100.0,
+          "time": null
+        },
+        {
+          "rank": 21,
+          "team_no": "1233",
+          "team_name": "TME caption voltage",
+          "institution": "Future World School Bahria Town",
+          "score": 80.0,
+          "time": null
+        },
+        {
+          "rank": 22,
+          "team_no": "1238",
+          "team_name": "TME B",
+          "institution": "The Millennium Education Pakistan",
+          "score": 70.0,
+          "time": null
+        },
+        {
+          "rank": 23,
+          "team_no": "1508",
+          "team_name": "HS 8",
+          "institution": "HeadStart",
+          "score": 65.0,
+          "time": null
+        },
+        {
+          "rank": 24,
+          "team_no": "1234",
+          "team_name": "TME robo titans",
+          "institution": "Future World School Bahria Town",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 25,
+          "team_no": "1208",
+          "team_name": "TME Innovon",
+          "institution": "The Millennium Education Pakistan",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 26,
+          "team_no": "1244",
+          "team_name": "Quantum Bots",
+          "institution": "The Millennium Education Pakistan",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 27,
+          "team_no": "1517",
+          "team_name": "HS 11",
+          "institution": "HeadStart",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 28,
+          "team_no": "1512",
+          "team_name": "HS14",
+          "institution": "HeadStart",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 29,
+          "team_no": "1229",
+          "team_name": "TME The Future Makers",
+          "institution": "The Millennium Education Pakistan",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 30,
+          "team_no": "1271",
+          "team_name": "Beqarar Janoon",
+          "institution": "Roots IVY ICMS",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 31,
+          "team_no": "1228",
+          "team_name": "TME The Arena Beast",
+          "institution": "The Millennium Education Pakistan",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 32,
+          "team_no": "1200",
+          "team_name": "TME - Onyx",
+          "institution": "The Millennium Education Pakistan",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 33,
+          "team_no": "1240",
+          "team_name": "TME C",
+          "institution": "The Millennium Education Pakistan",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 34,
+          "team_no": "1224",
+          "team_name": "TME Algorithmics",
+          "institution": "The Millennium Education Pakistan",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 35,
+          "team_no": "1282",
+          "team_name": "ISL Team 4",
+          "institution": "International School Lahore",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 36,
+          "team_no": "1227",
+          "team_name": "TME Maze Mastermind",
+          "institution": "The Millennium Education Pakistan",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 37,
+          "team_no": "1243",
+          "team_name": "TME RoboNova",
+          "institution": "The Millennium Education Pakistan",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 38,
+          "team_no": "1232",
+          "team_name": "TME RAZOR",
+          "institution": "Future World School Bahria Town",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 39,
+          "team_no": "1226",
+          "team_name": "TME Robo Raptors",
+          "institution": "The Millennium Education Pakistan",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 40,
+          "team_no": "1509",
+          "team_name": "HS 9",
+          "institution": "HeadStart",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 41,
+          "team_no": "1611",
+          "team_name": "Archive",
+          "institution": "",
+          "score": 55.0,
+          "time": null
+        },
+        {
+          "rank": 42,
+          "team_no": "1225",
+          "team_name": "TME Project Atlas",
+          "institution": "The Millennium Education Pakistan",
+          "score": 45.0,
+          "time": null
+        },
+        {
+          "rank": 43,
+          "team_no": "1219",
+          "team_name": "TME RoboSapiens",
+          "institution": "The Millennium Education Pakistan",
+          "score": 45.0,
+          "time": null
+        },
+        {
+          "rank": 44,
+          "team_no": "1213",
+          "team_name": "TME Voltage Vipers",
+          "institution": "The Millennium Education Pakistan",
+          "score": 40.0,
+          "time": null
+        },
+        {
+          "rank": 45,
+          "team_no": "1199",
+          "team_name": "TME -Unicorn",
+          "institution": "The Millennium Education Pakistan",
+          "score": 40.0,
+          "time": null
+        },
+        {
+          "rank": 46,
+          "team_no": "1203",
+          "team_name": "TME Dark Voltage",
+          "institution": "The Millennium Education Pakistan",
+          "score": 40.0,
+          "time": null
+        },
+        {
+          "rank": 47,
+          "team_no": "1511",
+          "team_name": "HS 13",
+          "institution": "HeadStart",
+          "score": 40.0,
+          "time": null
+        },
+        {
+          "rank": 48,
+          "team_no": "1214",
+          "team_name": "TME Titan Torque",
+          "institution": "The Millennium Education Pakistan",
+          "score": 40.0,
+          "time": null
+        },
+        {
+          "rank": 49,
+          "team_no": "1501",
+          "team_name": "HS 1",
+          "institution": "HeadStart",
+          "score": 40.0,
+          "time": null
+        },
+        {
+          "rank": 50,
+          "team_no": "1222",
+          "team_name": "TME Innovators",
+          "institution": "The Millennium Education Pakistan",
+          "score": 40.0,
+          "time": null
+        },
+        {
+          "rank": 51,
+          "team_no": "1207",
+          "team_name": "TME Robonova",
+          "institution": "The Millennium Education Pakistan",
+          "score": 30.0,
+          "time": null
+        },
+        {
+          "rank": 52,
+          "team_no": "1211",
+          "team_name": "TME Robo Legends",
+          "institution": "The Millennium Education Pakistan",
+          "score": 25.0,
+          "time": null
+        },
+        {
+          "rank": 53,
+          "team_no": "1223",
+          "team_name": "TME Phantom Core",
+          "institution": "The Millennium Education Pakistan",
+          "score": 25.0,
+          "time": null
+        },
+        {
+          "rank": 54,
+          "team_no": "1201",
+          "team_name": "TME Neural Knights",
+          "institution": "The Millennium Education Pakistan",
+          "score": 25.0,
+          "time": null
+        },
+        {
+          "rank": 55,
+          "team_no": "1215",
+          "team_name": "TMEareejfatima",
+          "institution": "(private)",
+          "score": 25.0,
+          "time": null
+        },
+        {
+          "rank": 56,
+          "team_no": "1202",
+          "team_name": "TME - One World Bots",
+          "institution": "The Millennium Education Pakistan",
+          "score": 25.0,
+          "time": null
+        },
+        {
+          "rank": 57,
+          "team_no": "1220",
+          "team_name": "TME Future Forge",
+          "institution": "The Millennium Education Pakistan",
+          "score": 15.0,
+          "time": null
+        },
+        {
+          "rank": 58,
+          "team_no": "1204",
+          "team_name": "TME - One World Aurora",
+          "institution": "The Millennium Education Pakistan",
+          "score": 10.0,
+          "time": null
+        },
+        {
+          "rank": 59,
+          "team_no": "1146",
+          "team_name": "LGS JT Team E",
+          "institution": "LGS",
+          "score": 10.0,
+          "time": null
+        },
+        {
+          "rank": 60,
+          "team_no": "1209",
+          "team_name": "TME Mechadrive",
+          "institution": "The Millennium Education Pakistan",
+          "score": 0.0,
+          "time": null
+        },
+        {
+          "rank": 61,
+          "team_no": "1217",
+          "team_name": "TMEayatfatima",
+          "institution": "(private)",
+          "score": 0.0,
+          "time": null
+        },
+        {
+          "rank": 62,
+          "team_no": "1236",
+          "team_name": "TMEjawadkhattak",
+          "institution": "(private)",
+          "score": 0.0,
+          "time": null
+        },
+        {
+          "rank": 63,
+          "team_no": "1513",
+          "team_name": "HS15",
+          "institution": "HeadStart",
+          "score": 0.0,
+          "time": null
+        },
+        {
+          "rank": 64,
           "team_no": "1210",
           "team_name": "TME Robo Titans",
           "institution": "The Millennium Education Pakistan",
@@ -230,63 +614,7 @@
           "time": null
         },
         {
-          "rank": 17,
-          "team_no": "1220",
-          "team_name": "TME Future Forge",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 18,
-          "team_no": "1516",
-          "team_name": "HS 10",
-          "institution": "HeadStart",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 19,
-          "team_no": "1217",
-          "team_name": "TMEayatfatima",
-          "institution": "(private)",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 20,
-          "team_no": "1229",
-          "team_name": "TME The Future Makers",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 21,
-          "team_no": "1507",
-          "team_name": "HS 7",
-          "institution": "HeadStart",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 22,
-          "team_no": "1515",
-          "team_name": "HS 17",
-          "institution": "HeadStart",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 23,
-          "team_no": "1211",
-          "team_name": "TME Robo Legends",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 24,
+          "rank": 65,
           "team_no": "1088",
           "team_name": "JT Team X",
           "institution": "LGS",
@@ -294,127 +622,7 @@
           "time": null
         },
         {
-          "rank": 25,
-          "team_no": "1279",
-          "team_name": "ISL Team 1",
-          "institution": "International School Lahore",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 26,
-          "team_no": "1218",
-          "team_name": "TME FrostByte",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 27,
-          "team_no": "1271",
-          "team_name": "Beqarar Janoon",
-          "institution": "Roots IVY ICMS",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 28,
-          "team_no": "1506",
-          "team_name": "HS 6",
-          "institution": "HeadStart",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 29,
-          "team_no": "1233",
-          "team_name": "TME caption voltage",
-          "institution": "Future World School Bahria Town",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 30,
-          "team_no": "1228",
-          "team_name": "TME The Arena Beast",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 31,
-          "team_no": "1207",
-          "team_name": "TME Robonova",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 32,
-          "team_no": "1223",
-          "team_name": "TME Phantom Core",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 33,
-          "team_no": "1235",
-          "team_name": "TME Thunder17",
-          "institution": "Future World School Bahria Town",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 34,
-          "team_no": "1200",
-          "team_name": "TME - Onyx",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 35,
-          "team_no": "1510",
-          "team_name": "HS12",
-          "institution": "HeadStart",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 36,
-          "team_no": "1505",
-          "team_name": "HS 5",
-          "institution": "HeadStart",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 37,
-          "team_no": "1511",
-          "team_name": "HS 13",
-          "institution": "HeadStart",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 38,
-          "team_no": "1236",
-          "team_name": "TMEjawadkhattak",
-          "institution": "(private)",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 39,
-          "team_no": "1225",
-          "team_name": "TME Project Atlas",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 40,
+          "rank": 66,
           "team_no": "1064",
           "team_name": "Abdalian Lego",
           "institution": "Cadet College Hasanabdal",
@@ -422,15 +630,7 @@
           "time": null
         },
         {
-          "rank": 41,
-          "team_no": "1240",
-          "team_name": "TME C",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 42,
+          "rank": 67,
           "team_no": "1206",
           "team_name": "TME Futurix",
           "institution": "The Millennium Education Pakistan",
@@ -438,71 +638,7 @@
           "time": null
         },
         {
-          "rank": 43,
-          "team_no": "1214",
-          "team_name": "TME Titan Torque",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 44,
-          "team_no": "1501",
-          "team_name": "HS 1",
-          "institution": "HeadStart",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 45,
-          "team_no": "1201",
-          "team_name": "TME Neural Knights",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 46,
-          "team_no": "1224",
-          "team_name": "TME Algorithmics",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 47,
-          "team_no": "1219",
-          "team_name": "TME RoboSapiens",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 48,
-          "team_no": "1282",
-          "team_name": "ISL Team 4",
-          "institution": "International School Lahore",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 49,
-          "team_no": "1503",
-          "team_name": "HS 3",
-          "institution": "HeadStart",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 50,
-          "team_no": "1508",
-          "team_name": "HS 8",
-          "institution": "HeadStart",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 51,
+          "rank": 68,
           "team_no": "1096",
           "team_name": "chrispy chickens",
           "institution": "(private)",
@@ -510,15 +646,7 @@
           "time": null
         },
         {
-          "rank": 52,
-          "team_no": "1227",
-          "team_name": "TME Maze Mastermind",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 53,
+          "rank": 69,
           "team_no": "1157",
           "team_name": "LGS JT Team C",
           "institution": "LGS",
@@ -526,122 +654,10 @@
           "time": null
         },
         {
-          "rank": 54,
-          "team_no": "1243",
-          "team_name": "TME RoboNova",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 55,
-          "team_no": "1241",
-          "team_name": "TME D",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 56,
-          "team_no": "1215",
-          "team_name": "TMEareejfatima",
-          "institution": "(private)",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 57,
-          "team_no": "1146",
-          "team_name": "LGS JT Team E",
-          "institution": "LGS",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 58,
-          "team_no": "1232",
-          "team_name": "TME RAZOR",
-          "institution": "Future World School Bahria Town",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 59,
+          "rank": 70,
           "team_no": "1308",
           "team_name": "Micro Byte",
           "institution": "The Lab School",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 60,
-          "team_no": "1504",
-          "team_name": "HS 4",
-          "institution": "HeadStart",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 61,
-          "team_no": "1513",
-          "team_name": "HS15",
-          "institution": "HeadStart",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 62,
-          "team_no": "1222",
-          "team_name": "TME Innovators",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 63,
-          "team_no": "1202",
-          "team_name": "TME - One World Bots",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 64,
-          "team_no": "1226",
-          "team_name": "TME Robo Raptors",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 65,
-          "team_no": "1280",
-          "team_name": "ISL Team 2",
-          "institution": "International School Lahore",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 66,
-          "team_no": "1237",
-          "team_name": "TME A",
-          "institution": "The Millennium Education Pakistan",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 67,
-          "team_no": "1301",
-          "team_name": "Techno Crusaders",
-          "institution": "The Lab School",
-          "score": null,
-          "time": null
-        },
-        {
-          "rank": 68,
-          "team_no": "1509",
-          "team_name": "HS 9",
-          "institution": "HeadStart",
           "score": null,
           "time": null
         }
