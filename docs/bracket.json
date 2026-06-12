@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T13:31:11",
+  "generated_at": "2026-06-12T13:46:34",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -1431,7 +1431,7 @@
                 "team_name": "Andy wala burger",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null
+              "winner": "1165"
             },
             {
               "no": 5,
@@ -1463,7 +1463,7 @@
                 "team_name": "Hypertracer",
                 "institution": "CEME NUST"
               },
-              "winner": null
+              "winner": "1261"
             },
             {
               "no": 7,
@@ -1481,7 +1481,7 @@
                 "team_name": "System breakers",
                 "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
-              "winner": null
+              "winner": "1155"
             },
             {
               "no": 8,
@@ -1499,7 +1499,7 @@
                 "team_name": "LineX",
                 "institution": "NUST EME"
               },
-              "winner": null
+              "winner": "1081"
             }
           ]
         },
@@ -1534,8 +1534,11 @@
                 "institution": "University of the Punjab"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 4"
+                "type": "team",
+                "seed": 12,
+                "team_no": "1165",
+                "team_name": "Andy wala burger",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             },
@@ -1549,20 +1552,29 @@
                 "institution": "CEME NUST"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 6"
+                "type": "team",
+                "seed": 10,
+                "team_no": "1261",
+                "team_name": "Hypertracer",
+                "institution": "CEME NUST"
               },
               "winner": null
             },
             {
               "no": 12,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 7"
+                "type": "team",
+                "seed": 14,
+                "team_no": "1155",
+                "team_name": "System breakers",
+                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 8"
+                "type": "team",
+                "seed": 6,
+                "team_no": "1081",
+                "team_name": "Team Quantum",
+                "institution": "University of Central Punjab"
               },
               "winner": null
             }

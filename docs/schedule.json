@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T13:31:11",
+  "generated_at": "2026-06-12T13:46:34",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -2148,7 +2148,7 @@
                 "team_name": "Andy wala burger",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null,
+              "winner": "1165",
               "time": "15:15"
             },
             {
@@ -2184,7 +2184,7 @@
                 "team_name": "Hypertracer",
                 "institution": "CEME NUST"
               },
-              "winner": null,
+              "winner": "1261",
               "time": "15:25"
             },
             {
@@ -2204,7 +2204,7 @@
                 "team_name": "System breakers",
                 "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
-              "winner": null,
+              "winner": "1155",
               "time": "15:30"
             },
             {
@@ -2224,7 +2224,7 @@
                 "team_name": "LineX",
                 "institution": "NUST EME"
               },
-              "winner": null,
+              "winner": "1081",
               "time": "15:35"
             }
           ]
@@ -2972,8 +2972,11 @@
                 "institution": "University of the Punjab"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 4"
+                "type": "team",
+                "seed": 12,
+                "team_no": "1165",
+                "team_name": "Andy wala burger",
+                "institution": "Lahore Garrison University"
               },
               "winner": null,
               "time": "10:05"
@@ -2989,8 +2992,11 @@
                 "institution": "CEME NUST"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 6"
+                "type": "team",
+                "seed": 10,
+                "team_no": "1261",
+                "team_name": "Hypertracer",
+                "institution": "CEME NUST"
               },
               "winner": null,
               "time": "10:10"
@@ -2999,12 +3005,18 @@
               "no": 12,
               "round": "QF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 7"
+                "type": "team",
+                "seed": 14,
+                "team_no": "1155",
+                "team_name": "System breakers",
+                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 8"
+                "type": "team",
+                "seed": 6,
+                "team_no": "1081",
+                "team_name": "Team Quantum",
+                "institution": "University of Central Punjab"
               },
               "winner": null,
               "time": "10:15"
