@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T07:02:53",
+  "generated_at": "2026-06-12T09:47:32",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -2236,56 +2236,64 @@
               "no": 1,
               "round": "QF",
               "a": {
-                "type": "seed",
-                "seed": 1
+                "type": "team",
+                "seed": 1,
+                "team_no": "1188",
+                "team_name": "Khatti Toffee",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "seed",
-                "seed": 8
+                "type": "bye"
               },
-              "winner": null,
+              "winner": "1188",
               "time": "15:40"
             },
             {
               "no": 2,
               "round": "QF",
               "a": {
-                "type": "seed",
-                "seed": 4
+                "type": "team",
+                "seed": 4,
+                "team_no": "1190",
+                "team_name": "Robot Chala do",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "seed",
-                "seed": 5
+                "type": "bye"
               },
-              "winner": null,
+              "winner": "1190",
               "time": "15:45"
             },
             {
               "no": 3,
               "round": "QF",
               "a": {
-                "type": "seed",
-                "seed": 2
+                "type": "team",
+                "seed": 2,
+                "team_no": "1189",
+                "team_name": "kacha Badam",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "seed",
-                "seed": 7
+                "type": "bye"
               },
-              "winner": null,
+              "winner": "1189",
               "time": "15:50"
             },
             {
               "no": 4,
               "round": "QF",
               "a": {
-                "type": "seed",
-                "seed": 3
+                "type": "team",
+                "seed": 3,
+                "team_no": "1186",
+                "team_name": "Code Kra do 2.0",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "seed",
-                "seed": 6
+                "type": "bye"
               },
-              "winner": null,
+              "winner": "1186",
               "time": "15:55"
             }
           ]
@@ -2977,12 +2985,18 @@
               "no": 5,
               "round": "SF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 1"
+                "type": "team",
+                "seed": 1,
+                "team_no": "1188",
+                "team_name": "Khatti Toffee",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 2"
+                "type": "team",
+                "seed": 4,
+                "team_no": "1190",
+                "team_name": "Robot Chala do",
+                "institution": "Lahore Garrison University"
               },
               "winner": null,
               "time": "11:00"
@@ -2991,12 +3005,18 @@
               "no": 6,
               "round": "SF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 3"
+                "type": "team",
+                "seed": 2,
+                "team_no": "1189",
+                "team_name": "kacha Badam",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 4"
+                "type": "team",
+                "seed": 3,
+                "team_no": "1186",
+                "team_name": "Code Kra do 2.0",
+                "institution": "Lahore Garrison University"
               },
               "winner": null,
               "time": "11:05"

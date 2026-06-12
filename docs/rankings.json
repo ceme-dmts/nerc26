@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T07:02:53",
+  "generated_at": "2026-06-12T09:47:32",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -654,7 +654,7 @@
         "venue": "Auditorium"
       },
       "bracket_size": 8,
-      "status": "partial",
+      "status": "seeded",
       "teams": [
         {
           "rank": 1,
@@ -687,14 +687,6 @@
           "institution": "Lahore Garrison University",
           "score": 25.0,
           "time": 125.26
-        },
-        {
-          "rank": 5,
-          "team_no": "1014",
-          "team_name": "Fire Fighter robot",
-          "institution": "Riphah International University",
-          "score": null,
-          "time": null
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T07:02:53",
+  "generated_at": "2026-06-12T09:47:32",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -740,7 +740,7 @@
         "venue": "Auditorium"
       },
       "bracket_size": 8,
-      "status": "pending",
+      "status": "seeded",
       "rounds": [
         {
           "name": "QF",
@@ -748,50 +748,58 @@
             {
               "no": 1,
               "a": {
-                "type": "seed",
-                "seed": 1
+                "type": "team",
+                "seed": 1,
+                "team_no": "1188",
+                "team_name": "Khatti Toffee",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "seed",
-                "seed": 8
+                "type": "bye"
               },
-              "winner": null
+              "winner": "1188"
             },
             {
               "no": 2,
               "a": {
-                "type": "seed",
-                "seed": 4
+                "type": "team",
+                "seed": 4,
+                "team_no": "1190",
+                "team_name": "Robot Chala do",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "seed",
-                "seed": 5
+                "type": "bye"
               },
-              "winner": null
+              "winner": "1190"
             },
             {
               "no": 3,
               "a": {
-                "type": "seed",
-                "seed": 2
+                "type": "team",
+                "seed": 2,
+                "team_no": "1189",
+                "team_name": "kacha Badam",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "seed",
-                "seed": 7
+                "type": "bye"
               },
-              "winner": null
+              "winner": "1189"
             },
             {
               "no": 4,
               "a": {
-                "type": "seed",
-                "seed": 3
+                "type": "team",
+                "seed": 3,
+                "team_no": "1186",
+                "team_name": "Code Kra do 2.0",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "seed",
-                "seed": 6
+                "type": "bye"
               },
-              "winner": null
+              "winner": "1186"
             }
           ]
         },
@@ -801,24 +809,36 @@
             {
               "no": 5,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 1"
+                "type": "team",
+                "seed": 1,
+                "team_no": "1188",
+                "team_name": "Khatti Toffee",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 2"
+                "type": "team",
+                "seed": 4,
+                "team_no": "1190",
+                "team_name": "Robot Chala do",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             },
             {
               "no": 6,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 3"
+                "type": "team",
+                "seed": 2,
+                "team_no": "1189",
+                "team_name": "kacha Badam",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 4"
+                "type": "team",
+                "seed": 3,
+                "team_no": "1186",
+                "team_name": "Code Kra do 2.0",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             }
