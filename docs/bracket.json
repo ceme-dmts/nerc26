@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T06:13:59",
+  "generated_at": "2026-06-13T06:14:16",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -1620,7 +1620,7 @@
                 "team_name": "Andy wala burger",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null
+              "winner": "1287"
             },
             {
               "no": 14,
@@ -1638,7 +1638,7 @@
                 "team_name": "System breakers",
                 "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
-              "winner": null
+              "winner": "1155"
             }
           ]
         },
@@ -1648,12 +1648,18 @@
             {
               "no": 15,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 13"
+                "type": "team",
+                "seed": 8,
+                "team_no": "1287",
+                "team_name": "SS battalion",
+                "institution": "Institute of Business Administration Karachi"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 14"
+                "type": "team",
+                "seed": 14,
+                "team_no": "1155",
+                "team_name": "System breakers",
+                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "winner": null
             }
