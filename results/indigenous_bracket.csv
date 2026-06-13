@@ -8,10 +8,10 @@ match_no,round,team_a,team_a_name,team_b,team_b_name,winner
 7,R16,1124,Tangled,,,1124
 8,R16,1028,Team Code Red 2.0,,,1028
 9,QF,1286,Pheonix,1191,Noobray,1191
-10,QF,985,DJNZ,975,Ezy Seen Ha,
+10,QF,985,DJNZ,975,Ezy Seen Ha,985
 11,QF,1041,Adastra 2.0,1184,Team 5VDC,
 12,QF,1124,Tangled,1028,Team Code Red 2.0,
-13,SF,1191,Noobray,,,
+13,SF,1191,Noobray,985,DJNZ,
 14,SF,,,,,
 15,Final,,,,,
 16,3rd,,,,,

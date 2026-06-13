@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T07:50:10",
+  "generated_at": "2026-06-13T08:03:15",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -3398,7 +3398,7 @@
                 "team_name": "Ezy Seen Ha",
                 "institution": "CEME  NUST"
               },
-              "winner": null,
+              "winner": "985",
               "time": "11:45"
             },
             {
@@ -3564,8 +3564,11 @@
                 "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 10"
+                "type": "team",
+                "seed": 4,
+                "team_no": "985",
+                "team_name": "DJNZ",
+                "institution": "CEME  NUST"
               },
               "winner": null,
               "time": "15:20"
