@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T06:12:19",
+  "generated_at": "2026-06-13T06:13:59",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -1597,7 +1597,7 @@
                 "team_name": "Team Quantum",
                 "institution": "University of Central Punjab"
               },
-              "winner": null
+              "winner": "1155"
             }
           ]
         },
@@ -1632,8 +1632,11 @@
                 "institution": "CEME NUST"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 12"
+                "type": "team",
+                "seed": 14,
+                "team_no": "1155",
+                "team_name": "System breakers",
+                "institution": "National University of Sciences and Technology(NUST) Other than CEME"
               },
               "winner": null
             }
