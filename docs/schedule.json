@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T06:10:49",
+  "generated_at": "2026-06-13T06:11:27",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -3160,7 +3160,7 @@
                 "team_name": "ISL TEAM 3",
                 "institution": "International School Lahore"
               },
-              "winner": null,
+              "winner": "1255",
               "time": "10:50"
             },
             {
@@ -3180,7 +3180,7 @@
                 "team_name": "ISL TEAM 4",
                 "institution": "International School Lahore"
               },
-              "winner": null,
+              "winner": "1256",
               "time": "10:55"
             }
           ]
@@ -3458,12 +3458,18 @@
               "no": 15,
               "round": "Final",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 13"
+                "type": "team",
+                "seed": 5,
+                "team_no": "1255",
+                "team_name": "ISL TEAM 3",
+                "institution": "International School Lahore"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 14"
+                "type": "team",
+                "seed": 3,
+                "team_no": "1256",
+                "team_name": "ISL TEAM 4",
+                "institution": "International School Lahore"
               },
               "winner": null,
               "time": "15:05"

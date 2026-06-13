@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T06:10:49",
+  "generated_at": "2026-06-13T06:11:27",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -1305,7 +1305,7 @@
                 "team_name": "ISL TEAM 3",
                 "institution": "International School Lahore"
               },
-              "winner": null
+              "winner": "1255"
             },
             {
               "no": 14,
@@ -1323,7 +1323,7 @@
                 "team_name": "ISL TEAM 4",
                 "institution": "International School Lahore"
               },
-              "winner": null
+              "winner": "1256"
             }
           ]
         },
@@ -1333,12 +1333,18 @@
             {
               "no": 15,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 13"
+                "type": "team",
+                "seed": 5,
+                "team_no": "1255",
+                "team_name": "ISL TEAM 3",
+                "institution": "International School Lahore"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 14"
+                "type": "team",
+                "seed": 3,
+                "team_no": "1256",
+                "team_name": "ISL TEAM 4",
+                "institution": "International School Lahore"
               },
               "winner": null
             }
