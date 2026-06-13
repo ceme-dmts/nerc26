@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T06:40:37",
+  "generated_at": "2026-06-13T06:56:09",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -771,7 +771,7 @@
                 "team_name": "TME Innovon",
                 "institution": "The Millennium Education Pakistan"
               },
-              "winner": null
+              "winner": "1510"
             },
             {
               "no": 26,
@@ -789,7 +789,7 @@
                 "team_name": "TME caption voltage",
                 "institution": "Future World School Bahria Town"
               },
-              "winner": null
+              "winner": "1233"
             },
             {
               "no": 27,
@@ -807,7 +807,7 @@
                 "team_name": "TME D",
                 "institution": "The Millennium Education Pakistan"
               },
-              "winner": null
+              "winner": "1518"
             },
             {
               "no": 28,
@@ -825,7 +825,7 @@
                 "team_name": "TME B",
                 "institution": "The Millennium Education Pakistan"
               },
-              "winner": null
+              "winner": "1238"
             }
           ]
         },
@@ -835,24 +835,36 @@
             {
               "no": 29,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 25"
+                "type": "team",
+                "seed": 16,
+                "team_no": "1510",
+                "team_name": "HS12",
+                "institution": "HeadStart"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 26"
+                "type": "team",
+                "seed": 21,
+                "team_no": "1233",
+                "team_name": "TME caption voltage",
+                "institution": "Future World School Bahria Town"
               },
               "winner": null
             },
             {
               "no": 30,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 27"
+                "type": "team",
+                "seed": 2,
+                "team_no": "1518",
+                "team_name": "hs18",
+                "institution": "headStart"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 28"
+                "type": "team",
+                "seed": 22,
+                "team_no": "1238",
+                "team_name": "TME B",
+                "institution": "The Millennium Education Pakistan"
               },
               "winner": null
             }
