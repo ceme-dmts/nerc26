@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T06:14:16",
+  "generated_at": "2026-06-13T06:40:37",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -993,7 +993,7 @@
                 "team_name": "Robot Chala do",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null
+              "winner": "1188"
             },
             {
               "no": 6,
@@ -1011,7 +1011,7 @@
                 "team_name": "Code Kra do 2.0",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null
+              "winner": "1189"
             }
           ]
         },
@@ -1021,12 +1021,18 @@
             {
               "no": 7,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 5"
+                "type": "team",
+                "seed": 1,
+                "team_no": "1188",
+                "team_name": "Khatti Toffee",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 6"
+                "type": "team",
+                "seed": 2,
+                "team_no": "1189",
+                "team_name": "kacha Badam",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             }

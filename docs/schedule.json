@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T06:14:16",
+  "generated_at": "2026-06-13T06:40:37",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -3208,7 +3208,7 @@
                 "team_name": "Robot Chala do",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null,
+              "winner": "1188",
               "time": "11:00"
             },
             {
@@ -3228,7 +3228,7 @@
                 "team_name": "Code Kra do 2.0",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null,
+              "winner": "1189",
               "time": "11:05"
             }
           ]
@@ -3492,12 +3492,18 @@
               "no": 7,
               "round": "Final",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 5"
+                "type": "team",
+                "seed": 1,
+                "team_no": "1188",
+                "team_name": "Khatti Toffee",
+                "institution": "Lahore Garrison University"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 6"
+                "type": "team",
+                "seed": 2,
+                "team_no": "1189",
+                "team_name": "kacha Badam",
+                "institution": "Lahore Garrison University"
               },
               "winner": null,
               "time": "15:10"

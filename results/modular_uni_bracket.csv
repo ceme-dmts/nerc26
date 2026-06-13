@@ -3,6 +3,6 @@ match_no,round,team_a,team_a_name,team_b,team_b_name,winner
 2,QF,1190,Robot Chala do,,,1190
 3,QF,1189,kacha Badam,,,1189
 4,QF,1186,Code Kra do 2.0,,,1186
-5,SF,1188,Khatti Toffee,1190,Robot Chala do,
-6,SF,1189,kacha Badam,1186,Code Kra do 2.0,
-7,Final,,,,,
+5,SF,1188,Khatti Toffee,1190,Robot Chala do,1188
+6,SF,1189,kacha Badam,1186,Code Kra do 2.0,1189
+7,Final,1188,Khatti Toffee,1189,kacha Badam,
