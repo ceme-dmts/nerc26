@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T07:14:46",
+  "generated_at": "2026-06-13T07:41:34",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -43,7 +43,7 @@
                 "team_name": "Noobray",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null
+              "winner": "1191"
             },
             {
               "no": 3,
@@ -148,8 +148,11 @@
                 "institution": "NUST EME"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 2"
+                "type": "team",
+                "seed": 9,
+                "team_no": "1191",
+                "team_name": "Noobray",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             },

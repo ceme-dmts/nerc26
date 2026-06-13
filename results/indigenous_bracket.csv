@@ -1,13 +1,13 @@
 match_no,round,team_a,team_a_name,team_b,team_b_name,winner
 1,R16,1286,Pheonix,,,1286
-2,R16,1119,Opsimath,1191,Noobray,
+2,R16,1119,Opsimath,1191,Noobray,1191
 3,R16,985,DJNZ,,,985
 4,R16,975,Ezy Seen Ha,,,975
 5,R16,1041,Adastra 2.0,,,1041
 6,R16,1184,Team 5VDC,1024,LUMS team 3,1184
 7,R16,1124,Tangled,,,1124
 8,R16,1028,Team Code Red 2.0,,,1028
-9,QF,1286,Pheonix,,,
+9,QF,1286,Pheonix,1191,Noobray,
 10,QF,985,DJNZ,975,Ezy Seen Ha,
 11,QF,1041,Adastra 2.0,1184,Team 5VDC,
 12,QF,1124,Tangled,1028,Team Code Red 2.0,
