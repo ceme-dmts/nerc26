@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T13:52:20",
+  "generated_at": "2026-06-13T06:10:49",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -1228,7 +1228,7 @@
                 "team_name": "Barq Raftar",
                 "institution": "Learnobots"
               },
-              "winner": null
+              "winner": "1016"
             },
             {
               "no": 10,
@@ -1246,7 +1246,7 @@
                 "team_name": "ISL TEAM 3",
                 "institution": "International School Lahore"
               },
-              "winner": null
+              "winner": "1255"
             },
             {
               "no": 11,
@@ -1264,7 +1264,7 @@
                 "team_name": "ISL TEAM 2",
                 "institution": "International School Lahore"
               },
-              "winner": null
+              "winner": "1254"
             },
             {
               "no": 12,
@@ -1282,7 +1282,7 @@
                 "team_name": "Dabba Union",
                 "institution": "(private)"
               },
-              "winner": null
+              "winner": "1256"
             }
           ]
         },
@@ -1292,24 +1292,36 @@
             {
               "no": 13,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 9"
+                "type": "team",
+                "seed": 16,
+                "team_no": "1016",
+                "team_name": "FAAAHHH",
+                "institution": "Roots IVY ICMS"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 10"
+                "type": "team",
+                "seed": 5,
+                "team_no": "1255",
+                "team_name": "ISL TEAM 3",
+                "institution": "International School Lahore"
               },
               "winner": null
             },
             {
               "no": 14,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 11"
+                "type": "team",
+                "seed": 10,
+                "team_no": "1254",
+                "team_name": "ISL TEAM 2",
+                "institution": "International School Lahore"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 12"
+                "type": "team",
+                "seed": 3,
+                "team_no": "1256",
+                "team_name": "ISL TEAM 4",
+                "institution": "International School Lahore"
               },
               "winner": null
             }
@@ -1525,7 +1537,7 @@
                 "team_name": "SS battalion",
                 "institution": "Institute of Business Administration Karachi"
               },
-              "winner": null
+              "winner": "1287"
             },
             {
               "no": 10,
@@ -1543,7 +1555,7 @@
                 "team_name": "Andy wala burger",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null
+              "winner": "1165"
             },
             {
               "no": 11,
@@ -1561,7 +1573,7 @@
                 "team_name": "Hypertracer",
                 "institution": "CEME NUST"
               },
-              "winner": null
+              "winner": "1076"
             },
             {
               "no": 12,
@@ -1589,20 +1601,29 @@
             {
               "no": 13,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 9"
+                "type": "team",
+                "seed": 8,
+                "team_no": "1287",
+                "team_name": "SS battalion",
+                "institution": "Institute of Business Administration Karachi"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 10"
+                "type": "team",
+                "seed": 12,
+                "team_no": "1165",
+                "team_name": "Andy wala burger",
+                "institution": "Lahore Garrison University"
               },
               "winner": null
             },
             {
               "no": 14,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 11"
+                "type": "team",
+                "seed": 2,
+                "team_no": "1076",
+                "team_name": "Mike Oxman",
+                "institution": "CEME NUST"
               },
               "b": {
                 "type": "ref",
