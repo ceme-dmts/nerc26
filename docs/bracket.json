@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T08:03:15",
+  "generated_at": "2026-06-13T08:04:07",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -172,7 +172,7 @@
                 "team_name": "Ezy Seen Ha",
                 "institution": "CEME  NUST"
               },
-              "winner": "985"
+              "winner": "975"
             },
             {
               "no": 11,
@@ -226,9 +226,9 @@
               },
               "b": {
                 "type": "team",
-                "seed": 4,
-                "team_no": "985",
-                "team_name": "DJNZ",
+                "seed": 5,
+                "team_no": "975",
+                "team_name": "Ezy Seen Ha",
                 "institution": "CEME  NUST"
               },
               "winner": null
