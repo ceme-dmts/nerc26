@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T08:04:07",
+  "generated_at": "2026-06-13T11:19:45",
   "categories": {
     "Indigenous Category": {
       "schedule": {
@@ -190,7 +190,7 @@
                 "team_name": "Team 5VDC",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null
+              "winner": "1041"
             },
             {
               "no": 12,
@@ -236,8 +236,11 @@
             {
               "no": 14,
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 11"
+                "type": "team",
+                "seed": 2,
+                "team_no": "1041",
+                "team_name": "Adastra 2.0",
+                "institution": "Lahore University of Management Sciences"
               },
               "b": {
                 "type": "ref",

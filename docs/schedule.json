@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T08:04:07",
+  "generated_at": "2026-06-13T11:19:45",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -3418,7 +3418,7 @@
                 "team_name": "Team 5VDC",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null,
+              "winner": "1041",
               "time": "11:50"
             },
             {
@@ -3577,8 +3577,11 @@
               "no": 14,
               "round": "SF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 11"
+                "type": "team",
+                "seed": 2,
+                "team_no": "1041",
+                "team_name": "Adastra 2.0",
+                "institution": "Lahore University of Management Sciences"
               },
               "b": {
                 "type": "ref",
