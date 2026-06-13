@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T06:56:09",
+  "generated_at": "2026-06-13T07:08:36",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -3333,7 +3333,7 @@
                 "team_name": "TME caption voltage",
                 "institution": "Future World School Bahria Town"
               },
-              "winner": null,
+              "winner": "1510",
               "time": "11:30"
             },
             {
@@ -3353,7 +3353,7 @@
                 "team_name": "TME B",
                 "institution": "The Millennium Education Pakistan"
               },
-              "winner": null,
+              "winner": "1518",
               "time": "11:35"
             }
           ]
@@ -3529,12 +3529,18 @@
               "no": 31,
               "round": "Final",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 29"
+                "type": "team",
+                "seed": 16,
+                "team_no": "1510",
+                "team_name": "HS12",
+                "institution": "HeadStart"
               },
               "b": {
-                "type": "ref",
-                "text": "Winner of Match 30"
+                "type": "team",
+                "seed": 2,
+                "team_no": "1518",
+                "team_name": "hs18",
+                "institution": "headStart"
               },
               "winner": null,
               "time": "15:15"

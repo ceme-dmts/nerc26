@@ -27,6 +27,6 @@ match_no,round,team_a,team_a_name,team_b,team_b_name,winner
 26,QF,1279,ISL Team 1,1233,TME caption voltage,1233
 27,QF,1518,hs18,1241,TME D,1518
 28,QF,1237,TME A,1238,TME B,1238
-29,SF,1510,HS12,1233,TME caption voltage,
-30,SF,1518,hs18,1238,TME B,
-31,Final,,,,,
+29,SF,1510,HS12,1233,TME caption voltage,1510
+30,SF,1518,hs18,1238,TME B,1518
+31,Final,1510,HS12,1518,hs18,
