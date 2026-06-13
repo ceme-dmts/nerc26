@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T07:48:55",
+  "generated_at": "2026-06-13T07:50:10",
   "sessions": [
     {
       "day": "Day 2 \u00b7 Fri 12 Jun",
@@ -3378,7 +3378,7 @@
                 "team_name": "Noobray",
                 "institution": "Lahore Garrison University"
               },
-              "winner": null,
+              "winner": "1191",
               "time": "11:40"
             },
             {
@@ -3557,8 +3557,11 @@
               "no": 13,
               "round": "SF",
               "a": {
-                "type": "ref",
-                "text": "Winner of Match 9"
+                "type": "team",
+                "seed": 9,
+                "team_no": "1191",
+                "team_name": "Noobray",
+                "institution": "Lahore Garrison University"
               },
               "b": {
                 "type": "ref",
